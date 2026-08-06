@@ -30,7 +30,17 @@ pnpm-debug.log*
 # OS / editors
 .DS_Store
 Thumbs.db
-.vscode/.ropeproject
+.vscode/
+.idea/
+
+# Asistentes de IA / agentes / skills
+.claude/
+.cursor/
+.windsurf/
+.mcp.json
+
+# Salidas generadas
+.ipynb_checkpoints/
 
 # Fabric / demo generated files
 fabric/items/config.yml

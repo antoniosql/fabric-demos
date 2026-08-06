@@ -6,6 +6,21 @@ config.local.json
 .env
 *.secret
 
+# Editores / IDE
+.vscode/
+.idea/
+
+# Asistentes de IA / agentes / skills
+.claude/
+.cursor/
+.windsurf/
+.mcp.json
+
+# Salidas generadas
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
 # PowerShell / sistema
 *.log
 .DS_Store

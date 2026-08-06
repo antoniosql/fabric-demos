@@ -4,6 +4,9 @@ venv/
 env/
 __pycache__/
 *.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Node
 node_modules/
@@ -14,7 +17,30 @@ node_modules/
 *.local
 config.local.json
 
-# Sistema / editores
+# Editores / IDE (configuración personal, no del proyecto)
+.vscode/
+.idea/
+*.code-workspace
+
+# Asistentes de IA / agentes / skills (configuración y estado local)
+.claude/
+.cursor/
+.windsurf/
+.aider*
+.clinerules/
+CLAUDE.local.md
+.mcp.json
+
+# Salidas y artefactos generados
+.ipynb_checkpoints/
+dist/
+build/
+out/
+output/
+outputs/
+*.tmp
+
+# Sistema
 .DS_Store
 Thumbs.db
 *.log
