@@ -1,18 +1,80 @@
-# fabric-demos
+# Fabric Demos
 
-Repositorio único que agrupa varias demos independientes de Microsoft Fabric. Cada carpeta es
-autocontenida: tiene su propio entorno, dependencias, configuración y README con instrucciones de
-despliegue. No comparten código entre sí.
+Colección de demos de **Microsoft Fabric**, listas para desplegar de un tirón, construidas alrededor
+de **FraSoHome**, un retailer ficticio de hogar y decoración. Cada demo vive en su propia carpeta con
+su propio entorno, dependencias y guía de despliegue — pero todas comparten un mismo hilo narrativo:
+los mismos datos de FraSoHome, vistos desde ángulos distintos de la plataforma.
 
-## Demos
+| | |
+| --- | --- |
+| **Casos de uso** | IA generativa sobre datos, agentes conversacionales sobre datos, RAG empresarial |
+| **Plataforma** | Microsoft Fabric (Lakehouse, SQL Database, User Data Functions, Fabric Apps) |
+| **Despliegue** | Scripts PowerShell / Python de extremo a extremo, idempotentes |
+| **Dataset común** | FraSoHome — retailer omnicanal de hogar y decoración |
 
-- [`fabric-ai-functions/`](fabric-ai-functions/) — AI Functions de Fabric (sentimiento, clasificación,
-  extracción) sobre feedback de clientes de FraSoHome.
-- [`fabric-data-agent/`](fabric-data-agent/) — Fabric Data Agent: chatbot sobre datos retail de
-  FraSoHome, con notebook de construcción/publicación y otro de evaluación.
-- [`frasohome-fabric-rag-demo/`](frasohome-fabric-rag-demo/) — Solución RAG completa (SQL Database in
-  Fabric + User Data Functions + Fabric App) para gestión de devoluciones de FraSoHome.
+---
 
-Cada carpeta incluye su propio `.gitignore`, ficheros de configuración (`config.example.json` /
-`.env.example`) y dependencias (`requirements.txt`, `package.json`, etc.) — sigue el README dentro de
-cada una para desplegarla.
+## Las demos
+
+| Demo | En una frase | Stack |
+| --- | --- | --- |
+| [**Fabric AI Functions**](fabric-ai-functions/) | Sentimiento, clasificación y extracción con IA generativa sobre feedback de clientes, directo en el Lakehouse. | Notebook · AI Functions · PowerShell |
+| [**Fabric Data Agent**](fabric-data-agent/) | Un chatbot que responde en lenguaje natural sobre el modelo retail de FraSoHome, con evaluación automática de calidad. | Fabric Data Agent SDK · Notebooks · PowerShell |
+| [**FraSoHome RAG Demo**](frasohome-fabric-rag-demo/) | Aplicación RAG empresarial completa: SQL Database en Fabric, backend serverless y frontend web, para resolver una devolución compleja. | SQL Database in Fabric · User Data Functions · Fabric App (React) |
+
+---
+
+### [`fabric-ai-functions/`](fabric-ai-functions/) — AI Functions
+
+Aplica las **AI Functions** de Fabric (`ai.analyze_sentiment`, `ai.classify`, `ai.extract`,
+`ai.summarize`, `ai.generate_response`) sobre reseñas y tickets de atención al cliente de FraSoHome,
+directamente en un notebook con SQL/Python nativo del Lakehouse.
+
+- Despliegue de extremo a extremo con un solo script: workspace, capacidad, Lakehouse y notebook listo
+  para ejecutar.
+- Compara la salida del modelo con etiquetas humanas y mide el % de acuerdo.
+- Incluye seguimiento de consumo (Capacity Units) por función.
+
+→ [Ver guía de despliegue](fabric-ai-functions/README.md)
+
+### [`fabric-data-agent/`](fabric-data-agent/) — Data Agent
+
+Construye y publica un **Fabric Data Agent** — *"el chatbot que sí sabe de tus datos"* — sobre un
+modelo retail *gold* de FraSoHome (ventas, stock, devoluciones, alertas), y lo evalúa con un set de
+referencia.
+
+- Dos notebooks: uno construye las tablas y publica el agente vía SDK; otro lo evalúa automáticamente.
+- Preguntas de negocio en lenguaje natural, incluida una prueba negativa para mostrar los límites del
+  grano de los datos.
+- Despliegue idempotente con `deploy.ps1` / limpieza con `cleanup.ps1`.
+
+→ [Ver guía de despliegue](fabric-data-agent/README.md)
+
+### [`frasohome-fabric-rag-demo/`](frasohome-fabric-rag-demo/) — RAG empresarial
+
+La demo más completa: una aplicación **RAG (Retrieval-Augmented Generation)** de extremo a extremo
+para resolver una solicitud de devolución compleja, combinando datos operacionales y políticas internas.
+
+- **SQL Database in Microsoft Fabric** con recuperación híbrida (lexical T-SQL + vectorial) y auditoría.
+- **Fabric User Data Functions** como backend Python serverless.
+- **Fabric App (Rayfin / React)** como frontend desplegado en Fabric, con login Entra ID.
+- Pensada para funcionar aunque las capacidades vectoriales SQL preview no estén habilitadas en tu
+  tenant.
+
+→ [Ver guía de despliegue](frasohome-fabric-rag-demo/README.md)
+
+---
+
+## Estructura del repositorio
+
+Cada demo es autocontenida — no comparten código ni dependencias entre sí:
+
+```text
+fabric-demos/
+├── fabric-ai-functions/          # Notebook + scripts PowerShell + datos + config propia
+├── fabric-data-agent/            # Notebooks + scripts PowerShell + datos + config propia
+└── frasohome-fabric-rag-demo/    # App React + SQL + User Data Functions + venv + requirements.txt
+```
+
+Sigue el README de cada carpeta para desplegarla: cada una documenta sus propios requisitos previos,
+variables de entorno/configuración (`config.example.json` o `.env.example`) y pasos de limpieza.
