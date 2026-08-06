@@ -1,0 +1,5 @@
+azure-identity>=1.17.0
+fabric-user-data-functions>=1.0.0,<2.0.0
+ms-fabric-cli>=1.0.0
+python-dotenv>=1.0.0
+requests>=2.32.0

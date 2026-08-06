@@ -1,0 +1,44 @@
+.env
+.env.*
+.env copy*
+!.env.example
+*.local
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/.ropeproject
+
+# Fabric / demo generated files
+fabric/items/config.yml
+fabric/.deploy/
+fabric/items/**/*.bak
+app/**/rayfin/.env
+app/**/.env.local
+.fabric.generated.env
+*.zip
+embeddings.preview.json
+database/generated/

@@ -1,0 +1,7 @@
+Question,Expected response
+Dame las ventas netas online entre 2026-02-01 y 2026-02-15,NetSalesEUR; periodo 2026-02-01 a 2026-02-15; Online
+¿Cuál fue la tienda con más ventas netas el 2026-02-10?,MAD01 o BCN01 o VLC01; NetSalesEUR; 2026-02-10
+Calcula la tasa de devolución en importe para febrero 2026 (online),Importe_devoluciones / Ventas netas; febrero 2026; Online
+Lista 5 devoluciones aprobadas con motivo R04 (daño transporte) en enero 2026,ReasonCode R04; Approved Sí; enero 2026
+¿Cuántos pedidos (orders) hubo en tienda en la semana del 2026-02-01?,Orders; Tienda; semana
+¿Qué SKUs tienen alerta de quiebra de stock hoy?,FS_Alertas_Stockout; AvailableUnits 0; Priority

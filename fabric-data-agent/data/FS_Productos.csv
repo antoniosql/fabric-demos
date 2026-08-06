@@ -1,0 +1,33 @@
+ProductID,ProductName,CategoryFamily,CategoryCode,CategoryName,Material,Color,BulkyFlag,StandardCostEUR,ListPriceEUR,Status
+FSH-MUE-SOF-1000,Sofás Liria,MUE,SOF,Sofás,Vidrio,Gris,Sí,82.3,210.02,Activo
+FSH-MUE-SOF-1001,Sofás Liria,MUE,SOF,Sofás,Lino,Beige,Sí,16.56,43.79,Activo
+FSH-MUE-SOF-1002,Sofás Nora,MUE,SOF,Sofás,Metal,Gris,Sí,323.63,577.5,Activo
+FSH-MUE-SOF-1003,Sofás Siena,MUE,SOF,Sofás,Ratan,Verde,Sí,283.75,478.63,Activo
+FSH-MUE-MES-1004,Mesas Ares,MUE,MES,Mesas,Lino,Azul,Sí,112.81,284.4,Activo
+FSH-MUE-MES-1005,Mesas Orion,MUE,MES,Mesas,Piel sintética,Beige,Sí,144.33,315.34,Activo
+FSH-MUE-MES-1006,Mesas Orion,MUE,MES,Mesas,Tela,Blanco,Sí,300.49,588.19,Activo
+FSH-MUE-MES-1007,Mesas Mara,MUE,MES,Mesas,Vidrio,Beige,Sí,356.65,665.94,Activo
+FSH-MUE-SIL-1008,Sillas Atlas,MUE,SIL,Sillas,Piel sintética,Verde,No,22.9,54.74,Activo
+FSH-MUE-SIL-1009,Sillas Atlas,MUE,SIL,Sillas,Metal,Beige,No,322.44,694.86,Activo
+FSH-MUE-SIL-1010,Sillas Cobalto,MUE,SIL,Sillas,Madera,Negro,No,127.05,307.74,Activo
+FSH-MUE-SIL-1011,Sillas Atlas,MUE,SIL,Sillas,Madera,Beige,No,184.46,435.63,Activo
+FSH-MUE-DOR-1012,Dormitorio Nébula,MUE,DOR,Dormitorio,Vidrio,Madera,Sí,428.63,790.83,Activo
+FSH-MUE-DOR-1013,Dormitorio Tara,MUE,DOR,Dormitorio,Algodón,Verde,Sí,394.22,676.42,Activo
+FSH-MUE-DOR-1014,Dormitorio Gaia,MUE,DOR,Dormitorio,Algodón,Gris,Sí,122.76,331.91,Activo
+FSH-MUE-DOR-1015,Dormitorio Tara,MUE,DOR,Dormitorio,Metal,Negro,Sí,248.52,530.24,Activo
+FSH-DEC-ILU-1016,Iluminación Faro,DEC,ILU,Iluminación,Vidrio,Azul,No,73.36,127.91,Activo
+FSH-DEC-ILU-1017,Iluminación Aura,DEC,ILU,Iluminación,Lino,Blanco,No,337.94,719.3,Activo
+FSH-DEC-ILU-1018,Iluminación Brisa,DEC,ILU,Iluminación,Ratan,Azul,No,32.74,89.91,Activo
+FSH-DEC-ILU-1019,Iluminación Sol,DEC,ILU,Iluminación,Madera,Azul,No,303.54,636.82,Activo
+FSH-DEC-TEX-1020,Textil Cálido,DEC,TEX,Textil,Lino,Madera,No,237.26,483.79,Activo
+FSH-DEC-TEX-1021,Textil Trama,DEC,TEX,Textil,Piel sintética,Gris,No,281.47,550.73,Activo
+FSH-DEC-TEX-1022,Textil Trama,DEC,TEX,Textil,Piel sintética,Negro,No,98.54,247.93,Activo
+FSH-DEC-TEX-1023,Textil Cálido,DEC,TEX,Textil,Madera,Blanco,No,158.49,414.99,Activo
+FSH-DEC-PAR-1024,Pared Tiempo,DEC,PAR,Pared,Madera,Verde,No,123.78,310.65,Activo
+FSH-DEC-PAR-1025,Pared Pulso,DEC,PAR,Pared,Algodón,Gris,No,153.47,400.11,Activo
+FSH-DEC-PAR-1026,Pared Tiempo,DEC,PAR,Pared,Metal,Blanco,No,39.37,64.18,Activo
+FSH-DEC-PAR-1027,Pared Marco,DEC,PAR,Pared,Ratan,Beige,No,421.75,655.5,Activo
+FSH-EXT-JAR-1028,Jardín Sombra,EXT,JAR,Jardín,Madera,Azul,Sí,338.34,533.61,Activo
+FSH-EXT-JAR-1029,Jardín Terraza,EXT,JAR,Jardín,Lino,Blanco,Sí,484.83,771.2,Activo
+FSH-EXT-JAR-1030,Jardín Terraza,EXT,JAR,Jardín,Lino,Blanco,Sí,433.37,795.22,Activo
+FSH-EXT-JAR-1031,Jardín Brezal,EXT,JAR,Jardín,Piel sintética,Rosa,Sí,78.41,212.37,Activo

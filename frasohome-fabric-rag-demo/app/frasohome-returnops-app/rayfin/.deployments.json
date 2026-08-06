@@ -1,0 +1,15 @@
+{
+  "deployments": {
+    "frasohome-fabric-rag-demo": {
+      "fabricItemId": "0a4403e8-1370-4ad7-a7b7-eb6297222562",
+      "fabricApiUrl": "https://2a7fa1dc08dc49b084b67d742e82e4d9.pbidedicated.windows.net/webapi/capacities/2A7FA1DC-08DC-49B0-84B6-7D742E82E4D9/workloads/BaaS/BaaSService/automatic/v1/workspaces/4d585ddf-d206-47c0-bceb-332ed71adbb0/appbackends/0a4403e8-1370-4ad7-a7b7-eb6297222562/",
+      "fabricWorkspaceId": "4d585ddf-d206-47c0-bceb-332ed71adbb0",
+      "fabricTenantId": "c2c0e5ea-f0e8-4934-8f1c-d8260ba230d7",
+      "publishableKey": "pk-JJImfx4nHroLAsMshYoc",
+      "hostingUrl": "https://free-thyme-7d7677782c-swedencentral.webapp.fabricapps.net",
+      "fabricDeepLink": "https://app.fabric.microsoft.com/groups/4d585ddf-d206-47c0-bceb-332ed71adbb0/appbackends/0a4403e8-1370-4ad7-a7b7-eb6297222562?ctid=c2c0e5ea-f0e8-4934-8f1c-d8260ba230d7",
+      "deployedAt": "2026-06-18T10:43:55.963Z"
+    }
+  },
+  "active": "frasohome-fabric-rag-demo"
+}

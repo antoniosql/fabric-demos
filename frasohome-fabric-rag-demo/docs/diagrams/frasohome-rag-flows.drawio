@@ -1,0 +1,254 @@
+<mxfile host="app.diagrams.net" modified="2026-06-18T00:00:00.000Z" agent="Codex" version="24.7.17">
+  <diagram name="01 Arquitectura runtime" id="runtime-flow">
+    <mxGraphModel dx="1300" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-runtime" value="Arquitectura de ejecución FraSoHome ReturnOps 360" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center" vertex="1" parent="1">
+          <mxGeometry x="310" y="30" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor" value="Agente de soporte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;fontStyle=1;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="app" value="Fabric App / Rayfin&#xa;React + MSAL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;fontStyle=1;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="330" y="135" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="entra" value="Microsoft Entra&#xa;token delegado" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#6a1b9a;fontSize=13" vertex="1" parent="1">
+          <mxGeometry x="330" y="310" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="udf" value="Fabric User Data Function&#xa;answerReturnCase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#f9a825;fontStyle=1;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="650" y="135" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sql" value="SQL Database in Fabric" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1f5fe;strokeColor=#0277bd;fontStyle=1;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="1010" y="120" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fraso" value="fraso.*&#xa;Clientes, pedidos, productos, stock, casos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00695c;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="970" y="330" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rag" value="rag.*&#xa;Documents, Chunks, ChunkEmbeddings" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#283593;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="970" y="430" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="audit" value="rag.AnswerAudit&#xa;Pregunta, evidencias, respuesta y trazas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#ad1457;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="970" y="530" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime-note" value="La app solo presenta la experiencia. La lógica RAG vive en UDF + SQL." style="shape=note;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=#fbc02d;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="340" y="510" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r-e1" value="Pregunta sobre devolución" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="actor" target="app">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-e2" value="login / acquireToken" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;strokeColor=#6a1b9a" edge="1" parent="1" source="app" target="entra">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-e3" value="POST + Bearer token" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="app" target="udf">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-e4" value="conexión Fabric por alias" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="udf" target="sql">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-e5" value="contexto operacional" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="sql" target="fraso">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-e6" value="conocimiento RAG" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="sql" target="rag">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-e7" value="auditoría" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;strokeColor=#ad1457" edge="1" parent="1" source="udf" target="audit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-e8" value="JSON: recomendación + evidencias" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;dashed=1" edge="1" parent="1" source="udf" target="app">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="02 Ingesta Markdown" id="markdown-ingestion-flow">
+    <mxGraphModel dx="1300" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-ingest" value="Flujo de ingesta: Markdown → chunks → embeddings → SQL" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center" vertex="1" parent="1">
+          <mxGeometry x="260" y="30" width="880" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="md-folder" value="docs/policies/*.md&#xa;Políticas versionadas" style="shape=folder;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="frontmatter" value="Frontmatter YAML&#xa;document_code, title, type, vigencia, canal, categoría, keywords" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#6a1b9a" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="parser" value="tools/ingest_policy_markdown.py&#xa;Parser + limpieza Markdown" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#f9a825;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="130" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="chunking" value="Chunking automático&#xa;por encabezados y párrafos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1040" y="130" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="embed" value="Embedding por chunk&#xa;demo-hash o Azure OpenAI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#283593;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="390" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sql-gen" value="SQL idempotente generado&#xa;database/generated/ingest_policy_markdown.sql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ef6c00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ps-ingest" value="scripts/ingest_policy_markdown.ps1&#xa;sqlcmd + auth desde .env" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#558b2f;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="940" y="380" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rag-docs" value="rag.Documents&#xa;documentos versionados" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1f5fe;strokeColor=#0277bd;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="190" y="640" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rag-chunks" value="rag.Chunks&#xa;texto + metadatos + keywords" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1f5fe;strokeColor=#0277bd;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="640" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rag-emb" value="rag.ChunkEmbeddings&#xa;EmbeddingModel + EmbeddingJson" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1f5fe;strokeColor=#0277bd;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="950" y="640" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="i-e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="md-folder" target="frontmatter"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="i-e2" value="lectura" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="frontmatter" target="parser"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="i-e3" value="contenido limpio" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="parser" target="chunking"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="i-e4" value="texto de chunk" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="chunking" target="embed"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="i-e5" value="documentos + chunks + embeddings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="embed" target="sql-gen"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="i-e6" value="ejecución" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="sql-gen" target="ps-ingest"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="i-e7" value="MERGE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="ps-ingest" target="rag-docs"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="i-e8" value="INSERT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="ps-ingest" target="rag-chunks"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="i-e9" value="INSERT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="ps-ingest" target="rag-emb"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="03 Búsqueda híbrida" id="hybrid-search-flow">
+    <mxGraphModel dx="1300" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-hybrid" value="Flujo de recuperación híbrida: lexical + vectorial" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center" vertex="1" parent="1">
+          <mxGeometry x="290" y="30" width="820" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="question" value="Pregunta del usuario&#xa;+ ReturnCaseId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="135" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="q-embed" value="Embedding de la pregunta&#xa;tools/render_hybrid_search_sql.py" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#283593;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="390" y="120" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hybrid-proc" value="rag.usp_get_hybrid_candidate_chunks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#f9a825;fontStyle=1;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="770" y="125" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="context" value="Contexto del caso&#xa;categoría, canal, fecha, fotos, producto voluminoso" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00695c" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lexical" value="LexicalScore&#xa;reglas T-SQL de negocio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#558b2f;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vector" value="VectorScore&#xa;cosine similarity sobre EmbeddingJson" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#6a1b9a;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="900" y="340" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tables" value="rag.Chunks + rag.ChunkEmbeddings&#xa;OPENJSON para parsear vectores" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1f5fe;strokeColor=#0277bd;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="900" y="540" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hybrid-score" value="HybridScore&#xa;0.55 * lexical + 0.45 * vectorial" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ef6c00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="570" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ranking" value="Top N chunks&#xa;DocumentCode, ChunkText, LexicalScore, VectorScore, HybridScore" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#ad1457;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="210" y="570" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h-e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="question" target="q-embed"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h-e2" value="questionEmbeddingJson" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="q-embed" target="hybrid-proc"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h-e3" value="ReturnCaseId" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="question" target="context"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h-e4" value="filtros" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="context" target="lexical"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h-e5" value="coincidencias" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="hybrid-proc" target="lexical"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h-e6" value="embeddings JSON" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="tables" target="vector"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h-e7" value="dot product / norms" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="q-embed" target="vector"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h-e8" value="normalización" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="lexical" target="hybrid-score"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h-e9" value="coseno 0..1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="vector" target="hybrid-score"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h-e10" value="ORDER BY HybridScore" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="hybrid-score" target="ranking"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="04 UDF answerReturnCase" id="udf-answer-flow">
+    <mxGraphModel dx="1300" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-udf" value="Flujo backend: answerReturnCase" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center" vertex="1" parent="1">
+          <mxGeometry x="420" y="30" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="request" value="POST answerReturnCase&#xa;returnCaseId, question, maxChunks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="validate" value="Validación de parámetros&#xa;case id, pregunta, límites maxChunks" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#f9a825;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="430" y="115" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="connect" value="sqlDB.connect()&#xa;alias Fabric frasohomesql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#6a1b9a;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="760" y="130" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx" value="rag.usp_get_return_case_context&#xa;contexto operacional" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00695c;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="150" y="350" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="chunks" value="rag.usp_get_candidate_chunks&#xa;chunks candidatos + score" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#283593;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rules" value="_build_recommendation&#xa;reglas deterministas Python" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#558b2f;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="350" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="answer" value="Respuesta JSON&#xa;recommendation, confidence, reasons, nextActions, evidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ef6c00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="610" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="audit2" value="rag.usp_insert_answer_audit&#xa;AnswerJson + RetrievalTraceJson" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fce4ec;strokeColor=#ad1457;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="990" y="610" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u-e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="request" target="validate"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="u-e2" value="ok" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="validate" target="connect"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="u-e3" value="EXEC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="connect" target="ctx"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="u-e4" value="contexto" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="ctx" target="chunks"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="u-e5" value="evidencias" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="chunks" target="rules"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="u-e6" value="respuesta explicable" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="rules" target="answer"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="u-e7" value="auditId" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;strokeColor=#ad1457" edge="1" parent="1" source="answer" target="audit2"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="05 Despliegue" id="deployment-flow">
+    <mxGraphModel dx="1300" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-deploy" value="Flujo de despliegue y preparación de la demo" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center" vertex="1" parent="1">
+          <mxGeometry x="300" y="30" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="env" value=".env&#xa;workspace, tenant, SQL, auth, UDF, frontend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bootstrap" value="scripts/bootstrap.ps1&#xa;Python + Fabric CLI + prerequisitos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#558b2f;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="430" y="130" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="create-sql" value="scripts/deploy_fabric_sql.ps1&#xa;fab create SQLDatabase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#f9a825;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="800" y="130" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tds" value="Paso manual habitual&#xa;copiar TDS endpoint a FABRIC_SQL_SERVER" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=#fbc02d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1110" y="125" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="apply" value="scripts/apply_sql.ps1&#xa;DDL + datos semilla + procedimientos + smoke test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00695c;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ingest-deploy" value="scripts/ingest_policy_markdown.ps1&#xa;políticas Markdown, chunks y embeddings" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#283593;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="360" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hybrid-deploy" value="scripts/hybrid_search.ps1&#xa;crea procedimiento híbrido y prueba ranking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#6a1b9a;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="360" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="publish" value="scripts/publish_udf.ps1&#xa;render definition.json + fab deploy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ef6c00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="620" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="public-url" value="Paso manual habitual&#xa;habilitar endpoint público y copiar VITE_UDF_FUNCTION_URL" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=#fbc02d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="590" y="615" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="deploy-app" value="scripts/deploy_app.ps1&#xa;npm build + rayfin up" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#ad1457;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="620" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="d-e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="env" target="bootstrap"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d-e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="bootstrap" target="create-sql"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d-e3" value="server name" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="create-sql" target="tds"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d-e4" value="FABRIC_SQL_SERVER" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="tds" target="apply"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d-e5" value="tablas rag.* listas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="apply" target="ingest-deploy"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d-e6" value="embeddings cargados" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="ingest-deploy" target="hybrid-deploy"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d-e7" value="SQL + alias" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="hybrid-deploy" target="publish"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d-e8" value="URL UDF" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="publish" target="public-url"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d-e9" value=".env.local" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2" edge="1" parent="1" source="public-url" target="deploy-app"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

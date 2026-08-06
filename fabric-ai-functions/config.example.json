@@ -1,0 +1,10 @@
+{
+  "tenantId": "",
+  "subscriptionId": "",
+  "capacityResourceId": "",
+  "capacityName": "",
+  "workspaceName": "FraSoHome-AI-Functions",
+  "lakehouseName": "lh_frasohome",
+  "notebookName": "01_ai_functions_feedback",
+  "dataFolder": "frasohome"
+}

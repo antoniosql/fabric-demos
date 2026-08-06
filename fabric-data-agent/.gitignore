@@ -1,0 +1,12 @@
+# Configuración local con datos de suscripción/tenant
+config.local.json
+
+# Tokens y credenciales
+*.env
+.env
+*.secret
+
+# PowerShell / sistema
+*.log
+.DS_Store
+Thumbs.db

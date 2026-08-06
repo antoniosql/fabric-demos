@@ -1,0 +1,31 @@
+name: Deploy Fabric UDF item
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy-udf-definition:
+    runs-on: ubuntu-latest
+    env:
+      FAB_TENANT_ID: ${{ secrets.FABRIC_TENANT_ID }}
+      FAB_SPN_CLIENT_ID: ${{ secrets.FAB_SPN_CLIENT_ID }}
+      FAB_SPN_CLIENT_SECRET: ${{ secrets.FAB_SPN_CLIENT_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Fabric CLI
+        run: pip install --upgrade ms-fabric-cli
+      - name: Configure Fabric CLI auth
+        run: fab auth status
+      - name: Render UDF definition
+        run: |
+          python scripts/render_udf_definition.py \
+            --workspace-id "${{ secrets.FABRIC_WORKSPACE_ID }}" \
+            --sql-database-item-id "${{ secrets.FABRIC_SQL_DATABASE_ITEM_ID }}" \
+            --sql-alias "${{ secrets.FABRIC_UDF_SQL_ALIAS }}"
+      - name: Deploy item definition
+        run: |
+          cd fabric/items
+          fab deploy --config config.yml

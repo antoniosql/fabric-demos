@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "UserDataFunction",
+    "displayName": "FrasoHome_RAG_UDF"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f662fa22-9407-49a9-ad87-b5b112b95f89"
+  }
+}

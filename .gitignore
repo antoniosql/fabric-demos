@@ -1,0 +1,20 @@
+# Entornos virtuales Python (cada demo tiene el suyo)
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Configuración local / secretos (cada demo define sus propios patrones adicionales)
+.env
+.env.local
+*.local
+config.local.json
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+*.log

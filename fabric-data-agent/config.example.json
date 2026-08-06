@@ -1,0 +1,10 @@
+{
+  "tenantId": "",
+  "subscriptionId": "",
+  "capacityResourceId": "",
+  "capacityName": "",
+  "workspaceName": "FraSoHome-Data-Agent",
+  "lakehouseName": "lh_frasohome",
+  "dataFolder": "frasohome",
+  "notebooks": ["00_setup_data_agent", "01_evaluate_agent"]
+}

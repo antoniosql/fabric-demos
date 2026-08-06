@@ -1,0 +1,99 @@
+{
+  "Runtime": "PYTHON",
+  "FunctionsMetadata": [
+    {
+      "Name": "healthCheck",
+      "ScriptFile": "function_app.py",
+      "Bindings": [
+        {
+          "Methods": [
+            "post"
+          ],
+          "Route": "healthCheck",
+          "AuthLevel": "Anonymous",
+          "Name": "req",
+          "Direction": "In",
+          "Type": "HttpTrigger"
+        }
+      ],
+      "FabricProperties": {
+        "fabricFunctionParameters": [],
+        "fabricFunctionReturnType": "dict"
+      }
+    },
+    {
+      "Name": "getReturnCaseContext",
+      "ScriptFile": "function_app.py",
+      "Bindings": [
+        {
+          "Methods": [
+            "post"
+          ],
+          "Route": "getReturnCaseContext",
+          "AuthLevel": "Anonymous",
+          "Name": "req",
+          "Direction": "In",
+          "Type": "HttpTrigger"
+        },
+        {
+          "ItemType": null,
+          "SubType": "",
+          "Alias": "frasohomesql",
+          "Name": "sqlDB",
+          "Direction": "In",
+          "Type": "FabricItem"
+        }
+      ],
+      "FabricProperties": {
+        "fabricFunctionParameters": [
+          {
+            "dataType": "str",
+            "name": "returnCaseId"
+          }
+        ],
+        "fabricFunctionReturnType": "dict"
+      }
+    },
+    {
+      "Name": "answerReturnCase",
+      "ScriptFile": "function_app.py",
+      "Bindings": [
+        {
+          "Methods": [
+            "post"
+          ],
+          "Route": "answerReturnCase",
+          "AuthLevel": "Anonymous",
+          "Name": "req",
+          "Direction": "In",
+          "Type": "HttpTrigger"
+        },
+        {
+          "ItemType": null,
+          "SubType": "",
+          "Alias": "frasohomesql",
+          "Name": "sqlDB",
+          "Direction": "In",
+          "Type": "FabricItem"
+        }
+      ],
+      "FabricProperties": {
+        "fabricFunctionParameters": [
+          {
+            "dataType": "str",
+            "name": "returnCaseId"
+          },
+          {
+            "dataType": "str",
+            "name": "question"
+          },
+          {
+            "dataType": "int",
+            "name": "maxChunks"
+          }
+        ],
+        "fabricFunctionReturnType": "dict"
+      }
+    }
+  ]
+}

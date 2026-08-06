@@ -1,0 +1,26 @@
+id: frasohome-returnops-app
+name: FraSoHome ReturnOps 360
+version: 1.0.0
+services:
+  auth:
+    enabled: true
+    fabric:
+      enabled: true
+    password:
+      enabled: true
+    allowedRedirectUris:
+      - http://localhost:5173
+      - http://localhost:5173/auth/callback
+      - https://free-thyme-7d7677782c-swedencentral.webapp.fabricapps.net
+  staticHosting:
+    enabled: true
+    root: .
+    folder: dist
+    buildCommand: npm run build
+    indexDocument: index.html
+  data:
+    enabled: false
+  storage:
+    enabled: false
+  functions:
+    enabled: false

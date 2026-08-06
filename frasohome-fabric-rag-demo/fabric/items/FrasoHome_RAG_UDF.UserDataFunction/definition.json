@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/userDataFunction/definition/1.1.0/schema.json",
+  "runtime": "PYTHON",
+  "connectedDataSources": [
+    {
+      "alias": "frasohomesql",
+      "artifactId": "bd00a6d6-24ee-4b26-98c9-2a4fbe416a18",
+      "artifactType": "SqlDbNative",
+      "workspaceId": "4d585ddf-d206-47c0-bceb-332ed71adbb0"
+    }
+  ],
+  "functions": [
+    {
+      "name": "healthCheck",
+      "description": "Devuelve informaci\u00f3n b\u00e1sica de salud de la User Data Function.",
+      "isPublicEndpointEnabled": true
+    },
+    {
+      "name": "getReturnCaseContext",
+      "description": "Recupera el contexto operacional de un caso de devoluci\u00f3n FraSoHome.",
+      "isPublicEndpointEnabled": true
+    },
+    {
+      "name": "answerReturnCase",
+      "description": "Orquesta la demo RAG FraSoHome: contexto operacional, pol\u00edticas relevantes, recomendaci\u00f3n, evidencias y auditor\u00eda.",
+      "isPublicEndpointEnabled": true
+    }
+  ],
+  "libraries": {
+    "public": [
+      {
+        "name": "fabric-user-data-functions",
+        "type": "PYPI",
+        "version": "1.0"
+      }
+    ],
+    "private": []
+  }
+}

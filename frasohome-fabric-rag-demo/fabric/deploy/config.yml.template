@@ -1,0 +1,5 @@
+core:
+  workspace_id: "${FABRIC_WORKSPACE_ID}"
+  repository_directory: "."
+  item_type_in_scope:
+    - UserDataFunction
