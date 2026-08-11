@@ -5,6 +5,13 @@
 # (_is_valid / _dq_reasons) y deduplicacion por clave de negocio. Dirigido por config/ingestion/*.json.
 #
 # Idempotente: overwrite por tabla.
+#
+# RUTAS ONELAKE EXPLICITAS: igual que NB_Load_Bronze_Retail, sin lakehouse por defecto adjunto.
+# Ademas LH_Bronze vive en OTRO workspace (WS_Retail_Bronze) que este notebook (WS_Retail_Silver)
+# en el diseño "separated" -> hace falta el nombre de ese workspace de origen explicito, no se
+# puede derivar del contexto de ejecucion actual. Si usas el diseño "collapsed" de
+# config/workspaces.json (un unico WS_Retail), cambia UPSTREAM_WORKSPACE por el mismo valor que
+# WORKSPACE.
 
 import json
 import re
@@ -55,14 +62,29 @@ udf_dt = F.udf(_parse_dt, TimestampType())
 udf_dec = F.udf(_parse_dec, DoubleType())
 udf_id = F.udf(_norm_id, StringType())
 
+# ---------------- Rutas OneLake ----------------
+UPSTREAM_WORKSPACE = "WS_Retail_Bronze"  # workspace de la capa Bronze (ver nota arriba)
+ONELAKE = "onelake.dfs.fabric.microsoft.com"
+WORKSPACE = notebookutils.runtime.context["currentWorkspaceName"]
+
+
+def lakehouse_uri(workspace: str, lakehouse: str) -> str:
+    return f"abfss://{workspace}@{ONELAKE}/{lakehouse}.Lakehouse"
+
+
+LANDING = lakehouse_uri(UPSTREAM_WORKSPACE, "LH_Landing")
+BRONZE = lakehouse_uri(UPSTREAM_WORKSPACE, "LH_Bronze")
+SILVER = lakehouse_uri(WORKSPACE, "LH_Silver")
+
 # ---------------- Proceso ----------------
-config_paths = [r.path for r in mssparkutils.fs.ls("Files/config/ingestion") if r.path.endswith(".json")]
+config_paths = [r.path for r in mssparkutils.fs.ls(f"{LANDING}/Files/config/ingestion")
+                if r.path.endswith(".json")]
 
 for cfg_path in config_paths:
     cfg = json.loads("".join(mssparkutils.fs.head(cfg_path, 1024 * 1024)))
     schema, table = cfg["target_schema"], cfg["target_table"]
     s = cfg.get("silver", {})
-    df = spark.read.table(f"LH_Bronze.{schema}.{table}")
+    df = spark.read.format("delta").load(f"{BRONZE}/Tables/{schema}/{table}")
 
     for c in s.get("id_normalize_columns", []):
         if c in df.columns: df = df.withColumn(c, udf_id(F.col(c)))
@@ -97,8 +119,8 @@ for cfg_path in config_paths:
         w = Window.partitionBy(*bk).orderBy(*[F.col(c).desc_nulls_last() for c in order_cols])
         df = df.withColumn("_rn", F.row_number().over(w)).filter(F.col("_rn") == 1).drop("_rn")
 
-    target = f"LH_Silver.{schema}.{table}"
-    df.write.mode("overwrite").format("delta").option("overwriteSchema", "true").saveAsTable(target)
-    print(f"[SILVER] {target}: {df.count()} filas")
+    target = f"{SILVER}/Tables/{schema}/{table}"
+    df.write.mode("overwrite").format("delta").option("overwriteSchema", "true").save(target)
+    print(f"[SILVER] LH_Silver.{schema}.{table}: {df.count()} filas")
 
 print("Silver completado.")

@@ -3,9 +3,16 @@
 #
 # Ingesta FIEL al origen (todo string) de las fuentes retail de FraSoHome que aterrizan en
 # LH_Landing/Files/landing/retail/<tabla>/, añadiendo las columnas de trazabilidad obligatorias.
-# Dirigido por metadatos: config/ingestion/*.json (subidos a LH_Bronze/Files/config/).
+# Dirigido por metadatos: config/ingestion/*.json (subidos a LH_Landing/Files/config/ingestion/).
 #
 # Idempotente: escribe cada tabla Delta en modo overwrite.
+#
+# RUTAS ONELAKE EXPLICITAS: el notebook se publica sin lakehouse por defecto adjunto (no lo
+# configura infra/publish_notebooks.py), y LH_Bronze no es el mismo lakehouse que LH_Landing.
+# Por eso leemos y escribimos siempre con la ruta OneLake completa (abfss://...) en vez de rutas
+# relativas "Files/..." o `saveAsTable` sin cualificar — evita depender de un adjunto implícito
+# y funciona igual crea el notebook el lakehouse que crea. LH_Landing y LH_Bronze viven en el
+# mismo workspace que este notebook (WS_Retail_Bronze), así que basta con el workspace actual.
 
 import json
 import uuid
@@ -16,17 +23,23 @@ from pyspark.sql import functions as F
 BATCH_ID = f"fabric-{uuid.uuid4().hex[:8]}"
 INGEST_TS = datetime.now(timezone.utc)
 
-# Rutas dentro del lakehouse (ajusta si usas el diseño "collapsed" de config/workspaces.json)
-CONFIG_GLOB = "Files/config/ingestion/*.json"
-LANDING_ROOT = "Files/landing"
+ONELAKE = "onelake.dfs.fabric.microsoft.com"
+WORKSPACE = notebookutils.runtime.context["currentWorkspaceName"]
 
-config_paths = [r.path for r in mssparkutils.fs.ls(CONFIG_GLOB.rsplit("/", 1)[0])
+
+def lakehouse_uri(lakehouse: str) -> str:
+    return f"abfss://{WORKSPACE}@{ONELAKE}/{lakehouse}.Lakehouse"
+
+
+LANDING = lakehouse_uri("LH_Landing")
+BRONZE = lakehouse_uri("LH_Bronze")
+
+config_paths = [r.path for r in mssparkutils.fs.ls(f"{LANDING}/Files/config/ingestion")
                 if r.path.endswith(".json")]
 
 for cfg_path in config_paths:
     cfg = json.loads("".join(mssparkutils.fs.head(cfg_path, 1024 * 1024)))
     schema, table = cfg["target_schema"], cfg["target_table"]
-    src = f"{LANDING_ROOT}/{cfg['source_system']}/{table}" if False else cfg["landing_path"]
 
     df = (spark.read
           .option("header", cfg["csv_options"].get("header", True))
@@ -34,17 +47,19 @@ for cfg_path in config_paths:
           .option("encoding", cfg["csv_options"].get("encoding", "utf-8"))
           # Bronze fiel: todo como string, sin inferencia de tipos
           .option("inferSchema", "false")
-          .csv(cfg["landing_path"]))
+          .csv(f"{LANDING}/{cfg['landing_path']}"))
 
     df = (df
           .withColumn("_input_file_name", F.input_file_name())
           .withColumn("_ingestion_timestamp", F.lit(INGEST_TS).cast("timestamp"))
           .withColumn("_batch_id", F.lit(BATCH_ID)))
 
-    target = f"LH_Bronze.{schema}.{table}"
-    (df.write.mode("overwrite").format("delta")
+    (df.write
+        .mode("overwrite")
+        .format("delta")
         .option("overwriteSchema", "true")
-        .saveAsTable(target))
-    print(f"[BRONZE] {target}: {df.count()} filas · batch={BATCH_ID}")
+        .save(f"{BRONZE}/Tables/{schema}/{table}"))
+
+    print(f"[BRONZE] LH_Bronze.{schema}.{table}: {df.count()} filas · batch={BATCH_ID}")
 
 print("Bronze completado.")

@@ -5,28 +5,51 @@
 # fact_ventas (lineas online + POS unificadas). Listo para Direct Lake sobre SM_Retail_Sales.
 #
 # Idempotente: overwrite por tabla.
+#
+# RUTAS ONELAKE EXPLICITAS: igual que los notebooks de Bronze/Silver, sin lakehouse por defecto
+# adjunto. LH_Silver vive en OTRO workspace (WS_Retail_Silver) que este notebook (WS_Retail_Gold)
+# en el diseño "separated" -> nombre de workspace de origen explicito. Si usas el diseño
+# "collapsed" de config/workspaces.json (un unico WS_Retail), cambia UPSTREAM_WORKSPACE por el
+# mismo valor que WORKSPACE.
 
 from pyspark.sql import functions as F
 
+UPSTREAM_WORKSPACE = "WS_Retail_Silver"  # workspace de la capa Silver (ver nota arriba)
+ONELAKE = "onelake.dfs.fabric.microsoft.com"
+WORKSPACE = notebookutils.runtime.context["currentWorkspaceName"]
+
+
+def lakehouse_uri(workspace: str, lakehouse: str) -> str:
+    return f"abfss://{workspace}@{ONELAKE}/{lakehouse}.Lakehouse"
+
+
+SILVER = lakehouse_uri(UPSTREAM_WORKSPACE, "LH_Silver")
+GOLD = lakehouse_uri(WORKSPACE, "LH_Gold")
+
+
+def read_silver(schema: str, table: str):
+    return spark.read.format("delta").load(f"{SILVER}/Tables/{schema}/{table}")
+
+
 def save(df, name):
-    df.write.mode("overwrite").format("delta").option("overwriteSchema", "true").saveAsTable(f"LH_Gold.gold.{name}")
+    df.write.mode("overwrite").format("delta").option("overwriteSchema", "true").save(f"{GOLD}/Tables/gold/{name}")
     print(f"[GOLD] gold.{name}: {df.count()} filas")
 
 # -------- Dimensiones --------
-clientes = spark.read.table("LH_Silver.crm.clientes")
+clientes = read_silver("crm", "clientes")
 save(clientes.select("customer_id","nombre","apellidos","email","ciudad","provincia",
                      "pais","tier_fidelizacion","estado_cliente"), "dim_cliente")
 
-productos = spark.read.table("LH_Silver.erp.productos")
+productos = read_silver("erp", "productos")
 save(productos.select("product_id","nombre_producto","categoria","subcategoria","marca",
                       "precio_venta","coste_unitario"), "dim_producto")
 
-tiendas = spark.read.table("LH_Silver.erp.tiendas")
+tiendas = read_silver("erp", "tiendas")
 save(tiendas.select("store_id","nombre_tienda","canal","ciudad","provincia","region"), "dim_tienda")
 
 # -------- Hecho: online + POS --------
-lp = spark.read.table("LH_Silver.retail.lineas_pedido")
-ped = spark.read.table("LH_Silver.retail.pedidos").select("order_id","customer_id","fecha_pedido")
+lp = read_silver("retail", "lineas_pedido")
+ped = read_silver("retail", "pedidos").select("order_id","customer_id","fecha_pedido")
 online = (lp.join(ped, "order_id", "left")
           .select(F.col("order_line_id").alias("venta_id"),
                   F.col("fecha_pedido").alias("fecha"),
@@ -36,7 +59,7 @@ online = (lp.join(ped, "order_id", "left")
                   F.col("cantidad").cast("int").alias("cantidad"),
                   F.col("importe_linea").cast("double").alias("importe_linea")))
 
-pos = spark.read.table("LH_Silver.pos.ventas").select(
+pos = read_silver("pos", "ventas").select(
         F.col("ticket_line_id").alias("venta_id"),
         F.col("fecha_hora").alias("fecha"),
         "customer_id", "product_id", "store_id",
