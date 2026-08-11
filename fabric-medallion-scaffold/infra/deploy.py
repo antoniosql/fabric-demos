@@ -4,11 +4,14 @@
 Despliega el esqueleto medallon de FraSoHome en Microsoft Fabric.
 
 Crea (idempotente) el dominio, los workspaces por capa, los lakehouses y asigna la capacidad,
-segun `config/workspaces.json`. DRY-RUN por defecto; usa `--apply` para ejecutar de verdad.
+segun `config/workspaces.json`. Al terminar, sube config/ingestion + data/ a LH_Landing/Files
+(ver `infra/upload_data.py`) salvo que se pase `--skip-upload`. DRY-RUN por defecto; usa
+`--apply` para ejecutar de verdad.
 
     python infra/deploy.py                 # muestra el plan (no cambia nada)
     python infra/deploy.py --apply         # ejecuta (abre login interactivo)
     python infra/deploy.py --design collapsed --apply
+    python infra/deploy.py --apply --skip-upload   # solo infraestructura, sin subir datos
 
 Variables (.env):  FABRIC_TENANT_ID, FABRIC_CAPACITY_ID
 """
@@ -21,6 +24,7 @@ import re
 from pathlib import Path
 
 from fabric_client import FabricClient
+from upload_data import upload_landing_data
 
 ROOT = Path(__file__).resolve().parents[1]
 GUID_RE = re.compile(r"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$")
@@ -41,6 +45,8 @@ def main() -> None:
     ap.add_argument("--apply", action="store_true", help="Ejecuta los cambios (por defecto dry-run).")
     ap.add_argument("--design", choices=["separated", "collapsed"], default=None,
                     help="Sobrescribe el diseño seleccionado en workspaces.json.")
+    ap.add_argument("--skip-upload", action="store_true",
+                    help="No subir config/ingestion + data/ a LH_Landing/Files tras el despliegue.")
     args = ap.parse_args()
 
     load_env()
@@ -84,8 +90,13 @@ def main() -> None:
     if domain_id:
         client.assign_workspaces_to_domain(domain_id, [i for i in ws_ids if not i.startswith("<")])
 
+    # 4) Subir config/ingestion + data/ a LH_Landing/Files
+    if not args.skip_upload:
+        print("\n-- Subiendo config/ingestion + data/ a LH_Landing/Files --")
+        upload_landing_data(client, cfg, design_key)
+
     print("\nHecho." if args.apply else "\nPlan mostrado (dry-run). Repite con --apply para ejecutar.")
-    print("Siguiente paso: subir config/ingestion + data/ a LH_Landing/Files y ejecutar los notebooks NB_*.")
+    print("Siguiente paso: ejecutar los notebooks NB_* (Bronze -> Silver -> Gold).")
 
 
 if __name__ == "__main__":
