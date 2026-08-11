@@ -5,14 +5,18 @@ Despliega el esqueleto medallon de FraSoHome en Microsoft Fabric.
 
 Crea (idempotente) el dominio, los workspaces por capa, los lakehouses y asigna la capacidad,
 segun `config/workspaces.json`. Al terminar, sube config/ingestion + data/ a LH_Landing/Files
-(ver `infra/upload_data.py`) y publica los notebooks NB_* (ver `infra/publish_notebooks.py`),
-salvo que se pase `--skip-upload` / `--skip-notebooks`. DRY-RUN por defecto; usa `--apply` para
-ejecutar de verdad.
+(ver `infra/upload_data.py`), publica los notebooks NB_* (ver `infra/publish_notebooks.py`) y los
+ejecuta en orden Bronze -> Silver -> Gold via Fabric CLI (ver `infra/run_notebooks.py`), salvo que
+se pase `--skip-upload` / `--skip-notebooks` / `--skip-run`. DRY-RUN por defecto; usa `--apply`
+para ejecutar de verdad.
+
+Ejecutar notebooks requiere el Fabric CLI aparte: `pip install ms-fabric-cli` + `fab auth login`
+(sesion propia del CLI, distinta del login interactivo de este script).
 
     python infra/deploy.py                 # muestra el plan (no cambia nada)
-    python infra/deploy.py --apply         # ejecuta (abre login interactivo)
+    python infra/deploy.py --apply         # ejecuta todo (abre login interactivo + fab job run)
     python infra/deploy.py --design collapsed --apply
-    python infra/deploy.py --apply --skip-upload --skip-notebooks   # solo infraestructura
+    python infra/deploy.py --apply --skip-upload --skip-notebooks --skip-run   # solo infraestructura
 
 Variables (.env):  FABRIC_TENANT_ID, FABRIC_CAPACITY_ID
 """
@@ -26,6 +30,7 @@ from pathlib import Path
 
 from fabric_client import FabricClient
 from publish_notebooks import publish_notebooks
+from run_notebooks import run_notebooks
 from upload_data import upload_landing_data
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -51,6 +56,10 @@ def main() -> None:
                     help="No subir config/ingestion + data/ a LH_Landing/Files tras el despliegue.")
     ap.add_argument("--skip-notebooks", action="store_true",
                     help="No publicar los notebooks NB_* tras el despliegue.")
+    ap.add_argument("--skip-run", action="store_true",
+                    help="No ejecutar los notebooks (fab job run) tras publicarlos.")
+    ap.add_argument("--timeout", type=int, default=3600,
+                    help="Timeout por notebook al ejecutarlos con fab job run, en segundos (default 3600).")
     args = ap.parse_args()
 
     load_env()
@@ -105,8 +114,12 @@ def main() -> None:
         workspace_ids = dict(zip((ws["name"] for ws in design["workspaces"]), ws_ids))
         publish_notebooks(client, cfg, design_key, workspace_ids)
 
+    # 6) Ejecutar los notebooks en orden (fab job run)
+    if not args.skip_run:
+        print("\n-- Ejecutando notebooks NB_* (fab job run) --")
+        run_notebooks(cfg, design_key, args.apply, args.timeout)
+
     print("\nHecho." if args.apply else "\nPlan mostrado (dry-run). Repite con --apply para ejecutar.")
-    print("Siguiente paso: ejecutar los notebooks (portal de Fabric o `fab notebook run`).")
 
 
 if __name__ == "__main__":

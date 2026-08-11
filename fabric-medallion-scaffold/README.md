@@ -35,6 +35,7 @@ fabric-medallion-scaffold/
 │   ├── deploy.py             # crea infra, sube datos y publica notebooks (dry-run por defecto)
 │   ├── upload_data.py        # sube config/ingestion/ + data/ a LH_Landing/Files (invocado por deploy.py)
 │   ├── publish_notebooks.py  # publica src/notebooks/NB_*.py como notebooks Fabric (invocado por deploy.py)
+│   ├── run_notebooks.py      # ejecuta NB_* en orden via `fab job run` (invocado por deploy.py)
 │   └── teardown.py           # limpieza
 ├── src/                      # LÓGICA DE DEMO
 │   ├── notebooks/            # NB_Load_Bronze_Retail · NB_Transform_Bronze_To_Silver · NB_Build_Gold_Star
@@ -67,30 +68,34 @@ del caso.
 ### 2) Despliegue en Fabric
 
 ```bash
-python infra/deploy.py                 # DRY-RUN: muestra el plan completo (infra + datos + notebooks)
-python infra/deploy.py --apply         # crea infra, sube config/ingestion + data/ y publica los notebooks NB_*
+pip install ms-fabric-cli && fab auth login    # una vez: CLI para ejecutar los notebooks (fab job run)
+
+python infra/deploy.py                 # DRY-RUN: muestra el plan completo (infra + datos + notebooks + ejecucion)
+python infra/deploy.py --apply         # TODO de extremo a extremo: infra, datos, publica y ejecuta NB_* en orden
 python infra/deploy.py --design collapsed --apply   # variante de equipo pequeño (Caso A)
-python infra/deploy.py --apply --skip-upload --skip-notebooks   # solo infraestructura
+python infra/deploy.py --apply --skip-upload --skip-notebooks --skip-run   # solo infraestructura
 ```
 
 Un único `--apply` hace todo: `deploy.py` crea dominio/workspaces/lakehouses/capacidad y, con el
-mismo login, invoca automáticamente:
+mismo login (Fabric REST API), invoca automáticamente:
 
 - `infra/upload_data.py` — sube cada `config/ingestion/*.json` a `LH_Landing/Files/config/ingestion/`
   y su CSV asociado (`source_file`) a `landing_path`, vía OneLake DFS API.
 - `infra/publish_notebooks.py` — publica `src/notebooks/NB_*.py` como notebooks Fabric (uno por capa
   Bronze/Silver/Gold), reejecutar actualiza la definición en vez de duplicar.
+- `infra/run_notebooks.py` — ejecuta los tres notebooks en orden Bronze → Silver → Gold con
+  `fab job run <workspace>.Workspace/<notebook>.Notebook` (síncrono, para en el primero que falle).
+  Este paso usa el **Fabric CLI** (`fab`) como proceso aparte, no la Fabric REST API: requiere
+  `pip install ms-fabric-cli` y `fab auth login` hechos de antemano (login propio del CLI, distinto
+  del interactivo de los demás scripts).
 
-Ambos también se pueden ejecutar sueltos (dry-run por defecto, `--apply` para de verdad):
+Los tres también se pueden ejecutar sueltos (dry-run por defecto, `--apply` para de verdad):
 
 ```bash
 python infra/upload_data.py --apply
 python infra/publish_notebooks.py --apply     # requiere que los workspaces ya existan
+python infra/run_notebooks.py --apply         # requiere `fab auth login`; notebooks ya publicados
 ```
-
-Después: ejecuta los notebooks `NB_Load_Bronze_Retail` → `NB_Transform_Bronze_To_Silver` →
-`NB_Build_Gold_Star` desde el portal de Fabric (o con `fab notebook run`, ver
-`.agent/reference/fabric_cli_notes.md`).
 
 ### 3) Limpieza
 
