@@ -5,9 +5,9 @@ Ejecuta los notebooks NB_* ya publicados en Fabric, en orden Bronze -> Silver ->
 via Fabric CLI (`fab job run`).
 
 A diferencia de deploy.py / upload_data.py / publish_notebooks.py (que hablan con la Fabric REST
-API usando azure-identity), este paso usa el Fabric CLI como proceso externo. Requiere:
+API usando azure-identity), este paso invoca el Fabric CLI (`fab`, dependencia del proyecto via
+`ms-fabric-cli`, instalado con `uv sync`) como proceso externo. Requiere:
 
-- `pip install ms-fabric-cli` (herramienta aparte; no es dependencia de este proyecto).
 - `fab auth login` ya hecho (sesion propia del CLI, distinta del login interactivo de los demas
   scripts). Con tenant fijo: `fab auth login --tenant <FABRIC_TENANT_ID>`.
 - Los workspaces y los notebooks ya publicados (`infra/deploy.py --apply` o
@@ -39,7 +39,7 @@ def check_fab_available() -> None:
     if not shutil.which("fab"):
         raise SystemExit(
             "No se encontro el ejecutable `fab` en el PATH.\n"
-            "Instala el Fabric CLI con `pip install ms-fabric-cli` y ejecuta `fab auth login` antes de --apply."
+            "Ejecuta `uv sync` (instala ms-fabric-cli) y `fab auth login` antes de --apply."
         )
 
 

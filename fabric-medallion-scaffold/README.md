@@ -67,8 +67,12 @@ del caso.
 
 ### 2) Despliegue en Fabric
 
+`ms-fabric-cli` es dependencia del proyecto (`uv sync` ya lo instala como `fab` en `.venv`); solo
+falta autenticarlo una vez — es una sesión propia del CLI, distinta del login interactivo REST que
+usan los demás scripts:
+
 ```bash
-pip install ms-fabric-cli && fab auth login    # una vez: CLI para ejecutar los notebooks (fab job run)
+fab auth login                         # una vez: sesion del Fabric CLI (para fab job run)
 
 python infra/deploy.py                 # DRY-RUN: muestra el plan completo (infra + datos + notebooks + ejecucion)
 python infra/deploy.py --apply         # TODO de extremo a extremo: infra, datos, publica y ejecuta NB_* en orden
@@ -85,9 +89,8 @@ mismo login (Fabric REST API), invoca automáticamente:
   Bronze/Silver/Gold), reejecutar actualiza la definición en vez de duplicar.
 - `infra/run_notebooks.py` — ejecuta los tres notebooks en orden Bronze → Silver → Gold con
   `fab job run <workspace>.Workspace/<notebook>.Notebook` (síncrono, para en el primero que falle).
-  Este paso usa el **Fabric CLI** (`fab`) como proceso aparte, no la Fabric REST API: requiere
-  `pip install ms-fabric-cli` y `fab auth login` hechos de antemano (login propio del CLI, distinto
-  del interactivo de los demás scripts).
+  Este paso invoca el **Fabric CLI** (`fab`) como proceso aparte, no la Fabric REST API — requiere
+  `fab auth login` hecho de antemano.
 
 Los tres también se pueden ejecutar sueltos (dry-run por defecto, `--apply` para de verdad):
 

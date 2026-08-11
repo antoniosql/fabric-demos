@@ -10,8 +10,8 @@ ejecuta en orden Bronze -> Silver -> Gold via Fabric CLI (ver `infra/run_noteboo
 se pase `--skip-upload` / `--skip-notebooks` / `--skip-run`. DRY-RUN por defecto; usa `--apply`
 para ejecutar de verdad.
 
-Ejecutar notebooks requiere el Fabric CLI aparte: `pip install ms-fabric-cli` + `fab auth login`
-(sesion propia del CLI, distinta del login interactivo de este script).
+Ejecutar notebooks invoca el Fabric CLI (`fab`, dependencia del proyecto): requiere `fab auth
+login` de antemano (sesion propia del CLI, distinta del login interactivo de este script).
 
     python infra/deploy.py                 # muestra el plan (no cambia nada)
     python infra/deploy.py --apply         # ejecuta todo (abre login interactivo + fab job run)
