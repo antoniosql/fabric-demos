@@ -1,0 +1,34 @@
+{
+  "source_system": "crm",
+  "dataset_name": "clientes",
+  "landing_path": "Files/landing/retail/clientes/",
+  "source_file": "data/retail_omnicanal/crm.csv",
+  "target_lakehouse": "LH_Bronze",
+  "target_schema": "crm",
+  "target_table": "clientes",
+  "business_key": [
+    "customer_id"
+  ],
+  "file_format": "csv",
+  "csv_options": {
+    "header": true,
+    "delimiter": ",",
+    "encoding": "utf-8"
+  },
+  "silver": {
+    "date_columns": [
+      "fecha_alta_programa",
+      "fecha_nacimiento",
+      "fecha_baja",
+      "ultima_actualizacion"
+    ],
+    "decimal_columns": [],
+    "id_normalize_columns": [
+      "customer_id"
+    ],
+    "dedup_order_by": [
+      "ultima_actualizacion",
+      "_ingestion_timestamp"
+    ]
+  }
+}

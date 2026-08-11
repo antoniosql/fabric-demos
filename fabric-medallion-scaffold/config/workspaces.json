@@ -1,0 +1,39 @@
+{
+  "domain": {
+    "name": "Retail",
+    "description": "Dominio de negocio retail omnicanal de FraSoHome",
+    "subdomain": "Retail-Omnicanal"
+  },
+  "capacity": {
+    "name": "CAP_Retail",
+    "sku_hint": "F8",
+    "notes": "SKU F. Dimensionar por consumo sostenido, no por el pico. Pausar Dev/Test fuera de horario."
+  },
+  "design": {
+    "selected": "separated",
+    "options": {
+      "separated": {
+        "description": "Caso B — un workspace por capa dentro del dominio Retail (data mesh).",
+        "workspaces": [
+          { "name": "WS_Retail_Bronze", "layer": "bronze", "lakehouses": ["LH_Landing", "LH_Bronze"] },
+          { "name": "WS_Retail_Silver", "layer": "silver", "lakehouses": ["LH_Silver"] },
+          { "name": "WS_Retail_Gold",   "layer": "gold",   "lakehouses": ["LH_Gold"] }
+        ]
+      },
+      "collapsed": {
+        "description": "Caso A — un único workspace con lakehouses por capa (equipo pequeño, sin sobreingenieria).",
+        "workspaces": [
+          { "name": "WS_Retail", "layer": "all", "lakehouses": ["LH_Landing", "LH_Bronze", "LH_Silver", "LH_Gold"] }
+        ]
+      }
+    }
+  },
+  "roles": {
+    "notes": "Acceso por workspace y por item. Bronze/Silver restringidos a Data Engineering; Gold abierto a analistas (Viewer) via Direct Lake.",
+    "assignments": [
+      { "workspace": "WS_Retail_Bronze", "principal": "grp-data-engineering", "role": "Admin" },
+      { "workspace": "WS_Retail_Silver", "principal": "grp-data-engineering", "role": "Contributor" },
+      { "workspace": "WS_Retail_Gold",   "principal": "grp-data-analysts",    "role": "Viewer" }
+    ]
+  }
+}

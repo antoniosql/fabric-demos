@@ -1,0 +1,21 @@
+[project]
+name = "fabric-medallion-scaffold"
+version = "0.1.0"
+description = "Esqueleto medallon de FraSoHome en Microsoft Fabric — sesion 'Dominios, Workspaces y Capacidades: Diseña sin caos'."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "pyarrow>=14.0",
+    "requests>=2.31",
+    "azure-identity>=1.15",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

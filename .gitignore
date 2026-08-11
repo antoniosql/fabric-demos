@@ -22,14 +22,27 @@ config.local.json
 .idea/
 *.code-workspace
 
-# Asistentes de IA / agentes / skills (configuración y estado local)
+# Asistentes de IA / agentes / skills / "segundo cerebro" (contexto local, NO versionar)
 .claude/
 .cursor/
 .windsurf/
 .aider*
 .clinerules/
 CLAUDE.local.md
+CLAUDE.md
+agents.md
+AGENTS.md
+GEMINI.md
+.agent/
+.agent_reference/
+*.agent_reference*
+.github/copilot-instructions.md
+.mcp/
 .mcp.json
+# skills
+skills/
+.skills/
+*.skill
 
 # Salidas y artefactos generados
 .ipynb_checkpoints/

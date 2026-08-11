@@ -1,0 +1,51 @@
+# ---------------------------------------------------------------------------
+# Contexto de agentes de IA / "segundo cerebro" (local, NO se versiona)
+# Se genera a partir de la Estructura de Referencia para Agentes en Microsoft Fabric.
+# ---------------------------------------------------------------------------
+.agent/
+.agent_reference/
+*.agent_reference*
+agents.md
+AGENTS.md
+CLAUDE.md
+CLAUDE.local.md
+GEMINI.md
+.claude/
+.cursor/
+.windsurf/
+.aider*
+.clinerules/
+.github/copilot-instructions.md
+.mcp/
+.mcp.json
+# skills
+skills/
+.skills/
+*.skill
+
+# ---------------------------------------------------------------------------
+# Entornos y secretos
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.env
+.env.local
+*.local
+.fabric.generated.env
+
+# ---------------------------------------------------------------------------
+# Salidas del medallion (se regeneran)
+# ---------------------------------------------------------------------------
+output/
+outputs/
+*.parquet.crc
+.ipynb_checkpoints/
+
+# IDE / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

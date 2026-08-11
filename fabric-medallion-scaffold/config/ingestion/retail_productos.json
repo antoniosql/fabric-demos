@@ -1,0 +1,34 @@
+{
+  "source_system": "erp",
+  "dataset_name": "productos",
+  "landing_path": "Files/landing/retail/productos/",
+  "source_file": "data/retail_omnicanal/productos.csv",
+  "target_lakehouse": "LH_Bronze",
+  "target_schema": "erp",
+  "target_table": "productos",
+  "business_key": [
+    "product_id"
+  ],
+  "file_format": "csv",
+  "csv_options": {
+    "header": true,
+    "delimiter": ",",
+    "encoding": "utf-8"
+  },
+  "silver": {
+    "date_columns": [
+      "fecha_alta_catalogo"
+    ],
+    "decimal_columns": [
+      "precio_venta",
+      "coste_unitario"
+    ],
+    "id_normalize_columns": [
+      "product_id"
+    ],
+    "dedup_order_by": [
+      "ultima_actualizacion",
+      "_ingestion_timestamp"
+    ]
+  }
+}

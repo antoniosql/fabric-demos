@@ -22,6 +22,7 @@ los mismos datos de FraSoHome, vistos desde ángulos distintos de la plataforma.
 | [**Fabric Data Agent**](fabric-data-agent/) | Un chatbot que responde en lenguaje natural sobre el modelo retail de FraSoHome, con evaluación automática de calidad. | Fabric Data Agent SDK · Notebooks · PowerShell |
 | [**FraSoHome RAG Demo**](frasohome-fabric-rag-demo/) | Aplicación RAG empresarial completa: SQL Database en Fabric, backend serverless y frontend web, para resolver una devolución compleja. | SQL Database in Fabric · User Data Functions · Fabric App (React) |
 | [**Fabric Product Intelligence**](fabric-product-intelligence/) | Dos sesiones end-to-end: gobierno del dato (calidad, linaje, SQL Database) e IA aplicada (features, scoring de clientes, ontología, Data Agent). | CLI Python · Notebooks · SQL Database in Fabric · Fabric App (Rayfin/React) · Data Agent |
+| [**Fabric Medallion Scaffold**](fabric-medallion-scaffold/) | Diseña sin caos: monta el esqueleto de dominio, workspaces por capa y capacidad, y ejecuta un medallión metadata-driven (Bronze/Silver/Gold) sobre los datos retail de FraSoHome. | Dominios/Workspaces · Notebooks PySpark · REST API · runner local (pandas) |
 
 ---
 
@@ -37,6 +38,19 @@ directamente en un notebook con SQL/Python nativo del Lakehouse.
 - Incluye seguimiento de consumo (Capacity Units) por función.
 
 → [Ver guía de despliegue](fabric-ai-functions/README.md)
+
+### [`fabric-medallion-scaffold/`](fabric-medallion-scaffold/) — Diseña sin caos
+
+Monta el **esqueleto medallón** de FraSoHome aplicando las cuatro decisiones de diseño de la sesión
+*Dominios, Workspaces y Capacidades*: separación de **ítems**, **workspaces**, **dominios** y
+**capacidades**. La ingesta es **metadata-driven** (`config/ingestion/*.json`) y sigue las convenciones
+del "segundo cerebro" de agente (`.agent/reference/`).
+
+- Despliegue idempotente y con *dry-run*: dominio `Retail`, workspaces por capa y capacidad, vía REST API.
+- Notebooks PySpark `Bronze → Silver → Gold` (star schema) con columnas de trazabilidad y reglas de calidad.
+- **Runner local en pandas** que reproduce el flujo sin tenant — ideal para presentar en vivo.
+
+→ [Ver guía de despliegue](fabric-medallion-scaffold/README.md)
 
 ### [`fabric-data-agent/`](fabric-data-agent/) — Data Agent
 

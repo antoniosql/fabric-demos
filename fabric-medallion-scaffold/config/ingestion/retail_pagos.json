@@ -1,0 +1,33 @@
+{
+  "source_system": "pos",
+  "dataset_name": "pagos",
+  "landing_path": "Files/landing/retail/pagos/",
+  "source_file": "data/retail_omnicanal/pagos_tienda.csv",
+  "target_lakehouse": "LH_Bronze",
+  "target_schema": "pos",
+  "target_table": "pagos",
+  "business_key": [
+    "payment_id"
+  ],
+  "file_format": "csv",
+  "csv_options": {
+    "header": true,
+    "delimiter": ",",
+    "encoding": "utf-8"
+  },
+  "silver": {
+    "date_columns": [
+      "fecha_pago"
+    ],
+    "decimal_columns": [
+      "importe_pagado"
+    ],
+    "id_normalize_columns": [
+      "ticket_id"
+    ],
+    "dedup_order_by": [
+      "ultima_actualizacion",
+      "_ingestion_timestamp"
+    ]
+  }
+}
