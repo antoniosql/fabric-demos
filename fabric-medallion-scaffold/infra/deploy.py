@@ -17,11 +17,13 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 from pathlib import Path
 
 from fabric_client import FabricClient
 
 ROOT = Path(__file__).resolve().parents[1]
+GUID_RE = re.compile(r"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$")
 
 
 def load_env() -> None:
@@ -53,6 +55,13 @@ def main() -> None:
     print(f"   {design['description']}\n")
     if not capacity_id:
         print("   ! FABRIC_CAPACITY_ID vacio en .env — los workspaces se crearan sin capacidad asignada.\n")
+    elif not GUID_RE.match(capacity_id):
+        raise SystemExit(
+            "FABRIC_CAPACITY_ID no es un GUID valido: "
+            f"'{capacity_id}'.\n"
+            "Debe ser el GUID de la capacidad Fabric (no el resource id de Azure). "
+            "Obtenlo con `fab capacity list` o `GET /v1/capacities`."
+        )
 
     client = FabricClient(apply=args.apply, tenant_id=tenant_id)
 
