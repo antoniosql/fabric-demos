@@ -1,0 +1,45 @@
+model sm_retail_sessions
+  culture: en-US
+  description: "Minimal semantic model for retail governance, scoring and data agent demos."
+
+table curated_fact_transactions
+  column fact_id
+    dataType: string
+  column customer_id
+    dataType: string
+  column product_id
+    dataType: string
+  column movement_date
+    dataType: dateTime
+  column channel
+    dataType: string
+  column amount
+    dataType: double
+  column is_return
+    dataType: boolean
+  measure Net Revenue = SUM(curated_fact_transactions[amount])
+  measure Return Movements = CALCULATE(COUNTROWS(curated_fact_transactions), curated_fact_transactions[is_return] = TRUE())
+  measure Sales Movements = CALCULATE(COUNTROWS(curated_fact_transactions), curated_fact_transactions[is_return] = FALSE())
+
+table customer_features
+  column customer_id
+    dataType: string
+  column recency_days
+    dataType: int64
+  column frequency_12m
+    dataType: int64
+  column monetary_12m
+    dataType: double
+  column return_rate
+    dataType: double
+
+table ml_customer_score_current
+  column customer_id
+    dataType: string
+  column score_date
+    dataType: dateTime
+  column score
+    dataType: double
+  column score_band
+    dataType: string
+  measure Average Score = AVERAGE(ml_customer_score_current[score])

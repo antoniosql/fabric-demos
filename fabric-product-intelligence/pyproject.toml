@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fabric-retail-sessions"
+version = "0.1.0"
+description = "Microsoft Fabric demo repository for governance, quality, scoring, ontology and agents."
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.2",
+  "requests>=2.31",
+  "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.5",
+]
+
+[tool.setuptools.packages.find]
+include = ["fabric_sessions*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

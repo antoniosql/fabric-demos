@@ -1,0 +1,20 @@
+{
+  "format": "DataAgentPublicDefinition",
+  "parts": [
+    {
+      "path": "Files/Config/draft/instructions.md",
+      "payloadType": "InlineBase64",
+      "payloadFile": "../instructions.md"
+    },
+    {
+      "path": "Files/Config/draft/questions.md",
+      "payloadType": "InlineBase64",
+      "payloadFile": "../questions.md"
+    },
+    {
+      "path": "Files/Config/draft/ontology.yaml",
+      "payloadType": "InlineBase64",
+      "payloadFile": "../ontology.yaml"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "fabric-retail-sessions",
+  "private": true,
+  "scripts": {
+    "app:dev": "npm --prefix app run dev",
+    "app:build": "npm --prefix app run build",
+    "app:deploy": "npm --prefix app run deploy",
+    "app:status": "npm --prefix app run status"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,69 @@
+entities:
+  Customer:
+    key: customer_id
+    properties:
+      - loyalty_tier
+      - marketing_consent
+      - preferred_channel
+  Order:
+    key: order_id
+    properties:
+      - order_date
+      - status
+      - channel
+      - net_revenue
+  OrderLine:
+    key: order_line_id
+    properties:
+      - quantity
+      - unit_price
+      - discount_pct
+      - line_amount
+  Product:
+    key: product_id
+    properties:
+      - category
+      - subcategory
+      - brand
+      - selling_price
+  StoreOrChannel:
+    key: store_or_channel_id
+    properties:
+      - channel_type
+      - city
+      - region
+  Return:
+    key: return_id
+    properties:
+      - return_date
+      - reason
+      - refunded_amount
+  StockSnapshot:
+    key: stock_snapshot_id
+    properties:
+      - snapshot_date
+      - closing_stock
+      - reserved_stock
+  CustomerScore:
+    key: customer_id
+    properties:
+      - score
+      - score_band
+      - model_version
+relationships:
+  - Customer PLACES Order
+  - Order CONTAINS OrderLine
+  - OrderLine REFERENCES Product
+  - Order MAY_HAVE Return
+  - Return REFERENCES Product
+  - StoreOrChannel FULFILLS Order
+  - Product HAS StockSnapshot
+  - Customer HAS CustomerScore
+synonyms:
+  Pedido: [orden, compra online, documento comercial]
+  Ticket: [venta de tienda, compra fisica]
+  Venta neta: [importe neto, venta despues de devoluciones]
+  Devolucion: [retorno, reembolso]
+  Cliente recurrente: [cliente frecuente, comprador habitual]
+  Producto problematico: [SKU con alta devolucion]
+  Cliente de alto valor: [cliente VIP, top customer]

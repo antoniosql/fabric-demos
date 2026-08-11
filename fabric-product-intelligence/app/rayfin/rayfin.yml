@@ -1,0 +1,9 @@
+name: app_retail_sessions
+displayName: Retail Fabric Sessions
+description: Governance and intelligence demo app for Microsoft Fabric sessions.
+frontend:
+  path: ..
+  buildCommand: npm run build
+  outputPath: ../dist
+data:
+  path: ./data

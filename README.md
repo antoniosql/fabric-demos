@@ -21,6 +21,7 @@ los mismos datos de FraSoHome, vistos desde ángulos distintos de la plataforma.
 | [**Fabric AI Functions**](fabric-ai-functions/) | Sentimiento, clasificación y extracción con IA generativa sobre feedback de clientes, directo en el Lakehouse. | Notebook · AI Functions · PowerShell |
 | [**Fabric Data Agent**](fabric-data-agent/) | Un chatbot que responde en lenguaje natural sobre el modelo retail de FraSoHome, con evaluación automática de calidad. | Fabric Data Agent SDK · Notebooks · PowerShell |
 | [**FraSoHome RAG Demo**](frasohome-fabric-rag-demo/) | Aplicación RAG empresarial completa: SQL Database en Fabric, backend serverless y frontend web, para resolver una devolución compleja. | SQL Database in Fabric · User Data Functions · Fabric App (React) |
+| [**Fabric Product Intelligence**](fabric-product-intelligence/) | Dos sesiones end-to-end: gobierno del dato (calidad, linaje, SQL Database) e IA aplicada (features, scoring de clientes, ontología, Data Agent). | CLI Python · Notebooks · SQL Database in Fabric · Fabric App (Rayfin/React) · Data Agent |
 
 ---
 
@@ -63,6 +64,20 @@ para resolver una solicitud de devolución compleja, combinando datos operaciona
 
 → [Ver guía de despliegue](frasohome-fabric-rag-demo/README.md)
 
+### [`fabric-product-intelligence/`](fabric-product-intelligence/) — Gobierno + IA aplicada
+
+Repositorio pensado para dos sesiones seguidas sobre el mismo dataset retail omnicanal de FraSoHome:
+**gobierno del dato de extremo a extremo** y **IA aplicada** sobre ese mismo modelo ya gobernado.
+
+- CLI Python (`fabric_sessions`) que despliega workspace, Lakehouse, SQL Database y Data Agent, sube
+  el dataset a OneLake y ejecuta la cadena completa de notebooks en Fabric.
+- Notebooks encadenados: ingesta cruda → curado → calidad/linaje (gobierno) → features/scoring con
+  MLflow → export de datos para la app (inteligencia).
+- Fabric App (Rayfin/React) con vistas de gobierno e inteligencia sobre los mismos datos.
+- Incluye contrato TMDL de modelo semántico, ontología y preguntas prevalidadas para el Data Agent.
+
+→ [Ver guía de despliegue](fabric-product-intelligence/README.md)
+
 ---
 
 ## Estructura del repositorio
@@ -73,7 +88,8 @@ Cada demo es autocontenida — no comparten código ni dependencias entre sí:
 fabric-demos/
 ├── fabric-ai-functions/          # Notebook + scripts PowerShell + datos + config propia
 ├── fabric-data-agent/            # Notebooks + scripts PowerShell + datos + config propia
-└── frasohome-fabric-rag-demo/    # App React + SQL + User Data Functions + venv + requirements.txt
+├── frasohome-fabric-rag-demo/    # App React + SQL + User Data Functions + venv + requirements.txt
+└── fabric-product-intelligence/  # CLI Python + notebooks + SQL + Fabric App + venv propia
 ```
 
 Sigue el README de cada carpeta para desplegarla: cada una documenta sus propios requisitos previos,

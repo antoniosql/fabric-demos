@@ -1,0 +1,4 @@
+"""Automation helpers for the Microsoft Fabric retail sessions repository."""
+
+__all__ = ["__version__"]
+__version__ = "0.1.0"
