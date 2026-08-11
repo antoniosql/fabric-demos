@@ -32,8 +32,9 @@ fabric-medallion-scaffold/
 ├── data/retail_omnicanal/    # muestra FraSoHome (CSV)
 ├── infra/                    # DESPLIEGUE (separado de la lógica de demo)
 │   ├── fabric_client.py      # Fabric REST API + OneLake DFS API + auth interactivo, idempotente
-│   ├── deploy.py             # crea dominio/workspaces/lakehouses/capacidad y sube datos (dry-run por defecto)
+│   ├── deploy.py             # crea infra, sube datos y publica notebooks (dry-run por defecto)
 │   ├── upload_data.py        # sube config/ingestion/ + data/ a LH_Landing/Files (invocado por deploy.py)
+│   ├── publish_notebooks.py  # publica src/notebooks/NB_*.py como notebooks Fabric (invocado por deploy.py)
 │   └── teardown.py           # limpieza
 ├── src/                      # LÓGICA DE DEMO
 │   ├── notebooks/            # NB_Load_Bronze_Retail · NB_Transform_Bronze_To_Silver · NB_Build_Gold_Star
@@ -66,23 +67,30 @@ del caso.
 ### 2) Despliegue en Fabric
 
 ```bash
-python infra/deploy.py                 # DRY-RUN: muestra el plan (infra + subida de datos)
-python infra/deploy.py --apply         # crea dominio/workspaces/lakehouses/capacidad y sube config/ingestion + data/ a LH_Landing/Files
+python infra/deploy.py                 # DRY-RUN: muestra el plan completo (infra + datos + notebooks)
+python infra/deploy.py --apply         # crea infra, sube config/ingestion + data/ y publica los notebooks NB_*
 python infra/deploy.py --design collapsed --apply   # variante de equipo pequeño (Caso A)
-python infra/deploy.py --apply --skip-upload        # solo infraestructura, sin subir datos
+python infra/deploy.py --apply --skip-upload --skip-notebooks   # solo infraestructura
 ```
 
-`deploy.py --apply` invoca automáticamente `infra/upload_data.py`, que sube cada
-`config/ingestion/*.json` a `LH_Landing/Files/config/ingestion/` y su CSV asociado (`source_file`)
-a `landing_path`, vía OneLake DFS API. También se puede ejecutar suelto:
+Un único `--apply` hace todo: `deploy.py` crea dominio/workspaces/lakehouses/capacidad y, con el
+mismo login, invoca automáticamente:
+
+- `infra/upload_data.py` — sube cada `config/ingestion/*.json` a `LH_Landing/Files/config/ingestion/`
+  y su CSV asociado (`source_file`) a `landing_path`, vía OneLake DFS API.
+- `infra/publish_notebooks.py` — publica `src/notebooks/NB_*.py` como notebooks Fabric (uno por capa
+  Bronze/Silver/Gold), reejecutar actualiza la definición en vez de duplicar.
+
+Ambos también se pueden ejecutar sueltos (dry-run por defecto, `--apply` para de verdad):
 
 ```bash
-python infra/upload_data.py            # DRY-RUN: muestra qué se subiría
-python infra/upload_data.py --apply    # sube de verdad (re-sube = overwrite, idempotente)
+python infra/upload_data.py --apply
+python infra/publish_notebooks.py --apply     # requiere que los workspaces ya existan
 ```
 
 Después: ejecuta los notebooks `NB_Load_Bronze_Retail` → `NB_Transform_Bronze_To_Silver` →
-`NB_Build_Gold_Star` (o con `fab notebook run`, ver `.agent/reference/fabric_cli_notes.md`).
+`NB_Build_Gold_Star` desde el portal de Fabric (o con `fab notebook run`, ver
+`.agent/reference/fabric_cli_notes.md`).
 
 ### 3) Limpieza
 

@@ -11,6 +11,8 @@ Docs: https://learn.microsoft.com/rest/api/fabric/
 """
 from __future__ import annotations
 
+import base64
+import json
 import time
 from pathlib import Path
 from typing import Optional
@@ -31,6 +33,27 @@ def _onelake_url(workspace_name: str, lakehouse_name: str, path: str) -> str:
     lh = quote(f"{lakehouse_name.strip('/')}.Lakehouse", safe="")
     p = quote(path.strip("/"), safe="/")
     return f"{ONELAKE_DFS}/{ws}/{lh}/{p}"
+
+
+def _notebook_definition(local_path: Path) -> dict:
+    """Envuelve un .py plano en un .ipynb de una sola celda (formato `ipynb`, sin marcadores especiales)."""
+    notebook = {
+        "nbformat": 4,
+        "nbformat_minor": 5,
+        "cells": [{
+            "cell_type": "code",
+            "source": local_path.read_text(encoding="utf-8").splitlines(keepends=True),
+            "execution_count": None,
+            "outputs": [],
+            "metadata": {},
+        }],
+        "metadata": {"language_info": {"name": "python"}},
+    }
+    payload = base64.b64encode(json.dumps(notebook).encode("utf-8")).decode("ascii")
+    return {
+        "format": "ipynb",
+        "parts": [{"path": "notebook-content.ipynb", "payload": payload, "payloadType": "InlineBase64"}],
+    }
 
 
 class FabricClient:
@@ -187,3 +210,28 @@ class FabricClient:
                               params={"resource": "directory"}, timeout=120)
             if r.status_code not in (200, 201, 409):
                 raise RuntimeError(f"No se pudo crear directorio {path}: {r.status_code} {r.text}")
+
+    # ------------------------------------------------------------- notebooks
+    def find_notebook(self, workspace_id: str, name: str) -> Optional[dict]:
+        for nb in self._get(f"/workspaces/{workspace_id}/notebooks").get("value", []):
+            if nb.get("displayName") == name:
+                return nb
+        return None
+
+    def ensure_notebook(self, workspace_id: str, name: str, local_path: Path) -> dict:
+        """Crea el notebook `name` o, si ya existe, sobrescribe su definicion (idempotente)."""
+        if not self.apply:
+            print(f"   [dry-run] PUT notebook {name} <- {local_path}")
+            return {"displayName": name}
+
+        definition = _notebook_definition(local_path)
+        existing = self.find_notebook(workspace_id, name)
+        if existing and existing.get("id"):
+            print(f"   = actualizando notebook: {name}")
+            self._post(f"/workspaces/{workspace_id}/notebooks/{existing['id']}/updateDefinition",
+                       {"definition": definition})
+            return existing
+
+        print(f"   + creando notebook: {name}")
+        return self._post(f"/workspaces/{workspace_id}/notebooks",
+                          {"displayName": name, "definition": definition}) or {"displayName": name}

@@ -5,13 +5,14 @@ Despliega el esqueleto medallon de FraSoHome en Microsoft Fabric.
 
 Crea (idempotente) el dominio, los workspaces por capa, los lakehouses y asigna la capacidad,
 segun `config/workspaces.json`. Al terminar, sube config/ingestion + data/ a LH_Landing/Files
-(ver `infra/upload_data.py`) salvo que se pase `--skip-upload`. DRY-RUN por defecto; usa
-`--apply` para ejecutar de verdad.
+(ver `infra/upload_data.py`) y publica los notebooks NB_* (ver `infra/publish_notebooks.py`),
+salvo que se pase `--skip-upload` / `--skip-notebooks`. DRY-RUN por defecto; usa `--apply` para
+ejecutar de verdad.
 
     python infra/deploy.py                 # muestra el plan (no cambia nada)
     python infra/deploy.py --apply         # ejecuta (abre login interactivo)
     python infra/deploy.py --design collapsed --apply
-    python infra/deploy.py --apply --skip-upload   # solo infraestructura, sin subir datos
+    python infra/deploy.py --apply --skip-upload --skip-notebooks   # solo infraestructura
 
 Variables (.env):  FABRIC_TENANT_ID, FABRIC_CAPACITY_ID
 """
@@ -24,6 +25,7 @@ import re
 from pathlib import Path
 
 from fabric_client import FabricClient
+from publish_notebooks import publish_notebooks
 from upload_data import upload_landing_data
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -47,6 +49,8 @@ def main() -> None:
                     help="Sobrescribe el diseño seleccionado en workspaces.json.")
     ap.add_argument("--skip-upload", action="store_true",
                     help="No subir config/ingestion + data/ a LH_Landing/Files tras el despliegue.")
+    ap.add_argument("--skip-notebooks", action="store_true",
+                    help="No publicar los notebooks NB_* tras el despliegue.")
     args = ap.parse_args()
 
     load_env()
@@ -95,8 +99,14 @@ def main() -> None:
         print("\n-- Subiendo config/ingestion + data/ a LH_Landing/Files --")
         upload_landing_data(client, cfg, design_key)
 
+    # 5) Publicar los notebooks NB_* (Bronze -> Silver -> Gold)
+    if not args.skip_notebooks:
+        print("\n-- Publicando notebooks NB_* --")
+        workspace_ids = dict(zip((ws["name"] for ws in design["workspaces"]), ws_ids))
+        publish_notebooks(client, cfg, design_key, workspace_ids)
+
     print("\nHecho." if args.apply else "\nPlan mostrado (dry-run). Repite con --apply para ejecutar.")
-    print("Siguiente paso: ejecutar los notebooks NB_* (Bronze -> Silver -> Gold).")
+    print("Siguiente paso: ejecutar los notebooks (portal de Fabric o `fab notebook run`).")
 
 
 if __name__ == "__main__":
