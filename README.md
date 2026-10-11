@@ -102,9 +102,46 @@ Cada demo es autocontenida — no comparten código ni dependencias entre sí:
 fabric-demos/
 ├── fabric-ai-functions/          # Notebook + scripts PowerShell + datos + config propia
 ├── fabric-data-agent/            # Notebooks + scripts PowerShell + datos + config propia
+├── fabric-medallion-scaffold/    # Infra Python (REST API) + notebooks PySpark + runner local + datos
 ├── frasohome-fabric-rag-demo/    # App React + SQL + User Data Functions + venv + requirements.txt
-└── fabric-product-intelligence/  # CLI Python + notebooks + SQL + Fabric App + venv propia
+├── fabric-product-intelligence/  # CLI Python + notebooks + SQL + Fabric App + datos + venv propia
+├── data-sources.json             # De dónde sale cada CSV de las demos (frasohome-demos)
+├── scripts/                      # Sincronización de datos y comprobaciones de CI
+└── .github/workflows/            # CI de todas las demos y despliegue de la UDF de la demo RAG
 ```
 
 Sigue el README de cada carpeta para desplegarla: cada una documenta sus propios requisitos previos,
 variables de entorno/configuración (`config.example.json` o `.env.example`) y pasos de limpieza.
+
+## Datos de FraSoHome
+
+Los CSV de cada demo son copias de los datos canónicos de FraSoHome, que viven en
+[antoniosql/frasohome-demos](https://github.com/antoniosql/frasohome-demos) (carpeta `datos/`).
+Cada demo mantiene su copia para poder desplegarse sola; [`data-sources.json`](data-sources.json)
+indica de qué fichero original sale cada una.
+
+```bash
+python scripts/sync_frasohome_data.py --check   # ¿siguen iguales que en frasohome-demos?
+python scripts/sync_frasohome_data.py           # actualiza las copias desde GitHub
+python scripts/sync_frasohome_data.py --source ../frasohome-demos   # o desde un clon local
+```
+
+Si cambias un dato, cámbialo primero en `frasohome-demos` y sincroniza aquí.
+
+## Integración continua
+
+El workflow [`ci.yml`](.github/workflows/ci.yml) se ejecuta en cada push y pull request, y una vez a la
+semana para detectar demos que se rompen por cambios externos. No necesita acceso a Fabric:
+
+| Comprobación | Qué valida |
+| --- | --- |
+| Datos | Las copias de los CSV coinciden con `frasohome-demos` |
+| Medallion scaffold | Tests, medallón local en pandas y plan de despliegue en *dry-run* |
+| Product Intelligence | Tests y validación del dataset (`check-prereqs`) |
+| Apps React | `npm ci` y build de las Fabric Apps de RAG y Product Intelligence |
+| PowerShell | Todos los `.ps1`/`.psm1` se analizan sin errores de sintaxis |
+| Notebooks y Python | Todos los `.ipynb` son válidos y todo el Python compila |
+
+El despliegue real en Fabric sigue siendo manual (cada demo tiene su script). La UDF de la demo RAG
+se puede desplegar desde *Actions → RAG demo · Desplegar UDF en Fabric* si configuras los secretos
+que indica [`rag-deploy-udf.yml`](.github/workflows/rag-deploy-udf.yml).
