@@ -1,0 +1,106 @@
+# Comprobaciones de todas las demos. No necesita acceso a Fabric ni secretos.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "17 6 * * 1"   # lunes por la mañana: detecta roturas por dependencias o datos externos
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  datos:
+    name: Datos sincronizados con frasohome-demos
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: python scripts/sync_frasohome_data.py --check
+
+  medallion:
+    name: Medallion scaffold
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: fabric-medallion-scaffold
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install "pandas>=2.0" "pyarrow>=14.0" "requests>=2.31" "azure-identity>=1.15" "pytest>=8.0"
+      - name: Tests
+        run: python -m pytest -q
+      - name: Medallón local (pandas, sin tenant)
+        run: python src/local/run_medallion_local.py
+      - name: Plan de despliegue (dry-run)
+        run: python infra/deploy.py
+
+  product-intelligence:
+    name: Product Intelligence
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: fabric-product-intelligence
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - name: Tests
+        run: python -m pytest -q
+      - name: Validación del dataset
+        run: python -m fabric_sessions check-prereqs
+
+  apps:
+    name: Build de las Fabric Apps
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        app:
+          - frasohome-fabric-rag-demo/app/frasohome-returnops-app
+          - fabric-product-intelligence/app
+    defaults:
+      run:
+        working-directory: ${{ matrix.app }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: ${{ matrix.app }}/package-lock.json
+      - run: npm ci --no-audit --no-fund
+      - run: npm run build
+
+  estatico:
+    name: PowerShell, notebooks y Python
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Sintaxis PowerShell
+        shell: pwsh
+        run: ./scripts/ci/Test-PowerShellSyntax.ps1
+      - name: Notebooks válidos
+        run: |
+          pip install nbformat
+          python scripts/ci/validate_notebooks.py
+      - name: Python compila
+        run: python -m compileall -q -x '(node_modules|\.venv)' .

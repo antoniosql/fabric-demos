@@ -1,20 +1,29 @@
-name: Deploy Fabric UDF item
+# Despliega la definición de la User Data Function de la demo RAG (frasohome-fabric-rag-demo).
+# GitHub solo ejecuta workflows en .github/workflows de la raíz del repositorio,
+# por eso vive aquí y trabaja dentro de la carpeta de la demo.
+name: "RAG demo · Desplegar UDF en Fabric"
 
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   deploy-udf-definition:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frasohome-fabric-rag-demo
     env:
       FAB_TENANT_ID: ${{ secrets.FABRIC_TENANT_ID }}
       FAB_SPN_CLIENT_ID: ${{ secrets.FAB_SPN_CLIENT_ID }}
       FAB_SPN_CLIENT_SECRET: ${{ secrets.FAB_SPN_CLIENT_SECRET }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: "3.11"
       - name: Install Fabric CLI
         run: pip install --upgrade ms-fabric-cli
       - name: Configure Fabric CLI auth
@@ -26,6 +35,5 @@ jobs:
             --sql-database-item-id "${{ secrets.FABRIC_SQL_DATABASE_ITEM_ID }}" \
             --sql-alias "${{ secrets.FABRIC_UDF_SQL_ALIAS }}"
       - name: Deploy item definition
-        run: |
-          cd fabric/items
-          fab deploy --config config.yml
+        working-directory: frasohome-fabric-rag-demo/fabric/items
+        run: fab deploy --config config.yml

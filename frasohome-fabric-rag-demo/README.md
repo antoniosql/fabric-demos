@@ -188,9 +188,10 @@ Más detalle y variantes con certificado o federated credentials: [Autenticació
 ├─ fabric/items/                      # Item definition para fab deploy
 ├─ scripts/                           # Automatización local
 ├─ tools/                             # Utilidades de test y embeddings demo
-├─ docs/                              # Guía de despliegue, arquitectura y guion de demo
-└─ .github/workflows/                 # Pipeline ejemplo para items Fabric
+└─ docs/                              # Guía de despliegue, arquitectura y guion de demo
 ```
+
+El pipeline de ejemplo para desplegar la UDF está en la raíz del repositorio: [`.github/workflows/rag-deploy-udf.yml`](../.github/workflows/rag-deploy-udf.yml) (se lanza a mano desde la pestaña *Actions*).
 
 ## Entorno Python local
 

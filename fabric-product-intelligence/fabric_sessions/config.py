@@ -9,6 +9,8 @@ from dotenv import load_dotenv
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 STATE_PATH = REPO_ROOT / "work" / "generated" / "fabric_state.json"
+# Copia versionada de los CSV de FraSoHome (sincronizada con antoniosql/frasohome-demos).
+DEFAULT_SOURCE_DATA_PATH = REPO_ROOT / "data" / "retail_omnicanal"
 
 
 @dataclass(frozen=True)
@@ -35,6 +37,14 @@ def _get(name: str, default: str = "") -> str:
     return os.environ.get(name, default).strip()
 
 
+def _resolve_data_path(value: str) -> Path:
+    """Ruta de los CSV: la de SOURCE_DATA_PATH si se indica (relativa a la demo) o la copia del repo."""
+    if not value:
+        return DEFAULT_SOURCE_DATA_PATH
+    path = Path(value)
+    return path if path.is_absolute() else REPO_ROOT / path
+
+
 def load_settings(env_path: Path | None = None) -> Settings:
     load_dotenv(env_path or REPO_ROOT / ".env")
     return Settings(
@@ -46,12 +56,7 @@ def load_settings(env_path: Path | None = None) -> Settings:
         fabric_semantic_model_name=_get("FABRIC_SEMANTIC_MODEL_NAME", "sm_retail_sessions"),
         fabric_data_agent_name=_get("FABRIC_DATA_AGENT_NAME", "agent_retail_business"),
         fabric_app_name=_get("FABRIC_APP_NAME", "app_retail_sessions"),
-        source_data_path=Path(
-            _get(
-                "SOURCE_DATA_PATH",
-                r"C:\Users\AntonioSotoRodríguez\OneDrive\Materiales\FraSoHome\01_datos\retail_omnicanal\raw_csv",
-            )
-        ),
+        source_data_path=_resolve_data_path(_get("SOURCE_DATA_PATH")),
         raw_files_path=_get("RAW_FILES_PATH", "Files/raw"),
         quality_score_threshold=float(_get("QUALITY_SCORE_THRESHOLD", "95")),
         ml_target_days=int(_get("ML_TARGET_DAYS", "60")),

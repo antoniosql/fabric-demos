@@ -52,3 +52,7 @@ app/**/.env.local
 *.zip
 embeddings.preview.json
 database/generated/
+
+# Estado de despliegue (IDs de tenant, workspace e ítems): se genera en cada despliegue
+fabric/items/*/definition.json
+app/**/rayfin/.deployments.json
