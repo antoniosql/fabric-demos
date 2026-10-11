@@ -4,7 +4,7 @@
 
 - [ ] `.env` contiene `FABRIC_TENANT_ID` y `FABRIC_CAPACITY_ID`.
 - [ ] Usuario interactivo tiene permisos sobre la capacidad Fabric.
-- [ ] Los 11 CSV existen en `SOURCE_DATA_PATH`.
+- [ ] Los 11 CSV existen en `data/retail_omnicanal` (o en `SOURCE_DATA_PATH`, si lo has definido).
 - [ ] Workspace creado y asignado a la capacidad.
 - [ ] `python -m fabric_sessions deploy` sube notebooks a la carpeta `Fabric Workspace Notebooks`.
 - [ ] `python -m fabric_sessions upload-data` sube ficheros raw y ejecuta `00_ingest_raw`.

@@ -1,0 +1,135 @@
+{
+  "$comment": "Copias locales de los datos de FraSoHome. La fuente de verdad es antoniosql/frasohome-demos; sincroniza con scripts/sync_frasohome_data.py.",
+  "source_repo": "antoniosql/frasohome-demos",
+  "source_ref": "main",
+  "files": [
+    {
+      "target": "fabric-ai-functions/data/feedback_clientes.csv",
+      "source": "datos/marketing_precision/raw_csv/feedback_clientes.csv"
+    },
+    {
+      "target": "fabric-ai-functions/data/tickets_atencion_cliente.csv",
+      "source": "datos/marketing_precision/raw_csv/tickets_atencion_cliente.csv"
+    },
+    {
+      "target": "fabric-data-agent/data/FS_Alertas_Stockout.csv",
+      "source": "datos/rag_copilot_studio/structured_csv/FS_Alertas_Stockout.csv"
+    },
+    {
+      "target": "fabric-data-agent/data/FS_Clientes.csv",
+      "source": "datos/rag_copilot_studio/structured_csv/FS_Clientes.csv"
+    },
+    {
+      "target": "fabric-data-agent/data/FS_DevolucionesFact.csv",
+      "source": "datos/rag_copilot_studio/structured_csv/FS_DevolucionesFact.csv"
+    },
+    {
+      "target": "fabric-data-agent/data/FS_Productos.csv",
+      "source": "datos/rag_copilot_studio/structured_csv/FS_Productos.csv"
+    },
+    {
+      "target": "fabric-data-agent/data/FS_StockDiario.csv",
+      "source": "datos/rag_copilot_studio/structured_csv/FS_StockDiario.csv"
+    },
+    {
+      "target": "fabric-data-agent/data/FS_TestSet_Metrico_Mixto.csv",
+      "source": "datos/rag_copilot_studio/test_sets/FS_TestSet_Metrico_Mixto.csv"
+    },
+    {
+      "target": "fabric-data-agent/data/FS_Tiendas.csv",
+      "source": "datos/rag_copilot_studio/structured_csv/FS_Tiendas.csv"
+    },
+    {
+      "target": "fabric-data-agent/data/FS_VentasResumenDiario.csv",
+      "source": "datos/rag_copilot_studio/structured_csv/FS_VentasResumenDiario.csv"
+    },
+    {
+      "target": "fabric-medallion-scaffold/data/retail_omnicanal/crm.csv",
+      "source": "datos/retail_omnicanal/raw_csv/crm.csv"
+    },
+    {
+      "target": "fabric-medallion-scaffold/data/retail_omnicanal/devoluciones_online.csv",
+      "source": "datos/retail_omnicanal/raw_csv/devoluciones_online.csv"
+    },
+    {
+      "target": "fabric-medallion-scaffold/data/retail_omnicanal/devoluciones_tienda.csv",
+      "source": "datos/retail_omnicanal/raw_csv/devoluciones_tienda.csv"
+    },
+    {
+      "target": "fabric-medallion-scaffold/data/retail_omnicanal/fact_transacciones.csv",
+      "source": "datos/retail_omnicanal/raw_csv/fact_transacciones.csv"
+    },
+    {
+      "target": "fabric-medallion-scaffold/data/retail_omnicanal/lineas_pedido.csv",
+      "source": "datos/retail_omnicanal/raw_csv/lineas_pedido.csv"
+    },
+    {
+      "target": "fabric-medallion-scaffold/data/retail_omnicanal/pagos_tienda.csv",
+      "source": "datos/retail_omnicanal/raw_csv/pagos_tienda.csv"
+    },
+    {
+      "target": "fabric-medallion-scaffold/data/retail_omnicanal/pedidos.csv",
+      "source": "datos/retail_omnicanal/raw_csv/pedidos.csv"
+    },
+    {
+      "target": "fabric-medallion-scaffold/data/retail_omnicanal/productos.csv",
+      "source": "datos/retail_omnicanal/raw_csv/productos.csv"
+    },
+    {
+      "target": "fabric-medallion-scaffold/data/retail_omnicanal/stock_diario.csv",
+      "source": "datos/retail_omnicanal/raw_csv/stock_diario.csv"
+    },
+    {
+      "target": "fabric-medallion-scaffold/data/retail_omnicanal/tiendas.csv",
+      "source": "datos/retail_omnicanal/raw_csv/tiendas.csv"
+    },
+    {
+      "target": "fabric-medallion-scaffold/data/retail_omnicanal/ventas_pos.csv",
+      "source": "datos/retail_omnicanal/raw_csv/ventas_pos.csv"
+    },
+    {
+      "target": "fabric-product-intelligence/data/retail_omnicanal/crm.csv",
+      "source": "datos/retail_omnicanal/raw_csv/crm.csv"
+    },
+    {
+      "target": "fabric-product-intelligence/data/retail_omnicanal/devoluciones_online.csv",
+      "source": "datos/retail_omnicanal/raw_csv/devoluciones_online.csv"
+    },
+    {
+      "target": "fabric-product-intelligence/data/retail_omnicanal/devoluciones_tienda.csv",
+      "source": "datos/retail_omnicanal/raw_csv/devoluciones_tienda.csv"
+    },
+    {
+      "target": "fabric-product-intelligence/data/retail_omnicanal/fact_transacciones.csv",
+      "source": "datos/retail_omnicanal/raw_csv/fact_transacciones.csv"
+    },
+    {
+      "target": "fabric-product-intelligence/data/retail_omnicanal/lineas_pedido.csv",
+      "source": "datos/retail_omnicanal/raw_csv/lineas_pedido.csv"
+    },
+    {
+      "target": "fabric-product-intelligence/data/retail_omnicanal/pagos_tienda.csv",
+      "source": "datos/retail_omnicanal/raw_csv/pagos_tienda.csv"
+    },
+    {
+      "target": "fabric-product-intelligence/data/retail_omnicanal/pedidos.csv",
+      "source": "datos/retail_omnicanal/raw_csv/pedidos.csv"
+    },
+    {
+      "target": "fabric-product-intelligence/data/retail_omnicanal/productos.csv",
+      "source": "datos/retail_omnicanal/raw_csv/productos.csv"
+    },
+    {
+      "target": "fabric-product-intelligence/data/retail_omnicanal/stock_diario.csv",
+      "source": "datos/retail_omnicanal/raw_csv/stock_diario.csv"
+    },
+    {
+      "target": "fabric-product-intelligence/data/retail_omnicanal/tiendas.csv",
+      "source": "datos/retail_omnicanal/raw_csv/tiendas.csv"
+    },
+    {
+      "target": "fabric-product-intelligence/data/retail_omnicanal/ventas_pos.csv",
+      "source": "datos/retail_omnicanal/raw_csv/ventas_pos.csv"
+    }
+  ]
+}

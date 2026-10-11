@@ -1,0 +1,104 @@
+customer_id,nombre,apellidos,email,telefono,fecha_alta_programa,tier_fidelizacion,puntos_acumulados,fecha_nacimiento,genero,ciudad,provincia,codigo_postal,pais,consentimiento_marketing,estado_cliente,fecha_baja,origen_alta,canal_preferido_declarado,ultima_actualizacion
+C0001,Bruno,PérezFernández,,+34 662 454 433,23/12/2018,Bronce,3590,25/01/1966,,Sevilla,Sevilla,41001,ES,no,Bloqueado,2024-11-20,,Online,28/06/25 11:38
+C0002,Bárbara,MartínezRubio,barbara.martinezrubio@example.com,627112365,07/07/2018,Platino,2241,1992-11-03,F,Gijón,Asturias,33201,ES,1,Inactivo,2025-02-16,tienda,Mixto,2025-01-08 01:51:20
+C0003,Rita,NavarroDíaz,rita.navarrodiaz@example.com,,2024-04-18,Plata,2.073,,F,Córdoba,Córdoba,14001,ES,YES,Activo,,,Mixto,2025-09-28 00:43:46
+C0004,Moisés,TorresPérez,moises.torresperez@example.com,,2023/09/11,Oro,2073,,No binario,Palma,Illes Balears,07001,ES,0,Activo,,importación,Mixto,02/04/25 07:56
+C0005,Laura,OrtizGómez,laura.ortizgomez@example.com,707103679,2020/05/17,VIP,6974,1986-09-08,M,Palma,Illes Balears,07001,ES,N,Activo,,online,Mixto,2025-02-17 07:17:42
+C0006,Ignacio,MarínSuárez,IGNACIO.MARINSUAREZ@EXAMPLE.COM,,2022-10-01,Oro,4300,1960-05-15,M,Sevilla,Sevilla,41001,ES,0,Activo,,online,Online,2025-04-06 13:31:30
+C0007,Bárbara,GarcíaRamos,barbara.garciaramos@example.com,615-698-989,26/03/2024,Bronce,1696,1959-01-17,F,Granada,Granada,18001,ES,N,Activo,,tienda,,2025-02-19 07:37:38
+C0008,Rita,CastroNavarro,rita.castronavarro@example.com,+34 723 020 082,2025-03-28,Bronce,3704,2005-04-12,,Murcia,Murcia,30001,ES,1,Bloqueado,2025-12-19,importación,Online,2025-03-09 03:56:06
+C0009,Adrián,TorresDíaz,adrian.torresdiaz@example,+34 670 318 081,14/01/2019,Platino,2.998,,F,Palma,Illes Balears,07001,ES,1,Activo,,tienda,,02/03/25 09:23
+C0010,Alejandro,DíazMuñoz,alejandro.diazmunoz@example.com,606653539,27 de Agosto de 2020,Oro,323,1959-12-04,M,Granada,Granada,18001,ES,0,Inactivo,2025-07-31,tienda,Tienda,2025-01-22 06:25:21
+C0011,Verónica,DelgadoGil,VERONICA.DELGADOGIL@EXAMPLE.COM,684-202-113,02/01/2020,Bronce,1006,,,Madrid,Madrid,28013,ES,,Bloqueado,07/11/2024,online,Mixto,2025-09-10 21:26:20
+C0012,Mónica,RamosRuiz,monica.ramosruiz@example.com,N/A,03/07/2024,Plata,3159,,F,Madrid,Madrid,28013,ES,sí,Inactivo,,tienda,Online,2025-01-08 15:39:54
+C0013,Ignacio,HernándezRamos,ignacio.hernandezramos@example.com,N/A,13 de Marzo de 2019,Plata,6547,11/10/1984,,Madrid,Madrid,28013,ES,1,Activo,,tienda,,2025-08-09 07:53:40
+C0014,Pablo,RomeroBlanco,pablo.romeroblanco@example.com,+34 709 414 123,2019-09-10,Platino,2087,28/01/1993,,Vigo,Pontevedra,36201,ES,YES,Activo,,,,2025-09-24 23:34:51
+C0015,Eva,OrtegaFernández,eva.ortegafernandez@example.com,N/A,2024-12-23,Plata,1587,09/07/1970,,Zaragoza,Zaragoza,50001,España,sí,Activo,,online,Mixto,2025-04-21 02:49:41
+C0016,Sara,HernándezFernández,sara.hernandezfernandez@example.com,792832551,2025-11-05,Plata,2.721,13/07/1992,F,Sevilla,Sevilla,41001,,N,Inactivo,9 de Septiembre de 2024,online,Online,2025-06-18 13:42:23
+C0017,Mónica,OrtegaSánchez,monica.ortegasanchez@example.com,72O787873,2023/11/08,Oro,1507,1997-08-19,,Córdoba,Córdoba,14001,ES,no,Activo,,importación,Tienda,2025-08-07 11:51:16
+C0018,Inés,RubioGarcía,ines.rubiogarcia@example.com,+34 678 983 262,2025-09-29,Plata,1976,1996-09-11,,Granada,Granada,18001,ES,sí,Bloqueado,05/09/2023,importación,Online,2025-12-18 22:11:12
+C0019,Renée,CastroIglesias,renee.castroiglesias@example.com,,2025-12-10,,-19,1952-05-28,M,Murcia,Murcia,30001,ES,YES,Activo,,online,Tienda,26/03/25 18:19
+C0020,Ramón,IglesiasNúñez,ramon.iglesiasnunez@example.com,655777640,2022-10-23,Oro,960,,,Córdoba,Córdoba,14001,ES,0,Bloqueado,13/08/2024,,Online,2025-11-08 08:50:50
+C0021,Samuel,PérezOrtiz,samuel.perezortiz@example.com,717884357,11 de Noviembre de 2019,Oro,4455,,M,Bilbao,Bizkaia,,ES,YES,Bloqueado,2023-02-22,online,Mixto,2025-10-02 05:30:33
+C0022,Susana,SerranoOrtega,susana.serranoortega@example.com,0034 747665435,2021-09-12,Bronce,802,1949-11-28,,Vigo,Pontevedra,36201,ES,S,Inactivo,17/10/2025,online,Tienda,2025-05-18 04:59:18
+C0023,Ariadna,IglesiasMuñoz,ariadna.iglesiasmunoz@example.com,79O361740,2019-04-10,Oro,709,17/10/1961,F,Granada,Granada,18001,ES,N,Bloqueado,2025-04-29,importación,Online,2025-05-24 09:53:37
+C0024,Nerea,OrtizSuárez,nerea.ortizsuarez@example.com,0034 685409807,2025-10-27,Platino,2900,17/03/1951,No binario,Córdoba,Córdoba,14001,ES,N,Activo,,online,Tienda,2025-07-28 20:09:04
+C0025,Yago,GilMartínez,,+34 769 425 995,22 de Junio de 2023,Oro,4220,2004-02-15,No binario,Alicante,Alicante,03001,ES,S,Activo,,online,Mixto,2025-06-12 13:09:15
+C0026,Álvaro,RuizMartínez,alvaro.ruizmartinez@example.com,724890469,04/03/2023,,2846,1976-12-09,No binario,San Sebastián,Gipuzkoa,20003,ES,,Inactivo,20/02/2025,importación,Mixto,2025-01-27 21:25:17
+C0027,Marta,IglesiasOrtega,marta.iglesiasortega@example.com,782765647,2025-02-20,plata,2282,03/03/1995,No binario,Murcia,Murcia,30001,ES,YES,Inactivo,2025-01-19,importación,Tienda,2025-05-27 15:51:18
+C0028,David,MartínMoreno,david.martinmoreno@example.com,670373417,2018-02-27,Oro,1.961,1984-06-20,M,Pamplona,Navarra,31001,ES,0,Bloqueado,2023-08-27,online,Mixto,2025-08-04 03:15:56
+C0029,John,OrtizRamírez,john.ortizramirez@example.com,697357793,2021-02-19,Oro,1709,1956-08-03,,Sevilla,Sevilla,41001,ES,S,Activo,,tienda,Tienda,2025-10-07 02:53:48
+C0030,Claudia,TorresMartín,claudia.torresmartin@example.com,0034 663869278,2019-12-16,Bronce,5156,1979-08-25,,Bilbao,Bizkaia,48001,ES,N,Activo,,online,Mixto,21/08/25 00:03
+C0031,Diana,BlancoLópez,diana.blancolopez@example.com,735-707-833,25/02/2024,Bronce,3181,2004-04-14,F,Bilbao,Bizkaia,48001,ES,YES,Bloqueado,,,,2025-12-04 10:27:20
+C0032,Hugo,LópezMartínez,hugo.lopezmartinez@example.com,0034 778600985,2024/07/30,N/A,1825,1985-09-07,,Gijón,Asturias,33201,ES,,Activo,,importación,Online,19/05/25 07:51
+C0033,Pilar,RubioFernández,pilar.rubiofernandez@example.com,+34 776 454 606,2021/06/19,Plata,1404,1978-06-06,No binario,Madrid,Madrid,28013,ES,N,Activo,,online,Online,2025-05-15 21:27:31
+C0034,Marina,PérezDomínguez,marina.perezdominguez@example,636-838-686,2020-06-22,Oro ,-48,18/09/1963,No binario,San Sebastián,Gipuzkoa,20003,ES,N,Inactivo,2023-02-08,online,Mixto,2025-10-14 18:25:45
+C0035,Daniel,JiménezNúñez,,691137403,2024-08-09,Plata,5075,1971-12-27,F,Granada,Granada,18001,ES,,Activo,,tienda,Tienda,05/10/25 20:04
+C0036,Rita,SanzBlanco,,0034 681287741,2021-07-18,BRONCE,"4,771",21/02/1967,M,Toledo,Toledo,45001,ES,1,Activo,,online,,2025-10-21 06:20:38
+C0037,Raúl,TorresMartínez,raul.torresmartinez@example.com,0034 690829739,2024-11-02,Bronce,1.201,,,Córdoba,Córdoba,14001,ES,sí,Bloqueado,2023-11-04,tienda,Mixto,2025-05-21 22:42:25
+C0038,Gabriel,RamosTorres,gabriel.ramostorres@example.com,730-532-356,2023-09-14,Plata,1947,1996-09-02,,La Coruña,A Coruña,15001,ES,,Activo,,tienda,,2025-01-14 11:43:46
+C0039,John,BlancoMoreno,john.blancomoreno@example.com,702-508-101,2025/08/10,Platino,1682,1990-08-28,M,San Sebastián,Gipuzkoa,20003,ES,1,Activo,,tienda,Mixto,2025-08-17 04:53:27
+C0040,Verónica,FernándezRamírez,veronica.fernandezramirez@example.com,+34 677 008 601,10 de Febrero de 2019,,2157,,M,Valencia,Valencia,4600,ES,S,Bloqueado,2023-11-03,,Online,2025-05-08 09:07:03
+C0041,Laura,Pérez Ortega,laura.perezortega@example.com,N/A,07/01/2018,Oro,,1981-09-18,,Murcia,Murcia,30001,ES,S,Inactivo,2023-02-03,online,Mixto,2025-04-24 21:40:06
+C0042,Javier,DomínguezOrtiz,,722857426,17 de Enero de 2020,Plata,,1951-06-10,,Córdoba,Córdoba,14001,ES,0,Bloqueado,2024-01-27,online,Mixto,2025-05-04 11:27:56
+C0043,Iván,RuizOrtega,ivan.ruizortega@example.com,627-540-917,2018-11-20,Oro,4426,28/12/1951,,Palma,Illes Balears,07001,ES,YES,Bloqueado,2023-04-28,,Mixto,26/09/25 23:43
+C0044,Arturo,GonzálezGómez,arturo.gonzalezgomez@example.com,754060954,21/09/2019,Oro,6153,13/09/1980,M,Alicante,Alicante,03001,ES,sí,Bloqueado,2024/03/15,importación,,2025-04-04 04:54:04
+C0045,Diego,NavarroDomínguez,diego.navarrodominguez@example.com,+34 653 950 256,08/11/2025,silver,99999,20/03/1984,M,Valladolid,Valladolid,47001,ES,sí,Inactivo,2025-12-12,,Online,2025-03-11 20:04:28
+C0046,Said,RubioSanz,said.rubiosanz@example.com,739-290-564,2021-05-30,plata,1447,1983-02-17,,Barcelona,Barcelona,08002,ES,,Inactivo,22 de Noviembre de 2024,online,Online,2025-02-02 20:49:36
+C0047,Mateo,FernándezOrtega,mateo.fernandezortega@example.com,+34 711 567 612,2025-09-06,Plata,2431,05/07/1971,,Valladolid,Valladolid,47001,ES,1,Activo,,,Online,2025-05-15 07:09:06
+C0048,Mónica,MuñozJiménez,monica.munozjimenez@example.com,+34 705 560 145,2023-10-10,Plata,6.918,2005-11-22,,Málaga,Málaga,29001,ES,S,Activo,,importación,Mixto,2025-07-12 01:25:03
+C0049,David,RamosDelgado,david.ramosdelgado@example.com,638726474,2019-02-01,Platino,2672,20/03/1978,F,Toledo,Toledo,45001,ES,no,Bloqueado,04/09/2024,,Mixto,2025-08-27 00:23:21
+C0050,Xavier,FernándezIglesias,xavier.fernandeziglesias@example.com,702056566,2024-07-18,Plata,,1956-04-01,,Santander,Cantabria,39001,ES,,Activo,,,Online,2025-12-05 16:13:35
+C0051,Sofía,RuizMolina,sofia.ruizmolina@example.com,677578957,2020-10-06,Platino,1964,1956-10-22,,Palma,Illes Balears,07001,ES,no,Inactivo,2024/08/12,online,Mixto,2025-08-21 08:47:30
+C0052,Gabriel,RomeroGómez,gabriel.romerogomez@example.com,78O856080,2025-02-26,BRONCE,2098,1979-08-21,No binario,Barcelona,Barcelona,08002,ES,no,Bloqueado,03/07/2023,tienda,Online,2025-03-14 05:59:58
+C0053,NURIA,AlonsoGonzález,nuria.alonsogonzalez@example.com,67O239146,2024-02-04,Bronce,3257,,No binario,Vigo,Pontevedra,36201,,sí,Inactivo,10 de Abril de 2025,importación,Online,2025-07-22 03:11:08
+C0054,Tomás,MuñozBlanco,tomas.munozblanco@example.com,64O873659,2025-05-01,Oro,1238,1957-08-05,,Santander,Cantabria,,ES,no,Activo,,tienda,Tienda,2025-11-25 19:55:50
+C0055,David,MarínPérez,david.marinperez@example.com,73O002840,2023-11-02,Bronce,"1,648",2000-05-24,No binario,Santander,Cantabria,39001,ES,S,Inactivo,2023-04-03,online,Online,2025-02-16 01:18:26
+C0056,Carolina,RamírezVázquez,carolina.ramirezvazquez@example.com,+34 744 219 226,3 de Junio de 2025,Plata,4.724,,No binario,Alicante,Alicante,03001,ES,0,Activo,,tienda,,05/06/25 08:12
+C0057,Joaquín,RamírezNúñez,joaquin.ramireznunez@example.com,+34 798 787 482,2024-08-29,Platino,"3,192",27/04/1967,,Málaga,Málaga,,ES,no,Bloqueado,2023/10/21,tienda,,09/05/25 01:35
+C0058,SAMUEL,RubioOrtega,samuel.rubioortega@example.com,66O684404,2022-09-02,Oro ,"2,692",1975-09-17,F,Alicante,Alicante,03001,ES,sí,Inactivo,2023/06/11,importación,Online,2025-09-24 06:03:17
+C0059,David,HernándezSanz,david..hernandezsanz@example.com,66O120611,2020/05/17,Plata,4884,1990-06-10,,Vigo,Pontevedra,36201,ES,0,Activo,,,Mixto,2025-04-12 10:26:02
+C0060,Ainhoa,RubioSanz,ainhoa.rubiosanz@example.com,731-163-226,2020-10-03,,1372,21/09/1960,,Vigo,Pontevedra,36201,España,S,Activo,,online,Online,2025-07-05 20:14:04
+C0061,Guillermo,MolinaVázquez,,67O750155,20/12/2023,Oro,,26/07/1992,F,San Sebastián,Gipuzkoa,2000,ES,N,Activo,,tienda,Tienda,2025-10-17 08:52:22
+C0062,Lola,MolinaMarín,lola.molinamarin@example.com,+34 602 536 760,2018-05-10,Bronce,1917,1955-09-02,,Valencia,Valencia,46001,ES,0,Bloqueado,02/06/2023,importación,Online,2025-03-28 10:01:13
+C0063,Joel,LópezGutiérrez,joel.lopezgutierrez@example.com,734430556,22 de Abril de 2022,Oro,,2002-02-11,,Alicante,Alicante,03001,ES,YES,Bloqueado,13 de Julio de 2024,,,2025-04-12 17:24:27
+C0064,Moisés,NúñezAlonso,moises.nunezalonsoexample.com,696-614-616,24/09/2019,plata,3118,1950-02-12,,Bilbao,Bizkaia,48001,ES,no,Activo,,online,Tienda,2025-10-17 05:43:24
+C0065,Patricia,LópezJiménez,patricia.lopezjimenez@example.com,+34 601 816 601,2025-01-04,VIP,3040,2001-11-20,No binario,Valencia,Valencia,46001,ES,,Activo,,importación,Mixto,2025-12-23 20:31:36
+C0066,Joel,VázquezPérez,joel.vazquezperez@example.com,618564638,2023/03/06,N/A,638,1976-07-03,,Zaragoza,Zaragoza,50001,ES,0,Activo,,,Online,23/06/25 17:38
+C0067,Leire,DomínguezJiménez,leire.dominguezjimenez@example.com,749785216,2022-10-30,Plata,1770,1971-01-16,,Alicante,Alicante,03001,ES,N,Activo,,tienda,Mixto,2025-05-11 14:50:13
+C0068,Xavier,BlancoNavarro,xavier.blanconavarro@example.com,74O152291,5 de Agosto de 2025,Platino,2200,01/07/1976,F,Madrid,Madrid,28013,ES,0,Activo,,tienda,Mixto,2025-12-26 02:36:06
+C0069,Irene,MolinaPérez,irene.molinaperez@example.com,+34 780 815 133,2024-08-01,Oro,3366,1956-03-12,,Vigo,Pontevedra,36201,ES,YES,Activo,,,Tienda,2025-08-21 17:44:58
+C0070,Marcos,AlonsoGómez,marcos.alonsogomez@example.com,78O796863,10 de Marzo de 2020,Platino,3.032,1967-01-09,No binario,Gijón,Asturias,33201,ES,,Activo,,,Online,04/10/25 08:49
+C0071,Javier,BlancoOrtiz,javier..blancoortiz@example.com,+34 663 604 723,2023-01-17,Oro,2358,2001-04-26,No binario,Murcia,Murcia,30001,ES,1,Bloqueado,2023-12-11,importación,Mixto,09/10/25 16:57
+C0072,Nicolás,RodríguezRomero,nicolas.rodriguezromero@example.com,,10 de Octubre de 2020,Platino,321,1966-12-12,,Murcia,Murcia,30001,ES,no,Activo,,online,,2025-11-22 22:22:54
+C0073,Samuel,DíazOrtega,SAMUEL.DIAZORTEGA@EXAMPLE.COM,604370492,8 de Noviembre de 2021,Plata,-28,06/05/1990,No binario,Santander,Cantabria,39001,ES,N,Bloqueado,31/01/2025,tienda,Online,2025-07-21 09:46:44
+C0074,Elena,GarcíaDíaz,elena.garciadiaz@example.com,N/A,2025-10-20,Platino,2618,21/03/1973,F,Córdoba,Córdoba,,ES,N,Activo,,tienda,,2025-06-24 06:40:47
+C0075,Beatriz,MartínezSánchez,beatriz.martinezsanchez@example.com,,2019-07-27,Bronce,10946,1996-07-10,F,Gijón,Asturias,33201,ES,0,Activo,,online,Online,11/06/25 04:24
+C0076,NOELIA,SuárezLópez,noelia.suarezlopez@example.com,0034 788390858,2022-06-19,Plata,2145,1983-06-13,M,Barcelona,Barcelona,08002,ES,sí,Activo,,online,Tienda,2025-02-14 03:29:39
+C0077,BRENDA,RuizPérez,brenda.ruizperez@example.com,631-690-609,2020-11-27,BRONCE,3130,1989-02-16,No binario,San Sebastián,Gipuzkoa,20003,España,S,Inactivo,2023-11-19,online,Online,24/04/25 16:00
+C0078,Javier,SuárezVázquez,javier.suarezvazquez@example.com,672815253,2025-05-09,VIP,5.430,1982-01-13,,Barcelona,Barcelona,08002,ES,sí,Bloqueado,2025-07-24,tienda,Mixto,2025-10-26 09:47:39
+C0079,Moisés,HernándezOrtiz,moises.hernandezortiz@example.com,600392462,2024-01-28,N/A,4257,05/01/1980,M,Granada,Granada,,ES,S,Inactivo,,,Mixto,2025-08-24 02:37:06
+C0080,Jaime,MarínRodríguez,jaime.marinrodriguez@example.com,620-048-754,29/05/2022,GOLD,6319,1975-02-18,F,Palma,Illes Balears,07001,ES,0,Bloqueado,2023-09-03,importación,Online,2025-04-27 10:09:05
+C0081,Marta,GutiérrezÁlvarez,marta.gutierrezalvarez@example.com,+34 659 670 017,2019-01-23,Platino,649,01/02/2001,F,Córdoba,Córdoba,14001,España,0,Inactivo,2024-11-10,,Online,2025-03-19 13:52:46
+C0082,Cecilia,SerranoRuiz,cecilia.serranoruiz@example.com,728588886,11/12/2024,Oro,1030,2000-09-26,,Córdoba,Córdoba,14001,ES,no,Activo,,importación,,2025-05-06 00:20:38
+C0083,Sergio,SuárezCastro,sergio.suarezcastro@example.com,658897848,2020-12-27,Platino,1555,2000-12-23,,Zaragoza,Zaragoza,50001,ES,S,Bloqueado,,tienda,Tienda,2025-08-18 09:11:31
+C0084,MARÍA,CastroSuárez,maria.castrosuarez@example.com,+34 629 775 018,2021-08-18,VIP,538,,No binario,Bilbao,Bizkaia,48001,ES,no,Inactivo,,,,2025-11-11 05:45:35
+C0085,Rubén,SanzRuiz,ruben.sanzruiz@example.com,+34 761 702 477,2024-06-04,Plata,2635,,No binario,Zaragoza,Zaragoza,50001,ES,no,Inactivo,1 de Julio de 2023,importación,,2025-01-09 06:15:44
+C0086,Juan,RodríguezRamos,juan.rodriguezramos@example.com,,2024-02-15,Platino,1108,06/06/1953,F,Granada,Granada,18001,ES,N,Activo,,,Online,2025-07-21 05:38:56
+C0087,Óscar,RamírezRubio,oscar.ramirezrubio@example.com,0034 714784601,29/05/2022,Platino,99999,,M,Valladolid,Valladolid,47001,ES,sí,Activo,,importación,Online,18/11/25 12:11
+C0088,Ainhoa,RubioSanz ,ainhoa.rubiosanz@example.com,661072491,18/12/2018,Platino,1269,2005-04-16,,Bilbao,Bizkaia,48001,ES,S,Inactivo,2025-07-08,tienda,Tienda,05/04/25 01:27
+C0089,Ariadna,MartínIglesias,ariadna.martiniglesias@example.com,788015446,2024-03-11,Platino,1926,19/02/1955,No binario,Valencia,Valencia,46001,ES,1,Bloqueado,,importación,,2025-11-16 18:38:30
+C0090,Ramón,GilGonzález,ramon.gilgonzalez@example.com,731-968-027,2022-03-06,plata,4429,1969-05-24,M,Barcelona,Barcelona,08002,ES,,Activo,,,Mixto,2025-01-17 05:04:19
+C0091,Emilio,MarínFernández,emilio.marinfernandez@example.com,77O566520,16/01/2022,BRONCE,793,1984-06-12,No binario,Barcelona,Barcelona,08002,ES,N,Bloqueado,2023-04-12,tienda,Tienda,2025-11-08 21:13:17
+C0092,Moisés,GarcíaSuárez,moises.garciasuarez@example.com,693605912,05/06/2021,Plata,500,,,Madrid,Madrid,28013,ES,no,Bloqueado,2023-08-10,importación,Mixto,2025-11-11 08:16:41
+C0093,Fernando,CastroMuñoz,fernando.castromunoz@example.com,712-357-871,28/07/2019,Bronce,2874,21/09/1992,No binario,Toledo,Toledo,45001,ES,1,Bloqueado,,tienda,Mixto,2025-02-16 04:47:16
+C0094,Cecilia,TorresMartínez,cecilia.torresmartinezexample.com,,03/12/2020,plata,3037,28/01/1975,F,Granada,Granada,18001,España,,Bloqueado,2025-07-26,tienda,Online,2025-08-11 20:11:20
+C0095,Inés,DíazJiménez,ines.diazjimenez@example.com,+34 653 529 855,2022-10-25,Bronce,"4,340",,F,Valencia,Valencia,46001,ES,,Bloqueado,2023-07-30,importación,Tienda,2025-02-27 01:19:18
+C0096,Eva,GómezTorres,eva.gomeztorres@example.com,605-882-298,2022-07-11,Plata,3653,1998-09-20,M,Zaragoza,Zaragoza,50001,ES,N,Activo,,online,,2025-08-13 03:35:16
+C0097,Ariadna,GarcíaGutiérrez,ariadna.garciagutierrez@example.com,733610812,2019-03-06,Plata,3120,1959-01-18,F,Toledo,Toledo,45001,ES,0,Bloqueado,27/01/2023,online,,2025-03-03 16:04:46
+C0098,Francisco,AlonsoÁlvarez,francisco..alonsoalvarez@example.com,+34 637 149 975,2025-08-04,Plata,1400,1972-06-06,,Barcelona,Barcelona,08002,ES,0,Bloqueado,,,,2025-11-26 05:07:08
+C0099,Isabel,SánchezRamírez,isabel.sanchezramirez@example.com,635072522,08/01/2022,Platino,2.977,23/01/1969,,Córdoba,Córdoba,14001,ES,,Bloqueado,2023-07-15,tienda,,2025-06-22 21:41:24
+C0100,Pilar,RodríguezGarcía,pilar.rodriguezgarcia@example.com,74O772528,2023-07-07,Platino,3111,,,San Sebastián,Gipuzkoa,20003,ES,0,Bloqueado,15/10/2025,online,Online,2025-07-14 01:35:35
+C0020,Ramón,IglesiasNúñez,ramon.iglesiasnunez@example.com,655777640,2022-10-23,Oro,960,,,Córdoba,Córdoba,14001,ES,0,Bloqueado,13/08/2024,,Online,2025-11-08 08:50:50
+C0047,Mateo,FernándezOrtega ,,+34 711 567 612,2025-09-06,Oro,2431,05/07/1971,,Valladolid,Valladolid,47001,ES,1,Activo,,,Online,2025-12-31 23:59:59
+c0077,BRENDA ,RuizPérez,brenda.ruizperez@example.com,631-690-609,32/01/2020,BRONCE,1.250,1989-02-16,No binario,San Sebastián,Gipuzkoa,20003,España,,Activo,2023-11-19,online,Online,24/04/25 16:00

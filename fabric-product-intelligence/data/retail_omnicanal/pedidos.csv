@@ -1,0 +1,657 @@
+order_id,fecha_pedido,customer_id,usuario_online_id,importe_total,moneda,gastos_envio,direccion_envio,codigo_postal_envio,ciudad_envio,provincia_envio,pais_envio,metodo_pago,estado_pedido,origen,ultima_actualizacion
+O-202400001,2025-05-11 15:46:46,C0014,UO-542417,2621.36,EUR,9.99,Gran Vía 24,08002,Barcelona,Barcelona,ES,Tarjeta,Pendiente,marketplace,2025-05-24 15:46:46
+O-202400002,20/03/2024 09:20,C0006,,€1342.89,EUR,0.00,Calle Mayor 142,31001,Pamplona,Navarra,ES,Tarjeta,Devuelto Parcial,marketplace,2024-04-01 09:20:15
+O-202400003,2024-05-06 08:05:31,C9999,,750.88,EUR,4.99,"Rúa do Príncipe 187, 4ºB",20003,San Sebastián,Gipuzkoa,ES,Tarjeta,Entregado,marketplace,2024-05-16 08:05:31
+O-202400004,2024/06/14 03:38:45,C0034,,1832.22,EUR,4.99,Calle Alcalá 150,28A13,Granada,Granada,ES,Tarjeta,Devuelto Parcial,web,19/06/2024 03:38
+O-202400005,2024-10-25 20:34:57,C9999,,1352.98,EUR,4.99,Calle de la Luz 138,41001,Sevilla,Sevilla,ES,Desconocido,Entregado,marketplace,2024-10-30 20:34:57
+O-202400006,2025-10-15 17:51:13,,UO-665579,2106.85,EUR,6.99,Gran Vía 154,36201,Vigo,Pontevedra,ES,Bizum,Entregado,,2025/11/02 17:51:13
+O-202400007,25/09/2025 19:46,C0061,,€511.85,EUR,6.99,"Calle del Prado 139, 4ºC",28A13,Gijón,Asturias,ES,Tarjeta,Entregado,app,2025-09-25 19:46:33
+O-202400008,2024-01-06 14:02:49,CX123,UO-349565,"253,55",EUR,9.99,"Calle de la Luz 125, 4ºB",30001,Murcia,Murcia,ES,Tarjeta,Entregado,web,2024-01-19 14:02:49
+O-202400009,2024/02/17 01:54:07,C0025,,365.92,EUR,€0.00,Calle del Prado 20,39001,Santander,Cantabria,ES,paypal,Entregado,app,2024/02/23 01:54:07
+O-202400010,2030-01-13 08:59:00,C0094,,866.38,EUR,0.00,Calle del Prado 76,48001,Bilbao,Bizkaia,ES,ContraReembolso,Entregado,web,2030/01/15 08:59:00
+O-202400011,2025/06/08 10:52:27,C0075,,1521.21,EUR,6.99,Avenida Andalucía 134,18001,Granada,Granada,ES,ApplePay,Entregado,,07/07/2025 10:52
+O-202400012,2025-04-27 11:14:51,C0034,UO-356150,"146,11",EUR,6.99,Paseo de la Castellana 41,47001,Valladolid,Valladolid,ES,PayPal,Entregado,app,2025-05-20 11:14:51
+O-202400013,2025/07/11 09:15:38,C0033,UO-544151,1952.88,EUR,9.99,"Gran Vía 1, 6ºB",30001,Murcia,Murcia,ES,Tarjeta,Entregado,marketplace,2025/08/02 09:15:38
+O-202400014,2025-03-28 10:45:55,C0006,,562.67,EUR,"4,99",Carrer de Mallorca 144,,Sevilla,Sevilla,ES,ApplePay,Devuelto Total,app,10/04/2025 10:45
+O-202400015,2024-07-26 05:37:08,C0061,,460.44,EUR,6.99,Calle del Sol 59,07001,Palma,Illes Balears,ES,BIZUM,Entregado,web,16/08/24
+O-202400016,2024-03-30 14:07:33,C9999,UO-555673,1335.91,EUR,4.99,"Calle Jardines 81, 7ºA",,Valladolid,Valladolid,ES,Tarjeta,Entregado,app,20/04/2024 14:07
+O-202400017,2024/10/09 21:34:49,C0085,,601.46,EUR,4.99,"Calle de la Luz 105, 6ºD",07001,Palma,Illes Balears,ES,Desconocido,Pendiente,web,2024-10-27 21:34:49
+O-202400018,2024-08-24 00:38:22,C0060,,4386.56,EUR,"4,99",Calle de la Luz 22,20003,San Sebastián,Gipuzkoa,ES,PayPal,Entregado,,2024-09-08 00:38:22
+O-202400019,17/11/2024 21:44,C0052,UO-887443,"947,17",EUR,€4.99,"Avenida Europa 109, 4ºB",41001,Sevilla,Sevilla,ES,PayPal,Cancelado,,2024-12-04 21:44:25
+O-202400020,2025-04-20 20:40:01,NULL,UO-266889,2034.19,EUR,6.99,"Calle de la Paz 67, 4ºC",03001,Alicante,Alicante,ES,PayPal,Entregado,,2025-05-07 20:40:01
+O-202400021,2025-06-23 00:09:43,C0060,,785.83,EUR,6.99,Calle Jardines 6,1800,Granada,Granada,ES,Transferencia ,Entregado,app,2025-07-18 00:09:43
+O-202400022,2024-07-30 23:52:58,C0052,,406.12,EUR,9.99,"Gran Vía 101, 1ºA",45001,Toledo,Toledo,ES,Bizum,Entregado,,2024/08/23 23:52:58
+O-202400023,14/07/2024 22:40,C0045,,406.63,EUR,4.99,Avenida Europa 8,08002,Barcelona,Barcelona,ES,ContraReembolso,Devuelto Total,web,22/07/2024 22:40
+O-202400024,2025-08-27 03:05:29,C0040,,1752.72,EUR,0.00,"Calle Mayor 152, 4ºA",,Málaga,Málaga,ES,Tarjeta,Entregado,web,2025-09-07 03:05:29
+O-202400025,2025-10-21 21:14:15,C0059,,825.16,EUR,6.99,"Avenida Andalucía 138, 8ºD",30001,Murcia,Murcia,ES,Tarjeta,Entregado,,2025-11-14 21:14:15
+O-202400026,2024-09-18 06:53:15,C0034,,2393.56,EUR,9.99,Rúa do Príncipe 3,30001,Murcia,Murcia,ES,Transferencia,Entregado,,2024-10-13 06:53:15
+O-202400027,2025-06-21 07:50:50,C0045,,3303.15,EUR,6.99,Paseo de la Castellana 79,39001,Santander,Cantabria,ES,ApplePay,Entregado,marketplace,2025-07-06 07:50:50
+O-202400028,2024-03-19 01:56:32,C0091,,2541.90,EUR,"6,99",Paseo de la Castellana 179,,Toledo,Toledo,ES,PayPal,En preparación,,2024-04-15 01:56:32
+O-202400029,2025-01-16 22:49:13,C0073,,"1664,39",EUR,€6.99,"Avenida Europa 107, 4ºD",,Toledo,Toledo,ES,BIZUM,Entregado,app,15/02/2025 22:49
+O-202400030,2025-04-30 20:26:43,C0010,,1500.11,EUR,9.99,"Paseo de la Castellana 9, 4ºC",03001,Alicante,Alicante,ES,Bizum,Pendiente,web,21/05/2025 20:26
+O-202400031,2025-02-26 23:22:42,C0008,,1117.79,EUR,6.99,"Paseo de la Castellana 113, 2ºD",18001,Granada,Granada,ES,Tarjeta,Entregado,web,2025-03-21 23:22:42
+O-202400032,2024-06-26 19:27:37,CX123,,,EUR,"9,99",Calle de la Paz 133,28A13,San Sebastián,Gipuzkoa,ES,Tarjeta,Entregado,marketplace,2024-07-06 19:27:37
+O-202400033,2024/11/15 17:37:14,,UO-676818,,EUR,9.99,"Calle de la Paz 23, 6ºC",08002,Barcelona,Barcelona,ES,Tarjeta,Entregado,,2024-11-28 17:37:14
+O-202400034,2025-04-30 18:27:50,C0037,UO-760626,1813.13,EUR,0.00,"Calle Jardines 41, 5ºA",50001,Zaragoza,Zaragoza,ES,PayPal,Entregado,,16/05/2025 18:27
+O-202400035,2025-01-01 18:48:53,,UO-882544,886.45,EUR,6.99,"Calle del Sol 18, 5ºD",4800,Bilbao,Bizkaia,ES,Bizum,Cancelado,,2025-01-22 18:48:53
+O-202400036,2024-09-25 01:34:35,C0101,,1292.79,EUR,9.99,Avenida Andalucía 99,50001,Zaragoza,Zaragoza,ES,Transferencia,En preparación,web,15/10/24
+O-202400037,2024/04/08 01:24:03,,UO-561694,1749.27,EUR,4.99,"Rúa do Príncipe 117, 1ºB",,Sevilla,Sevilla,ES,Bizum,Entregado,,2024-04-28 01:24:03
+O-202400038,2024-09-02 22:59:30,C0080,,1106.58,EUR,6.99,Calle Jardines 24,50001,Zaragoza,Zaragoza,ES,Tarjeta,Entregado,app,2024-09-06 22:59:30
+O-202400039,2024-05-12 00:43:29,C0064,,4533.83,EUR,"4,99","Calle de la Paz 66, 1ºD",30001,Murcia,Murcia,ES,,Entregado,app,2024-06-03 00:43:29
+O-202400040,2024-10-25 19:12:06,C0038,,4.99,EUR,4.99,"Paseo de la Castellana 3, 1ºD",31001,Pamplona,Navarra,ES,ApplePay,Entregado,app,18/11/2024 19:12
+O-202400041,2025-05-02 23:23:36,,UO-134985,€176.96,EUR,"9,99","Carrer de Mallorca 188, 3ºA",18001,Granada,Granada,ES,ContraReembolso,Devuelto Parcial,marketplace,2025/05/18 23:23:36
+O-202400042,10/12/2025 23:06,,UO-455168,1381.23,EUR,6.99,"Calle de la Paz 20, 3ºB",4100,Sevilla,Sevilla,ES,Bizum,Entregado,,31/12/2025 23:06
+O-202400043,2025-09-30 18:58:10,C0080,,167.36,EUR,0.00,"Calle de la Luz 17, 8ºC",50001,Zaragoza,Zaragoza,ES,Transferencia,Entregado,,2025-10-17 18:58:10
+O-202400044,2025-04-01 04:49:03,C0063,,€107.46,EUR,"6,99","Calle del Prado 114, 8ºB",47001,Valladolid,Valladolid,ES,BIZUM,Entregado,,2025-05-01 04:49:03
+O-202400045,2024-03-12 04:54:59,c0077,,4046.92,EUR,"4,99",Calle Mayor 196,29001,Málaga,Málaga,ES,Bizum,Devuelto Parcial,web,2024-03-16 04:54:59
+O-202400046,2025-05-28 11:00:27,,UO-717457,1427.39,EUR,0.00,Gran Vía 45,14001,Córdoba,Córdoba,ES,Bizum,Entregado,marketplace,2025-06-13 11:00:27
+O-202400047,21/12/24,,UO-546980,416.01,EUR,4.99,Calle de la Paz 183,41001,Sevilla,Sevilla,ES,ApplePay,Entregado,,02/01/25
+O-202400048,27/01/2025 16:09,,UO-782535,669.97,EUR,9.99,Calle Jardines 56,45001,Toledo,Toledo,ES,Bizum,Entregado,,07/02/25
+O-202400049,2024-02-22 03:27:20,,UO-490748,285.48,EUR,9.99,"Rúa do Príncipe 16, 6ºA",48001,Bilbao,Bizkaia,ES,Bizum,Entregado,,2024-03-11 03:27:20
+O-202400050,2024-06-23 04:13:38,C0036,,296.21,EUR,6.99,Gran Vía 156,45001,Toledo,Toledo,ES,PayPal,Devuelto Parcial,web,2024-07-05 04:13:38
+O-202400051,2024-03-12 06:29:13,C0048,,"824,57",EUR,9.99,Gran Vía 40,46001,Valencia,Valencia,ES,Bizum,Entregado,,2024-03-23 06:29:13
+O-202400052,2025-02-13 06:45:49,C0001,,459.59,EUR,4.99,"Paseo de la Castellana 84, 2ºA",30001,Murcia,Murcia,ES,PayPal,Entregado,web,2025-03-10 06:45:49
+O-202400053,2024/12/04 19:43:21,C0074,,2473.01,EUR,0.00,"Gran Vía 84, 3ºD",31001,Pamplona,Navarra,ES,ContraReembolso,Entregado,app,2024-12-27 19:43:21
+O-202400054,2024-02-29 07:48:53,CX123,,"1252,19",EUR,"4,99",Calle del Prado 27,48001,Bilbao,Bizkaia,ES,PayPal,En preparación,,14/03/2024 07:48
+O-202400055,2025-06-13 01:14:53,C0081,,526.44,EUR,9.99,Avenida Europa 71,07001,Palma,Illes Balears,ES,Bizum,Entregado,,2025-07-10 01:14:53
+O-202400056,25/12/2024 09:34,C0074,,1259.35,EUR,4.99,Gran Vía 116,48001,Bilbao,Bizkaia,ES,Transferencia,Entregado,,2025-01-05 09:34:13
+O-202400057,24/08/2025 13:04,C0009,,798.11,EUR,4.99,Calle Jardines 169,30001,Murcia,Murcia,ES,ApplePay,Entregado,,12/09/2025 13:04
+O-202400058,2025-05-14 19:35:01,,UO-874661,1183.37,€,"4,99",Calle Mayor 166,36201,Vigo,Pontevedra,ES,Transferencia,Entregado,web,2025-05-18 19:35:01
+O-202400059,2025/01/29 08:01:19,C0044,,1714.49,EUR,"4,99",Avenida del Mar 47,48001,Bilbao,Bizkaia,ES,ApplePay,Pendiente,,2025-02-05 08:01:19
+O-202400060,2025/12/03 03:18:10,NULL,UO-906814,58,EUR,4.99,Avenida Europa 98,07001,Palma,Illes Balears,ES,Transferencia,Devuelto Parcial,web,06/12/2025 03:18
+O-202400061,2024-08-09 09:57:35,C0056,,481.36,EUR,0.00,"Gran Vía 107, 1ºD",47001,Valladolid,Valladolid,ES,Tarjeta,Cancelado,,2024-09-03 09:57:35
+O-202400062,2025-06-24 15:43:20,c0011,UO-862560,931,EUR,4.99,"Calle Alcalá 29, 5ºB",36201,Vigo,Pontevedra,ES,Transferencia,Entregado,app,2025-07-09 15:43:20
+O-202400063,2025-07-12 02:38:13,C0054,,"3079,91",EUR,9.99,"Calle Mayor 135, 1ºD",47001,Valladolid,Valladolid,ES,Tarjeta,Entregado,marketplace,19/07/2025 02:38
+O-202400064,13/04/2024 14:56,C0100,,174.84,EUR,0.00,Avenida Europa 35,20003,San Sebastián,Gipuzkoa,ES,BIZUM,Devuelto Total,app,2024-05-09 14:56:06
+O-202400065,2024/08/10 05:29:37,C0016,,"133,05",€,6.99,"Calle Alcalá 87, 3ºD",39001,Santander,Cantabria,ES,Tarjeta,Entregado,web,2024-08-15 05:29:37
+O-202400066,2024-09-11 16:52:12,C0089,,1410.48,EUR,"9,99",Avenida Andalucía 112,47001,Valladolid,Valladolid,ES,ApplePay,Entregado,web,2024-10-08 16:52:12
+O-202400067,2024-04-08 01:05:53,c0073,,2385.49,EUR,6.99,"Carrer de Mallorca 114, 2ºB",47001,Valladolid,Valladolid,ES,ApplePay,Entregado,marketplace,2024-05-07 01:05:53
+O-202400068,2025-06-30 20:12:57,NULL,UO-309902,1364.27,EUR,6.99,"Avenida del Mar 19, 8ºB",28A13,Sevilla,Sevilla,ES,ContraReembolso,Entregado,app,2025-07-27 20:12:57
+O-202400069,08/09/25,,UO-348235,447.68,EUR,0.00,Gran Vía 93,03001,Alicante,Alicante,ES,ApplePay,Pendiente,app,2025-10-02 11:34:22
+O-202400070,2024-09-03 05:49:26,C0100,,249.99,EUR,4.99,Calle Alcalá 129,48001,Bilbao,Bizkaia,ES,Bizum,Devuelto Total,marketplace,12/09/2024 05:49
+O-202400071,2024-04-07 05:20:36,C0076,,€683.09,EUR,6.99,Calle del Sol 145,14001,Córdoba,Córdoba,ES,Transferencia,Entregado,marketplace,2024-05-05 05:20:36
+O-202400072,2025-01-10 02:44:38,C0089,,1651,EUR,6.99,"Carrer de Mallorca 156, 3ºC",29001,Málaga,Málaga,ES,Bizum,Entregado,app,2025-01-17 02:44:38
+O-202400073,2024-04-19 10:08:58,C0032,,578.37,EUR,9.99,"Calle Jardines 81, 4ºB",28A13,Granada,Granada,ES,Tarjeta,Entregado,marketplace,03/05/24
+O-202400074,2024/02/07 19:03:12, C0061,UO-240440,915.66,EUR,4.99,Calle Jardines 94,30001,Murcia,Murcia,ES,Transferencia,Entregado,web,15/02/2024 19:03
+O-202400075,09/04/2024 22:27,C0047,,2237.96,EUR,9.99,"Gran Vía 12, 1ºB",36201,Vigo,Pontevedra,ES,paypal,Entregado,marketplace,2024-04-14 22:27:33
+O-202400076,2025-04-06 03:49:47,,UO-414353,166.38,EUR,"6,99",Calle del Sol 5,28A13,Alicante,Alicante,ES,ApplePay,Entregado,app,14/04/25
+O-202400077,2025-07-14 07:52:22,,UO-912233,1184,EUR,"9,99",Avenida del Mar 175,31001,Pamplona,Navarra,ES,ApplePay,Entregado,web,2025/08/02 07:52:22
+O-202400078,2025-07-02 04:36:14,C0068,,2768.32,EUR,4.99,"Carrer de Mallorca 140, 6ºC",45001,Toledo,Toledo,ES,Bizum,Pendiente,marketplace,24/07/2025 04:36
+O-202400079,2025-03-11 08:14:45,C0087,,"401,35",EUR,€0.00,"Avenida Europa 38, 5ºA",4700,Valladolid,Valladolid,ES,Bizum,Pendiente,marketplace,2025-04-06 08:14:45
+O-202400080,2024-04-16 14:57:12,C0068,UO-446337,160.88,EUR,9.99,Calle Mayor 175,03001,Alicante,Alicante,ES,Bizum,Entregado,app,15/05/2024 14:57
+O-202400081,2025-02-19 15:57:41,NULL,UO-978292,,€,"0,00","Gran Vía 102, 8ºB",,San Sebastián,Gipuzkoa,ES,Bizum,Entregado,app,2025-03-08 15:57:41
+O-202400082,23/10/2025 00:54,C0094,,1838.92,EUR,6.99,"Avenida Europa 76, 4ºB",14001,Córdoba,Córdoba,ES,PayPal,En preparación,app,2025-11-21 00:54:12
+O-202400083,2024-12-12 23:45:13,,UO-111991,3430.84,EUR,4.99,Calle de la Luz 93,30001,Murcia,Murcia,ES,ApplePay,Pendiente,app,2025/01/01 23:45:13
+O-202400084,2024-06-19 04:51:11,CX123,,398.25,EUR,6.99,Calle de la Paz 194,45001,Toledo,Toledo,ES,Tarjeta,Cancelado,marketplace,2024-06-25 04:51:11
+O-202400085,2025-10-25 16:46:25,C0012,UO-238353,255.80,EUR,9.99,"Calle Alcalá 117, 1ºD",36201,Vigo,Pontevedra,ES,PayPal,Entregado,web,05/11/2025 16:46
+O-202400086,2025-12-26 21:53:09,C0024,,398.29,EUR,4.99,"Carrer de Mallorca 98, 8ºD",33201,Gijón,Asturias,ES,PayPal,En preparación,web,30/12/2025 21:53
+O-202400087,2025-08-10 08:12:21,C0069,,3410.69,EUR,0.00,"Paseo de la Castellana 49, 2ºA",48001,Bilbao,Bizkaia,ES,ContraReembolso,Entregado,web,2025/09/01 08:12:21
+O-202400088,08/11/2024 10:46,,UO-246942,2389.43,EUR,4.99,Paseo de la Castellana 60,36201,Vigo,Pontevedra,ES,Transferencia,Entregado,app,2024-12-08 10:46:10
+O-202400089,2025-05-01 05:21:28,C0083,,1870.67,EUR,€9.99,Calle Alcalá 39,33201,Gijón,Asturias,ES,ApplePay,Entregado,app,2025-05-02 05:21:28
+O-202400090,2024-10-28 16:39:21,CX123,UO-859782,1866.49,EUR,€4.99,Gran Vía 69,29001,Málaga,Málaga,ES,BIZUM,Entregado,web,2024/11/03 16:39:21
+O-202400091,2025-08-03 02:50:16,C0027,,1375.37,EUR,9.99,"Calle Alcalá 120, 6ºC",07001,Palma,Illes Balears,ES,ApplePay,Entregado,web,2025-09-01 02:50:16
+O-202400092,2025-03-12 22:13:15,C0075,,291.80,EUR,9.99,"Calle del Prado 98, 4ºD",14001,Córdoba,Córdoba,ES,Transferencia,Entregado,,2025-03-23 22:13:15
+O-202400093,2024-05-22 22:53:56,C0005,,1612.02,EUR,-4.99,Avenida Europa 2,08002,Barcelona,Barcelona,ES,Bizum,Entregado,,2024-06-20 22:53:56
+O-202400094,2024-01-13 05:15:41,C0036,,57.05,EUR,€6.99,Avenida Europa 46,33201,Gijón,Asturias,ES,Transferencia,Entregado,app,2024-01-27 05:15:41
+O-202400095,2024-08-20 23:55:57,,UO-896483,€2698.15,EUR,"0,00","Calle Mayor 104, 7ºD",08002,Barcelona,Barcelona,ES,Transferencia,Entregado,web,16/09/24
+O-202400096,2024/06/27 11:09:28,C0006,,470.88,EUR,4.99,"Avenida Andalucía 169, 1ºB",45001,Toledo,Toledo,ES,ApplePay,Cancelado,,2024-07-06 11:09:28
+O-202400097,09/06/2025 20:50,C0089,,990.09,€,9.99,"Calle Mayor 112, 4ºA",08002,Barcelona,Barcelona,ES,ApplePay,Entregado,,2025-06-24 20:50:47
+O-202400098,2024-12-01 10:13:45,,UO-409727,1144.90,EUR,4.99,Calle Jardines 19,50001,Zaragoza,Zaragoza,ES,Tarjeta,Entregado,app,2024-12-15 10:13:45
+O-202400099,2024-03-08 19:20:18,C0004,,450.79,EUR,0.00,"Calle del Sol 99, 1ºC",14001,Córdoba,Córdoba,ES,PayPal,Entregado,marketplace,2024-03-20 19:20:18
+O-202400100,2025-01-18 00:29:47,c0077,,€321.54,EUR,"0,00",Avenida Andalucía 158,03001,Alicante,Alicante,ES,ContraReembolso,Entregado,app,2025-02-01 00:29:47
+O-202400101,2024-08-21 08:31:10,C0051,,3192.60,EUR,9.99,"Avenida Andalucía 63, 6ºD",03001,Alicante,Alicante,ES,paypal,Entregado,,11/09/2024 08:31
+O-202400102,04/07/2025 04:55,C0053,,1879.81,EUR,"9,99",Calle de la Luz 40,30001,Murcia,Murcia,ES,ApplePay,Entregado,web,2025-08-03 04:55:08
+O-202400103,2024-03-25 22:47:37,C0006,,€2167.54,EUR,4.99,Avenida Europa 111,14001,Córdoba,Córdoba,ES,ApplePay,Entregado,marketplace,05/04/24
+O-202400104,19/11/2024 02:20,,UO-465249,77.65,EUR,9.99,"Carrer de Mallorca 117, 4ºD",07001,Palma,Illes Balears,ES,Tarjeta,Entregado,web,2024-11-22 02:20:38
+O-202400105,09/06/2025 22:47,C0071,,535.03,EUR,"4,99","Avenida Europa 104, 3ºB",50001,Zaragoza,Zaragoza,ES,Tarjeta,Pendiente,web,03/07/2025 22:47
+O-202400106,2025-09-12 23:48:14,C0034,,"1323,85",EUR,9.99,"Avenida Andalucía 100, 7ºA",14001,Córdoba,Córdoba,ES,ApplePay,Cancelado,web,2025-09-30 23:48:14
+O-202400107,2024-07-04 07:19:04,C0054,,"315,06",EUR,"4,99","Calle de la Luz 138, 3ºB",03001,Alicante,Alicante,ES,Tarjeta,Devuelto Parcial,,2024-07-19 07:19:04
+O-202400108,13/11/2024 18:49,C0011,,1244.68,EUR,"9,99","Paseo de la Castellana 58, 5ºB",08002,Barcelona,Barcelona,ES,Tarjeta,Entregado,,2024-11-24 18:49:01
+O-202400109,28/02/2025 08:45,C0032,,3929.53,EUR,"6,99",Calle del Sol 23,47001,Valladolid,Valladolid,ES,Transferencia,Entregado,marketplace,06/03/2025 08:45
+O-202400110,2025-02-17 10:25:59,,UO-403387,259.88,EUR,"6,99","Paseo de la Castellana 132, 2ºB",,Granada,Granada,ES,PayPal,Entregado,,2025-03-15 10:25:59
+O-202400111,2025-01-15 04:10:19,C0010,UO-640659,402.37,EUR,0.00,"Calle Jardines 95, 8ºD",30001,Murcia,Murcia,ES,ApplePay,Entregado,,2025-02-09 04:10:19
+O-202400112,02/10/2025 16:16,C0074,,€388.86,EUR,4.99,Gran Vía 26,0800,Barcelona,Barcelona,ES,Transferencia,Entregado,marketplace,2025/10/06 16:16:28
+O-202400113,2024-03-13 11:59:00,C0101,UO-755993,722.08,EUR,0.00,Calle Jardines 180,07001,Palma,Illes Balears,ES,ContraReembolso,Entregado,web,2024-03-13 11:59:00
+O-202400114,2025-10-30 05:54:19,C0094,,660.96,EUR,0.00,Avenida del Mar 98,07001,Palma,Illes Balears,ES,Bizum,Pendiente,,2025/11/03 05:54:19
+O-202400115,2025-10-29 22:51:48,C0094,,2097.03,EUR,0.00,"Calle del Prado 71, 2ºB",48001,Bilbao,Bizkaia,ES,Bizum,Entregado,web,04/11/2025 22:51
+O-202400116,2025-08-31 19:07:14,C0064,,1019.12,EUR,€4.99,"Carrer de Mallorca 82, 3ºD",28013,Madrid,Madrid,ES,Tarjeta crédito,Entregado,,2025-09-08 19:07:14
+O-202400117,28/01/2025 11:54,C0052,,"1049,10",EUR,€9.99,Calle Mayor 80,30001,Murcia,Murcia,ES,ApplePay,Entregado,app,2025-02-19 11:54:22
+O-202400118,2024-02-14 23:26:42,C0008,,262,EUR,6.99,Gran Vía 182,41001,Sevilla,Sevilla,ES,ApplePay,Entregado,web,08/03/2024 23:26
+O-202400119,2025-08-22 04:30:10,C0034,UO-577309,615.07,EUR,0.00,"Carrer de Mallorca 15, 8ºB",36201,Vigo,Pontevedra,ES,Tarjeta,Entregado,web,2025/08/23 04:30:10
+O-202400120,2025-01-01 10:19:45,C9999,,985.06,EUR,0.00,"Calle del Prado 83, 4ºD",33201,Gijón,Asturias,ES,ApplePay,Devuelto Parcial,,2025-01-26 10:19:45
+O-202400121,23/02/2024 12:52, C0012,,97.59,EUR,€9.99,"Avenida Europa 78, 4ºD",18001,Granada,Granada,ES,ApplePay,Devuelto Parcial,web,2024-03-01 12:52:54
+O-202400122,2024-06-29 23:23:33,c0043,,1167.96,EUR,4.99,"Calle Mayor 53, 4ºD",0700,Palma,Illes Balears,ES,PayPal,Devuelto Parcial,web,2024/07/21 23:23:33
+O-202400123,27/03/2025 02:20,C0073,UO-405844,€1671.05,EUR,4.99,"Calle del Sol 81, 7ºC",30001,Murcia,Murcia,ES,ContraReembolso,Entregado,marketplace,2025-04-10 02:20:57
+O-202400124,2025-08-21 08:07:04,C0021,,"3815,02",EUR,9.99,Calle del Prado 84,0800,Barcelona,Barcelona,ES,Bizum,Cancelado,app,2025-09-20 08:07:04
+O-202400125,2024-03-14 13:48:25,C0100,,"758,53",EUR,0.00,Calle de la Luz 162,47001,Valladolid,Valladolid,ES,PayPal,Entregado,,2024-04-08 13:48:25
+O-202400126,09/02/2024 07:57,C0004,,336.34,EUR,4.99,Paseo de la Castellana 72,20003,San Sebastián,Gipuzkoa,ES,ContraReembolso,Entregado,app,2024-02-21 07:57:18
+O-202400127,2025-05-04 22:06:50,C0092,,"50,20",€,4.99,Rúa do Príncipe 83,18001,Granada,Granada,ES,Bizum,Entregado,app,2025-05-20 22:06:50
+O-202400128,2024-05-03 23:37:19,,UO-872863,941.89,EUR,6.99,Avenida Europa 57,08002,Barcelona,Barcelona,ES,ContraReembolso,Entregado,app,2024-06-02 23:37:19
+O-202400129,2025-10-11 21:09:34,c0063,,530.50,EUR,"6,99",Rúa do Príncipe 123,28013,Madrid,Madrid,ES,BIZUM,Entregado,marketplace,2025/11/02 21:09:34
+O-202400130,2024-02-26 08:05:13,C0039,,454.77,EUR,6.99,Avenida Europa 164,33201,Gijón,Asturias,ES,PayPal,Entregado,,2024-03-06 08:05:13
+O-202400131,2025-10-22 19:15:33,C0079,,1279.16,EUR,4.99,"Carrer de Mallorca 191, 2ºB",28A13,Bilbao,Bizkaia,ES,Desconocido,Entregado,app,2025-11-01 19:15:33
+O-202400132,2025-06-22 09:44:19,C0050,,625.28,EUR,4.99,Calle de la Paz 97,33201,Gijón,Asturias,ES,Tarjeta,Entregado,,2025-07-22 09:44:19
+O-202400133,2024/05/04 23:28:37,C0077,,"997,14",EUR,4.99,Calle de la Luz 43,33201,Gijón,Asturias,ES,ContraReembolso,Pendiente,web,2024-05-12 23:28:37
+O-202400134,2024-02-08 13:16:18,C0001,,1121.21,EUR,0.00,Calle del Prado 25,03001,Alicante,Alicante,ES,Transferencia,Entregado,app,2024-02-16 13:16:18
+O-202400135,2024-10-15 04:19:25,C0060,,3476.08,EUR,9.99,"Avenida Europa 179, 2ºA",48001,Bilbao,Bizkaia,ES,ContraReembolso,Entregado,,2024-10-31 04:19:25
+O-202400136,2025-03-20 20:10:05,C9999,,1142.19,EUR,€4.99,"Avenida Europa 147, 3ºA",36201,Vigo,Pontevedra,ES,PayPal,Entregado,app,2025-04-10 20:10:05
+O-202400137,09/10/2025 20:54,,UO-191254,336.42,EUR,0.00,"Rúa do Príncipe 102, 6ºC",,Pamplona,Navarra,ES,ContraReembolso,Pendiente,web,2025-10-13 20:54:08
+O-202400138,19/12/2025 09:54,,UO-460572,1317.72,EUR,9.99,Paseo de la Castellana 99,33201,Gijón,Asturias,ES,ApplePay,Entregado,,2026-01-16 09:54:38
+O-202400139,2025-12-16 05:36:29,,UO-426053,1985.37,EUR,€9.99,Calle del Sol 126,30001,Murcia,Murcia,ES,ApplePay,Entregado,,2025-12-22 05:36:29
+O-202400140,2025-07-29 12:12:43,C0021,,1224.84,EUR,4.99,Avenida Andalucía 8,36201,Vigo,Pontevedra,ES,Bizum,Pendiente,web,2025-08-24 12:12:43
+O-202400141,2025-06-13 02:00:37,C0061,,276.29,EUR,4.99,Calle Jardines 177,30001,Murcia,Murcia,ES,PayPal,Devuelto Parcial,web,2025-07-04 02:00:37
+O-202400142,2025-11-02 13:52:12,C0101,,3488.78,EUR,6.99,"Calle del Prado 65, 5ºC",,Madrid,Madrid,ES,Bizum,Entregado,marketplace,2025-11-14 13:52:12
+O-202400143,2025-03-12 02:19:09,C0009,,,EUR,4.99,Paseo de la Castellana 168,30001,Murcia,Murcia,ES,ContraReembolso,Entregado,marketplace,16/03/2025 02:19
+O-202400144,20/07/2024 12:03,C0074,,"226,63",EUR,€4.99,Calle de la Luz 122,45001,Toledo,Toledo,ES,ApplePay,Entregado,marketplace,2024/08/13 12:03:22
+O-202400145,23/05/2025 07:32,c0077,,2444.42,EUR,4.99,Calle del Sol 31,39001,Santander,Cantabria,ES,Transferencia ,Entregado,app,2025/06/19 07:32:45
+O-202400146,2024/09/23 03:49:46,C0041,UO-448787,771,EUR,€4.99,"Carrer de Mallorca 163, 1ºA",20003,San Sebastián,Gipuzkoa,ES,Tarjeta,Entregado,,2024-10-06 03:49:46
+O-202400147,2024-01-04 15:02:20,C0042,UO-104324,651.36,EUR,6.99,Calle del Prado 178,50001,Zaragoza,Zaragoza,ES,Bizum,Devuelto Total,app,2024-01-20 15:02:20
+O-202400148,23/09/2024 05:00,c0052,,1175.93,EUR,0.00,"Calle Jardines 6, 3ºA",29001,Málaga,Málaga,ES,ContraReembolso,Entregado,web,2024-09-24 05:00:11
+O-202400149,2024-02-07 11:09:59,C0061,,218.43,EUR,"0,00",Paseo de la Castellana 108,28013,Madrid,Madrid,ES,Bizum,Entregado,app,2024-02-13 11:09:59
+O-202400150,2024-10-05 00:08:47,C0027,,"149,21",EUR,0.00,Calle de la Luz 23,2801,Madrid,Madrid,ES,Bizum,Entregado,app,2024-10-14 00:08:47
+O-202400151,09/11/2025 23:09,C0095,,1278.13,EUR,"6,99","Calle del Sol 36, 3ºC",,Madrid,Madrid,ES,Bizum,Entregado,,2025-12-09 23:09:32
+O-202400152,2025-09-13 07:11:59,C0093,,1106.51,EUR,"0,00","Avenida Andalucía 124, 8ºB",33201,Gijón,Asturias,ES,Desconocido,En preparación,,2025-10-12 07:11:59
+O-202400153,2024-02-05 16:59:10,,UO-650311,710.38,EUR,4.99,Calle Jardines 145,18001,Granada,Granada,ES,ApplePay,Entregado,web,2024/02/22 16:59:10
+O-202400154,2025-05-14 17:49:16,C0022,,2686.62,EUR,0.00,"Gran Vía 130, 4ºD",30001,Murcia,Murcia,ES,Transferencia,Entregado,web,2025-05-24 17:49:16
+O-202400155,2024-03-20 17:24:36,,UO-930244,€2498.58,EUR,0.00,"Rúa do Príncipe 144, 4ºD",07001,Palma,Illes Balears,ES,Bizum,Entregado,,04/04/2024 17:24
+O-202400156,2024-03-29 13:32:58,C0082,,960.92,EUR,4.99,"Gran Vía 43, 8ºB",41001,Sevilla,Sevilla,ES,Transferencia ,Entregado,,04/04/2024 13:32
+O-202400157,2024-02-06 02:49:46,,UO-572388,237.85,EUR,0.00,Calle de la Luz 151,39001,Santander,Cantabria,ES,ContraReembolso,Entregado,app,2024/03/06 02:49:46
+O-202400158,2025-07-21 09:24:26,C0042,,407.96,EUR,4.99,"Paseo de la Castellana 102, 6ºC",50001,Zaragoza,Zaragoza,ES,ApplePay,Entregado,app,2025/08/07 09:24:26
+O-202400159,2024-06-05 00:50:38,C0101,,136.63,EUR,9.99,"Rúa do Príncipe 139, 6ºA",20003,San Sebastián,Gipuzkoa,ES,,Entregado,,2024-06-30 00:50:38
+O-202400160,2024-04-22 21:05:10,,UO-400538,793.73,EUR,9.99,Avenida del Mar 16,30001,Murcia,Murcia,ES,Desconocido,Entregado,marketplace,2024-05-12 21:05:10
+O-202400161,2025-06-22 05:15:52,CX123,,691.95,EUR,6.99,"Gran Vía 191, 5ºB",08002,Barcelona,Barcelona,ES,ContraReembolso,Entregado,web,2025-06-28 05:15:52
+O-202400162,2024-05-25 05:29:45,C0036,,"408,46",EUR,6.99,Gran Vía 85,30001,Murcia,Murcia,ES,ApplePay,Entregado,web,09/06/2024 05:29
+O-202400163,31/08/25,c0077,,101.24,EUR,4.99,"Carrer de Mallorca 57, 4ºC",46001,Valencia,Valencia,ES,Transferencia,En preparación,,2025-09-20 23:24:19
+O-202400164,2024-07-05 16:24:32,CX123,,"2500,93",EUR,€9.99,"Calle Alcalá 66, 5ºA",41001,Sevilla,Sevilla,ES,ApplePay,Entregado,web,2024-08-04 16:24:32
+O-202400165,01/05/2025 22:52,,UO-544815,1886.29,EUR,€6.99,Calle del Prado 138,41001,Sevilla,Sevilla,ES,PayPal,Pendiente,,19/05/2025 22:52
+O-202400166,2024-10-28 09:27:07,C0016,,1264.45,EUR,6.99,Gran Vía 180,18001,Granada,Granada,ES,Transferencia,Entregado,app,2024-10-28 09:27:07
+O-202400167,2025-08-03 00:30:06,C0101,,1017.93,EUR,9.99,Gran Vía 142,47001,Valladolid,Valladolid,ES,BIZUM,Entregado,app,2025-08-26 00:30:06
+O-202400168,2024-05-05 00:24:24,C0086,,250.80,EUR,4.99,Calle de la Paz 166,45001,Toledo,Toledo,ES,Bizum,Entregado,app,2024-05-12 00:24:24
+O-202400169,2024-09-03 19:57:33,C0020,,"362,44",EUR,"9,99",Avenida del Mar 2,33201,Gijón,Asturias,ES,ApplePay,Pendiente,,2024-09-17 19:57:33
+O-202400170,2025-03-04 11:54:29,C0018,,"228,99",EUR,4.99,"Calle Jardines 20, 1ºA",46001,Valencia,Valencia,ES,ContraReembolso,Devuelto Parcial,app,24/03/2025 11:54
+O-202400171,2025-11-23 09:36:00,C0066,UO-350484,€596.35,EUR,4.99,Avenida Europa 132,20003,San Sebastián,Gipuzkoa,ES,Bizum,Entregado,web,2025-11-30 09:36:00
+O-202400172,2025-06-03 07:20:20,C0059,,285,EUR,9.99,Calle Jardines 134,41001,Sevilla,Sevilla,ES,Tarjeta,Entregado,marketplace,2025-07-02 07:20:20
+O-202400173,2025-01-13 03:45:26,,UO-561267,2582.50,EUR,6.99,Calle del Prado 20,20003,San Sebastián,Gipuzkoa,ES,ApplePay,Entregado,,2025-02-05 03:45:26
+O-202400174,2024-06-12 15:48:22,C0017,,250.37,EUR,9.99,"Avenida Andalucía 38, 1ºB",0800,Barcelona,Barcelona,ES,Tarjeta,Devuelto Parcial,,2024-07-08 15:48:22
+O-202400175,2025-04-16 02:27:43,,UO-730025,"1056,74",EUR,6.99,Avenida Europa 150,48001,Bilbao,Bizkaia,ES,Tarjeta,Entregado,,2025-04-19 02:27:43
+O-202400176,2025-10-03 23:20:28,C0005,,"2822,62",EUR,6.99,"Calle de la Paz 169, 3ºA",46001,Valencia,Valencia,ES,Transferencia,Entregado,web,28/10/2025 23:20
+O-202400177,2024-11-26 11:41:50,,UO-397026,2033.29,EUR,0.00,Calle Alcalá 66,45001,Toledo,Toledo,ES,PayPal,Entregado,marketplace,2024-12-07 11:41:50
+O-202400178,2024-07-21 23:02:20,C0088,,447.92,EUR,"6,99","Calle de la Paz 46, 6ºD",28A13,Toledo,Toledo,ES,PayPal,Devuelto Parcial,app,2024-08-13 23:02:20
+O-202400179,2024-03-18 21:19:44,C0090,,744.26,EUR,6.99,"Avenida Europa 24, 3ºD",28013,Madrid,Madrid,ES,Tarjeta,Pendiente,web,2024-03-30 21:19:44
+O-202400180,2025-08-23 21:06:24,C0085,,1339.74,EUR,0.00,Rúa do Príncipe 179,36201,Vigo,Pontevedra,ES,Bizum,Pendiente,web,2025-09-04 21:06:24
+O-202400181,2025-07-26 09:17:15,,UO-686273,291.30,EUR,€9.99,Carrer de Mallorca 89,18001,Granada,Granada,ES,Transferencia,Entregado,marketplace,2025-08-11 09:17:15
+O-202400182,2025-11-11 11:55:51,C0049,,542.80,EUR,9.99,Calle de la Luz 118,39001,Santander,Cantabria,ES,Desconocido,Pendiente,web,24/11/25
+O-202400183,2025-06-28 08:12:16,C0044,,1577.94,EUR,4.99,Calle del Prado 147,47001,Valladolid,Valladolid,ES,Bizum,Entregado,web,05/07/2025 08:12
+O-202400184,2024-04-03 02:41:49,C0098,,1559.10,EUR,6.99,"Avenida Andalucía 81, 8ºC",47001,Valladolid,Valladolid,ES,PayPal,Entregado,marketplace,2024/04/18 02:41:49
+O-202400185,2024-11-01 19:24:55,C0067,UO-320989,1809.53,EUR,6.99,"Avenida Andalucía 26, 6ºC",31001,Pamplona,Navarra,ES,ContraReembolso,Entregado,marketplace,2024-11-14 19:24:55
+O-202400186,2024-10-10 13:32:48,C0074,,985.31,€,4.99,Rúa do Príncipe 111,50001,Zaragoza,Zaragoza,ES,Transferencia,Entregado,marketplace,2024-11-06 13:32:48
+O-202400187,2025/09/01 23:40:01,C0013,,147.12,EUR,€6.99,"Calle del Sol 162, 2ºD",03001,Alicante,Alicante,ES,BIZUM,Entregado,app,2025/09/12 23:40:01
+O-202400188,2025-03-24 01:20:00,,UO-472358,"731,95",EUR,6.99,Calle de la Luz 131,14001,Córdoba,Córdoba,ES,paypal,Entregado,web,2025-04-06 01:20:00
+O-202400189,2024-03-02 10:45:11,C0035,,61.44,EUR,0.00,Calle Jardines 151,47001,Valladolid,Valladolid,ES,Bizum,Devuelto Total,web,2024-03-04 10:45:11
+O-202400190,2024-02-19 13:10:35,,UO-649435,655.88,EUR,4.99,"Calle Mayor 68, 3ºA",46001,Valencia,Valencia,ES,PayPal,Entregado,marketplace,2024-02-19 13:10:35
+O-202400191,2025-11-02 06:37:21,C0057,,993.10,EUR,"4,99","Avenida Andalucía 117, 7ºC",18001,Granada,Granada,ES,Bizum,Entregado,app,2025-11-02 06:37:21
+O-202400192,2024-09-24 02:28:46, C0097,,3164.83,EUR,9.99,Avenida Andalucía 60,07001,Palma,Illes Balears,ES,ApplePay,Entregado,app,2024-10-01 02:28:46
+O-202400193,05/02/2025 06:18,C0037,,786,EUR,9.99,"Calle del Sol 18, 3ºB",29001,Málaga,Málaga,ES,ContraReembolso,Entregado,app,2025-02-09 06:18:34
+O-202400194,2024-03-20 10:30:57,C0012,,,EUR,"4,99",Avenida Europa 128,07001,Palma,Illes Balears,ES,Tarjeta,Entregado,web,17/04/2024 10:30
+O-202400195,2024-04-04 17:31:41,C0101,,2322.29,EUR,6.99,"Calle del Prado 118, 2ºB",08002,Barcelona,Barcelona,ES,ApplePay,Entregado,marketplace,2024-04-20 17:31:41
+O-202400196,2024-06-03 08:28:37,C0101,,€405.69,EUR,0.00,"Gran Vía 43, 5ºA",14001,Córdoba,Córdoba,ES,ApplePay,Entregado,,14/06/2024 08:28
+O-202400197,11/03/24,,UO-162969,730.23,EUR,6.99,Carrer de Mallorca 166,08002,Barcelona,Barcelona,ES,Bizum,Cancelado,app,2024-03-17 23:50:54
+O-202400198,2024-07-13 17:18:59,C0090,,"806,39",EUR,9.99,Calle Jardines 120,14001,Córdoba,Córdoba,ES,Bizum,Entregado,web,2024-07-29 17:18:59
+O-202400199,2025-04-26 08:41:25,,UO-790266,358.05,EUR,6.99,Calle del Sol 100,45001,Toledo,Toledo,ES,Tarjeta,Entregado,web,2025/05/22 08:41:25
+O-202400200,2024-06-05 23:01:34,C0050,,€2668.14,EUR,€4.99,Gran Vía 94,3000,Murcia,Murcia,ES,Tarjeta crédito,Entregado,,2024-06-16 23:01:34
+O-202400201,30/09/2025 11:41,C0006,UO-326387,"737,60",EUR,4.99,Calle Mayor 26,36201,Vigo,Pontevedra,ES,,Pendiente,,03/10/2025 11:41
+O-202400202,2025-06-29 16:29:20,C0052,,162.91,EUR,9.99,"Carrer de Mallorca 81, 6ºC",39001,Santander,Cantabria,ES,PayPal,Entregado,marketplace,2025-07-23 16:29:20
+O-202400203,17/12/2024 09:24,,UO-117094,1379.79,EUR,€6.99,Avenida del Mar 78,36201,Vigo,Pontevedra,ES,ApplePay,Cancelado,app,2025-01-02 09:24:43
+O-202400204,2024-03-14 05:38:22,C0075,,"1621,77",EUR,4.99,"Calle Alcalá 146, 4ºA",18001,Granada,Granada,ES,Desconocido,Entregado,,2024-04-02 05:38:22
+O-202400205,2024-03-01 22:55:28,,UO-555401,1483,EUR,€0.00,"Calle del Sol 31, 4ºA",33201,Gijón,Asturias,ES,Bizum,Entregado,,2024-03-02 22:55:28
+O-202400206,2025-08-07 17:57:30,C0051,,599,EUR,€4.99,"Rúa do Príncipe 103, 5ºA",08002,Barcelona,Barcelona,ES,PayPal,Entregado,app,2025-08-13 17:57:30
+O-202400207,2024-07-07 05:04:50,C9999,UO-533672,1337.02,€,0.00,"Carrer de Mallorca 90, 4ºC",33201,Gijón,Asturias,ES,Bizum,Entregado,app,2024-07-21 05:04:50
+O-202400208,04/06/2024 02:24,C0095,,618.95,EUR,6.99,"Gran Vía 88, 2ºC",07001,Palma,Illes Balears,ES,PayPal,Entregado,app,2024-06-21 02:24:07
+O-202400209,2025-06-23 21:03:54,C0006,,1203.69,EUR,6.99,"Gran Vía 120, 1ºA",30001,Murcia,Murcia,ES,ApplePay,Entregado,marketplace,09/07/25
+O-202400210,2025-01-11 10:45:26,C0059,UO-655132,"1287,40",EUR,"6,99",Carrer de Mallorca 126,07001,Palma,Illes Balears,ES,ContraReembolso,Entregado,web,2025/01/19 10:45:26
+O-202400211,2025-03-07 00:49:09,C0018,,697.45,EUR,6.99,"Calle Alcalá 62, 3ºD",,Zaragoza,Zaragoza,ES,ApplePay,Entregado,app,2025-04-01 00:49:09
+O-202400212,2024-11-30 00:58:46,C0101,,225.14,EUR,"4,99","Rúa do Príncipe 185, 2ºB",45001,Toledo,Toledo,ES,Transferencia,En preparación,marketplace,2024/12/23 00:58:46
+O-202400213,2024-04-28 00:41:05,,UO-741709,926.14,EUR,6.99,Avenida Andalucía 146,30001,Murcia,Murcia,ES,PayPal,Entregado,,2024-05-20 00:41:05
+O-202400214,2025-01-16 17:12:35,C0002,,"548,47",EUR,9.99,"Avenida Europa 53, 2ºB",,Málaga,Málaga,ES,paypal,Entregado,marketplace,04/02/2025 17:12
+O-202400215,2024-11-02 03:30:06,C0091,,2004.13,EUR,0.00,"Calle del Prado 133, 7ºA",08002,Barcelona,Barcelona,ES,Bizum,Pendiente,web,2024-11-07 03:30:06
+O-202400216,19/06/2025 21:39,C0093,,1124.52,EUR,€9.99,"Avenida del Mar 101, 7ºC",45001,Toledo,Toledo,ES,PayPal,Devuelto Parcial,app,2025-06-29 21:39:19
+O-202400217,11/07/2025 23:28,C0011,,169.76,EUR,6.99,Avenida Andalucía 41,36201,Vigo,Pontevedra,ES,PayPal,Entregado,marketplace,04/08/2025 23:28
+O-202400218,2025-07-21 03:12:05, C0017,,194.68,EUR,9.99,"Calle de la Paz 128, 8ºA",28013,Madrid,Madrid,ES,ContraReembolso,Entregado,app,2025-08-07 03:12:05
+O-202400219,2024-02-07 23:54:45,C0005,,176.91,EUR,"4,99",Gran Vía 28,46001,Valencia,Valencia,ES,Bizum,Devuelto Total,web,2024-02-16 23:54:45
+O-202400220,2025-08-12 02:23:00,C0089,,360.02,€,6.99,Calle Jardines 54,29001,Málaga,Málaga,ES,Bizum,Entregado,,2025/08/23 02:23:00
+O-202400221,07/02/2025 16:01,,UO-344026,€3021.30,EUR,"0,00","Calle del Prado 1, 2ºA",07001,Palma,Illes Balears,ES,ContraReembolso,En preparación,app,2025-02-17 16:01:05
+O-202400222,2024-01-09 18:35:46,C0039,UO-819150,1399.68,EUR,6.99,Carrer de Mallorca 102,14001,Córdoba,Córdoba,ES,Transferencia,Pendiente,marketplace,2024-01-24 18:35:46
+O-202400223,25/12/2024 05:04,,UO-413884,940.53,EUR,€6.99,Calle Jardines 174,18001,Granada,Granada,ES,BIZUM,Entregado,app,2025-01-20 05:04:01
+O-202400224,2025-03-19 11:52:09,,UO-423256,769.90,EUR,4.99,Calle Jardines 9,14001,Córdoba,Córdoba,ES,Bizum,Entregado,app,2025-03-22 11:52:09
+O-202400225,10/12/2025 10:08,C0101,,226.05,EUR,0.00,Calle Jardines 135,03001,Alicante,Alicante,ES,Desconocido,En preparación,web,2025-12-11 10:08:59
+O-202400226,04/01/2024 04:36,,UO-449479,1066.94,EUR,4.99,"Gran Vía 27, 5ºA",39001,Santander,Cantabria,ES,Bizum,Entregado,marketplace,2024-01-25 04:36:48
+O-202400227,2024-03-29 21:41:47,C0045,,€1363.24,EUR,6.99,"Avenida Andalucía 63, 3ºA",07001,Palma,Illes Balears,ES,Tarjeta,Entregado,,2024-04-01 21:41:47
+O-202400228,2024-05-19 00:29:05,C0058,,56.17,EUR,9.99,Calle Mayor 194,45001,Toledo,Toledo,ES,ApplePay,Pendiente,marketplace,2024/05/26 00:29:05
+O-202400229,2025/12/10 00:58:25,C0042,,115.96,EUR,4.99,"Calle de la Paz 119, 3ºC",47001,Valladolid,Valladolid,ES,ApplePay,Pendiente,,2025-12-30 00:58:25
+O-202400230,2024-11-07 07:45:38,C0062,,2743.26,EUR,"0,00",Calle Alcalá 112,18001,Granada,Granada,ES,Transferencia,Entregado,app,2024-11-17 07:45:38
+O-202400231,2024-08-27 06:12:07,,UO-908812,228.57,EUR,0.00,Carrer de Mallorca 127,31001,Pamplona,Navarra,ES,Transferencia,Entregado,marketplace,2024-09-14 06:12:07
+O-202400232,2024-08-20 19:28:17,NULL,UO-852658,€1240.85,EUR,0.00,Calle Mayor 150,,Valladolid,Valladolid,ES,Tarjeta,Entregado,web,2024-08-31 19:28:17
+O-202400233,2024-07-01 17:12:47,,UO-525756,3419.33,€,9.99,"Calle Alcalá 140, 4ºB",31001,Pamplona,Navarra,ES,Transferencia,Entregado,web,2024-07-22 17:12:47
+O-202400234,2024-04-21 20:16:40,C9999,UO-945091,2020.13,EUR,9.99,"Calle del Sol 117, 7ºB",33201,Gijón,Asturias,ES,Transferencia,Entregado,marketplace,18/05/2024 20:16
+O-202400235,2024-11-15 02:34:18,C0062,,930.05,EUR,0.00,Avenida del Mar 187,46001,Valencia,Valencia,ES,ApplePay,En preparación,web,2024-12-05 02:34:18
+O-202400236,2025-12-02 20:03:01,C0061,,3318.43,EUR,9.99,"Paseo de la Castellana 43, 1ºC",07001,Palma,Illes Balears,ES,ApplePay,En preparación,app,2025-12-21 20:03:01
+O-202400237,2025-01-27 16:59:40, C0036,UO-283095,848.36,EUR,"4,99",Calle Jardines 39,18001,Granada,Granada,ES,Tarjeta,Entregado,,2025-01-31 16:59:40
+O-202400238,2025-08-07 16:29:15,C0082,,925.37,EUR,9.99,Calle de la Luz 68,08002,Barcelona,Barcelona,ES,ContraReembolso,Entregado,,2025-08-19 16:29:15
+O-202400239,2024-01-10 05:08:35,C0068,,645.66,EUR,"0,00","Calle del Sol 111, 5ºC",47001,Valladolid,Valladolid,ES,Transferencia,Pendiente,marketplace,2024-02-02 05:08:35
+O-202400240,2025-06-10 09:34:55,c0009,UO-567604,"179,18",EUR,0.00,Calle del Prado 186,47001,Valladolid,Valladolid,ES,PayPal,En preparación,app,02/07/25
+O-202400241,2024-10-19 00:22:23,C9999,,"57,19",EUR,6.99,"Paseo de la Castellana 120, 2ºD",30001,Murcia,Murcia,ES,Bizum,Pendiente,marketplace,29/10/24
+O-202400242,2024/05/18 04:50:45,C0023,,274.03,EUR,€0.00,"Calle del Prado 158, 2ºD",33201,Gijón,Asturias,ES,Transferencia,Entregado,,2024-06-07 04:50:45
+O-202400243,2024-07-25 22:44:09,C0091,,355.61,EUR,"6,99","Rúa do Príncipe 58, 1ºD",46001,Valencia,Valencia,ES,Tarjeta,Entregado,marketplace,2024-07-27 22:44:09
+O-202400244,2024-03-03 11:49:23,c0071,,590.16,€,9.99,Calle Mayor 162,,Pamplona,Navarra,ES,PayPal,Entregado,marketplace,2024-03-10 11:49:23
+O-202400245,2025-01-23 02:47:15,C9999,,3810.03,EUR,9.99,Avenida Europa 185,14001,Córdoba,Córdoba,ES,,Entregado,,2025-02-21 02:47:15
+O-202400246,2025-05-22 20:18:11,C0084,UO-422266,1572.48,€,4.99,Calle de la Paz 157,41001,Sevilla,Sevilla,ES,Bizum,Cancelado,app,2025-06-12 20:18:11
+O-202400247,06/09/2024 18:52,C0043,,1128.02,EUR,0.00,Calle Jardines 95,2000,San Sebastián,Gipuzkoa,ES,ApplePay,Entregado,web,2024/09/06 18:52:11
+O-202400248,2024-05-19 08:29:52,C0089,,271.25,EUR,"4,99","Avenida del Mar 164, 5ºD",29001,Málaga,Málaga,ES,PayPal,Pendiente,marketplace,2024-05-21 08:29:52
+O-202400249,08/01/30,C0098,,3620.66,EUR,9.99,Paseo de la Castellana 14,29001,Málaga,Málaga,ES,Tarjeta,Entregado,,2030-01-14 06:07:00
+O-202400250,2024-02-03 15:29:47,C0004,,1412,EUR,"6,99",Avenida Andalucía 149,39001,Santander,Cantabria,ES,PayPal,Entregado,web,2024-03-01 15:29:47
+O-202400251,2024-12-31 19:53:41,C0079,UO-854787,1727.12,EUR,0.00,"Calle de la Luz 92, 5ºB",29001,Málaga,Málaga,ES,Transferencia,Entregado,app,2025-01-10 19:53:41
+O-202400252,2025/09/05 06:13:19,C0071,,"787,29",EUR,9.99,"Calle del Sol 56, 8ºD",03001,Alicante,Alicante,ES,Bizum,Entregado,web,2025-10-04 06:13:19
+O-202400253,2024-11-20 11:49:54,,UO-135253,1871.11,EUR,0.00,"Rúa do Príncipe 101, 8ºA",33201,Gijón,Asturias,ES,ApplePay,Entregado,web,2024-12-01 11:49:54
+O-202400254,13/01/2024 08:57,,UO-883586,386.08,EUR,6.99,"Gran Vía 117, 8ºB",18001,Granada,Granada,ES,Tarjeta,Devuelto Parcial,marketplace,2024-02-10 08:57:35
+O-202400255,2024-11-26 19:23:36,C0027,,1095.35,EUR,9.99,Rúa do Príncipe 173,08002,Barcelona,Barcelona,ES,PayPal,Entregado,marketplace,13/12/2024 19:23
+O-202400256,04/07/2024 08:26,,UO-836984,1883.36,EUR,9.99,"Avenida Europa 191, 4ºC",,Málaga,Málaga,ES,Bizum,Entregado,marketplace,2024-07-30 08:26:09
+O-202400257,2024/12/17 01:29:15,,UO-168815,"154,51",EUR,0.00,Calle de la Paz 23,29001,Málaga,Málaga,ES,ApplePay,Entregado,marketplace,2024-12-23 01:29:15
+O-202400258,2024-11-19 12:48:21, C0057,,1382.57,EUR,"6,99","Calle del Sol 60, 6ºD",28013,Madrid,Madrid,ES,ContraReembolso,Cancelado,marketplace,2024-11-28 12:48:21
+O-202400259,2024-05-13 09:24:43,C0007,,2267.17,EUR,4.99,Calle Jardines 138,20003,San Sebastián,Gipuzkoa,ES,Bizum,Entregado,web,2024-05-24 09:24:43
+O-202400260,2025-05-31 22:48:44,C0021,UO-623676,606.41,EUR,6.99,"Calle de la Paz 82, 3ºA",48001,Bilbao,Bizkaia,ES,ContraReembolso,Entregado,web,2025/06/23 22:48:44
+O-202400261,2025-07-22 06:46:04,C0004,,753.86,EUR,0.00,"Carrer de Mallorca 15, 4ºB",46001,Valencia,Valencia,ES,ApplePay,En preparación,web,2025-08-03 06:46:04
+O-202400262,06/12/2025 14:40,C0050,,"1412,56",EUR,"9,99","Calle del Sol 144, 2ºB",39001,Santander,Cantabria,ES,ApplePay,En preparación,web,2026-01-03 14:40:42
+O-202400263,2024/04/21 13:37:49,C9999,,"1079,34",EUR,6.99,"Avenida Europa 97, 2ºA",18001,Granada,Granada,ES,ApplePay,Entregado,,2024-04-27 13:37:49
+O-202400264,2024-02-02 19:16:42, C0095,UO-375436,274.65,EUR,9.99,"Calle de la Luz 163, 8ºA",07001,Palma,Illes Balears,ES,Tarjeta,Entregado,,2024-02-04 19:16:42
+O-202400265,2025-03-15 07:04:28,C9999,,1480.40,EUR,4.99,Gran Vía 67,18001,Granada,Granada,ES,Bizum,Entregado,web,2025-03-26 07:04:28
+O-202400266,03/02/2025 03:09,C0022,,"920,53",EUR,0.00,"Paseo de la Castellana 176, 6ºA",07001,Palma,Illes Balears,ES,Transferencia,Entregado,app,2025-02-08 03:09:56
+O-202400267,2025-10-07 21:39:16,,UO-651186,2391.34,EUR,"0,00","Calle Jardines 142, 2ºD",,Toledo,Toledo,ES,Transferencia ,Entregado,marketplace,11/10/2025 21:39
+O-202400268,13/05/2024 18:10,C0089,UO-236543,"335,30",EUR,9.99,Calle Alcalá 177,46001,Valencia,Valencia,ES,ApplePay,Entregado,marketplace,2024/05/16 18:10:26
+O-202400269,2025-06-02 12:42:46,C0076,,458.75,EUR,4.99,"Avenida del Mar 192, 5ºC",46001,Valencia,Valencia,ES,ContraReembolso,Pendiente,web,2025-06-24 12:42:46
+O-202400270,2025-07-17 09:29:31,,UO-484264,1367.34,EUR,9.99,"Avenida del Mar 113, 2ºB",28A13,Granada,Granada,ES,Tarjeta,Pendiente,marketplace,2025-07-31 09:29:31
+O-202400271,2025-07-01 09:08:11,C0050,,491.19,EUR,0.00,"Calle del Prado 142, 7ºC",39001,Santander,Cantabria,ES,ApplePay,Entregado,,2025-07-22 09:08:11
+O-202400272,2025-02-09 23:07:58,C0076,,"4075,02",EUR,9.99,Calle Mayor 94,20003,San Sebastián,Gipuzkoa,ES,ApplePay,Entregado,,2025-03-05 23:07:58
+O-202400273,2024-10-03 14:08:05,C0036,UO-613111,1323.47,EUR,0.00,Calle del Prado 161,03001,Alicante,Alicante,ES,PayPal,Entregado,web,2024-10-07 14:08:05
+O-202400274,28/05/2025 11:26,C0085,,1129.97,EUR,"6,99",Rúa do Príncipe 5,45001,Toledo,Toledo,ES,Tarjeta,Entregado,app,24/06/2025 11:26
+O-202400275,2025-01-16 17:50:38,,UO-696487,,EUR,9.99,Calle de la Luz 142,03001,Alicante,Alicante,ES,Transferencia,Entregado,web,2025-01-25 17:50:38
+O-202400276,09/04/2024 13:47,C0081,,2126.55,EUR,6.99,Calle Alcalá 90,47001,Valladolid,Valladolid,ES,Tarjeta crédito,Devuelto Parcial,,2024-04-14 13:47:06
+O-202400277,2025/05/25 21:40:48, C0090,,374.55,EUR,4.99,Calle Alcalá 83,18001,Granada,Granada,ES,ApplePay,Entregado,web,05/06/25
+O-202400278,2025-10-14 17:49:39,C0074,,1158.09,EUR,9.99,"Calle Jardines 149, 2ºC",46001,Valencia,Valencia,ES,Tarjeta,Entregado,marketplace,2025-11-08 17:49:39
+O-202400279,2024-06-04 09:42:19, C0071,,-225.67,EUR,9.99,"Avenida Andalucía 128, 4ºD",2000,San Sebastián,Gipuzkoa,ES,Tarjeta,Entregado,marketplace,2024-06-08 09:42:19
+O-202400280,17/10/2025 15:34,C0027,,1212.67,EUR,€4.99,Paseo de la Castellana 176,20003,San Sebastián,Gipuzkoa,ES,Bizum,Entregado,app,2025-10-30 15:34:28
+O-202400281,03/05/2024 18:39,C0071,,840.12,EUR,0.00,"Avenida Europa 6, 1ºA",03001,Alicante,Alicante,ES,Bizum,Entregado,app,2024/05/15 18:39:27
+O-202400282,2024/07/02 08:07:33,C0075,,1357.08,EUR,9.99,"Calle del Prado 154, 2ºC",46001,Valencia,Valencia,ES,Transferencia,Entregado,marketplace,08/07/24
+O-202400283,2025-11-01 05:37:14,CX123,,858.29,EUR,6.99,"Calle de la Luz 64, 5ºB",03001,Alicante,Alicante,ES,ContraReembolso,Entregado,app,2025/11/26 05:37:14
+O-202400284,15/07/24,C0088,,667.75,EUR,4.99,Gran Vía 101,3100,Pamplona,Navarra,ES,paypal,Devuelto Parcial,web,12/08/2024 11:56
+O-202400285,2024/07/31 20:24:39,C0053,,€350.81,EUR,6.99,"Calle del Sol 42, 5ºA",41001,Sevilla,Sevilla,ES,Tarjeta,Entregado,,14/08/2024 20:24
+O-202400286,2024-06-04 09:40:27,C0067,,€289.87,EUR,4.99,"Calle del Sol 153, 7ºC",48001,Bilbao,Bizkaia,ES,Bizum,Pendiente,,2024-06-17 09:40:27
+O-202400287,2025/10/10 07:32:42,,UO-757066,,EUR,9.99,Calle Mayor 119,50001,Zaragoza,Zaragoza,ES,Bizum,Entregado,,10/10/2025 07:32
+O-202400288,04/10/2025 13:11,c0077,,€170.86,EUR,9.99,Calle del Sol 53,33201,Gijón,Asturias,ES,Bizum,Entregado,,2025-10-11 13:11:47
+O-202400289,2024-03-07 14:17:05,C0088,,674.01,EUR,9.99,"Calle Mayor 25, 1ºA",3000,Murcia,Murcia,ES,Desconocido,En preparación,,30/03/2024 14:17
+O-202400290,2024-08-22 23:08:44,,UO-143122,794,EUR,4.99,"Avenida del Mar 67, 3ºD",,Granada,Granada,ES,Transferencia,Entregado,marketplace,23/08/24
+O-202400291,2025/08/03 20:26:16,C0098,,1094.11,EUR,"4,99","Carrer de Mallorca 189, 8ºB",20003,San Sebastián,Gipuzkoa,ES,Transferencia,Entregado,,2025-08-16 20:26:16
+O-202400292,2024-02-01 16:24:45,C0015,UO-198123,1760.47,EUR,"4,99","Calle del Sol 73, 3ºB",29001,Málaga,Málaga,ES,,Pendiente,web,2024-03-01 16:24:45
+O-202400293,20/11/25,C0048,,787.70,EUR,€6.99,"Gran Vía 21, 8ºD",48001,Bilbao,Bizkaia,ES,Tarjeta,Entregado,app,2025/11/30 05:43:58
+O-202400294,2024-06-13 04:09:49,,UO-879930,658.97,EUR,4.99,"Rúa do Príncipe 155, 7ºA",46001,Valencia,Valencia,ES,Tarjeta crédito,Entregado,app,25/06/2024 04:09
+O-202400295,03/04/2024 16:11,,UO-237664,1083.67,EUR,9.99,"Calle de la Luz 25, 6ºB",47001,Valladolid,Valladolid,ES,Transferencia,Entregado,,2024-04-14 16:11:02
+O-202400296,2024-03-13 04:39:58,C0088,,€2282.63,EUR,9.99,Calle Mayor 75,,Vigo,Pontevedra,ES,Desconocido,Devuelto Parcial,web,2024-03-29 04:39:58
+O-202400297,2025-12-13 11:44:56,C0085,,157.03,EUR,"4,99","Calle Mayor 197, 1ºA",18001,Granada,Granada,ES,Transferencia,Devuelto Parcial,,31/12/2025 11:44
+O-202400298,2025/04/29 12:40:06,,UO-321321,"572,91",EUR,0.00,"Calle Mayor 192, 5ºA",20003,San Sebastián,Gipuzkoa,ES,ApplePay,Entregado,,2025-05-26 12:40:06
+O-202400299,2024-08-23 04:36:02,C0089,UO-241677,504,EUR,4.99,Calle del Prado 29,28013,Madrid,Madrid,ES,ApplePay,Devuelto Parcial,,2024-08-25 04:36:02
+O-202400300,2024-11-23 16:23:55,,UO-608608,"830,61",EUR,9.99,"Gran Vía 116, 4ºB",03001,Alicante,Alicante,ES,ApplePay,Cancelado,marketplace,06/12/2024 16:23
+O-202400301,2024-01-29 18:03:03,C0087,,271.10,EUR,9.99,Rúa do Príncipe 5,08002,Barcelona,Barcelona,ES,ContraReembolso,Devuelto Total,app,2024-02-20 18:03:03
+O-202400302,2024-12-30 11:16:32,CX123,,"549,95",EUR,4.99,"Avenida del Mar 76, 7ºD",39001,Santander,Cantabria,ES,ApplePay,Entregado,web,2025-01-04 11:16:32
+O-202400303,2025-09-08 07:35:06,C0007,,"1706,81",EUR,"4,99","Avenida del Mar 129, 1ºA",20003,San Sebastián,Gipuzkoa,ES,Bizum,En preparación,marketplace,2025-10-02 07:35:06
+O-202400304,2025-11-27 04:34:22,C0091,,1085.74,EUR,0.00,Calle Mayor 157,41001,Sevilla,Sevilla,ES,paypal,Pendiente,web,2025-12-21 04:34:22
+O-202400305,2024-04-29 20:16:51,,UO-560438,"1943,28",EUR,4.99,"Avenida Europa 197, 1ºB",33201,Gijón,Asturias,ES,Transferencia,Entregado,app,03/05/2024 20:16
+O-202400306,2024-04-17 04:24:02,C0067,UO-252656,185.03,EUR,€4.99,"Calle Jardines 133, 2ºA",28013,Madrid,Madrid,ES,Tarjeta,Entregado,marketplace,2024-05-15 04:24:02
+O-202400307,2024-11-21 16:25:02,C0096,,1032,EUR,9.99,Avenida Andalucía 38,,Vigo,Pontevedra,ES,Desconocido,Entregado,,2024-11-30 16:25:02
+O-202400308,2025-07-17 04:49:08,C0028,,201.76,EUR,€0.00,"Gran Vía 8, 5ºB",20003,San Sebastián,Gipuzkoa,ES,Bizum,Entregado,,18/07/2025 04:49
+O-202400309,2024-08-19 10:23:51,C0096,,152.51,EUR,4.99,"Calle del Sol 153, 4ºC",45001,Toledo,Toledo,ES,PayPal,Entregado,web,25/08/2024 10:23
+O-202400310,2024-04-23 19:57:02,C0017,,€805.26,EUR,9.99,"Calle Alcalá 151, 7ºC",36201,Vigo,Pontevedra,ES,Desconocido,En preparación,,2024-04-27 19:57:02
+O-202400311,2024-04-10 11:54:52,C0059,,259.44,EUR,"6,99",Calle Mayor 155,47001,Valladolid,Valladolid,ES,Bizum,Entregado,app,2024-04-19 11:54:52
+O-202400312,2025/08/31 18:57:04,,UO-326053,1089.44,EUR,0.00,Calle del Sol 190,20003,San Sebastián,Gipuzkoa,ES,ContraReembolso,Entregado,app,10/09/2025 18:57
+O-202400313,14/08/2025 19:48,C0020,,€4304.97,EUR,9.99,Calle Alcalá 60,3320,Gijón,Asturias,ES,PayPal,Pendiente,web,08/09/2025 19:48
+O-202400314,2025-05-15 03:25:49,C0007,,1069.59,EUR,4.99,"Gran Vía 31, 3ºA",36201,Vigo,Pontevedra,ES,ContraReembolso,Entregado,,2025-06-03 03:25:49
+O-202400315,2025-10-31 12:21:58,C0068,UO-204158,1223.39,EUR,4.99,"Avenida del Mar 74, 3ºB",45001,Toledo,Toledo,ES,PayPal,Entregado,,2025-11-05 12:21:58
+O-202400316,2024-03-17 16:43:32,C0016,,2238.24,EUR,9.99,"Calle de la Paz 131, 7ºA",50001,Zaragoza,Zaragoza,ES,Tarjeta,Entregado,web,2024-04-14 16:43:32
+O-202400317,2024-07-10 07:39:53,C0058,,243.91,EUR,€9.99,"Carrer de Mallorca 139, 3ºB",4800,Bilbao,Bizkaia,ES,ContraReembolso,Entregado,marketplace,2024-07-10 07:39:53
+O-202400318,09/04/25,,UO-323088,852.19,EUR,0.00,Calle del Sol 131,18001,Granada,Granada,ES,Tarjeta,Cancelado,marketplace,2025/04/17 09:03:45
+O-202400319,2025-11-17 13:40:46,,UO-574709,280.47,EUR,-4.99,Calle del Prado 170,30001,Murcia,Murcia,ES,ApplePay,Devuelto Total,,2025/11/17 13:40:46
+O-202400320,07/03/2025 16:41,c0077,,1811.85,EUR,0.00,"Calle de la Luz 32, 6ºD",39001,Santander,Cantabria,ES,PayPal,Entregado,marketplace,07/03/2025 16:41
+O-202400321,2024-05-28 18:02:11,,UO-345637,2783,EUR,9.99,Carrer de Mallorca 10,03001,Alicante,Alicante,ES,ContraReembolso,Entregado,app,18/06/2024 18:02
+O-202400322,2024-02-20 18:24:37,C0101,,252.66,EUR,9.99,"Calle del Prado 174, 1ºC",30001,Murcia,Murcia,ES,Tarjeta crédito,Devuelto Parcial,,18/03/24
+O-202400323,2025/01/19 22:10:56,C0036,,1346.38,EUR,9.99,Calle del Prado 86,28A13,Pamplona,Navarra,ES,paypal,Entregado,,2025-02-08 22:10:56
+O-202400324,2025/09/19 15:18:46,,UO-359159,332.15,EUR,4.99,"Calle de la Paz 62, 6ºA",41001,Sevilla,Sevilla,ES,ContraReembolso,Entregado,web,2025-10-03 15:18:46
+O-202400325,13/12/2025 00:47,C0017,UO-740405,378.21,EUR,9.99,"Calle Mayor 27, 1ºA",33201,Gijón,Asturias,ES,PayPal,Devuelto Parcial,,2026-01-01 00:47:40
+O-202400326,2025-11-14 11:14:10,C0004,,509.56,EUR,6.99,Gran Vía 153,41001,Sevilla,Sevilla,ES,ContraReembolso,Entregado,,2025-12-09 11:14:10
+O-202400327,2025-02-02 13:21:25,,UO-913166,1067.27,EUR,0.00,"Avenida del Mar 121, 5ºC",48001,Bilbao,Bizkaia,ES,PayPal,Entregado,marketplace,2025-02-28 13:21:25
+O-202400328,2024-05-31 18:39:10,C0025,,3041.94,EUR,0.00,"Calle del Sol 149, 6ºC",14001,Córdoba,Córdoba,ES,Tarjeta,Entregado,app,2024-06-20 18:39:10
+O-202400329,04/07/2024 15:38,,UO-494172,€316.73,EUR,€0.00,Calle Alcalá 48,29001,Málaga,Málaga,ES,Transferencia,Entregado,app,2024-07-28 15:38:16
+O-202400330,2024-06-02 15:43:30,C0071,,56.55,EUR,"4,99",Calle Mayor 6,30001,Murcia,Murcia,ES,Bizum,Entregado,web,27/06/24
+O-202400331,02/04/2024 00:52,C0049,,478,EUR,0.00,Gran Vía 196,50001,Zaragoza,Zaragoza,ES,PayPal,Devuelto Parcial,,2024-04-30 00:52:32
+O-202400332,2025-09-06 09:15:24,,UO-776406,€889.58,EUR,9.99,"Carrer de Mallorca 128, 8ºB",36201,Vigo,Pontevedra,ES,Bizum,Entregado,app,2025-10-01 09:15:24
+O-202400333,2025-11-26 01:51:30,C0049,,1036.29,EUR,"4,99","Calle Mayor 35, 2ºC",45001,Toledo,Toledo,ES,ContraReembolso,Entregado,marketplace,2025-12-09 01:51:30
+O-202400334,2024-07-31 01:27:06,C0046,,603.07,EUR,6.99,Calle de la Luz 21,45001,Toledo,Toledo,ES,PayPal,Entregado,marketplace,23/08/2024 01:27
+O-202400335,28/05/24,,UO-875758,3343.08,EUR,"9,99","Paseo de la Castellana 3, 5ºC",45001,Toledo,Toledo,ES,ApplePay,Entregado,app,21/06/24
+O-202400336,2024-06-25 06:12:46,C0071,,"218,90",EUR,"0,00",Carrer de Mallorca 49,46001,Valencia,Valencia,ES,PayPal,Entregado,marketplace,10/07/2024 06:12
+O-202400337,2024-06-24 03:27:00,,UO-663718,"1142,49",EUR,6.99,Carrer de Mallorca 151,07001,Palma,Illes Balears,ES,ContraReembolso,Entregado,,2024-07-06 03:27:00
+O-202400338,26/05/24,C0039,,811.37,EUR,9.99,Calle del Sol 177,08002,Barcelona,Barcelona,ES,ApplePay,Entregado,,2024-06-06 06:53:14
+O-202400339,2024-10-30 18:43:50,C0009,,348.80,EUR,9.99,"Paseo de la Castellana 111, 8ºB",29001,Málaga,Málaga,ES,PayPal,Entregado,,18/11/2024 18:43
+O-202400340,2024-12-23 10:50:05,C0059,,576.24,EUR,9.99,Avenida Andalucía 45,,Pamplona,Navarra,ES,paypal,Entregado,app,2025/01/14 10:50:05
+O-202400341,2024-07-31 15:33:34,C0093,,1310.75,EUR,4.99,"Calle Mayor 95, 2ºA",45001,Toledo,Toledo,ES,Transferencia,Entregado,,21/08/2024 15:33
+O-202400342,2025-10-26 16:46:03,,UO-243110,609.44,EUR,4.99,"Calle de la Luz 192, 8ºD",14001,Córdoba,Córdoba,ES,Transferencia,Cancelado,app,31/10/2025 16:46
+O-202400343,2024-08-16 11:15:13,C0002,,1688.05,EUR,€0.00,Calle Jardines 9,29001,Málaga,Málaga,ES,Tarjeta,Entregado,marketplace,28/08/2024 11:15
+O-202400344,2025-12-06 20:26:48,CX123,,1511.16,EUR,0.00,Calle del Prado 25,46001,Valencia,Valencia,ES,ApplePay,Entregado,app,2025-12-23 20:26:48
+O-202400345,2024-06-15 01:08:52,C0002,UO-954678,"84,92",EUR,9.99,Calle de la Luz 160,,Murcia,Murcia,ES,Tarjeta,Pendiente,web,2024/07/14 01:08:52
+O-202400346,2025-04-10 22:20:02,C0101,,2354.95,EUR,9.99,"Calle del Sol 171, 8ºA",14001,Córdoba,Córdoba,ES,PayPal,Entregado,web,2025-04-10 22:20:02
+O-202400347,2024-08-27 21:21:20,C0018,,2106.65,EUR,6.99,"Calle de la Luz 10, 4ºD",29001,Málaga,Málaga,ES,ContraReembolso,Pendiente,marketplace,2024-09-22 21:21:20
+O-202400348,2024/09/23 04:55:14,C0032,,609.20,EUR,9.99,Rúa do Príncipe 83,31001,Pamplona,Navarra,ES,ApplePay,En preparación,app,2024-09-27 04:55:14
+O-202400349,2024-07-02 13:08:24,C0026,,886.15,EUR,"6,99","Avenida Andalucía 115, 4ºC",07001,Palma,Illes Balears,ES,Transferencia,Entregado,,15/07/2024 13:08
+O-202400350,2024-01-16 09:18:18,CX123,,"648,20",EUR,€9.99,"Rúa do Príncipe 187, 3ºC",48001,Bilbao,Bizkaia,ES,Transferencia,Entregado,web,2024-01-31 09:18:18
+O-202400351,2024-01-10 23:14:53,C0054,,"619,69",EUR,0.00,Paseo de la Castellana 165,28A13,Alicante,Alicante,ES,PayPal,Pendiente,,2024/02/03 23:14:53
+O-202400352,2025-05-08 04:52:49,C0101,,847,EUR,4.99,"Calle del Sol 93, 1ºB",08002,Barcelona,Barcelona,ES,ApplePay,Cancelado,,2025-06-01 04:52:49
+O-202400353,2024-11-04 21:02:55,NULL,UO-273878,2340.24,EUR,0.00,"Paseo de la Castellana 178, 5ºD",33201,Gijón,Asturias,ES,Bizum,Cancelado,marketplace,2024/11/10 21:02:55
+O-202400354,2024-01-05 23:40:59,C0090,,-364.31,EUR,"4,99",Avenida del Mar 46,33201,Gijón,Asturias,ES,ContraReembolso,Cancelado,app,06/01/2024 23:40
+O-202400355,2024-07-20 10:40:12,C9999,,"671,33",EUR,€6.99,Calle Mayor 76,20003,San Sebastián,Gipuzkoa,ES,Transferencia,Entregado,web,2024-07-21 10:40:12
+O-202400356,2024-03-16 05:15:46,C0098,,536.53,EUR,9.99,Carrer de Mallorca 95,3320,Gijón,Asturias,ES,Bizum,Devuelto Parcial,app,2024-03-16 05:15:46
+O-202400357,2024-01-20 22:43:04,C0032,,,EUR,6.99,"Rúa do Príncipe 106, 4ºA",03001,Alicante,Alicante,ES,Desconocido,Entregado,web,2024-02-08 22:43:04
+O-202400358,2024/09/27 13:24:56,C9999,,,EUR,0.00,Avenida Andalucía 50,07001,Palma,Illes Balears,ES,ContraReembolso,En preparación,app,2024-10-25 13:24:56
+O-202400359,2024-07-08 00:29:04, C0056,,465.91,EUR,0.00,"Calle Alcalá 197, 5ºB",14001,Córdoba,Córdoba,ES,Desconocido,Pendiente,web,2024-07-30 00:29:04
+O-202400360,15/05/2025 04:46,,UO-785684,€4679.97,EUR,0.00,"Calle del Sol 112, 4ºB",45001,Toledo,Toledo,ES,ContraReembolso,Devuelto Total,marketplace,2025-05-18 04:46:45
+O-202400361,2017-01-19 12:00:00,,UO-544280,"2760,94",EUR,9.99,Avenida Europa 94,14001,Córdoba,Córdoba,ES,Bizum,Cancelado,web,2017-02-02 12:00:00
+O-202400362,2025-04-10 03:56:17,C0091,,1979.07,EUR,"4,99",Calle Jardines 97,07001,Palma,Illes Balears,ES,paypal,Pendiente,,07/05/2025 03:56
+O-202400363,20/08/2024 07:39,,UO-511341,1373.55,EUR,"6,99","Calle Alcalá 174, 8ºC",14001,Córdoba,Córdoba,ES,Desconocido,Devuelto Parcial,web,2024-08-24 07:39:40
+O-202400364,2025-10-22 01:36:04,C0057,UO-328732,"790,61",EUR,4.99,Calle Jardines 167,29001,Málaga,Málaga,ES,Desconocido,Cancelado,web,2025-10-25 01:36:04
+O-202400365,2024-04-01 03:30:13,NULL,UO-356902,337.25,EUR,"4,99","Calle Mayor 62, 7ºD",08002,Barcelona,Barcelona,ES,ApplePay,En preparación,,03/04/2024 03:30
+O-202400366,2024-08-01 18:23:55,C0016,,552.12,EUR,4.99,Avenida Andalucía 147,28013,Madrid,Madrid,ES,Desconocido,Entregado,app,2024-08-04 18:23:55
+O-202400367,2024-11-10 19:54:30,C0068,,-4.99,EUR,-4.99,Avenida Europa 193,,Sevilla,Sevilla,ES,Bizum,Entregado,marketplace,2024-11-16 19:54:30
+O-202400368,2025-10-23 08:10:49,C0070,,"240,47",EUR,"6,99",Paseo de la Castellana 12,50001,Zaragoza,Zaragoza,ES,BIZUM,Entregado,app,2025-11-14 08:10:49
+O-202400369,29/01/2024 12:46,,UO-678888,"1056,21",EUR,€6.99,"Avenida Andalucía 92, 5ºB",29001,Málaga,Málaga,ES,PayPal,Entregado,app,2024-02-06 12:46:13
+O-202400370,2025-02-20 05:58:50,C0083,,952.19,EUR,9.99,"Avenida Andalucía 42, 7ºB",28A13,Vigo,Pontevedra,ES,paypal,Entregado,marketplace,2025-02-23 05:58:50
+O-202400371,12/05/2025 05:46,C0029,,734.19,EUR,9.99,"Calle Alcalá 27, 2ºB",50001,Zaragoza,Zaragoza,ES,ContraReembolso,Devuelto Parcial,marketplace,2025-05-31 05:46:24
+O-202400372,06/08/2025 23:55,,UO-678469,1682.40,EUR,4.99,Calle de la Paz 152,31001,Pamplona,Navarra,ES,ContraReembolso,Pendiente,app,2025-08-29 23:55:37
+O-202400373,2025-06-10 18:50:53,NULL,UO-626625,€857.71,EUR,9.99,Paseo de la Castellana 110,0700,Palma,Illes Balears,ES,ApplePay,Entregado,web,2025-07-10 18:50:53
+O-202400374,31/07/2025 10:09,C0055,UO-621986,863.39,€,"0,00",Calle de la Luz 174,36201,Vigo,Pontevedra,ES,ApplePay,Entregado,web,21/08/25
+O-202400375,2025/04/16 18:15:48,,UO-336001,1305.48,EUR,"9,99",Calle Mayor 94,20003,San Sebastián,Gipuzkoa,ES,BIZUM,Devuelto Parcial,marketplace,2025/05/03 18:15:48
+O-202400376,2024-08-20 09:04:55,C0051,,90.98,EUR,9.99,Calle del Sol 10,36201,Vigo,Pontevedra,ES,Tarjeta,Entregado,,2024-09-01 09:04:55
+O-202400377,2024-06-02 10:29:42,c0063,,666.02,EUR,"6,99","Calle Alcalá 96, 5ºC",,Alicante,Alicante,ES,Transferencia,Entregado,app,2024-06-15 10:29:42
+O-202400378,2024-03-26 22:57:25,,UO-133141,"872,57",EUR,€9.99,Calle de la Luz 51,20003,San Sebastián,Gipuzkoa,ES,Bizum,Pendiente,,2024-04-07 22:57:25
+O-202400379,2024-04-12 01:48:10,c0065,UO-970145,731.83,EUR,9.99,"Calle Alcalá 153, 1ºD",14001,Córdoba,Córdoba,ES,ContraReembolso,Entregado,marketplace,2024-04-19 01:48:10
+O-202400380,2025-06-28 10:45:45,,UO-949296,1812.22,EUR,"4,99",Calle Jardines 187,41001,Sevilla,Sevilla,ES,PayPal,Devuelto Total,,2025-07-17 10:45:45
+O-202400381,12/11/24,C0055,,855.66,EUR,4.99,"Calle Mayor 69, 6ºC",07001,Palma,Illes Balears,ES,Tarjeta,Entregado,web,2024-11-22 08:34:11
+O-202400382,2024-11-30 16:41:54,C0013,,1148.11,EUR,€4.99,Carrer de Mallorca 93,48001,Bilbao,Bizkaia,ES,Tarjeta,Entregado,app,2024-12-03 16:41:54
+O-202400383,2024-05-29 20:25:45,C0044,,670,EUR,6.99,Calle Jardines 40,45001,Toledo,Toledo,ES,ContraReembolso,En preparación,,2024-06-12 20:25:45
+O-202400384,22/02/24,,UO-275044,1029.63,EUR,"4,99",Calle Jardines 34,30001,Murcia,Murcia,ES,ApplePay,Entregado,,2024-02-24 14:10:40
+O-202400385,2025-03-12 21:44:01,C0021,UO-929053,3737.99,EUR,"6,99",Calle de la Paz 129,36201,Vigo,Pontevedra,ES,Tarjeta,Entregado,app,2025-04-01 21:44:01
+O-202400386,29/07/24,C0101,,2941.80,€,"6,99",Calle de la Luz 89,2801,Madrid,Madrid,ES,ContraReembolso,Entregado,app,18/08/2024 01:16
+O-202400387,21/07/25,C0100,,1102.00,EUR,4.99,Calle de la Luz 66,31001,Pamplona,Navarra,ES,Transferencia,Entregado,,2025-08-13 09:04:19
+O-202400388,13/03/2024 18:31,C0073,,716.49,EUR,"0,00",Paseo de la Castellana 42,28013,Madrid,Madrid,ES,ApplePay,En preparación,web,2024-03-29 18:31:40
+O-202400389,2025-04-13 14:12:22,C0083,,-1523.52,EUR,6.99,Avenida del Mar 161,30001,Murcia,Murcia,ES,PayPal,Entregado,,27/04/2025 14:12
+O-202400390,2024-04-30 00:20:13,C0003,,,EUR,9.99,Calle del Sol 107,36201,Vigo,Pontevedra,ES,Bizum,Entregado,web,2024-05-12 00:20:13
+O-202400391,2025-01-17 00:12:00,CX123,UO-449935,1454.15,EUR,6.99,Carrer de Mallorca 22,41001,Sevilla,Sevilla,ES,PayPal,Devuelto Parcial,web,05/02/2025 00:12
+O-202400392,2024/07/29 13:32:41,,UO-845859,-51.16,EUR,9.99,"Avenida Europa 1, 3ºB",46001,Valencia,Valencia,ES,Transferencia,Cancelado,web,11/08/24
+O-202400393,2024-09-07 22:09:07,C0055,,1091,EUR,9.99,"Avenida del Mar 168, 4ºD",14001,Córdoba,Córdoba,ES,Transferencia,Entregado,app,2024-09-23 22:09:07
+O-202400394,2025-06-30 02:36:33,,UO-480002,1025.23,EUR,4.99,"Calle de la Paz 35, 2ºA",45001,Toledo,Toledo,ES,ContraReembolso,En preparación,app,2025-07-07 02:36:33
+O-202400395,2024-04-01 01:26:01,C0055,,542.12,EUR,0.00,Calle de la Paz 153,46001,Valencia,Valencia,ES,Transferencia,Entregado,marketplace,2024-04-24 01:26:01
+O-202400396,31/12/2024 04:52,C0037,,339.89,EUR,9.99,"Rúa do Príncipe 42, 1ºD",20003,San Sebastián,Gipuzkoa,ES,ContraReembolso,Entregado,web,2025/01/13 04:52:27
+O-202400397,09/02/2025 01:29,C0008,,490.75,EUR,9.99,"Avenida Andalucía 20, 8ºD",45001,Toledo,Toledo,ES,Bizum,Entregado,marketplace,2025-02-12 01:29:02
+O-202400398,2024-01-22 18:52:07,C0002,,2236.43,EUR,"6,99","Calle del Prado 69, 2ºA",08002,Barcelona,Barcelona,ES,Bizum,Pendiente,marketplace,2024-02-07 18:52:07
+O-202400399,2024-04-10 14:22:11,,UO-205909,617.00,EUR,"0,00","Avenida Europa 199, 3ºA",36201,Vigo,Pontevedra,ES,Transferencia,Entregado,app,10/05/2024 14:22
+O-202400400,2025-08-20 03:57:00,,UO-783037,1342.76,EUR,€9.99,"Avenida Europa 88, 8ºB",36201,Vigo,Pontevedra,ES,ApplePay,Entregado,,2025-09-08 03:57:00
+O-202400401,2024/03/16 15:46:48,c0077,,"800,87",EUR,0.00,"Paseo de la Castellana 42, 2ºC",20003,San Sebastián,Gipuzkoa,ES,Bizum,En preparación,app,2024/04/09 15:46:48
+O-202400402,2025-12-30 23:41:28,,UO-520415,277.76,EUR,€6.99,"Calle del Sol 159, 3ºD",33201,Gijón,Asturias,ES,ContraReembolso,Entregado,web,2026-01-20 23:41:28
+O-202400403,2025-07-29 14:02:04,C0014,,55.43,EUR,9.99,"Calle del Prado 100, 8ºA",46001,Valencia,Valencia,ES,Tarjeta,Devuelto Parcial,web,2025-08-22 14:02:04
+O-202400404,2024-09-03 10:37:06,,UO-219879,826.12,EUR,6.99,Calle de la Paz 10,30001,Murcia,Murcia,ES,Transferencia ,Entregado,web,2024-09-28 10:37:06
+O-202400405,2024-06-13 06:30:47,C0082,,€929.84,EUR,€6.99,Paseo de la Castellana 183,46001,Valencia,Valencia,ES,Transferencia,Entregado,,2024-06-18 06:30:47
+O-202400406,04/01/25,C0089,,931,EUR,9.99,"Calle Mayor 186, 3ºC",29001,Málaga,Málaga,ES,Bizum,Entregado,,2025-01-17 07:57:05
+O-202400407,2025-10-08 15:07:35,C0005,,1014.23,EUR,4.99,"Avenida Europa 43, 7ºB",45001,Toledo,Toledo,ES,Tarjeta,Entregado,web,2025/10/17 15:07:35
+O-202400408,2025-06-27 04:12:59,C0070,,438.88,EUR,€9.99,Calle de la Paz 110,20003,San Sebastián,Gipuzkoa,ES,ApplePay,Entregado,web,2025/07/16 04:12:59
+O-202400409,2024-03-09 01:21:30,C0053,,1305.66,EUR,€4.99,"Calle Mayor 163, 8ºA",,Toledo,Toledo,ES,Transferencia,Entregado,,2024-04-08 01:21:30
+O-202400410,16/11/2024 17:39,C0048,,497.11,EUR,0.00,"Paseo de la Castellana 107, 4ºA",30001,Murcia,Murcia,ES,ContraReembolso,Cancelado,,2024-11-26 17:39:41
+O-202400411,2024-07-06 20:03:31,C0007,UO-767181,18.41,EUR,€0.00,Calle Jardines 45,31001,Pamplona,Navarra,ES,Tarjeta,Entregado,app,01/08/2024 20:03
+O-202400412,2024-09-07 10:03:28,C0076,,,EUR,"6,99","Avenida Andalucía 98, 1ºB",46001,Valencia,Valencia,ES,PayPal,Entregado,,14/09/2024 10:03
+O-202400413,2025-08-21 09:08:24,C0003,UO-581430,1203.77,EUR,9.99,Calle Mayor 37,41001,Sevilla,Sevilla,ES,paypal,Entregado,web,2025-08-21 09:08:24
+O-202400414,2024-06-12 08:12:03,C0101,,€486.16,EUR,9.99,"Avenida del Mar 169, 1ºA",28A13,Madrid,Madrid,ES,Tarjeta,Entregado,web,2024-07-11 08:12:03
+O-202400415,2025/02/06 08:07:30,c0028,UO-825196,604.43,EUR,6.99,Paseo de la Castellana 71,48001,Bilbao,Bizkaia,ES,Transferencia,Entregado,marketplace,2025-02-12 08:07:30
+O-202400416,2024-11-01 02:48:21,C0027,,1604.29,EUR,9.99,Avenida Andalucía 192,33201,Gijón,Asturias,ES,ApplePay,Cancelado,,2024-11-29 02:48:21
+O-202400417,15/08/24,c0051,,134,EUR,"6,99","Carrer de Mallorca 63, 2ºB",20003,San Sebastián,Gipuzkoa,ES,Tarjeta,Pendiente,web,02/09/2024 22:44
+O-202400418,2024-10-26 11:56:06,C0092,,€1741.33,EUR,4.99,"Avenida Andalucía 166, 7ºD",46001,Valencia,Valencia,ES,Transferencia,Entregado,marketplace,2024-10-29 11:56:06
+O-202400419,2025-04-04 04:13:40,C0074,,428.25,EUR,"0,00",Gran Vía 137,31001,Pamplona,Navarra,ES,Bizum,Entregado,,2025-04-16 04:13:40
+O-202400420,20/04/25,C0083,,€969.71,EUR,"6,99",Gran Vía 58,41001,Sevilla,Sevilla,ES,PayPal,Entregado,web,18/05/2025 14:29
+O-202400421,2025/12/26 13:04:44,C0007,,661.43,EUR,6.99,"Paseo de la Castellana 179, 3ºB",31001,Pamplona,Navarra,ES,Transferencia,Entregado,,2026-01-11 13:04:44
+O-202400422,2024-08-05 21:40:28,C0038,,660,EUR,"0,00",Calle de la Luz 166,28A13,Zaragoza,Zaragoza,ES,Transferencia,Cancelado,marketplace,2024-08-08 21:40:28
+O-202400423,2025-08-13 16:31:22,,UO-210793,,EUR,4.99,Calle del Prado 94,48001,Bilbao,Bizkaia,ES,ApplePay,Entregado,web,2025-09-02 16:31:22
+O-202400424,2025-08-01 16:17:28,C0061,,1854.11,EUR,9.99,Calle Mayor 91,45001,Toledo,Toledo,ES,Bizum,Entregado,marketplace,13/08/2025 16:17
+O-202400425,2024-05-27 03:35:49,C0056,,1910.59,EUR,"0,00","Calle del Prado 30, 1ºA",41001,Sevilla,Sevilla,ES,Desconocido,Pendiente,marketplace,2024-05-30 03:35:49
+O-202400426,2025-01-19 14:40:07, C0077,,2964.77,EUR,4.99,"Calle Jardines 79, 4ºB",03001,Alicante,Alicante,ES,paypal,En preparación,marketplace,2025-02-01 14:40:07
+O-202400427,2025/11/15 11:49:51,C0061,,1390.08,EUR,0.00,Gran Vía 5,41001,Sevilla,Sevilla,ES,Bizum,Entregado,marketplace,2025-12-02 11:49:51
+O-202400428,22/12/2024 07:44,,UO-912149,349.36,EUR,4.99,"Calle Mayor 70, 1ºB",,Alicante,Alicante,ES,ContraReembolso,Pendiente,,2025-01-02 07:44:02
+O-202400429,2025-05-11 02:51:36,C0058,,451.69,EUR,€6.99,"Carrer de Mallorca 101, 7ºC",47001,Valladolid,Valladolid,ES,Transferencia,Entregado,,2025-05-22 02:51:36
+O-202400430,2025-12-21 04:52:35,,UO-685253,€2204.58,EUR,"0,00","Paseo de la Castellana 125, 5ºA",20003,San Sebastián,Gipuzkoa,ES,Tarjeta,Entregado,web,2026-01-03 04:52:35
+O-202400431,14/07/2024 07:03,C0099,,463.06,EUR,"9,99","Calle Jardines 51, 7ºA",48001,Bilbao,Bizkaia,ES,ApplePay,Entregado,marketplace,2024/08/13 07:03:34
+O-202400432,2025-04-08 17:36:35,C0075,,400.21,EUR,€9.99,Rúa do Príncipe 52,33201,Gijón,Asturias,ES,Transferencia,Entregado,marketplace,2025-04-30 17:36:35
+O-202400433,29/12/24,c0072,UO-247414,261.57,EUR,9.99,"Avenida Europa 63, 6ºB",07001,Palma,Illes Balears,ES,Transferencia,Cancelado,marketplace,12/01/2025 19:12
+O-202400434,2025-10-06 14:21:02,,UO-692910,€50.43,EUR,4.99,Calle Jardines 85,03001,Alicante,Alicante,ES,paypal,Entregado,web,2025-11-02 14:21:02
+O-202400435,2025-09-17 17:47:11,C0078,,970.37,EUR,6.99,Calle de la Paz 7,4100,Sevilla,Sevilla,ES,paypal,Cancelado,web,2025-10-13 17:47:11
+O-202400436,2024-12-01 19:39:25,,UO-352373,719.97,EUR,0.00,"Rúa do Príncipe 190, 4ºD",20003,San Sebastián,Gipuzkoa,ES,ApplePay,Entregado,,2024-12-26 19:39:25
+O-202400437,2024-04-25 02:01:27,c0039,,430.43,EUR,4.99,"Gran Vía 91, 3ºD",39001,Santander,Cantabria,ES,,Entregado,app,2024-05-11 02:01:27
+O-202400438,2024-09-30 07:16:34,,UO-246841,€751.26,EUR,9.99,Avenida Europa 196,,Murcia,Murcia,ES,ApplePay,Entregado,app,16/10/2024 07:16
+O-202400439,2025-06-25 23:21:05, C0052,,492.41,EUR,"4,99","Calle Mayor 171, 2ºD",50001,Zaragoza,Zaragoza,ES,ApplePay,Pendiente,,2025-07-23 23:21:05
+O-202400440,2025-12-17 10:19:52,,UO-176421,45.17,EUR,9.99,"Avenida Europa 96, 1ºB",39001,Santander,Cantabria,ES,,Entregado,app,2026-01-01 10:19:52
+O-202400441,30/07/2025 10:45,c0075,UO-134853,"693,41",EUR,9.99,"Gran Vía 93, 7ºA",48001,Bilbao,Bizkaia,ES,Transferencia,Entregado,web,2025-08-27 10:45:05
+O-202400442,2024-12-06 21:16:48,c0077,,1689.66,EUR,6.99,Avenida Andalucía 139,08002,Barcelona,Barcelona,ES,ApplePay,Entregado,app,11/12/24
+O-202400443,2025-10-24 16:42:41,C0070,,1515.57,EUR,€6.99,"Calle de la Luz 8, 1ºC",30001,Murcia,Murcia,ES,PayPal,Entregado,web,22/11/2025 16:42
+O-202400444,2024-07-02 00:13:22,C0098,UO-536459,508.31,EUR,9.99,Rúa do Príncipe 123,46001,Valencia,Valencia,ES,Transferencia,Entregado,web,30/07/24
+O-202400445,2024-01-21 11:16:14,,UO-815067,1240.45,EUR,9.99,"Rúa do Príncipe 124, 1ºD",28013,Madrid,Madrid,ES,Tarjeta,Entregado,,2024-02-18 11:16:14
+O-202400446,2025-12-14 02:02:20,C0096,,€1369.38,EUR,9.99,Avenida Europa 4,08002,Barcelona,Barcelona,ES,Bizum,Entregado,web,2025-12-23 02:02:20
+O-202400447,2025-05-24 23:43:48,C0095,,1038.99,EUR,6.99,Calle Jardines 78,39001,Santander,Cantabria,ES,Tarjeta,Entregado,web,15/06/25
+O-202400448,2024-06-07 02:32:20,C0071,,"315,16",EUR,0.00,Gran Vía 61,48001,Bilbao,Bizkaia,ES,Bizum,Cancelado,web,2024/06/15 02:32:20
+O-202400449,2025-11-01 03:15:03,C0085,,"1195,98",EUR,"4,99","Avenida Europa 90, 1ºC",45001,Toledo,Toledo,ES,ContraReembolso,Entregado,web,2025/11/24 03:15:03
+O-202400450,2025-03-05 18:09:02,,UO-660737,965.15,EUR,4.99,"Calle Alcalá 147, 5ºB",39001,Santander,Cantabria,ES,ApplePay,En preparación,,12/03/2025 18:09
+O-202400451,2024-01-30 23:40:18,,UO-949618,2086.53,EUR,0.00,Calle Mayor 79,28013,Madrid,Madrid,ES,Bizum,Entregado,web,2024-02-05 23:40:18
+O-202400452,02/08/24,C0034,,543.16,EUR,€0.00,Calle del Prado 162,48001,Bilbao,Bizkaia,ES,Transferencia,Entregado,marketplace,2024-08-24 17:19:14
+O-202400453,18/07/2024 23:07,C0006,UO-565371,€604.95,EUR,€9.99,"Rúa do Príncipe 20, 4ºB",41001,Sevilla,Sevilla,ES,Bizum,Entregado,marketplace,2024-08-12 23:07:26
+O-202400454,2024-12-31 14:12:17,C0038,UO-738622,1028.80,EUR,0.00,"Avenida Europa 81, 6ºB",29001,Málaga,Málaga,ES,ApplePay,Entregado,,29/01/25
+O-202400455,2025-02-22 15:04:48,C0061,,243.39,EUR,6.99,"Calle del Sol 148, 5ºB",29001,Málaga,Málaga,ES,Tarjeta,Entregado,marketplace,2025/03/24 15:04:48
+O-202400456,2025-03-11 07:40:41,C0058,,2018.92,EUR,"6,99","Rúa do Príncipe 63, 7ºB",48001,Bilbao,Bizkaia,ES,Transferencia,Entregado,app,2025-03-26 07:40:41
+O-202400457,2025-11-11 17:23:10,,UO-845937,€506.18,EUR,4.99,"Calle Jardines 26, 3ºA",03001,Alicante,Alicante,ES,ContraReembolso,Devuelto Parcial,app,2025-11-22 17:23:10
+O-202400458,07/07/2025 00:20,C0078,UO-874633,"719,87",EUR,4.99,"Calle de la Paz 105, 8ºD",47001,Valladolid,Valladolid,ES,ContraReembolso,Devuelto Parcial,marketplace,2025-07-09 00:20:04
+O-202400459,2025-06-07 10:32:19,C0076,,24.57,EUR,4.99,"Carrer de Mallorca 13, 7ºC",03001,Alicante,Alicante,ES,ApplePay,Devuelto Parcial,marketplace,2025-06-20 10:32:19
+O-202400460,2024-03-18 06:11:26,C0029,,,EUR,4.99,Calle del Prado 171,41001,Sevilla,Sevilla,ES,,Entregado,app,02/04/2024 06:11
+O-202400461,06/08/2024 21:49,C0059,,"1569,54",EUR,6.99,Calle de la Paz 111,,Sevilla,Sevilla,ES,Bizum,Cancelado,marketplace,13/08/2024 21:49
+O-202400462,2024-08-02 11:01:36,C0089,,1350.74,EUR,9.99,Carrer de Mallorca 49,36201,Vigo,Pontevedra,ES,PayPal,Entregado,app,2024-08-28 11:01:36
+O-202400463,2024-06-03 05:40:06,,UO-324593,1668.85,EUR,"6,99",Calle Alcalá 18,28013,Madrid,Madrid,ES,PayPal,Entregado,app,24/06/24
+O-202400464,10/11/2025 15:54,C0046,,2205.99,EUR,"9,99","Calle Alcalá 115, 6ºB",07001,Palma,Illes Balears,ES,Bizum,Entregado,,2025/12/04 15:54:38
+O-202400465,2025-04-11 20:32:52,c0077,,1870.07,EUR,0.00,"Calle Alcalá 101, 8ºD",14001,Córdoba,Córdoba,ES,Bizum,Entregado,app,2025-04-25 20:32:52
+O-202400466,2025/02/20 08:00:30,C0043,,"232,64",€,"0,00","Avenida Europa 98, 2ºC",28013,Madrid,Madrid,ES,Bizum,Entregado,app,2025-03-18 08:00:30
+O-202400467,2024-08-13 09:29:12, C0094,,"1167,13",EUR,6.99,Calle Mayor 129,36201,Vigo,Pontevedra,ES,ApplePay,Entregado,,16/08/2024 09:29
+O-202400468,2024/04/11 21:37:05,C0065,,2120.14,EUR,€6.99,"Calle Jardines 139, 3ºA",28013,Madrid,Madrid,ES,ApplePay,Entregado,,2024-04-17 21:37:05
+O-202400469,19/10/24,C0062,,1015.06,EUR,"0,00",Gran Vía 128,31001,Pamplona,Navarra,ES,Bizum,Entregado,web,2024-10-28 11:58:24
+O-202400470,2024/03/15 02:10:49,C0011,,150.39,EUR,6.99,"Avenida Europa 60, 1ºD",18001,Granada,Granada,ES,ApplePay,Entregado,,2024-03-15 02:10:49
+O-202400471,2025-02-27 18:30:40,C0062,,172.65,EUR,4.99,Calle Mayor 109,46001,Valencia,Valencia,ES,PayPal,Entregado,,2025/02/28 18:30:40
+O-202400472,2024-04-18 15:16:47,C0056,,1503.35,EUR,4.99,Rúa do Príncipe 83,30001,Murcia,Murcia,ES,BIZUM,Entregado,app,2024-05-02 15:16:47
+O-202400473,2024-05-07 13:37:19,C0020,UO-835538,1731.60,EUR,9.99,"Calle del Prado 178, 2ºD",29001,Málaga,Málaga,ES,ApplePay,Entregado,marketplace,2024-05-27 13:37:19
+O-202400474,29/09/2025 11:58,C0099,,490.11,EUR,"6,99",Calle Mayor 152,29001,Málaga,Málaga,ES,ContraReembolso,Entregado,marketplace,2025-10-09 11:58:17
+O-202400475,2025/09/19 01:09:17,C0001,UO-942377,349.59,EUR,0.00,"Avenida del Mar 43, 8ºA",48001,Bilbao,Bizkaia,ES,Transferencia,Entregado,,05/10/2025 01:09
+O-202400476,2024-10-20 01:33:35,,UO-432369,,EUR,9.99,"Calle Mayor 155, 4ºB",36201,Vigo,Pontevedra,ES,Bizum,Entregado,marketplace,2024-11-02 01:33:35
+O-202400477,26/10/2025 09:17,C0072,,2450.84,EUR,-4.99,"Avenida del Mar 192, 1ºB",47001,Valladolid,Valladolid,ES,Tarjeta,Devuelto Parcial,web,2025/11/11 09:17:44
+O-202400478,2025-05-17 17:01:12,C0033,,569.02,EUR,0.00,"Calle del Sol 184, 8ºD",28013,Madrid,Madrid,ES,ApplePay,Entregado,web,2025/06/13 17:01:12
+O-202400479,2024-02-13 12:48:37,,UO-390956,451.01,EUR,4.99,"Calle de la Luz 158, 1ºC",,Málaga,Málaga,ES,Bizum,Entregado,web,2024-02-25 12:48:37
+O-202400480,2024-02-20 10:50:49,C0023,,227.02,EUR,0.00,"Calle Alcalá 45, 1ºC",36201,Vigo,Pontevedra,ES,ApplePay,Entregado,web,2024-02-22 10:50:49
+O-202400481,2024-05-24 04:55:57,C0002,UO-859459,1199,EUR,6.99,"Paseo de la Castellana 175, 4ºB",50001,Zaragoza,Zaragoza,ES,Bizum,Entregado,marketplace,2024/06/01 04:55:57
+O-202400482,2024-07-20 10:42:38,C0045,,"273,05",EUR,9.99,Gran Vía 150,28A13,San Sebastián,Gipuzkoa,ES,Bizum,Entregado,marketplace,2024-08-05 10:42:38
+O-202400483,2024-03-11 11:50:32,C0015,,1873.59,EUR,0.00,Avenida Andalucía 83,39001,Santander,Cantabria,ES,Tarjeta crédito,Entregado,marketplace,2024-03-21 11:50:32
+O-202400484,25/08/2024 21:23,C0079,,,EUR,9.99,"Calle de la Paz 63, 5ºC",31001,Pamplona,Navarra,ES,paypal,Pendiente,marketplace,2024-09-10 21:23:29
+O-202400485,2025-03-24 13:09:23,,UO-831519,735.92,EUR,0.00,"Calle del Prado 146, 3ºB",36201,Vigo,Pontevedra,ES,PayPal,Cancelado,app,2025-03-29 13:09:23
+O-202400486,2025-11-16 19:28:09,,UO-557754,28,EUR,6.99,Calle Jardines 63,46001,Valencia,Valencia,ES,Transferencia,Entregado,app,2025-12-07 19:28:09
+O-202400487,2025-08-15 16:23:52,NULL,UO-910822,€693.76,EUR,0.00,Paseo de la Castellana 173,14001,Córdoba,Córdoba,ES,PayPal,Entregado,,2025-09-10 16:23:52
+O-202400488,2025-12-11 09:07:07,C0039,,598.87,EUR,9.99,"Avenida del Mar 73, 5ºD",33201,Gijón,Asturias,ES,ContraReembolso,Cancelado,,2025-12-13 09:07:07
+O-202400489,2025-09-16 03:15:44,C0088,,1157.63,EUR,0.00,"Calle Alcalá 198, 1ºC",31001,Pamplona,Navarra,ES,Transferencia,Entregado,marketplace,2025-10-08 03:15:44
+O-202400490,2024-03-27 17:43:10, C0087,,2300.06,EUR,0.00,Paseo de la Castellana 51,18001,Granada,Granada,ES,Bizum,Entregado,marketplace,2024-04-07 17:43:10
+O-202400491,2025-08-18 14:49:01,C0003,UO-217108,2155.20,EUR,0.00,Calle Jardines 10,47001,Valladolid,Valladolid,ES,Transferencia,Entregado,,2025-09-01 14:49:01
+O-202400492,2024-02-01 13:36:10,C9999,,1773.81,EUR,6.99,"Carrer de Mallorca 164, 5ºD",46001,Valencia,Valencia,ES,Tarjeta,Cancelado,marketplace,04/02/2024 13:36
+O-202400493,2025-04-23 03:16:13,,UO-492415,"802,26",EUR,0.00,Calle de la Paz 56,18001,Granada,Granada,ES,Desconocido,Entregado,app,2025-04-29 03:16:13
+O-202400494,01/08/24,C0029,,467.45,EUR,9.99,"Calle Jardines 183, 8ºD",07001,Palma,Illes Balears,ES,Bizum,Entregado,app,2024-08-05 10:03:32
+O-202400495,2025-02-17 09:40:46,C0074,,2801.47,EUR,€9.99,"Calle Mayor 54, 6ºC",47001,Valladolid,Valladolid,ES,ContraReembolso,Entregado,web,2025-03-07 09:40:46
+O-202400496,2025-08-06 14:53:42,C0069,,1095.88,EUR,4.99,"Calle Alcalá 56, 4ºA",41001,Sevilla,Sevilla,ES,Transferencia ,Entregado,marketplace,2025-08-12 14:53:42
+O-202400497,2025/08/21 11:09:17,CX123,,€2121.65,EUR,9.99,"Calle Alcalá 58, 7ºD",45001,Toledo,Toledo,ES,Transferencia ,Entregado,web,31/08/2025 11:09
+O-202400498,2024-10-24 18:13:32,C0004,,€405.92,EUR,4.99,"Avenida Andalucía 147, 7ºA",46001,Valencia,Valencia,ES,Tarjeta,En preparación,app,2024/11/12 18:13:32
+O-202400499,22/10/2025 10:54,C0061,,854.13,EUR,"9,99","Calle Mayor 8, 4ºD",07001,Palma,Illes Balears,ES,Transferencia,Entregado,app,10/11/2025 10:54
+O-202400500,2024-07-09 04:35:08,C0087,,511.72,EUR,0.00,Calle Mayor 107,31001,Pamplona,Navarra,ES,ApplePay,Pendiente,,2024/07/31 04:35:08
+O-202400501,28/11/2024 21:28,,UO-707976,1137.79,EUR,4.99,"Calle Jardines 44, 6ºD",41001,Sevilla,Sevilla,ES,Tarjeta,Entregado,app,2024/12/12 21:28:09
+O-202400502,2025-08-10 23:08:26,,UO-833543,"3356,21",EUR,0.00,Avenida Andalucía 71,30001,Murcia,Murcia,ES,Bizum,Pendiente,,2025-09-01 23:08:26
+O-202400503,07/07/2025 20:45,C0019,,"820,06",EUR,9.99,Gran Vía 55,50001,Zaragoza,Zaragoza,ES,BIZUM,Entregado,,2025-07-23 20:45:10
+O-202400504,2025-05-18 14:36:50,,UO-114923,€26.48,EUR,"0,00",Carrer de Mallorca 58,46001,Valencia,Valencia,ES,Transferencia,Entregado,app,18/05/2025 14:36
+O-202400505,2025-07-29 20:17:06,C0043,,690.36,EUR,4.99,Calle del Sol 21,45001,Toledo,Toledo,ES,PayPal,Entregado,marketplace,2025-08-03 20:17:06
+O-202400506,2024/03/11 23:03:31,C0101,,803.62,EUR,0.00,"Calle del Prado 59, 4ºD",08002,Barcelona,Barcelona,ES,PayPal,Entregado,app,2024-03-26 23:03:31
+O-202400507,2025-04-09 17:00:15,,UO-216941,222.59,EUR,9.99,Avenida Europa 165,39001,Santander,Cantabria,ES,PayPal,Entregado,app,18/04/25
+O-202400508,2024-09-21 23:21:11,C0097,,71.37,EUR,6.99,Calle de la Paz 127,36201,Vigo,Pontevedra,ES,BIZUM,Entregado,app,2024-09-26 23:21:11
+O-202400509,14/06/2024 14:38,C0088,,€882.62,EUR,4.99,Carrer de Mallorca 41,,Bilbao,Bizkaia,ES,Transferencia,Entregado,marketplace,08/07/2024 14:38
+O-202400510,2025-01-01 14:22:33,C0094,,"2118,58",EUR,9.99,"Avenida Andalucía 101, 7ºA",33201,Gijón,Asturias,ES,Transferencia,Pendiente,marketplace,2025-01-23 14:22:33
+O-202400511,2024-08-16 23:24:44,C0072,,262.89,EUR,9.99,Calle de la Paz 71,36201,Vigo,Pontevedra,ES,Tarjeta,Pendiente,marketplace,2024/09/15 23:24:44
+O-202400512,2025-04-16 05:47:52,C0069,UO-240807,1260.64,EUR,"4,99",Carrer de Mallorca 199,46001,Valencia,Valencia,ES,Bizum,Entregado,web,2025-04-24 05:47:52
+O-202400513,19/04/2024 02:30,,UO-429212,768.51,EUR,9.99,"Avenida Europa 115, 4ºB",47001,Valladolid,Valladolid,ES,ApplePay,Entregado,,2024-05-18 02:30:18
+O-202400514,2024-11-27 22:01:33,C0066,,1261.99,EUR,0.00,"Calle del Sol 84, 8ºC",36201,Vigo,Pontevedra,ES,Tarjeta crédito,Entregado,,2024/12/24 22:01:33
+O-202400515,2025-04-18 19:48:39,C0036,,57,EUR,9.99,"Calle de la Luz 85, 2ºB",48001,Bilbao,Bizkaia,ES,Bizum,Entregado,app,2025-04-18 19:48:39
+O-202400516,20/07/2024 01:22,C0084,,"61,08",EUR,"4,99",Calle Jardines 148,47001,Valladolid,Valladolid,ES,Tarjeta,Pendiente,app,2024-08-19 01:22:07
+O-202400517,2025-05-26 05:07:22, C0028,,1088.35,EUR,9.99,Calle Mayor 97,39001,Santander,Cantabria,ES,Transferencia,Entregado,web,2025-05-31 05:07:22
+O-202400518,2024-05-06 12:21:32,C0096,,2710.54,EUR,-4.99,"Avenida Europa 130, 6ºD",46001,Valencia,Valencia,ES,Transferencia,Entregado,web,2024-05-17 12:21:32
+O-202400519,2024-12-03 05:07:18,,UO-782028,661.38,EUR,4.99,Calle de la Paz 5,31001,Pamplona,Navarra,ES,ContraReembolso,Entregado,app,2024-12-27 05:07:18
+O-202400520,2025-11-03 21:50:32,,UO-539604,51.94,EUR,0.00,"Avenida del Mar 133, 3ºB",,San Sebastián,Gipuzkoa,ES,PayPal,Entregado,web,02/12/2025 21:50
+O-202400521,2025-08-31 09:11:26,,UO-251352,314.65,EUR,6.99,Gran Vía 139,33201,Gijón,Asturias,ES,Tarjeta,Entregado,app,2025/09/13 09:11:26
+O-202400522,2025-10-27 14:03:57,C0033,,"1730,17",EUR,4.99,Calle de la Paz 127,41001,Sevilla,Sevilla,ES,Tarjeta,Pendiente,app,2025-11-15 14:03:57
+O-202400523,21/07/25,C0067,,1080.01,EUR,9.99,Carrer de Mallorca 109,48001,Bilbao,Bizkaia,ES,PayPal,Entregado,marketplace,16/08/2025 00:45
+O-202400524,2024-01-10 02:20:13,C0074,,991.85,EUR,4.99,"Rúa do Príncipe 113, 2ºC",30001,Murcia,Murcia,ES,Transferencia,Pendiente,marketplace,2024-01-13 02:20:13
+O-202400525,2024-02-19 00:36:01,C0013,UO-677204,2551.64,EUR,"0,00","Avenida del Mar 89, 5ºD",07001,Palma,Illes Balears,ES,paypal,Entregado,app,2024-03-06 00:36:01
+O-202400526,2025-08-25 16:02:10,C0020,UO-659054,1608.10,EUR,€4.99,Rúa do Príncipe 59,47001,Valladolid,Valladolid,ES,paypal,Cancelado,,2025-08-29 16:02:10
+O-202400527,28/10/25,C0050,,1422.43,EUR,6.99,Carrer de Mallorca 35,39001,Santander,Cantabria,ES,ContraReembolso,En preparación,app,2025-11-10 15:46:55
+O-202400528,16/08/25,C0021,,572.46,EUR,4.99,"Calle Mayor 58, 5ºB",47001,Valladolid,Valladolid,ES,Bizum,Pendiente,,2025-08-19 21:02:42
+O-202400529,2024-06-29 08:10:14,,UO-576438,1421.09,EUR,"6,99",Calle Mayor 194,48001,Bilbao,Bizkaia,ES,ContraReembolso,Entregado,app,26/07/2024 08:10
+O-202400530,2025-02-10 02:25:52,C0047,,2062.78,EUR,6.99,"Calle Alcalá 15, 2ºC",,Gijón,Asturias,ES,Bizum,Entregado,app,2025-03-07 02:25:52
+O-202400531,04/04/25,,UO-611560,795.47,EUR,"0,00",Avenida Andalucía 145,45001,Toledo,Toledo,ES,PayPal,Entregado,web,2025-05-02 02:36:45
+O-202400532,2024-09-26 18:13:27,,UO-139086,467.94,EUR,"0,00",Calle del Sol 161,31001,Pamplona,Navarra,ES,Bizum,Devuelto Total,marketplace,2024-10-19 18:13:27
+O-202400533,27/09/25,c0077,,"833,31",EUR,4.99,"Avenida Europa 42, 4ºC",30001,Murcia,Murcia,ES,BIZUM,Entregado,marketplace,22/10/2025 15:29
+O-202400534,2024-03-19 16:20:04,C0082,,147.03,EUR,-4.99,Carrer de Mallorca 87,0300,Alicante,Alicante,ES,Bizum,Devuelto Parcial,app,2024-04-05 16:20:04
+O-202400535,2024-11-05 02:43:17,,UO-795405,377.84,EUR,9.99,"Calle del Sol 68, 3ºC",31001,Pamplona,Navarra,ES,BIZUM,Entregado,web,15/11/24
+O-202400536,2024-07-09 23:58:30,C0089,,1774.61,EUR,9.99,Avenida del Mar 4,,Málaga,Málaga,ES,ContraReembolso,En preparación,,14/07/2024 23:58
+O-202400537,2025-08-03 01:13:35,,UO-552266,1834.16,EUR,€4.99,Carrer de Mallorca 61,4700,Valladolid,Valladolid,ES,ApplePay,Entregado,,2025-08-07 01:13:35
+O-202400538,2025-02-19 19:49:55,,UO-852420,769.07,EUR,9.99,Calle del Sol 58,45001,Toledo,Toledo,ES,PayPal,Entregado,app,2025-03-11 19:49:55
+O-202400539,19/02/2024 12:53,c0094,,"423,44",EUR,"9,99","Calle Alcalá 56, 8ºC",48001,Bilbao,Bizkaia,ES,ApplePay,Entregado,web,2024-03-09 12:53:10
+O-202400540,2025-08-24 15:58:49,,UO-868140,150.95,EUR,"9,99",Calle del Prado 154,29001,Málaga,Málaga,ES,Tarjeta,Devuelto Total,,2025-09-23 15:58:49
+O-202400541,2025-06-24 22:07:03,C0023,,106.21,EUR,0.00,"Paseo de la Castellana 103, 4ºB",28A13,San Sebastián,Gipuzkoa,ES,ContraReembolso,Entregado,marketplace,25/06/25
+O-202400542,2024-03-15 04:04:07,C0050,,938.39,EUR,4.99,"Calle del Sol 18, 3ºB",47001,Valladolid,Valladolid,ES,ApplePay,Devuelto Parcial,app,2024-04-02 04:04:07
+O-202400543,2025-01-29 01:17:34,C0069,UO-426804,"730,35",EUR,€4.99,Calle Mayor 90,07001,Palma,Illes Balears,ES,Transferencia ,Devuelto Total,web,10/02/2025 01:17
+O-202400544,19/09/24,c0052,,254.72,EUR,9.99,"Avenida Europa 169, 2ºA",,Alicante,Alicante,ES,Bizum,Entregado,,2024-09-25 19:11:17
+O-202400545,2024-12-03 23:34:32,C0062,,1013.16,EUR,6.99,Avenida Europa 176,0700,Palma,Illes Balears,ES,ContraReembolso,Entregado,marketplace,2024-12-26 23:34:32
+O-202400546,2024-10-25 23:04:55,,UO-554876,666.14,EUR,4.99,Rúa do Príncipe 46,36201,Vigo,Pontevedra,ES,Tarjeta,Pendiente,,2024-11-12 23:04:55
+O-202400547,2024-06-09 00:40:28,CX123,,1149.66,EUR,4.99,Calle del Sol 59,31001,Pamplona,Navarra,ES,Transferencia,Entregado,marketplace,2024-07-07 00:40:28
+O-202400548,2024-11-13 20:06:15,C0025,,1955.05,EUR,0.00,Gran Vía 179,31001,Pamplona,Navarra,ES,Transferencia ,Entregado,,2024/11/18 20:06:15
+O-202400549,2024-08-09 05:10:59,C0016,,894.73,EUR,0.00,Rúa do Príncipe 128,46001,Valencia,Valencia,ES,Transferencia,Entregado,marketplace,2024-09-03 05:10:59
+O-202400550,06/12/2024 06:56,C0065,,394.12,EUR,6.99,"Gran Vía 146, 1ºB",,Córdoba,Córdoba,ES,PayPal,Devuelto Parcial,web,2024-12-18 06:56:07
+O-202400551,2024-06-23 22:41:45,C0057,,589.73,EUR,€9.99,Avenida del Mar 37,45001,Toledo,Toledo,ES,ApplePay,Entregado,app,2024-07-04 22:41:45
+O-202400552,05/01/2024 14:00,,UO-225453,275.69,EUR,9.99,Avenida Europa 161,50001,Zaragoza,Zaragoza,ES,Bizum,Entregado,marketplace,03/02/2024 14:00
+O-202400553,2024-09-25 01:59:32,,UO-576287,€725.26,EUR,9.99,Carrer de Mallorca 58,4500,Toledo,Toledo,ES,BIZUM,Pendiente,app,2024-10-04 01:59:32
+O-202400554,2024-11-08 10:07:42,C0054,,794.34,EUR,4.99,Carrer de Mallorca 87,39001,Santander,Cantabria,ES,ContraReembolso,Entregado,,29/11/2024 10:07
+O-202400555,2025-03-01 19:17:29,C0051,,"926,01",EUR,4.99,Calle del Sol 199,07001,Palma,Illes Balears,ES,Transferencia ,Entregado,app,2025-03-23 19:17:29
+O-202400556,31/07/2024 07:03,C0074,,"2509,32",EUR,"0,00","Calle del Prado 190, 3ºD",39001,Santander,Cantabria,ES,Tarjeta,Entregado,marketplace,2024-08-27 07:03:13
+O-202400557,2025-12-24 13:35:10,C0009,,864.47,EUR,4.99,"Calle de la Paz 87, 3ºC",39001,Santander,Cantabria,ES,Transferencia,Entregado,,2026-01-06 13:35:10
+O-202400558,2025/06/27 14:23:04,C0101,,1585.41,EUR,4.99,"Avenida Europa 11, 3ºD",41001,Sevilla,Sevilla,ES,Bizum,Devuelto Total,,2025-07-02 14:23:04
+O-202400559,05/06/25,,UO-172236,"1034,77",EUR,"4,99",Avenida del Mar 160,20003,San Sebastián,Gipuzkoa,ES,ApplePay,Pendiente,web,2025-06-16 18:32:46
+O-202400560,2025-04-28 00:21:05,,UO-301350,620.69,EUR,€0.00,"Paseo de la Castellana 134, 1ºD",,Vigo,Pontevedra,ES,Bizum,Entregado,,2025-04-29 00:21:05
+O-202400561,2025-05-27 04:18:11,,UO-111196,"646,25",EUR,0.00,"Gran Vía 78, 7ºB",18001,Granada,Granada,ES,Transferencia,Entregado,marketplace,23/06/25
+O-202400562,2024-04-12 18:59:55,C0035,,€1089.63,EUR,0.00,Calle del Sol 131,14001,Córdoba,Córdoba,ES,Tarjeta,Entregado,web,2024-05-06 18:59:55
+O-202400563,2025-07-26 01:25:14,C0081,,919.01,EUR,4.99,Avenida Europa 171,14001,Córdoba,Córdoba,ES,paypal,Entregado,app,2025-07-26 01:25:14
+O-202400564,2024-02-08 20:02:31,C0026,,€109.14,EUR,0.00,Paseo de la Castellana 188,03001,Alicante,Alicante,ES,PayPal,Devuelto Parcial,web,2024-02-14 20:02:31
+O-202400565,26/05/24,C0082,,3955.72,EUR,"6,99",Calle del Prado 110,07001,Palma,Illes Balears,ES,Tarjeta,Entregado,,2024-06-18 04:16:28
+O-202400566,2024-03-03 02:24:21,C9999,,221.45,€,9.99,"Calle Jardines 175, 2ºC",47001,Valladolid,Valladolid,ES,Transferencia,Entregado,marketplace,2024-03-09 02:24:21
+O-202400567,2024/11/14 05:57:55,,UO-522829,61.49,EUR,9.99,Calle del Sol 119,39001,Santander,Cantabria,ES,PayPal,Pendiente,web,2024-12-11 05:57:55
+O-202400568,2024-12-03 09:27:13, C0024,,1784.80,EUR,€6.99,"Carrer de Mallorca 51, 1ºD",30001,Murcia,Murcia,ES,ApplePay,Entregado,web,2024-12-30 09:27:13
+O-202400569,2024-10-01 11:16:59,C0038,,385.18,EUR,"6,99",Calle Alcalá 126,29001,Málaga,Málaga,ES,Tarjeta,Entregado,app,11/10/2024 11:16
+O-202400570,2024-10-14 01:14:17,C0032,,"1536,55",EUR,"4,99","Calle de la Luz 122, 5ºC",14001,Córdoba,Córdoba,ES,ContraReembolso,En preparación,app,2024-11-01 01:14:17
+O-202400571,2025-01-14 11:56:20,,UO-502803,"936,69",EUR,"6,99","Avenida Andalucía 83, 2ºD",48001,Bilbao,Bizkaia,ES,PayPal,Pendiente,,2025-01-18 11:56:20
+O-202400572,2017-06-27 12:00:00,c0077,,160.39,EUR,4.99,"Calle del Prado 166, 4ºA",45001,Toledo,Toledo,ES,PayPal,Pendiente,app,2017/07/23 12:00:00
+O-202400573,2024-04-21 21:27:56,C0048,UO-756293,€208.32,EUR,9.99,Rúa do Príncipe 41,3100,Pamplona,Navarra,ES,Transferencia,Entregado,marketplace,01/05/24
+O-202400574,05/03/2025 04:44,C0004,,€474.77,EUR,0.00,"Avenida Andalucía 195, 1ºC",14001,Córdoba,Córdoba,ES,ApplePay,Pendiente,app,2025-04-03 04:44:48
+O-202400575,2025-12-31 05:09:32,C0011,,"515,67",EUR,0.00,Gran Vía 135,45001,Toledo,Toledo,ES,Tarjeta,Pendiente,web,2026-01-07 05:09:32
+O-202400576,2024-02-10 18:21:21,C0098,,3083.38,EUR,6.99,Carrer de Mallorca 83,36201,Vigo,Pontevedra,ES,ApplePay,Entregado,,2024-02-16 18:21:21
+O-202400577,2024/01/06 13:19:47,C0022,UO-758169,739.89,EUR,6.99,Paseo de la Castellana 143,07001,Palma,Illes Balears,ES,Bizum,Entregado,,2024-01-20 13:19:47
+O-202400578,07/06/2024 21:50,,UO-315569,1887.05,EUR,0.00,"Avenida Europa 146, 5ºB",29001,Málaga,Málaga,ES,Bizum,Entregado,marketplace,2024-06-07 21:50:06
+O-202400579,09/06/2024 06:41,C0051,,,EUR,€0.00,Avenida Andalucía 74,,Toledo,Toledo,ES,BIZUM,Devuelto Total,web,21/06/2024 06:41
+O-202400580,11/02/24,,UO-490931,755.57,EUR,6.99,Paseo de la Castellana 107,,Valencia,Valencia,ES,PayPal,Entregado,,2024-03-12 14:01:03
+O-202400581,2024-05-15 14:25:52,,UO-707940,"279,35",EUR,4.99,Paseo de la Castellana 70,45001,Toledo,Toledo,ES,Transferencia,Entregado,web,2024-06-10 14:25:52
+O-202400582,23/03/25,,UO-844385,367.24,EUR,4.99,Calle Jardines 123,07001,Palma,Illes Balears,ES,Tarjeta,En preparación,,10/04/2025 23:35
+O-202400583,2025-09-07 03:16:29,C0077,,214.51,EUR,9.99,"Calle de la Luz 96, 3ºC",47001,Valladolid,Valladolid,ES,BIZUM,Entregado,marketplace,2025-10-05 03:16:29
+O-202400584,2024-12-01 07:40:57,NULL,UO-572665,783.92,EUR,"4,99","Calle del Sol 175, 3ºA",45001,Toledo,Toledo,ES,ApplePay,Entregado,,05/12/24
+O-202400585,04/03/24, C0067,,677.86,EUR,6.99,Calle Jardines 59,20003,San Sebastián,Gipuzkoa,ES,ApplePay,Cancelado,web,15/03/2024 11:48
+O-202400586,24/06/2024 09:29,,UO-297479,€1432.51,EUR,6.99,Avenida Europa 130,,Madrid,Madrid,ES,PayPal,Entregado,marketplace,2024-07-20 09:29:35
+O-202400587,2024-04-04 01:00:41,C0058,,2333.55,EUR,6.99,"Gran Vía 179, 5ºC",31001,Pamplona,Navarra,ES,Transferencia,Entregado,marketplace,2024-04-25 01:00:41
+O-202400588,2024/09/30 00:22:41,C0069,,"302,57",EUR,0.00,Calle de la Luz 126,4700,Valladolid,Valladolid,ES,Tarjeta,Entregado,marketplace,2024/10/20 00:22:41
+O-202400589,2024-07-06 11:37:26,C0091,,998.76,EUR,9.99,Calle de la Luz 33,28013,Madrid,Madrid,ES,ContraReembolso,Entregado,app,2024-07-24 11:37:26
+O-202400590,2025-12-01 19:22:40,C0055,,333.13,EUR,4.99,"Calle de la Paz 125, 4ºA",29001,Málaga,Málaga,ES,PayPal,Entregado,,19/12/2025 19:22
+O-202400591,2025-09-19 22:00:47,C0095,UO-620246,,EUR,"0,00","Avenida Europa 179, 7ºA",47001,Valladolid,Valladolid,ES,Transferencia,Entregado,marketplace,2025-09-21 22:00:47
+O-202400592,2025/01/03 15:39:39,,UO-226889,397.48,EUR,6.99,"Avenida del Mar 23, 3ºB",28013,Madrid,Madrid,ES,ApplePay,Entregado,marketplace,2025-01-20 15:39:39
+O-202400593,2024-04-13 11:18:15,C0002,,958.28,EUR,"4,99","Paseo de la Castellana 36, 6ºB",28013,Madrid,Madrid,ES,PayPal,Entregado,web,2024-05-03 11:18:15
+O-202400594,2024-04-23 11:43:56,,UO-600892,484.91,EUR,6.99,"Calle Mayor 145, 3ºB",36201,Vigo,Pontevedra,ES,Transferencia,Entregado,app,2024-05-20 11:43:56
+O-202400595,2025-06-05 16:34:29,,UO-335637,2735.37,EUR,"6,99",Calle de la Paz 158,48001,Bilbao,Bizkaia,ES,ContraReembolso,Entregado,web,07/06/2025 16:34
+O-202400596,2024-10-14 00:22:23,CX123,,,EUR,4.99,"Avenida Andalucía 84, 5ºD",45001,Toledo,Toledo,ES,Transferencia,En preparación,marketplace,2024-11-02 00:22:23
+O-202400597,2025-12-26 14:01:14,C0042,,€508.31,EUR,4.99,"Calle del Prado 86, 7ºC",07001,Palma,Illes Balears,ES,paypal,Cancelado,marketplace,2026-01-01 14:01:14
+O-202400598,2024-06-07 19:29:39,,UO-405619,863.01,EUR,9.99,"Calle del Prado 154, 6ºB",50001,Zaragoza,Zaragoza,ES,ContraReembolso,Entregado,,2024-06-15 19:29:39
+O-202400599,2025-09-23 13:33:12,,UO-367188,407.12,EUR,9.99,Calle de la Paz 141,03001,Alicante,Alicante,ES,Tarjeta,Entregado,web,2025-09-26 13:33:12
+O-202400600,2024-02-01 20:56:26,c0077,,1204.60,EUR,6.99,Calle de la Luz 146,08002,Barcelona,Barcelona,ES,PayPal,Entregado,app,2024/02/09 20:56:26
+O-202400601,27/04/2024 19:56,C0050,,1255.98,EUR,9.99,Avenida Andalucía 190,46001,Valencia,Valencia,ES,PayPal,Devuelto Parcial,marketplace,2024-05-05 19:56:49
+O-202400602,2024-12-04 00:35:26,C0013,,1979.65,EUR,9.99,"Calle Jardines 99, 7ºA",48001,Bilbao,Bizkaia,ES,BIZUM,Entregado,app,2024-12-23 00:35:26
+O-202400603,16/10/2024 16:29,C0022,,564.36,EUR,9.99,"Paseo de la Castellana 64, 5ºB",31001,Pamplona,Navarra,ES,ContraReembolso,Entregado,marketplace,30/10/2024 16:29
+O-202400604,06/10/2024 05:56,C9999,,2284.50,EUR,4.99,"Calle del Prado 69, 6ºC",47001,Valladolid,Valladolid,ES,ContraReembolso,Entregado,app,07/10/24
+O-202400605,2024-03-10 21:12:32,C0033,,715.93,EUR,€4.99,Avenida del Mar 112,07001,Palma,Illes Balears,ES,Tarjeta,Entregado,app,04/04/2024 21:12
+O-202400606,2024/08/11 21:14:19,C0026,,835.00,EUR,4.99,"Calle del Sol 46, 2ºD",30001,Murcia,Murcia,ES,Tarjeta,Entregado,web,2024-08-19 21:14:19
+O-202400607,2024-11-01 21:04:11,C0078,,1279.20,EUR,0.00,Calle de la Paz 45,50001,Zaragoza,Zaragoza,ES,Tarjeta,Entregado,,2024-11-16 21:04:11
+O-202400608,2025/11/21 08:17:48,C0078,,"697,37",EUR,4.99,Rúa do Príncipe 105,30001,Murcia,Murcia,ES,BIZUM,Entregado,marketplace,2025-12-03 08:17:48
+O-202400609,2025-01-13 10:28:07,C0019,,415.76,EUR,4.99,Calle de la Luz 78,48001,Bilbao,Bizkaia,ES,Transferencia,Entregado,web,2025-02-10 10:28:07
+O-202400610,2024/07/09 13:57:13,C0007,,685.99,EUR,9.99,"Calle Mayor 154, 5ºC",33201,Gijón,Asturias,ES,Bizum,Devuelto Total,marketplace,2024-07-12 13:57:13
+O-202400611,2024-02-16 12:22:26,C0052,,804.83,EUR,9.99,"Paseo de la Castellana 95, 1ºA",14001,Córdoba,Córdoba,ES,ContraReembolso,Pendiente,,18/02/24
+O-202400612,13/09/2024 10:28,C0019,,950.36,EUR,4.99,"Calle Alcalá 57, 1ºA",30001,Murcia,Murcia,ES,Transferencia,Pendiente,app,2024-09-26 10:28:49
+O-202400613,2024-01-01 10:34:09,,UO-925242,2021.52,EUR,9.99,Calle del Prado 120,46001,Valencia,Valencia,ES,ApplePay,En preparación,marketplace,31/01/24
+O-202400614,2025-05-05 12:28:13,,UO-718428,274.26,€,6.99,Calle de la Luz 72,36201,Vigo,Pontevedra,ES,Transferencia,En preparación,marketplace,06/05/25
+O-202400615,23/03/2024 17:14,C0032,UO-668547,1096.64,EUR,4.99,"Carrer de Mallorca 106, 7ºD",36201,Vigo,Pontevedra,ES,ApplePay,Entregado,,2024-04-20 17:14:39
+O-202400616,2024-04-29 15:37:28,C0040,,147.72,EUR,4.99,Avenida Andalucía 55,31001,Pamplona,Navarra,ES,ContraReembolso,Entregado,app,2024-05-01 15:37:28
+O-202400617,2025/02/23 17:14:07,,UO-831259,€-18.81,EUR,6.99,Gran Vía 1,48001,Bilbao,Bizkaia,ES,Desconocido,Entregado,web,2025-02-24 17:14:07
+O-202400618,2024-01-31 05:56:09,C0025,,2773.70,EUR,9.99,"Calle Mayor 69, 5ºA",03001,Alicante,Alicante,ES,ApplePay,Pendiente,web,2024-02-15 05:56:09
+O-202400619,2024-11-01 13:23:09,,UO-476178,457.03,EUR,"6,99",Paseo de la Castellana 76,36201,Vigo,Pontevedra,ES,Transferencia,Entregado,app,2024-11-03 13:23:09
+O-202400620,24/03/2024 15:11,C0043,,€2553.91,EUR,6.99,"Calle Alcalá 32, 5ºB",33201,Gijón,Asturias,ES,Tarjeta,Entregado,,2024-04-18 15:11:52
+O-202400621,26/12/2024 00:20,C0018,,1980.05,EUR,9.99,Avenida Europa 146,1400,Córdoba,Córdoba,ES,BIZUM,Entregado,marketplace,2025-01-02 00:20:23
+O-202400622,2025-12-05 17:25:35,C0047,,1218.01,EUR,6.99,Calle Mayor 124,28013,Madrid,Madrid,ES,,Entregado,web,18/12/2025 17:25
+O-202400623,2024-12-19 08:55:45,NULL,UO-146675,1305.13,EUR,9.99,"Carrer de Mallorca 5, 7ºA",07001,Palma,Illes Balears,ES,,Entregado,marketplace,2025-01-14 08:55:45
+O-202400624,2025-11-23 11:00:37,CX123,,€818.82,EUR,0.00,"Rúa do Príncipe 59, 1ºB",28013,Madrid,Madrid,ES,BIZUM,Entregado,marketplace,2025-12-23 11:00:37
+O-202400625,20/08/25,C0085,,652.75,EUR,9.99,Rúa do Príncipe 186,31001,Pamplona,Navarra,ES,Transferencia,Entregado,marketplace,12/09/2025 05:21
+O-202400626,2025-06-05 19:27:44,,UO-478986,€1496.16,EUR,€0.00,Avenida Europa 74,28A13,Sevilla,Sevilla,ES,PayPal,Entregado,web,2025/06/29 19:27:44
+O-202400627,17/08/2025 02:46,,UO-587899,3355.88,EUR,"6,99","Calle Mayor 124, 5ºA",36201,Vigo,Pontevedra,ES,ContraReembolso,Devuelto Total,web,2025/09/15 02:46:29
+O-202400628,2024-02-19 06:28:35,C0025,,1296.03,EUR,4.99,"Carrer de Mallorca 100, 7ºA",28013,Madrid,Madrid,ES,ContraReembolso,Pendiente,,2024-03-13 06:28:35
+O-202400629,2025-03-08 23:45:57,c0006,,1070.14,EUR,9.99,Calle de la Luz 96,2801,Madrid,Madrid,ES,ContraReembolso,Entregado,marketplace,2025-03-26 23:45:57
+O-202400630,03/04/2024 00:21,C0040,UO-211751,1126.52,EUR,6.99,"Paseo de la Castellana 171, 3ºC",28A13,Barcelona,Barcelona,ES,Tarjeta,En preparación,web,2024-04-18 00:21:30
+O-202400631,21/01/2024 07:25,,UO-650454,388.73,EUR,"0,00","Carrer de Mallorca 30, 2ºC",41001,Sevilla,Sevilla,ES,Tarjeta,Entregado,web,16/02/2024 07:25
+O-202400632,2025/09/22 08:53:37,C0071,,858.52,EUR,4.99,"Paseo de la Castellana 108, 2ºC",08002,Barcelona,Barcelona,ES,,Entregado,web,2025-09-23 08:53:37
+O-202400633,2024/07/24 06:34:41,C0043,,3504.49,EUR,4.99,Calle de la Luz 5,41001,Sevilla,Sevilla,ES,ContraReembolso,Devuelto Parcial,app,16/08/2024 06:34
+O-202400634,2024-02-16 02:46:04,,UO-406924,"-5,45",EUR,0.00,"Avenida del Mar 104, 7ºC",47001,Valladolid,Valladolid,ES,ContraReembolso,Entregado,app,2024-02-28 02:46:04
+O-202400635,2025-03-23 20:54:05,C0017,,1977.95,EUR,0.00,Calle Jardines 19,08002,Barcelona,Barcelona,ES,ApplePay,Entregado,app,2025-04-05 20:54:05
+O-202400636,2024/04/24 04:02:47,C0053,,€932.62,EUR,"4,99","Calle del Sol 163, 3ºB",29001,Málaga,Málaga,ES,Transferencia ,Entregado,web,2024-05-08 04:02:47
+O-202400637,2025-08-04 05:46:34,,UO-247532,771.50,EUR,0.00,"Paseo de la Castellana 46, 7ºA",07001,Palma,Illes Balears,ES,ApplePay,Entregado,,2025-08-31 05:46:34
+O-202400638,2024/07/28 10:26:40,C0031,,677.06,EUR,6.99,"Rúa do Príncipe 165, 3ºA",45001,Toledo,Toledo,ES,ApplePay,Entregado,web,2024-08-09 10:26:40
+O-202400639,2024-07-06 08:46:27,,UO-997423,1075.47,EUR,0.00,Avenida Europa 136,18001,Granada,Granada,ES,ContraReembolso,Entregado,marketplace,2024-07-21 08:46:27
+O-202400640,13/07/2025 22:11,C0081,,€1941.26,EUR,€6.99,Carrer de Mallorca 25,,Granada,Granada,ES,Transferencia,Pendiente,web,2025-07-28 22:11:29
+O-202400641,2025-06-19 17:29:09,C0006,,922.11,EUR,"4,99",Calle Mayor 175,46001,Valencia,Valencia,ES,Tarjeta,Devuelto Parcial,app,2025-06-27 17:29:09
+O-202400642,2024-03-13 14:38:55,,UO-929527,€1292.85,EUR,"4,99","Calle Jardines 162, 4ºA",45001,Toledo,Toledo,ES,Tarjeta,Devuelto Total,web,19/03/2024 14:38
+O-202400643,2024-03-09 21:40:39,C0090,,109.81,EUR,4.99,"Gran Vía 190, 2ºA",20003,San Sebastián,Gipuzkoa,ES,PayPal,Entregado,,2024-03-13 21:40:39
+O-202400644,24/06/2024 05:57,,UO-484452,674,EUR,4.99,Calle del Sol 176,07001,Palma,Illes Balears,ES,Bizum,Entregado,app,2024/07/20 05:57:29
+O-202400645,2024-06-13 11:57:42,C0022,,782.33,EUR,4.99,Avenida Andalucía 150,36201,Vigo,Pontevedra,ES,ContraReembolso,Cancelado,web,2024-06-23 11:57:42
+O-202400646,2024-06-01 10:43:53,,UO-220950,310.16,EUR,4.99,"Gran Vía 59, 2ºD",,Bilbao,Bizkaia,ES,PayPal,Pendiente,web,2024-06-02 10:43:53
+O-202400647,2024-07-06 13:47:17,C0034,,770.49,EUR,9.99,Calle de la Paz 53,33201,Gijón,Asturias,ES,ContraReembolso,Entregado,marketplace,2024-07-20 13:47:17
+O-202400648,2024-01-24 06:29:49,C0004,UO-272935,1000.15,EUR,6.99,Calle Mayor 22,18001,Granada,Granada,ES,ContraReembolso,Entregado,marketplace,2024-02-04 06:29:49
+O-202400649,2025-08-07 12:09:48,C0086,,2001.99,EUR,0.00,"Avenida del Mar 45, 5ºA",46001,Valencia,Valencia,ES,Tarjeta,Entregado,marketplace,2025/08/15 12:09:48
+O-202400650,2024-03-09 21:16:28,C0073,,1059.54,EUR,4.99,"Calle del Prado 83, 6ºA",36201,Vigo,Pontevedra,ES,Tarjeta,Entregado,,2024-03-24 21:16:28
+O-202400100,2025-01-18 00:29:47,c0077,,€321.54,EUR,"0,00",Avenida Andalucía 158,03001,Alicante,Alicante,ES,ContraReembolso,Entregado,app,2025-02-01 00:29:47
+O-202400254,13/01/2024 08:57,,UO-883586,386.08,EUR,6.99,"Gran Vía 117, 8ºB",18001,Granada,Granada,ES,Tarjeta,Devuelto Parcial,marketplace,2024-02-10 08:57:35
+ O-202400203,17/12/2024 09:24,,UO-117094,1379.79,EUR,€6.99,Avenida del Mar 78,36201,Vigo,Pontevedra,ES,ApplePay,Cancelado,app,2025-01-02 09:24:43
+ O-202400365,2024-04-01 03:30:13,NULL,UO-356902,337.25,EUR,"4,99","Calle Mayor 62, 7ºD",08002,Barcelona,Barcelona,ES,ApplePay,En preparación,,03/04/2024 03:30
+O-202400172,2025-06-03 07:20:20,C0059,,,EUR,9.99,Calle Jardines 134,41001,Sevilla,Sevilla,ES,Tarjeta,Pendiente,marketplace,2025-07-02 07:20:20
+O-202400062,2025-06-24 15:43:20,c0011,UO-862560,931,EUR,4.99,"Calle Alcalá 29, 5ºB",36201,Vigo,Pontevedra,ES,Transferencia,Pendiente,app,2025-07-09 15:43:20
