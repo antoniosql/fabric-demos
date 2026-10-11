@@ -57,3 +57,7 @@ outputs/
 .DS_Store
 Thumbs.db
 *.log
+
+# Estado de despliegue de Fabric generado localmente (IDs de tenant/workspace/ítems)
+**/rayfin/.deployments.json
+**/*.UserDataFunction/definition.json

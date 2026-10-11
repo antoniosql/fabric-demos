@@ -11,7 +11,7 @@
       - Copiar config.example.json a config.local.json y ajustarlo si hace falta.
 
 .EXAMPLE
-    az login --tenant c2c0e5ea-f0e8-4934-8f1c-d8260ba230d7
+    az login --tenant <tu-tenant-id>
     ./scripts/deploy.ps1
 #>
 [CmdletBinding()]

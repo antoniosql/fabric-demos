@@ -90,7 +90,7 @@ Este paso crea:
 
 El script intenta localizar el item id de la SQL Database con `fab api` y renderiza:
 
-- `fabric/items/FrasoHome_RAG_UDF.UserDataFunction/definition.json`
+- `fabric/items/FrasoHome_RAG_UDF.UserDataFunction/definition.json` (no se versiona: se genera desde `definition.json.template`)
 - `fabric/items/config.yml`
 
 Después ejecuta:
