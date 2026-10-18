@@ -43,15 +43,25 @@ Para esta demo se necesitan dos etiquetas:
 
 ### 3. Crear la etiqueta `Confidencial-Finanzas`
 
-1. En **Sensitivity labels**, selecciona **Create → Label** y crea otra etiqueta independiente:
+1. Antes de crearla, busca `Confidencial-Finanzas` en **Sensitivity labels**. Si ya existe, **no la vuelvas a crear**: edítala y comprueba que tenga el ámbito **Files & other data assets** y **Control access** activado; después continúa en el paso 4 para publicarla.
+2. Si no existe, en **Sensitivity labels** selecciona **Create → Label** y crea una etiqueta independiente:
    - **Name / Display name**: `Confidencial-Finanzas`
    - **Description for users**: `Información financiera confidencial de la demo.`
    - **Tooltip**: `El acceso está limitado a los grupos autorizados por la política de protección.`
-2. Selecciona el ámbito **Files & other data assets**.
-3. En la configuración de protección, elige **Control access** (puede mostrarse dentro de **Protect items** o **Encryption**, según la experiencia del portal). Configura el control para que se aplique al contenido; la lista final de quién conserva acceso se define en la protection policy de Fabric, en el siguiente paso.
-4. Si el asistente muestra opciones para asignar permisos de cifrado, asegúrate de que no excluyan a los grupos que permitirás en la protection policy (`Finanzas-Analistas` y, opcionalmente, `Ingenieros-Prod`). La protección de la etiqueta y la protection policy son controles relacionados pero distintos; verifica el resultado con los probes antes de la demo.
-5. No añadas encabezados, pies de página ni marcas de agua; no son necesarios para esta demostración.
-6. Revisa y crea la etiqueta.
+3. Selecciona el ámbito **Files & other data assets**.
+4. En la configuración de protección, elige **Control access** (puede mostrarse dentro de **Protect items** o **Encryption**, según la experiencia del portal). Configura el control para que se aplique al contenido; la lista final de quién conserva acceso se define en la protection policy de Fabric, en el siguiente paso.
+5. Si el asistente muestra opciones para asignar permisos de cifrado, asegúrate de que no excluyan a los grupos que permitirás en la protection policy (`Finanzas-Analistas` y, opcionalmente, `Ingenieros-Prod`). La protección de la etiqueta y la protection policy son controles relacionados pero distintos; verifica el resultado con los probes antes de la demo.
+6. No añadas encabezados, pies de página ni marcas de agua; no son necesarios para esta demostración.
+7. Revisa y crea la etiqueta.
+
+**Si al guardar aparece `A compliance rule with name 'Confidencial-Finanzas' already exists in scenario(s) 'MipProtection'`:** cierra el error y vuelve a la lista de etiquetas. Actualiza la página y busca la etiqueta; puede haberse creado en un intento anterior. Si aparece, reutilízala y continúa, no repitas la creación. Si no aparece, comprueba desde Security & Compliance PowerShell:
+
+```powershell
+Connect-IPPSSession
+Get-Label | Select-Object DisplayName, Name, ImmutableId
+```
+
+Si `Get-Label` devuelve la etiqueta, reutiliza su `ImmutableId` aunque no aparezca inmediatamente en el portal. Si no la devuelve, no borres reglas o etiquetas de Purview al azar: verifica que estás en el tenant correcto, espera unos minutos y vuelve a consultar. Si el conflicto persiste, prueba un nombre único para la etiqueta (por ejemplo, `Confidencial-Finanzas-Demo`) y usa ese mismo nombre en la protection policy; si también falla, hace falta que un administrador de Purview investigue la regla residual antes de seguir.
 
 ### 4. Publicar las etiquetas a las identidades de la demo
 
