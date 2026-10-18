@@ -40,32 +40,54 @@ az login --tenant <tenant-id> --allow-no-subscriptions
 
 ## 1.4 Entra ID: grupos y personas
 
-Tres grupos de seguridad y dos service principals que actúan como «personas» de prueba:
+Tres grupos de seguridad y tres usuarios de prueba. Usa un dominio verificado del tenant para los UPN. Crea solo los grupos que aún no existan y ejecuta la creación de usuarios una sola vez, con una cuenta con permisos para crear usuarios y grupos en Entra ID.
 
 ```powershell
 # Grupos
 az ad group create --display-name "Ingenieros-Prod"    --mail-nickname ingenieros-prod
 az ad group create --display-name "Finanzas-Analistas" --mail-nickname finanzas-analistas
 az ad group create --display-name "Analistas-Norte"    --mail-nickname analistas-norte
-az ad group create --display-name "Fabric-API-SPs"     --mail-nickname fabric-api-sps   # para el tenant setting de SPs
 
-# Personas (repite para fabdemo-outsider)
-$app = az ad app create --display-name fabdemo-engineer --query appId -o tsv
-$sp  = az ad sp create --id $app --query id -o tsv
-az ad app credential reset --id $app --display-name fabdemo --years 1 --query password -o tsv   # → FABDEMO_ENGINEER_SECRET
-az ad group member add --group "Ingenieros-Prod" --member-id $sp      # solo el engineer
-az ad group member add --group "Fabric-API-SPs"  --member-id $sp      # los dos
+# Sustituye por un dominio verificado que aparezca en `az ad domain list`.
+$upnSuffix = "vernedev.onmicrosoft.com"
 
-# IDs que pide config.toml
-az ad group show -g "Ingenieros-Prod" --query id -o tsv
+# Contraseña común y sencilla para este tenant de demo.
+$demoPassword = "Demo2026!"
+
+function New-DemoUser($displayName, $upn) {
+    az ad user create --display-name $displayName --user-principal-name $upn `
+        --password $demoPassword --query id -o tsv
+    if ($LASTEXITCODE -ne 0) { throw "No se pudo crear $upn." }
+}
+
+$engineerId = New-DemoUser "Demo Ingeniería" "fabdemo-engineer@$upnSuffix"
+$analystId  = New-DemoUser "Demo Analista Norte" "fabdemo-analista-norte@$upnSuffix"
+$outsiderId = New-DemoUser "Demo Externo" "fabdemo-outsider@$upnSuffix"
+
+# Ingeniería solo pertenece a Ingenieros-Prod.
+az ad group member add --group "Ingenieros-Prod" --member-id $engineerId
+
+# El analista pertenece a ambos grupos para superar la protection policy
+# y probar el filtrado RLS/CLS de OneLake.
+az ad group member add --group "Finanzas-Analistas" --member-id $analystId
+az ad group member add --group "Analistas-Norte" --member-id $analystId
+
+# El externo no se añade a ningún grupo de negocio.
+
+# IDs para config.toml: tenant, grupos y object IDs de los usuarios.
 az account show --query tenantId -o tsv
+az ad group show -g "Ingenieros-Prod" --query id -o tsv
+az ad group show -g "Finanzas-Analistas" --query id -o tsv
+az ad group show -g "Analistas-Norte" --query id -o tsv
+az ad user show --id "fabdemo-engineer@$upnSuffix" --query id -o tsv
+az ad user show --id "fabdemo-outsider@$upnSuffix" --query id -o tsv
 ```
 
-En `config.toml`: `client_id` = appId y `object_id` = id del service principal (`$sp`).
-Las personas **no necesitan permisos de API en Entra**: Fabric autoriza a los service principals mediante el tenant setting.
+Los tres usuarios comparten la contraseña `Demo2026!`; no se fuerza el cambio en el primer inicio de sesión. Es una credencial solo para la demo: úsala únicamente en un tenant de pruebas.
 
-> ¿Prefieres usuarios reales en lugar de SPs? Usa `type = "browser"` en `[personas.*]` y añade el `object_id` del usuario.
-> Para la demo 2 en el portal es más visual usar un usuario real (ventana InPrivate).
+El `object_id` de `config.toml` es el ID de objeto del usuario (los `$engineerId` y `$outsiderId` anteriores); `login_hint` es su UPN. `Analista Norte` se prueba iniciando sesión en el portal con ese usuario. **No lo añadas a `[personas.*]`**: el despliegue asigna Contributor a las personas configuradas, mientras que el grupo `Analistas-Norte` debe conservar el rol Viewer y el filtrado RLS/CLS.
+
+Si prefieres probar con service principals en vez de usuarios interactivos, crea el grupo adicional `Fabric-API-SPs`, agrega ambos SP y habilita para ese grupo el tenant setting *Service principals can call Fabric public APIs*. Mantén entonces comentada la configuración de navegador y usa los bloques de SP alternativos de `config.toml`.
 
 ## 1.5 Purview
 
