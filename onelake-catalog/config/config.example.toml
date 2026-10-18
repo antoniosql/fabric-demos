@@ -1,0 +1,84 @@
+# Copia este fichero a config/config.toml y rellena los valores de tu tenant.
+# config/config.toml está en .gitignore: nunca lo subas al repositorio.
+
+[tenant]
+tenant_id = "00000000-0000-0000-0000-000000000000"
+# Capacidad F dedicada a la demo. ¡No uses una capacidad compartida!
+# La directiva de la demo 3 bloquea la creación de ítems en TODA la capacidad.
+# Fabric Policies (preview) no funciona en West Europe, North Europe ni West US.
+capacity_id = "00000000-0000-0000-0000-000000000000"
+
+[auth]
+# Identidad del presentador (administrador de Fabric y de la capacidad).
+#   cli        -> usa la sesión de `az login` (recomendado)
+#   browser    -> abre el navegador
+#   devicecode -> código de dispositivo (útil en VMs)
+# OJO: la API de etiquetas (bulkSetLabels) solo admite usuarios, no service principals.
+mode = "cli"
+
+[naming]
+# Prefijo para todo lo que crea el repo (workspaces, dominio, tags). Facilita el teardown.
+prefix = "MIDP"
+
+[domain]
+name = "Finanzas"
+description = "Datos financieros: facturación, clientes y contabilidad. Dominio de la demo MIDP."
+# Object IDs (Entra) de usuarios que serán administradores del dominio. Opcional.
+admin_user_ids = []
+
+[workspaces]
+# Nombres sin prefijo; el repo añade "<prefix>-" delante.
+prod_analytics = "Fin-Prod-Analytics"
+prod_reporting = "Fin-Prod-Reporting"
+dev = "Fin-Dev"
+gobierno = "Gobierno-Admin"
+
+[groups]
+# Object IDs de grupos de seguridad de Entra (créalos antes, ver docs/01-requisitos.md)
+ingenieros_prod = "00000000-0000-0000-0000-000000000000"     # Ingenieros-Prod
+finanzas_analistas = "00000000-0000-0000-0000-000000000000"  # Finanzas-Analistas
+analistas_norte = "00000000-0000-0000-0000-000000000000"     # Analistas-Norte (demo RLS/CLS)
+
+[labels]
+# GUIDs de las etiquetas de sensibilidad de Purview (Purview > Information Protection > Labels).
+# La etiqueta "confidencial_finanzas" debe tener control de acceso y ámbito "Files & other data assets".
+general = "00000000-0000-0000-0000-000000000000"
+confidencial_finanzas = "00000000-0000-0000-0000-000000000000"
+
+[tags]
+# Tags de dominio que se crean en Finanzas
+names = ["Facturación", "Contabilidad", "Datos maestros", "Fuente SAP"]
+
+[data]
+lakehouse = "lh_finanzas"
+notebook = "nb_generar_datos"
+seed_days = 30          # días de histórico de la carga inicial
+rows_per_day = 1500     # facturas por día simuladas
+customers = 400
+
+[drift]
+# Ítems «sin gobernar» que crea la demo 1 (sin descripción, sin etiqueta, sin tags)
+items_per_workspace = 4
+
+# Personas para probar las demos desde otra identidad.
+# type = "sp" usa un service principal (secreto en la variable de entorno indicada).
+# type = "browser" pide iniciar sesión con otro usuario (usa una ventana InPrivate).
+[personas.engineer]
+# Miembro del grupo Ingenieros-Prod
+type = "sp"
+client_id = "00000000-0000-0000-0000-000000000000"   # Application (client) ID
+object_id = "00000000-0000-0000-0000-000000000000"   # Object ID de la Enterprise Application (para darle rol en los workspaces)
+secret_env = "FABDEMO_ENGINEER_SECRET"
+
+[personas.outsider]
+# NO pertenece a Ingenieros-Prod ni a Finanzas-Analistas
+type = "sp"
+client_id = "00000000-0000-0000-0000-000000000000"
+object_id = "00000000-0000-0000-0000-000000000000"
+secret_env = "FABDEMO_OUTSIDER_SECRET"
+
+# Alternativa con usuarios reales (pide login interactivo):
+# [personas.outsider]
+# type = "browser"
+# login_hint = "ana.externa@contoso.com"
+# object_id = "<object id del usuario>"

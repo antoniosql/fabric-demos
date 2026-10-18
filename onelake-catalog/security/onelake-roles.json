@@ -1,0 +1,36 @@
+{
+  "_comment": "Roles de OneLake security para lh_finanzas. fabdemo los fusiona con los roles existentes (no borra DefaultReader).",
+  "value": [
+    {
+      "name": "AnalistasNorte",
+      "decisionRules": [
+        {
+          "effect": "Permit",
+          "permission": [
+            { "attributeName": "Path", "attributeValueIncludedIn": ["/Tables/facturas", "/Tables/clientes"] },
+            { "attributeName": "Action", "attributeValueIncludedIn": ["Read"] }
+          ],
+          "constraints": {
+            "rows": [
+              { "tablePath": "/Tables/facturas", "value": "SELECT * FROM facturas WHERE region = 'Norte'" },
+              { "tablePath": "/Tables/clientes", "value": "SELECT * FROM clientes WHERE region = 'Norte'" }
+            ],
+            "columns": [
+              {
+                "tablePath": "/Tables/clientes",
+                "columnNames": ["cliente_id", "nombre", "region", "segmento", "fecha_alta"],
+                "columnEffect": "Permit",
+                "columnAction": ["Read"]
+              }
+            ]
+          }
+        }
+      ],
+      "members": {
+        "microsoftEntraMembers": [
+          { "objectId": "{{group.analistas_norte}}", "objectType": "Group", "tenantId": "{{tenant_id}}" }
+        ]
+      }
+    }
+  ]
+}

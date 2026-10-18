@@ -1,0 +1,16 @@
+# Configuración local y estado del despliegue (contienen IDs de tu tenant)
+config/config.toml
+.state/
+out/
+
+# Secretos
+.env
+*.secret
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+dist/
+build/

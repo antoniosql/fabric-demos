@@ -1,0 +1,24 @@
+[project]
+name = "fabdemo"
+version = "0.1.0"
+description = "Despliegue as code de las demos de la sesión MIDP «OneLake Catalog: el gobierno de Fabric cambia de casa»"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "azure-identity>=1.17",
+    "azure-storage-file-datalake>=12.16",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+fabdemo = "fabdemo.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fabdemo"]

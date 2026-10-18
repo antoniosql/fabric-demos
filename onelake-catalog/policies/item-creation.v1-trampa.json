@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/policySet/definition/1.0.0/schema.json",
+  "properties": {
+    "scope": {
+      "type": "Capacity"
+    }
+  },
+  "policyRules": [
+    {
+      "displayName": "R1 - Solo ingeniería crea en Prod",
+      "description": "Ingenieros-Prod puede crear notebooks y pipelines en los workspaces de producción.",
+      "policy": "ItemCreation",
+      "conditions": [
+        {
+          "type": "Dynamic",
+          "targetProperty": "principal.groups.id",
+          "predicate": { "operator": "AnyOf", "values": ["{{group.ingenieros_prod}}"] }
+        },
+        {
+          "type": "Dynamic",
+          "targetProperty": "item.type",
+          "predicate": { "operator": "AnyOf", "values": ["Notebook", "DataPipeline"] }
+        },
+        {
+          "type": "Dynamic",
+          "targetProperty": "workspace.id",
+          "predicate": { "operator": "AnyOf", "values": ["{{ws.prod_analytics}}", "{{ws.prod_reporting}}"] }
+        }
+      ],
+      "effects": [{ "type": "Allow" }]
+    }
+  ]
+}
