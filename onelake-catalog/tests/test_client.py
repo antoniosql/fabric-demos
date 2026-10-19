@@ -81,3 +81,24 @@ def test_policy_files_render():
     for f in POLICY_DIR.glob("*.json"):
         p = load_policy(f, cfg, st)
         assert p["policyRules"] and "{{" not in json.dumps(p)
+
+
+def test_error_shows_more_details():
+    c = FabricClient(Cred())
+    c.session.request = mock.Mock(return_value=resp(400, {
+        "errorCode": "InvalidInput", "message": "The request has an invalid input", "requestId": "r1",
+        "moreDetails": [{"errorCode": "InvalidParameter", "message": "assignmentMethod"}]}))
+    with pytest.raises(FabricApiError) as e:
+        c.post("/admin/items/bulkSetLabels", {})
+    assert "assignmentMethod" in str(e.value) and "r1" in str(e.value)
+
+
+def test_set_labels_body_and_validation():
+    from fabdemo import fabric as fx
+    c = FabricClient(Cred())
+    c.session.request = mock.Mock(return_value=resp(200, {"itemsChangeLabelStatus": []}))
+    fx.set_labels(c, [{"id": "a", "type": "Lakehouse"}], "11111111-2222-3333-4444-555555555555")
+    body = c.session.request.call_args.kwargs["json"]
+    assert "assignmentMethod" not in body
+    with pytest.raises(SystemExit):
+        fx.set_labels(c, [], "00000000-0000-0000-0000-000000000000")

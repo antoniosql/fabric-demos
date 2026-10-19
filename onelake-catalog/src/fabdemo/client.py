@@ -24,7 +24,13 @@ class FabricApiError(RuntimeError):
         self.payload = payload if isinstance(payload, dict) else {"message": str(payload)}
         self.code = self.payload.get("errorCode") or self.payload.get("error", {}).get("code", "")
         msg = self.payload.get("message") or self.payload.get("error", {}).get("message", "")
-        super().__init__(f"{method} {url} -> {status} {self.code}: {msg}")
+        details = "; ".join(
+            f"{d.get('errorCode', '')}: {d.get('message', '')}".strip(": ")
+            for d in self.payload.get("moreDetails") or [] if isinstance(d, dict))
+        extra = f"\n    detalles: {details}" if details else ""
+        if self.payload.get("requestId"):
+            extra += f"\n    requestId: {self.payload['requestId']}"
+        super().__init__(f"{method} {url} -> {status} {self.code}: {msg}{extra}")
 
 
 class FabricClient:

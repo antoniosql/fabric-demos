@@ -194,9 +194,16 @@ def delete_item(c: FabricClient, ws_id: str, item_id: str) -> None:
 
 # -------------------------------------------------------------------- labels
 def set_labels(c: FabricClient, items: list[dict], label_id: str) -> None:
-    """items: [{"id":..., "type":...}]. Solo funciona con identidad de usuario (Fabric admin)."""
-    res = c.post("/admin/items/bulkSetLabels",
-                 {"items": items, "labelId": label_id, "assignmentMethod": "Priviledged"}) or {}
+    """items: [{"id":..., "type":...}]. Solo funciona con identidad de usuario (Fabric admin).
+
+    No se envía assignmentMethod: el enum documentado ("Priviledged") no coincide con lo que
+    acepta el servicio y provoca 400 InvalidInput. Se usa el valor por defecto (Standard).
+    """
+    import re
+    if not re.fullmatch(r"[0-9a-fA-F-]{36}", label_id or "") or set(label_id.replace("-", "")) == {"0"}:
+        raise SystemExit(f"labelId no válido: '{label_id}'. Revisa [labels] en config.toml "
+                         "(GUID de Get-Label | Select DisplayName, ImmutableId).")
+    res = c.post("/admin/items/bulkSetLabels", {"items": items, "labelId": label_id}) or {}
     for st in res.get("itemsChangeLabelStatus", []):
         mark = "✓" if st.get("status") == "Succeeded" else "✗"
         log(f"  {mark} etiqueta en {st.get('type')} {st.get('id', '')[:8]}… → {st.get('status')}")
