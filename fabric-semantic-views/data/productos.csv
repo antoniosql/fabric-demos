@@ -1,0 +1,102 @@
+product_id,nombre_producto,categoria,subcategoria,marca,proveedor,material,color,precio_venta,coste_unitario,iva_pct,peso_kg,largo_cm,ancho_cm,alto_cm,fecha_alta_catalogo,estado_producto,ean
+P1000,Sofá Aurora 160cm,Muebles,Sofás,UrbanHome,,Lino,Beige,221.99,143.47,21,24.63,134.0,13.5,20.3,2022-08-27,Activo,8386379402654
+P1001,Cuadro Atlas ★,Decoración,Cuadros,TextilPlus,Prov_Mediterraneo,Metal,Negro,31.63,21.79,21,4.85,97.8,59.7,34.5,2023-01-23,Activo,8495931034131
+P1002,Sábana Brisa 90x200,Textil hogar,Sábanas,CasaViva,Prov_Mediterraneo,Algodón,Verde,169.18,106.71,21,5.48,13.2,52.6,34.4,2022-09-08,Activo,7648350305641
+P1003,Espejo Atlas ★,Decoración,Espejos,UrbanHome,Prov_Mediterraneo,Lino,Madera natural,264.87,160.81,21,1.19,21.1,60.9,34.6,2024-02-04,Descatalogado,9653287101226
+P1004,Cama Sol 120cm,decoración,Camas,CasaViva,Prov_EuroHome,Poliéster,Dorado,1131.94,,21,32.49,153.2,69.1,39.4,2023-10-19,Activo,1462704828148
+p1005,Cuadro Luna ★,Decoración,Cuadros,NordicNest,Prov_Sierra,MDF,Dorado,180.29,98.34,21,0.94,46.7,78.9,49.4,2022-09-03,Activo,3911718227824
+P1006,Cortina Élite 200x300,Textil hogar,Cortinas,DecoArte,Prov_Sierra,Vidrio,Rojo,113.02,"62,96",21,1.01,30.8,30.4,37.4,2022-08-24,Activo,
+P1007,Figura Boreal ★,Decoración,Figuras,DecoArte,Prov_EuroHome,Poliéster,Beige,242.02,103.14,21,0.82,54.6,36.8,30.7,2024-01-17,Activo,1065133387262
+P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,Luz&Design,Prov_Atlas,Poliéster,Dorado,28.73,21.54,21,6.7,116.4,74.5,51.7,2022-06-20,Descatalogado,7736026064746
+P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,Luz&Design,Prov_Mediterraneo,Lino,Blanco,21.75,10.34,21,0.45,59.8,74.0,34.2,2022-02-28,Activo,2191361939909
+P1010,Cama Sol Compact,Muebles,Camas,UrbanHome,Prov_EuroHome,MDF,Verde,902.67,429.38,21,-3.2,37.5,81.0,60.3,2024-02-09,Activo,0799118384251
+P1011,Vela Eco ★,Decoración,Velas,NordicNest,Prov_Sierra,Poliéster,Dorado,92.55,68.81,21,6.47,65.8,55.1,35.5,2023-11-11,Activo,2411824493534
+ P1012,Sábana Sol 140x200,Textil hogar,Sábanas,TextilPlus,Prov_Atlas,Metal,Rojo,7.86,5.17,21,5.12,35.1,60.6,35.3,2023-03-14,Activo,1128059826204
+P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,NordicNest,Prov_Sierra,Lino,Negro,313.25,220.42,21,3.28,76.4,16.6,56.1,2024-06-04,Activo,2602563421607
+P1014,Cuadro Zen ★,Decoración,Cuadros,TextilPlus,Prov_Norte,Cerámica,Azul,68.99,42.36,21,3.22,37.0,10.2,47.5,2022-12-26,Descatalogado,8501429401965
+P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,DecoArte,Prov_EuroHome,Metal,Rojo,83.13,30.57,21,3.52,64.8,65.5,42.8,2024-01-30,Activo,5615951484656
+P1016,"Aplique Élite ""Star""",Iluminación,Apliques,Luz&Design,Prov_Sierra,Ratán,Rojo,300.77,126.21,21,4.57,51.7,67.5,21.7,2022-08-04,Descatalogado,9957773872148
+P1017,"Lámparas techo Zen ""Star""",Iluminación,Lámparas techo,TextilPlus,Prov_Sierra,Vidrio,Beige,66.47,-12.5,21,7.87,75.3,62.6,30.0,2023-10-07,Activo,6763201632870
+P1018,Cojine Minimal ★,Decoración,Cojines,CasaViva,Prov_Sierra,Poliéster,Dorado,179.25,130.86,21,7.14,75.5,58.9,32.8,2024-04-30,Descatalogado,2774348734714
+SKU-1019,Vela Aurora ★,Decoración,Velas,NordicNest,Prov_Mediterraneo,MDF,Negro,47.65,23.98,21,1.26,29.6,36.1,23.2,2023/02/05,Descatalogado,0366909670546
+P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,UrbanHome,Prov_EuroHome,Lino,Madera natural,112.47,40.67,21,2.72,83.1,35.3,14.1,2023-04-24,Activo,9806990162720
+P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,NordicNest,Prov_Sierra,Poliéster,Verde,305.88,153.44,21,6.03,100.7,23.9,9.5,2022-01-20,Activo,5310033092327
+P1022,Armario Aurora 120cm,Muebles,Armarios,Luz&Design,Prov_Norte,Vidrio,Verde,827.7,537.32,21,5.33,182.1,116.1,21.9,2022-01-27,Activo,9663193149190
+P1023,"Aplique Élite ""Star""",Iluminación,Apliques,CasaViva,Prov_Mediterraneo,Metal,Dorado,142.08,98.01,21,6.59,17.1,77.1,40.0,2024-04-28,Descatalogado,2628498776945
+P1024,Cojine Vintage ★,Decoración,Cojines,NordicNest,Prov_Norte,Lino,Madera natural,183.66,92.12,21,0.28,102.9,18.6,16.7,2024-03-27,Activo,5494808313678
+P1025,Figura Nórdico ★,Decoración,Figuras,CasaViva,Prov_Norte,Poliéster,Blanco,90.09,46.11,21,1.98,81.4,32.7,35.4,2022-12-19,Descatalogado,8557444313518
+P1026,Cuadro Vintage ★,Decoración,Cuadros,Luz&Design,Prov_Norte,Vidrio,Dorado,86.77,33.86,21,1.59,31.2,18.5,5.8,2023-07-01,Activo,4008427109477
+P1027,Sábana Nórdico 140x200,Textil hogar,Sábanas,Luz&Design,Prov_Atlas,Vidrio,Madera natural,103.97,39.47,21,5.05,11.2,16.2,36.0,2022-11-08,Activo,3186999386774
+P1028,Sábana Zen 90x200,Textil hogar,Sábanas,DecoArte,Prov_EuroHome,Madera,,71.04,27.17,21,1.96,68.5,16.7,27.5,2023-12-07,Descatalogado,4034471349361
+P1029,Figura Luna ★,Decoración,Figuras,Luz&Design,Prov_Mediterraneo,Algodón,Negro,52.11,24.65,21,6.0,70.5,26.6,11.8,2023-12-07,Activo,6488771906594
+P1030,Sofá Vintage XL,Muebles,Sofás,Luz&Design,Prov_EuroHome,Madera,Azul,1014.73,426.26,21,23.45,102.9,40.6,119.7,10 de Enero de 2023,Descatalogado,1756551256746
+P1031,Cama Nórdico 3 plazas,Muebles,Camas,FraSoHome,Prov_Mediterraneo,Vidrio,Verde,1136.89,773.05,21,0.25,192.6,60.8,16.0,2023-06-15,Activo,9770348247710
+P1032,Figura Minimal ★,Decoración,Lamparas mesa,Luz&Design,Prov_Mediterraneo,MDF,Blanco,123.77,54.44,21,6.74,18.0,76.0,40.6,2022-06-07,Descatalogado,4846773782639
+P1033,Cojine Sol ★,Decoración,Cojines,NordicNest,Prov_Norte,Cerámica,Dorado,245.88,,21,2.42,72.5,79.9,31.9,2022-06-02,Descatalogado,8755886753396
+P1034,Jarrone Atlas ★,Decoración,Jarrones,FraSoHome,Prov_Mediterraneo,Poliéster,Rojo,295.57,197.13,21,5.23,22.5,77.4,11.9,2023-08-28,Activo,1718702621745
+P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,TextilPlus,Prov_Mediterraneo,MDF,Rojo,218.12,79.47,21,0.59,77.6,74.1,59.9,2024-02-04,Activo,6117240050455
+P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,Luz&Design,Prov_EuroHome,Ratán,Gris,26.11,18.23,21,4.98,32.7,73.5,12.9,2023-04-18,Activo,7407482175946
+P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,TextilPlus,Prov_Mediterraneo,,Rojo,50.59,25.43,21,2.9,39.0,57.4,6.2,2024-04-29,Descatalogado,4090974395339
+P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,UrbanHome,Prov_Atlas,Madera,Azul,22.01,10.92,21,1.09,109.6,29.5,27.9,2022-07-25,Activo,8588424745171
+P1039,Cuadro Nórdico ★,Decoración,Cuadros,TextilPlus,Prov_Norte,MDF,Verde,€237.04,84.28,21,4.32,57.3,55.5,42.0,2023-08-22,Descatalogado,5137098593174
+P1040,Manta Boreal 140x200,Textil hogar,Mantas,Luz&Design,Prov_Atlas,Madera,Azul,30.52,21.51,21,1.13,57.2,55.3,45.9,2023-07-08,Descatalogado,
+P1041,Vela Luna ★,Decoración,Velas,FraSoHome,Prov_Mediterraneo,MDF,Verde,120.85,51.47,21,1.02,102.5,39.1,41.5,2023-10-20,Activo,0532931839335
+P1042,Espejo Minimal ★,Decoración,Espejos,FraSoHome,Prov_Mediterraneo,Algodón,Gris,77.19,32.41,21,5.31,8.0,6.1,48.4,2022-09-01,Activo,0240268117758
+P1043,Cama Sol 3 plazas,Muebles,Camas,DecoArte,Prov_Sierra,Madera,Dorado,871.01,315.71,21,44.94,187.9,56.9,21.9,2023-12-31,Descatalogado,1159212499856
+P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,DecoArte,,Ratán,Negro,53.62,32.81,21,7.03,68.4,69.9,28.7,2022-08-22,Descatalogado,5766156545271
+P1045,Sofá Aurora 120cm,Muebles,Sofás,FraSoHome,Prov_Norte,Metal,Verde,170.98,125.27,21,25.36,150.7,55.2,106.1,2024-02-08,Descatalogado,0494519832731
+P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,NordicNest,Prov_Atlas,Vidrio,Beige,338.61,250.51,21,6.56,75.6,53.2,6.4,2023-11-05,Activo,0244550229612
+P1047,Sofá Atlas 3 plazas,Muebles,Sofás,UrbanHome,Prov_EuroHome,Lino,Rojo,508.08,253.03,21,32.53,173.1,72.4,19.3,2022-02-23,Activo,2901476797643
+P1048,Mesa Minimal 160cm,Muebles,Mesas,CasaViva,Prov_Atlas,Vidrio,,469.1,205.56,21,44.3,21.5,32.5,9999.0,2024-02-25,Activo,4451076226838
+P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,CasaViva,Prov_Atlas,Ratán,Blanco,368.25,255.88,21,4.63,70.9,58.2,28.0,2022-04-28,Descatalogado,0529751613696
+P1050,Cama Brisa Compact,Muebles,Camas,TextilPlus,Prov_Mediterraneo,Cerámica,Beige,190.66,115.02,21,23.97,50.7,95.4,48.6,2024-04-18,Activo,3124329212779
+P1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,UrbanHome,Prov_EuroHome,Cerámica,Verde,"23,53",12.4,21,2.46,36.6,9.2,32.9,2022-11-14,Descatalogado,7005411998679
+P1052,Cama Vintage 3 plazas,Muebles,Camas,TextilPlus,Prov_EuroHome,Lino,Verde,700.64,513.63,21,20.38,180.3,102.1,118.1,2022-03-28,Activo,0377889255466
+P1053,"Aplique Nórdico ""Star""",Iluminación,,FraSoHome,Prov_Mediterraneo,Metal,Verde,226.61,114.35,21,2.05,102.9,77.3,38.1,2022-06-03,Activo,1925462914865
+P1054,Figura Minimal ★,Decoración,Figuras,UrbanHome,Prov_EuroHome,Metal,Rojo,110.1,54.5,21,1.48,29.6,76.1,31.7,2022-08-20,Activo,2141888059296
+P1055,Cuadro Luna ★,Decoración,Cuadros,Luz&Design,Prov_EuroHome,Algodón,Madera natural,124.61,77.33,21,1.94,56.1,26.4,46.2,2023-04-05,Activo,8347359774688
+P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,TextilPlus,Prov_Sierra,Algodón,Azul,218.54,124.96,21,0.87,102.3,68.8,20.7,2024-02-21,Activo,4782613750606
+P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,CasaViva,Prov_Atlas,Cerámica,Beige,133.29,51.93,21,5.73,43.6,16.0,7.1,2024-04-29,Descatalogado,2779010432898
+P1058,Manta Nórdico 140x200,Textil hogar,Mantas,TextilPlus,,Lino,Azul,64.7,39.18,21,5.0,12.2,67.8,32.5,2023-07-03,Activo,8932460953962
+P1059,Armario Minimal 120cm,Muebles,Armarios,NordicNest,Prov_Atlas,MDF,Dorado,763.98,386.71,21,21.26,143.5,117.9,37.9,2022-01-17,Activo,1531952058527
+P1060,Cortina Luna 200x300,Textil hogar,Cortinas,TextilPlus,Prov_Sierra,Metal,Madera natural,55.79,37.18,21,7.09,41.3,28.3,26.9,2024-04-14,Descatalogado,4034505415667
+P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,Luz&Design,Prov_Norte,Poliéster,Verde,200.88,128.73,21,0.68,74.3,66.7,35.0,2022-11-25,Activo,1544796275705
+P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,UrbanHome,Prov_Atlas,Metal,Rojo,200.87,124.89,21,7.62,21.4,50.6,48.0,2022-02-05,Activo,1355690927557
+P1063,Armario Brisa 160cm,Muebles,Armarios,Luz&Design,Prov_EuroHome,Cerámica,Rojo,433.43,318.23,21,1.36,49.1,67.0,110.5,2022-05-01,Activo,4739473121727
+P1064,Estantería Minimal 120cm,Muebles,Estanterías,FraSoHome ,Prov_Mediterraneo,Cerámica,Negro,447.43,210.29,21,7.26,159.0,87.0,29.2,2023-01-06,Activo,1323705895782
+P1065,Sofá Atlas 3 plazas,Muebles,Sofás,NordicNest,Prov_Norte,,Dorado,1087.01,412.52,21,43.76,144.9,59.5,84.8,2022-12-19,Activo,8922680182422
+P1066,Jarrón Brisa 💠,Iluminación,Lámparas pie,NordicNest,Prov_EuroHome,Vidrio,Negro,85.56,62.67,21,2.23,76.9,51.1,10.1,2023-10-19,Activo,9922995900109
+P1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,TextilPlus,Prov_EuroHome,Ratán,Blanco,355.71,202.12,21,5.15,39.7,23.4,49.4,2023-02-20,Activo,7102767735925
+P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,CasaViva,Prov_Sierra,Cerámica,Dorado,"50,41",22.52,21,1.02,56.7,15.6,7.8,2023-01-29,Descatalogado,3259532787747
+P1069,Sofá Zen 120cm,Muebles,Sofás,CasaViva,Prov_EuroHome,Poliéster,Beige,522.47,193.43,21,22.37,195.3,82.0,61.8,2023-07-04,Activo,1624565060983
+P1070,"Aplique Boreal ""Star""",Iluminación,,NordicNest,Prov_Atlas,Ratán,Dorado,307.12,141.85,21,7.91,83.2,13.9,58.6,2023-02-08,Activo,5852398680002
+P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,DecoArte,Prov_Norte,Algodón,Dorado,136.91,81.49,21,1.34,118.9,60.4,21.5,2022-12-11,Descatalogado,9470551694097
+P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,DecoArte,Prov_Sierra,Madera,Madera natural,"213,45",136.28,21,6.21,48.7,66.6,18.3,2023-08-10,Activo,3075626368970
+P1073,Espejo Minimal ★,Decoración,Espejos,Luz&Design,Prov_EuroHome,Cerámica,Madera natural,114.54,83.92,21,3.7,66.3,46.0,42.2,2024-06-07,Activo,9733484344375
+P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,DecoArte,Prov_Mediterraneo,Vidrio,Negro,98.89,73.38,21,6.56,114.8,65.3,21.0,2022-10-22,Activo,5747338484219
+P1075,Cuadro Luna ★,Decoración,Cuadros,FraSoHome,Prov_EuroHome,Lino,Beige,32.66,15.75,21,3.81,83.3,15.3,58.0,2022-06-11,Descatalogado,7734540193802
+P1076,Cortina Eco 200x300,Textil hogar,Cortinas,FraSoHome,Prov_Norte,Poliéster,Gris,219.17,77.52,21,4.57,17.3,78.7,20.7,2023-10-19,Descatalogado,2874315274205
+P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,UrbanHome,Prov_Sierra,Algodón,Rojo,209.96,80.77,21,5.37,26.2,15.5,22.8,2022-09-12,Activo,4637454990453
+P1078,Estantería Atlas 160cm,Muebles,Estanterías,FraSoHome,Prov_Norte,Vidrio,Gris,"702,02",497.07,21,31.72,75.3,22.9,110.8,2022-10-30,Activo,9332727956878
+P1079,Cuadro Boreal ★,Decoración,Cuadros,UrbanHome,Prov_EuroHome,,Dorado,159.34,78.83,21,7.34,17.9,67.2,54.7,2022-07-27,Activo,2587139718707
+P1080,Espejo Boreal ★,Decoración,Espejos,CasaViva,Prov_Norte,Madera,Dorado,202.14,95.67,21,0.22,34.3,5.2,17.0,2022-03-16,Activo,6518017046226
+P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,CasaViva,Prov_Norte,Ratán,Negro,385.02,269.44,21,1.11,103.9,13.9,59.6,2023-02-07,Activo,3004786863375
+P1082,Vela Vintage ★,Decoración,Velas,Luz&Design,Prov_Atlas,Madera,Rojo,229.75,161.63,21,0.17,28.7,12.6,6.8,2023-09-05,Activo,3067383028439
+P1083,"Aplique Aurora ""Star""",Iluminación,,DecoArte,Prov_Mediterraneo,Lino,Azul,€393.42,219.73,21,3.34,36.6,46.8,37.5,2024-01-23,Activo,6870568566246
+P1084,Espejo Eco ★,Decoración,Espejos,CasaViva,Prov_Sierra,Lino,Azul,45.73,24.47,21,0.51,52.5,36.2,34.1,2023-02-02,Activo,4351751830469
+P1085,Sofá Boreal Compact,Muebles,Sofás,Luz&Design,Prov_EuroHome,MDF,,1142.37,551.98,21,43.07,13.2,113.1,115.8,2022-05-01,Descatalogado,3936385467854
+P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,DecoArte,Prov_Norte,Poliéster,Negro,192.1,131.76,21,7.32,47.6,36.0,35.9,2022-08-15,Activo,0489964235369
+P1087,Jarrone Eco ★,Decoración,Jarrones,DecoArte,Prov_Mediterraneo,Vidrio,Madera natural,192.94,105.39,21,1.39,96.4,17.7,44.6,2023-05-16,Activo,8080100623120
+P1088,Espejo Élite ★,Decoración,Espejos,CasaViva,Prov_Mediterraneo,Madera,Madera natural,147.4,51.98,21,4.44,6.4,44.7,20.1,2022-10-21,Activo,8621182339845
+P1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,FraSoHome,Prov_Mediterraneo,Ratán,Madera natural,103.85,65.31,21,2.43,100.2,11.0,59.5,2023-10-28,Activo,1666870021765
+P1090,Armario Sol XL,Muebles,Armarios,FraSoHome,Prov_Sierra,Lino,Madera natural,1207.99,753.51,21,12.76,124.0,82.4,29.7,2024-05-20,Activo,0392614293968
+P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,TextilPlus,Prov_Sierra,Metal,Dorado,388.99,144.5,21,3.52,101.4,30.5,47.3,2023-09-02,Descatalogado,5047735866296
+P1092,Armario Sol Compact,Muebles,Armarios,NordicNest,Prov_Sierra,Metal,Negro,555.0,"368,27",21,7.11,91.8,49.7,20.1,2022-11-12,Descatalogado,5412126788861
+P1093,Sofá Atlas XL,Muebles,Sofás,NordicNest,Prov_EuroHome,Metal,Verde,449.22,226.91,21,3.99,199.2,109.6,117.6,2023-08-09,Activo,6224447212646
+P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,TextilPlus,Prov_Atlas,Cerámica,Azul,290.15,159.1,21,4.95,57.7,15.2,5.4,2023-02-10,Activo,
+P1095,  Espejo Élite 80cm  ,Iluminación,Lámparas pie,CasaViva,Prov_Mediterraneo,Vidrio,Madera natural,0,150.82,21,2.28,95.4,32.4,56.3,2022-07-24,Activo,8073741672434
+P1096,Figura Vintage ★,Decoración,Figuras,CasaViva,Prov_Norte,Metal,Madera natural,144.85,73.92,21,4.08,110.8,56.9,34.9,2024-03-20,Activo,8911352909656
+P1097,Sofá Eco 120cm,Muebles,Sofás,FraSoHome,Prov_Mediterraneo,Lino,Dorado,768.59,480.42,21,10.1,88.6,60.9,84.8,2023-12-09,Activo,5071461125457
+P1098,Espejo Boreal ★,Decoración,Espejos,CasaViva,Prov_Mediterraneo,Poliéster,Negro,216.71,,21,0.58,10.1,58.3,6.2,2022-12-18,Activo,2382825867362
+P1099,Figura Eco ★,Decoración,Figuras,UrbanHome,Prov_Norte,Ratán,Blanco,184.78,79.26,21,4.76,49.7,57.9,16.3,2024-02-10,Activo,9182553714785
+P1030,Sofá Vintage XL (dup),Muebles,Sofás,Luz&Design,Prov_EuroHome,Madera,Azul,1014.73,426.26,21,23.45,102.9,40.6,119.7,2023-03-23,Descatalogado,1756551256746

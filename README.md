@@ -62,7 +62,7 @@ Direct Lake de solo lectura.
 - Tres cifras legítimas de «ventas netas» sobre los mismos datos, y una sola definición oficial.
 - Once métricas en DAX, con inteligencia de tiempo, consultadas desde un Data Agent.
 - Un tercer acto que enseña qué parte de Ossie ignora Fabric hoy (`ANSI_SQL`, `ai_context`).
-- Parte del lakehouse de `tenerife-summer-sessions-2026` (repositorio `materiales-sesiones`).
+- Autocontenida: lleva sus datos, notebooks y un script que crea el workspace y el lakehouse desde un `.env`.
 
 → [Ver guía de la demo](fabric-semantic-views/README.md)
 

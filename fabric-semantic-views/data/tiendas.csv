@@ -1,0 +1,9 @@
+store_id,nombre_tienda,tipo_ubicacion,canal,ciudad,provincia,direccion,codigo_postal,pais,fecha_apertura,metros_cuadrados,telefono,horario,lat,lon,estado,region,gerente,observaciones
+S001,FraSoHome Madrid Centro,Tienda,FISICO,Madrid,Madrid,C/ Gran Vía 45,28013,ES,2016-03-15,1850,+34 910 123 001,L-S 10:00-21:30,40.4203,-3.7058,Activa,Centro,Marta Sánchez,
+S002,FraSoHome Barcelona Eixample,Tienda,FISICO,Barcelona,Barcelona,Av. Diagonal 212,08002,ES,15/07/2017,2100,0034 930 555 002,L-S 09:30-21:00,41.3879,2.16992,Activa,Cataluña,Jordi Pujol,
+S003,FraSoHome Valencia Ruzafa,Tienda,FISICO,Valencia,Valencia,C/ Cádiz 8,46001,ES,10 de Enero de 2019,1600,961-778-003,L-D 10:00-22:00,39.4669,-0.3763,Activa,Levante,Álvaro Muñoz,
+S003 ,FraSoHome Valencia Ruzafa (dup),Tienda,FISICO,Valencia,Valencia,C/ Cadiz 8,46001,España,2019-01-10,1600,961 778 003,L-D 10:00-22:00,39.4669,-0.3763,Activa,LEVANTE,Álvaro Muñoz,Registro duplicado intencional (espacios/casing).
+S004,FraSoHome Sevilla Nervión,Tienda,FISICO,Sevilla,Sevilla,Av. Eduardo Dato 11,41001,ES,2020/09/30,1400,+34 954 777 004,L-S 10:00-21:00,37.3886,-5.9823,Activa,Andalucía,Lucía Romero,
+S005,FraSoHome Bilbao Abando,Tienda,FISICO,Bilbao,Bizkaia,Plaza Circular 2,,ES,2021-02-28,1250,944000005,L-S 10:00-20:30,43.263,-2.93499,Activa,Norte,Iñaki García,CP faltante intencional.
+ONLINE,FraSoHome eCommerce / Almacén Central,Almacén,ONLINE,Madrid,Madrid,"Pol. Ind. Los Olivos, Nave 7",28080,ES,2015-11-01,5200,+34 910 999 000,24x7,40.0,-3.5,Activa,Central,Equipo Operaciones,Canal ONLINE (ubicación almacén).
+S006,FraSoHome Málaga Centro (apertura prevista),Tienda,FISICO,Málaga,Málaga,C/ Larios 1,29001,ES,2027-05-01,1500,+34 952 111 006,L-S 10:00-21:00,91.0,-4.4214,Planificada,Andalucía,,Apertura futura + lat inválida (error intencional).

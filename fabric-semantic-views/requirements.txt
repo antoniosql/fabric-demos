@@ -1,0 +1,4 @@
+# Solo para ejecutar scripts/fabdemo.py en tu máquina (los notebooks corren en Fabric y no necesitan nada).
+azure-identity>=1.17
+azure-storage-file-datalake>=12.16
+requests>=2.31

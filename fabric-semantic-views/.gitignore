@@ -1,0 +1,5 @@
+# IDs de tu tenant y de lo desplegado
+.state/
+
+# Configuración local y secretos
+.env

@@ -1,0 +1,1950 @@
+order_line_id,order_id,product_id,descripcion_producto,categoria,subcategoria,cantidad,precio_unitario,descuento_pct,descuento_importe,importe_linea,iva_pct
+OL-0000001,O-202400001,P1078,Estantería Atlas 160cm,Muebles,Estanterías,2,730.66,,,1461.32,21
+OL-0000002,O-202400001,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,1,134.46,5,6.72,"127,74",21
+OL-0000003,O-202400001,P1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,1,"22,62",5,1.13,21.49,21
+OL-0000004,O-202400001,,,N/A,,2,448.87,,,897.74,21
+OL-0000005,O-202400001,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,2,51.54,,,€103.08,21
+OL-0000006,O-202400002,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,449.48,,,449,21
+OL-0000007,O-202400002,,,,,1,893.89,,,893.89,21
+OL-0000008,O-202400003,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,"26,02",,,26.02,21
+OL-0000009,O-202400003,P1041,Vela Luna ★,Decoración,Velas,3,118.27,5,17.74,"337,07",21
+OL-0000010,O-202400003,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,33.11,25,8.28,€24.83,10
+OL-0000011,O-202400003,P1039,Cuadro Nórdico ★,Decoración,Cuadros,2,223.73,20,89.49,357.97,21
+OL-0000012,O-202400004,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,405.14,,,€405.14,21
+OL-0000013,O-202400004,P1030,Sofá Vintage XL,Muebles,Sofás,1,930.99,30,€279.30,€651.69,21
+OL-0000014,O-202400004,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,1,212.43,5,10.62,201.81,10
+OL-0000015,O-202400004,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,3,,,,"568,59",21
+OL-0000016,O-202400005,P1030,Sofá Vintage XL,Muebles,Sofás,1,948.84,25,"237,21",711.63,21
+OL-0000017,O-202400005,P1078,Estantería Atlas 160cm,Muebles,Estanterías,1,707.07,10,70.71,"636,36",21
+OL-0000018,O-202400006,P1048,Mesa Minimal 160cm,Muebles,Mesas,2,469.75,,,939.50,21
+OL-0000019,O-202400006,P1018,Cojine Minimal ★,Decoración,Cojines,1,187.54,5,"9,38","178,16",10
+OL-0000020,O-202400006,P1007,Figura Boreal ★,Decoración,Figuras,4,"245,55",,,982.20,21
+OL-0000021,O-202400007,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,1,346.34,0,0.00,€346.34,10
+OL-0000022,O-202400007,P1018,Cojine Minimal ★,Decoración,Cojines,1,176.13,10,17.61,"158,52",21
+OL-0000023,O-202400008,P1040,Manta Boreal 140x200,Textil hogar,Mantas,2,€29.95,30,"17,97",41.93,21
+OL-0000024,O-202400008,p1000,Sofá Aurora 160cm,Muebles,,1,201.63,,,201.63,21
+OL-0000025,O-202400009,P1006,Cortina Élite 200x300,Textil hogar,Cortinas,1,102.96,,,102.96,21
+OL-0000026,O-202400009,P1018,Cojine Minimal ★,Decoración,Cojines,1,€177.43,0,0.00,177.43,21
+OL-0000027,O-202400009,P1011,Vela Eco ★,Decoración,,1,85.53,,,85.53,21
+OL-0000028,O-202400010,P1058,Manta Nórdico 140x200,Textil hogar,Mantas,3,€61.58,,,184.74,21
+OL-0000029,O-202400010,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,1,198.97,20,39.79,159.18,10
+OL-0000030,O-202400010,P1092,Armario Sol Compact,Muebles,Armarios,1,"580,51",10,58.05,522.46,21
+OL-0000031,O-202400011,P1059,Armario Minimal 120cm,Muebles,,1,760.82,,,760.82,21
+OL-0000032,O-202400011,P1069,Sofá Zen 120cm,Muebles,Sofás,2,538.14,30,322.88,"753,40",21
+OL-0000033,O-202400012,P1096,Figura Vintage ★,Decoración,Figuras,1,€139.12,,,€139.12,21
+OL-0000034,O-202400013,p1097,Sofá Eco 120cm,Muebles,Sofás,1,730,15,€109.43,620.10,21
+OL-0000035,O-202400013,SKU-1019,Vela Aurora ★,Decoración,Velas,2,46.94,,,93.88,10
+OL-0000036,O-202400013,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,2,,,,210.20,21
+OL-0000037,O-202400013,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,1,203.19,15,€30.48,172.71,21
+OL-0000038,O-202400013,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,3,352.44,20,211.46,846,21
+OL-0000039,O-202400014,P1055,Cuadro Luna ★,Decoración,Cuadros,1,121.38,,,121.38,21
+OL-0000040,O-202400014,P1003,Espejo Atlas ★,Decoración,Espejos,2,256.53,25,128.26,384.80,10
+OL-0000041,O-202400014,P1058,Manta Nórdico 140x200,Textil hogar,Mantas,1,64.38,20,€12.88,"51,50",21
+OL-0000042,O-202400015,P1073,Espejo Minimal ★,Decoración,Espejos,1,,15,16.84,95.40,21
+OL-0000043,O-202400015,P1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,€358.05,0,0.00,358.05,10
+OL-0000044,O-202400016,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,25.51,30,"7,65",17.86,21
+OL-0000045,O-202400016,P1004,Cama Sol 120cm,decoración,Camas,1,1159.26,5,"57,96",€1101.30,21
+OL-0000046,O-202400016,P1054,Figura Minimal ★,Decoración,Figuras,1,113.36,,,"113,36",21
+OL-0000047,O-202400016,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,1,140.57,30,€42.17,€98.40,10
+OL-0000048,O-202400017,p10X1,Producto desconocido,N/A,,1,"199,91",10,19.99,179.92,21
+OL-0000049,O-202400017,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,"354,93",-5,-17.75,€372.68,21
+OL-0000050,O-202400017,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,2,22.41,0,"0,00",44.82,21
+OL-0000051,O-202400018,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,25.46,-5,-1.27,"26,73",21
+OL-0000052,O-202400018,P1065,Sofá Atlas 3 plazas,Muebles,Sofás,3,1013.93,,,3041.79,21
+OL-0000053,O-202400018,p1082,Vela Vintage ★,Decoración,Velas,1,"215,21",5,10.76,204.45,21
+OL-0000054,O-202400018,P1023,"Aplique Élite ""Star""",Iluminación,Apliques,1,"138,18",30,€41.45,96.73,10
+OL-0000055,O-202400018,P1030,Sofá Vintage XL,Muebles,Sofás,1,984.61,25,246.15,"738,46",21
+OL-0000056,O-202400018,P1003,Espejo Atlas ★,Decoración,Espejos,1,273.41,,,273.41,21
+OL-0000057,O-202400019,P1083,"Aplique Aurora ""Star""",Iluminación,,2,409.53,0,"0,00","819,06",10
+OL-0000058,O-202400019,P1042,Espejo Minimal ★,Decoración,Espejos,2,71.56,30,42.94,100.18,10
+OL-0000059,O-202400020,P1059,Armario Minimal 120cm,Muebles,Armarios,2,,-5,-70.34,1477.20,21
+OL-0000060,O-202400020,P1092,Armario Sol Compact,Muebles,Armarios,1,550.00,,,550.00,21
+OL-0000061,O-202400021,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,527.58,,,528,21
+OL-0000062,O-202400021,P1073,Espejo Minimal ★,Decoración,Espejos,1,€112.89,,,112.89,10
+OL-0000063,O-202400021,P1025,Figura Nórdico ★,Decoración,Figuras,2,81.15,15,24.35,137.95,21
+OL-0000064,O-202400022,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,2,€102.13,25,51.06,153.20,21
+OL-0000065,O-202400022,P1017,"Lámparas techo Zen ""Star""",Iluminación,Lámparas techo,3,66.03,,,198.09,10
+OL-0000066,O-202400022,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,2,22,,,44.84,21
+OL-0000067,O-202400023,P1002,Sábana Brisa 90x200,Textil hogar,Sábanas,2,173.57,25,86.78,€260.36,21
+OL-0000068,O-202400023,P1002,Sábana Brisa 90x200,Textil hogar,Sábanas,1,€166.21,15,€24.93,141.28,21
+OL-0000069,O-202400024,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,182.61,0,0.00,182.61,21
+OL-0000070,O-202400024,P1067,"Lámparas pie Boreal ""Star""",Iluminación,,1,356.66,5,17.83,338.83,10
+OL-0000071,O-202400024,P1098,Espejo Boreal ★,Decoración,Espejos,2,217.05,,,434.10,10
+OL-0000072,O-202400024,p1005,Producto desconocido,,,1,935.96,15,140.39,795.57,21
+OL-0000073,O-202400025,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,1,328.29,0,0,328.29,10
+OL-0000074,O-202400025,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,1,210.54,30,63.16,147.38,21
+OL-0000075,O-202400025,P1025,Figura Nórdico ★,Decoración,Figuras,2,93.77,,,187.54,21
+OL-0000076,O-202400025,p1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,55.46,0,0.00,55.46,21
+OL-0000077,O-202400025,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,1,99.50,,,"99,50",21
+OL-0000078,O-202400026,P1004,Cama Sol 120cm,decoración,Camas,2,"1121,66",,,2243.32,21
+OL-0000079,O-202400026,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,3,"49,21",5,7,140.25,10
+OL-0000080,O-202400027, P1078,Estantería Atlas 160cm,Muebles,Estanterías,2,735.86,,,"1471,72",21
+OL-0000081,O-202400027,P1020,Alfombra Zen 200x300,Textil hogar,,1,116.44,30,34.93,"81,51",21
+OL-0000082,O-202400027,P1018,Cojine Minimal ★,Decoración,Cojines,1,,25,€44.28,€132.85,10
+OL-0000083,O-202400027,P1097,Sofá Eco 120cm,Muebles,Sofás,2,805.04,,,1610.08,21
+OL-0000084,O-202400028,P1085,Sofá Boreal Compact,Muebles,Sofás,2,1043.81,0,0.00,2087.62,21
+OL-0000085,O-202400028,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,447.29,0,0.00,447.29,21
+OL-0000086,O-202400029,P1063,Armario Brisa 160cm,Muebles,Armarios,1,"426,38",15,63.96,362.42,21
+OL-0000087,O-202400029,p1005,Producto desconocido,,,1,318.82,15,47.82,271.00,21
+OL-0000088,O-202400029,p10X1,Producto desconocido,N/A,,1,€597.10,,,597.10,21
+OL-0000089,O-202400029,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,"205,89",0,0.00,205.89,21
+OL-0000090,O-202400029,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,2,116.31,5,"11,63",220.99,21
+OL-0000091,O-202400030,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,1,"224,87",,,"224,87",21
+OL-0000092,O-202400030,P9999,Producto desconocido,,,1,744.78,,,744.78,21
+OL-0000093,O-202400030,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,1,307.58,20,61.52,246.06,10
+OL-0000094,O-202400030,P1039,Cuadro Nórdico ★,Decoración,Cuadros,1,215.09,5,10.75,204.34,10
+OL-0000095,O-202400030,P1014,Cuadro Zen ★,Decoración,Cuadros,1,70.07,,,"70,07",10
+OL-0000096,O-202400031,P1048,Mesa Minimal 160cm,Muebles,Mesas,1,459.51,5,€22.98,437,21
+OL-0000097,O-202400031,P1055,Cuadro Luna ★,Decoración,,2,117.96,10,24,212.33,10
+OL-0000098,O-202400031,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,461.47,,,"461,47",21
+OL-0000099,O-202400032, P1029,Figura Luna ★,Decoración,Figuras,3,48.09,30,43.28,€100.99,10
+OL-0000100,O-202400033,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,4,320,30,384.28,896.64,10
+OL-0000101,O-202400034,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,1,49.74,,,€49.74,10
+OL-0000102,O-202400034,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,2,"359,73",,,719.46,21
+OL-0000103,O-202400034,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,3,,10,115.99,"1043,93",10
+OL-0000104,O-202400035,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,"27,20",25,6.80,20.40,21
+OL-0000105,O-202400035,P1010,Cama Sol Compact,Muebles,Camas,1,904.27,5,45.21,859.06,21
+OL-0000106,O-202400035,P1083,"Aplique Aurora ""Star""",Iluminación,,1,,,,,10
+OL-0000107,O-202400036,P1018,Cojine Minimal ★,Decoración,Cojines,1,186.08,,,€186.08,21
+OL-0000108,O-202400036,P1022,Armario Aurora 120cm,Muebles,Armarios,1,"810,95",,,810.95,21
+OL-0000109,O-202400036,P1083,"Aplique Aurora ""Star""",Iluminación,,1,381.02,25,95,285.77,21
+OL-0000110,O-202400037,P1076,Cortina Eco 200x300,Textil hogar,,1,206,5,10.31,"195,96",21
+OL-0000111,O-202400037,P1022,Armario Aurora 120cm,Muebles,Armarios,2,774.16,0,€0.00,1548.32,21
+OL-0000112,O-202400038,P1026,Cuadro Vintage ★,Decoración,Cuadros,1,80.28,30,24.08,56.20,10
+OL-0000113,O-202400038,P1003,Espejo Atlas ★,Decoración,Espejos,1,253.73,0,"0,00",253.73,10
+OL-0000114,O-202400038,P1082,Vela Vintage ★,Decoración,Velas,2,"233,19",5,"23,32",€443.06,21
+OL-0000115,O-202400038,P1002,Sábana Brisa 90x200,Textil hogar,Sábanas,0,160.62,,,€0.00,21
+OL-0000116,O-202400038, P1034,Jarrone Atlas ★,Decoración,Jarrones,1,270.02,-5,"-13,50",283.52,10
+OL-0000117,O-202400038,P1066,Jarrón Brisa 💠,Iluminación,Lámparas pie,1,"84,11",25,21.03,63.08,10
+OL-0000118,O-202400039,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,4,€367.54,20,294.03,"1176,13",21
+OL-0000119,O-202400039,SKU-9999,,N/A,,4,619,,,€2474.44,21
+OL-0000120,O-202400039,P9999,Producto desconocido,,,1,553.49,25,138.37,415.12,21
+OL-0000121,O-202400039,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,1,€216.04,20,43.21,"172,83",21
+OL-0000122,O-202400039,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,"290,32",0,"0,00","290,32",21
+OL-0000123,O-202400040,P1080,Espejo Boreal ★,Decoración,Espejos,2,€188.33,30,113.00,,10
+OL-0000124,O-202400041,P1066,Jarrón Brisa 💠,Iluminación,Lámparas pie,1,78.16,,,€78.16,21
+OL-0000125,O-202400041,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,1,126.87,30,€38.06,88.81,10
+OL-0000126,O-202400042,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,1,206.98,15,"31,05",176,21
+OL-0000127,O-202400042,P1037,"Bombilla Boreal ""Star""",Iluminación,,2,"47,15",,,94.30,21
+OL-0000128,O-202400042,P1065,Sofá Atlas 3 plazas,Muebles,Sofás,1,1103.94,,,"1103,94",21
+OL-0000129,O-202400043,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,2,,5,5.18,€98.38,10
+OL-0000130,O-202400043,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,2,74,5,7.43,,21
+OL-0000131,O-202400043,P1042,Espejo Minimal ★,Decoración,Espejos,1,76.65,10,7.67,68.98,10
+OL-0000132,O-202400044,p1005,Producto desconocido,,,1,"95,69",-5,-4.78,100.47,21
+OL-0000133,O-202400045,P1022,Armario Aurora 120cm,Muebles,Armarios,2,860.66,,,1721.32,21
+OL-0000134,O-202400045,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,1,194,10,19.37,174.36,10
+OL-0000135,O-202400045,P1043,Cama Sol 3 plazas,Muebles,Camas,3,894.25,20,€536.55,"2146,20",21
+OL-0000136,O-202400046,p1006,Cortina Élite 200x300,Textil hogar,Cortinas,3,101.92,,,€307.72,21
+OL-0000137,O-202400046,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,1,29.65,5,1.48,"28,17",21
+OL-0000138,O-202400046,P1004,Cama Sol 120cm,decoración,Camas,1,1091.50,,,"1091,50",21
+OL-0000139,O-202400047,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,206.35,25,51.59,154.76,21
+OL-0000140,O-202400047,p1041,Vela Luna ★,Decoración,Velas,1,114.44,15,17.17,97.27,21
+OL-0000141,O-202400047,P1042,Espejo Minimal ★,Decoración,Espejos,2,74.35,,,€158.99,21
+OL-0000142,O-202400047,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,1,384,,,,10
+OL-0000143,O-202400048,P1023,"Aplique Élite ""Star""",Iluminación,Apliques,1,148.19,25,37.05,111.14,21
+OL-0000144,O-202400048,P1059,Armario Minimal 120cm,Muebles,Armarios,1,,30,235.22,548.84,21
+OL-0000145,O-202400049,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,1,275.49,0,0.00,275.49,21
+OL-0000146,O-202400050,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,1,193.53,30,58.06,135.47,10
+OL-0000147,O-202400050,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,1,98.75,,,98.75,21
+OL-0000148,O-202400050,P1029,Figura Luna ★,Decoración,Figuras,1,"52,02",-5,"-2,60",55,21
+OL-0000149,O-202400051,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,"276,61",,,€276.61,21
+OL-0000150,O-202400051,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,458.05,30,137.41,320.64,21
+OL-0000151,O-202400051,P1098,Espejo Boreal ★,Decoración,Espejos,1,"217,33",,,€217.33,21
+OL-0000152,O-202400052,P1033,Cojine Sol ★,Decoración,,1,226.86,30,68.06,158.80,10
+OL-0000153,O-202400052,P1050,Cama Brisa Compact,Muebles,Camas,2,"174,00",15,52.20,295.80,21
+OL-0000154,O-202400053,,Producto desconocido,,,1,453.44,15,"68,02","385,42",21
+OL-0000155,O-202400053,,,,,1,790.58,5,"39,53",751.05,21
+OL-0000156,O-202400053,P1087,Jarrone Eco ★,Decoración,Jarrones,3,"197,40",20,€118.44,473.76,10
+OL-0000157,O-202400053,P1022,Armario Aurora 120cm,Muebles,Armarios,1,862.78,,,"862,78",21
+OL-0000158,O-202400054,P1092,Armario Sol Compact,Muebles,Armarios,2,€541.07,,,1082,21
+OL-0000159,O-202400054,P1025,Figura Nórdico ★,Decoración,Figuras,1,93.66,20,18.73,74.93,10
+OL-0000160,O-202400054,P1001,Cuadro Atlas ★,Decoración,Cuadros,3,"30,09",,,90.27,21
+OL-0000161,O-202400055,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,,30,8.92,,21
+OL-0000162,O-202400055,P1053,"Aplique Nórdico ""Star""",Iluminación,,1,223.21,30,66.96,€156.25,21
+OL-0000163,O-202400055,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,177.80,5,€8.89,168.91,21
+OL-0000164,O-202400055,P1034,Jarrone Atlas ★,Decoración,Jarrones,1,"273,27",30,81.98,191.29,10
+OL-0000165,O-202400056,P1055,Cuadro Luna ★,Decoración,Cuadros,1,124.22,30,37.27,86.95,10
+OL-0000166,O-202400056,p1005,,,,2,573.50,15,€172.05,975,21
+OL-0000167,O-202400056,P1080,Espejo Boreal ★,Decoración,Espejos,1,192.41,,,192.41,10
+OL-0000168,O-202400057,P1092,Armario Sol Compact,Muebles,Armarios,2,511.85,25,255.93,767.77,21
+OL-0000169,O-202400058,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,2,54,10,10.75,96.75,21
+OL-0000170,O-202400058,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,2,76,10,15.27,137,21
+OL-0000171,O-202400058,,Producto desconocido,N/A,,1,,10,105,944.63,21
+OL-0000172,O-202400059,P101Z,Producto desconocido,,,1,€1139.04,,,1139.04,21
+OL-0000173,O-202400059,,,,,2,407.47,30,244.48,570.46,21
+OL-0000174,O-202400060,P1087,Jarrone Eco ★,Decoración,Jarrones,0,189.82,0,0.00,0.00,10
+OL-0000175,O-202400060,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,2,26.36,,,"52,72",21
+OL-0000176,O-202400061,P1092,Armario Sol Compact,Muebles,Armarios,2,546.92,,,,21
+OL-0000177,O-202400061, P1007,Figura Boreal ★,Decoración,Figuras,1,218.36,25,54.59,163.77,21
+OL-0000178,O-202400061,P1079,Cuadro Boreal ★,Decoración,Cuadros,1,,15,22.28,"126,28",10
+OL-0000179,O-202400061,P1003,Espejo Atlas ★,Decoración,Espejos,1,255.08,25,63.77,191.31,21
+OL-0000180,O-202400062,P1048,Mesa Minimal 160cm,Muebles,Mesas,3,434.97,0,"0,00",1304.91,21
+OL-0000181,O-202400062,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,-1,378.93,10,0.00,-378.93,10
+OL-0000182,O-202400063,P1025,Figura Nórdico ★,Decoración,,1,86.58,25,21.64,64.94,21
+OL-0000183,O-202400063,P1014,Cuadro Zen ★,Decoración,Cuadros,1,62.60,15,9.39,53.21,21
+OL-0000184,O-202400063,P1010,Cama Sol Compact,Muebles,Camas,3,857.82,10,€257.35,2316.11,21
+OL-0000185,O-202400063,P1039,Cuadro Nórdico ★,Decoración,Cuadros,2,234.79,20,93.92,€375.66,10
+OL-0000186,O-202400063,P1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,346.84,25,"86,71",260,10
+OL-0000187,O-202400064,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,"32,08",10,3.21,28.87,10
+OL-0000188,O-202400064,P1099,Figura Eco ★,Decoración,Figuras,1,€192.05,20,38.41,153.64,21
+OL-0000189,O-202400064,P1042,Espejo Minimal ★,Decoración,Espejos,1,76.74,110,"84,41",-7.67,10
+OL-0000190,O-202400065,P1050,Cama Brisa Compact,Muebles,Camas,1,180.08,30,54.02,"126,06",21
+OL-0000191,O-202400066, P1026,Cuadro Vintage ★,Decoración,Cuadros,1,87,,,87.11,10
+OL-0000192,O-202400066,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,1,212.81,,,212.81,10
+OL-0000193,O-202400066,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,2,314,,,627.90,21
+OL-0000194,O-202400066,P1042,Espejo Minimal ★,Decoración,Espejos,1,72.41,0,"0,00",€72.41,10
+OL-0000195,O-202400066,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,2,"200,13",0,"0,00",400.26,21
+OL-0000196,O-202400067,P1034,Jarrone Atlas ★,Decoración,Jarrones,1,309.12,25,77.28,231.84,21
+OL-0000197,O-202400067,P1007,Figura Boreal ★,Decoración,Figuras,1,244.31,,,244.31,21
+OL-0000198,O-202400067,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,2,,0,"0,00",624.56,10
+OL-0000199,O-202400067,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,2,,0,0.00,48.46,21
+OL-0000200,O-202400067,P1030,Sofá Vintage XL,Muebles,Sofás,1,"1052,73",,,1052.73,21
+OL-0000201,O-202400067,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,176.60,,,176.60,21
+OL-0000202,O-202400068,p1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,112.78,25,28.20,€84.58,21
+OL-0000203,O-202400068,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,1111.63,20,222.33,889.30,21
+OL-0000204,O-202400068,P1087,Jarrone Eco ★,Decoración,Jarrones,2,191.70,,,€383.40,21
+OL-0000205,O-202400069,P1063,Armario Brisa 160cm,Muebles,Armarios,1,"447,68",0,0.00,447.68,21
+OL-0000206,O-202400070,P1041,Vela Luna ★,Decoración,Velas,2,122.50,,,"245,00",10
+OL-0000207,O-202400071,P9999,,,,1,764.79,25,191.20,"573,59",21
+OL-0000208,O-202400071,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,102.51,,,102.51,21
+OL-0000209,O-202400072, P1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,2,21.38,10,4.28,38.48,21
+OL-0000210,O-202400072,,Producto desconocido,,,2,"1146,93",30,688.16,"1605,70",21
+OL-0000211,O-202400073,P1018,Cojine Minimal ★,Decoración,Cojines,1,163.04,20,32.61,130,21
+OL-0000212,O-202400073,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,1,130.49,,,130.49,10
+OL-0000213,O-202400073,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,1,300.25,0,0.00,307.89,21
+OL-0000214,O-202400074,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,€102.23,25,25.56,"76,67",21
+OL-0000215,O-202400074,P1064,Estantería Minimal 120cm,Muebles,Estanterías,2,"463,10",10,"92,62",834,21
+OL-0000216,O-202400074,P1031,Cama Nórdico 3 plazas,Muebles,Camas,0,"1109,46",5,0.00,0.00,21
+OL-0000217,O-202400075,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,1,197.90,,,197.90,21
+OL-0000218,O-202400075,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,2,49.96,,,99.92,21
+OL-0000219,O-202400075,P1084,Espejo Eco ★,Decoración,Espejos,1,"43,74",,,43.74,21
+OL-0000220,O-202400075,P1078,Estantería Atlas 160cm,Muebles,Estanterías,3,677.64,30,609.88,1423.04,21
+OL-0000221,O-202400075,P1052,Cama Vintage 3 plazas,Muebles,Camas,1,632.85,30,189.85,443.00,21
+OL-0000222,O-202400075,P1009,Cortina Vintage Pack 4,Textil hogar,,1,20.37,,,"20,37",21
+OL-0000223,O-202400076,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,1,100.96,,,101,21
+OL-0000224,O-202400076,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,48.25,5,2.41,58.39,21
+OL-0000225,O-202400077,P1033,Cojine Sol ★,Decoración,Cojines,1,"226,80",,,226.80,10
+OL-0000226,O-202400077,P1099,Figura Eco ★,Decoración,Figuras,1,,,,"181,77",10
+OL-0000227,O-202400077,P1097,Sofá Eco 120cm,Muebles,Sofás,1,765.83,0,0.00,765.83,21
+OL-0000228,O-202400078,,,,,1,"1127,29",,,1127.29,21
+OL-0000229,O-202400078,P1078,Estantería Atlas 160cm,Muebles,Estanterías,1,721.86,0,0.00,721.86,21
+OL-0000230,O-202400078,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,2,340.86,,,681.72,10
+OL-0000231,O-202400078,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,0,283.77,30,0.00,0.00,10
+OL-0000232,O-202400078,P1034,Jarrone Atlas ★,Decoración,,1,€290.58,20,58.12,"232,46",21
+OL-0000233,O-202400079,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,484.96,10,48.50,436.46,21
+OL-0000234,O-202400079,P1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,351.12,110,386.23,€-35.11,21
+OL-0000235,O-202400080,P1027,Sábana Nórdico 140x200,Textil hogar,Sábanas,1,102.94,0,0.00,€102.94,21
+OL-0000236,O-202400080,p1025,Figura Nórdico ★,Decoración,Figuras,1,"87,10",10,"8,71",78.39,21
+OL-0000237,O-202400080,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,1,304.44,110,334.88,-30.44,10
+OL-0000238,O-202400081,P1055,Cuadro Luna ★,Decoración,Cuadros,1,112.84,20,€22.57,90.27,10
+OL-0000239,O-202400081,P1069,Sofá Zen 120cm,Muebles,Sofás,1,"527,91",20,105.58,€422.33,21
+OL-0000240,O-202400082,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,"529,33",,,529.33,21
+OL-0000241,O-202400082,P1080,Espejo Boreal ★,Decoración,Espejos,1,195.63,0,0.00,195.63,21
+OL-0000242,O-202400082,P1026,Cuadro Vintage ★,Decoración,Cuadros,1,80.46,0,0.00,"80,46",21
+OL-0000243,O-202400082,P106Y,,N/A,,1,953.51,,,"953,51",21
+OL-0000244,O-202400082,P1054,Figura Minimal ★,Decoración,Figuras,1,"104,26",30,31.28,73,21
+OL-0000245,O-202400083,P1095,  Espejo Élite 80cm  ,Iluminación,Lámparas pie,2,"0,00",15,0.00,0.00,21
+OL-0000246,O-202400083,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,2,47.63,,,95.26,10
+OL-0000247,O-202400083,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,1,205,25,51.16,€155.14,21
+OL-0000248,O-202400083,P1085,Sofá Boreal Compact,Muebles,Sofás,2,1059.99,0,0.00,2119.98,21
+OL-0000249,O-202400083,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,193.13,5,"9,66",183.47,21
+OL-0000250,O-202400083,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,3,,10,96.87,872,21
+OL-0000251,O-202400084,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,30.88,25,7.72,23.16,21
+OL-0000252,O-202400084,P1073,Espejo Minimal ★,Decoración,Espejos,1,€113.51,,,113.51,10
+OL-0000253,O-202400084,P1096,Figura Vintage ★,Decoración,Figuras,2,149.76,15,44.93,254.59,21
+OL-0000254,O-202400085,P1034,Jarrone Atlas ★,Decoración,Jarrones,1,289.19,15,"43,38",245.81,21
+OL-0000255,O-202400085,p1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,0,138.80,20,0.00,0,10
+OL-0000256,O-202400086,,,N/A,,2,46.55,5,"4,66",98.60,21
+OL-0000257,O-202400086,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,,25,28.32,84.96,21
+OL-0000258,O-202400086,SKU-1019,Vela Aurora ★,Decoración,Velas,2,43.44,10,8.69,78.19,21
+OL-0000259,O-202400086,P1079,Cuadro Boreal ★,Decoración,Cuadros,1,"154,76",15,23.21,131.55,10
+OL-0000260,O-202400087,P1053,"Aplique Nórdico ""Star""",Iluminación,,1,"215,47",10,22,193.92,21
+OL-0000261,O-202400087,P1059,Armario Minimal 120cm,Muebles,Armarios,1,749.53,0,0.00,749.53,21
+OL-0000262,O-202400087,P1090,Armario Sol XL,Muebles,Armarios,2,,,,2467.24,21
+OL-0000263,O-202400088,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,46.62,20,9.32,37,10
+OL-0000264,O-202400088,P1060,Cortina Luna 200x300,Textil hogar,,1,"52,85",5,2.64,50.21,21
+OL-0000265,O-202400088,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,€52.88,20,11,42.30,10
+OL-0000266,O-202400088,P1052,Cama Vintage 3 plazas,Muebles,Camas,2,653.06,0,"0,00",1306.12,21
+OL-0000267,O-202400088,P1011,Vela Eco ★,Decoración,Velas,1,€89.36,15,13,75.96,10
+OL-0000268,O-202400088,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,3,290.95,,,872.85,21
+OL-0000269,O-202400089,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,2,27.41,5,"2,74",52.08,10
+OL-0000270,O-202400089,p1078,Estantería Atlas 160cm,Muebles,Estanterías,1,644.36,,,644.36,21
+OL-0000271,O-202400089,P1063,Armario Brisa 160cm,Muebles,Armarios,2,419.98,,,850.86,21
+OL-0000272,O-202400089,P1054,Figura Minimal ★,Decoración,Figuras,1,115.15,25,28.79,€86.36,21
+OL-0000273,O-202400089,P1011,Vela Eco ★,Decoración,Velas,1,96.66,0,0.00,"96,66",21
+OL-0000274,O-202400089,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,1,137.22,5,6.86,130.36,21
+OL-0000275,O-202400090,P1011,Vela Eco ★,Decoración,Velas,1,87.31,15,13.10,74.21,21
+OL-0000276,O-202400090,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,154.33,5,"7,72",,21
+OL-0000277,O-202400090,P1053,"Aplique Nórdico ""Star""",Iluminación,,2,226.57,,,453.14,21
+OL-0000278,O-202400090,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,1190.94,25,€297.74,893.20,21
+OL-0000279,O-202400090,P1001,Cuadro Atlas ★,Decoración,Cuadros,2,32.80,,,65.60,10
+OL-0000280,O-202400090,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,375.35,,,375.35,10
+OL-0000281,O-202400091,P106Z,,,,1,745.21,0,0.00,"745,21",21
+OL-0000282,O-202400091,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,3,295.32,30,265.79,620.17,21
+OL-0000283,O-202400092,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,1,296.64,5,14.83,281.81,21
+OL-0000284,O-202400093,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,2,356.46,,,"712,92",10
+OL-0000285,O-202400093,P1010,Cama Sol Compact,Muebles,Camas,1,904.09,,,"904,09",21
+OL-0000286,O-202400094,P1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,1,21.82,10,€2.18,19.64,21
+OL-0000287,O-202400094,P1039,Cuadro Nórdico ★,Decoración,Cuadros,1,238.71,20,47.74,,21
+OL-0000288,O-202400094,P1075,Cuadro Luna ★,Decoración,Cuadros,1,30.42,,,30.42,10
+OL-0000289,O-202400095,p1005,Producto desconocido,,,3,815.93,,,2447.79,21
+OL-0000290,O-202400095,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,1,313.16,15,46.97,266.19,21
+OL-0000291,O-202400096,P1007,Figura Boreal ★,Decoración,Figuras,3,221.85,30,200,465.89,10
+OL-0000292,O-202400097,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,1,"52,17",30,15.65,"36,52",21
+OL-0000293,O-202400097,P1085,Sofá Boreal Compact,Muebles,Sofás,2,"1194,40",20,477.76,,21
+OL-0000294,O-202400097,P1085,Sofá Boreal Compact,Muebles,Sofás,1,1048.42,10,104.84,€943.58,21
+OL-0000295,O-202400098, P1018,Cojine Minimal ★,Decoración,Cojines,3,"187,00",30,168.30,392.70,21
+OL-0000296,O-202400098,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,51.67,,,51.67,10
+OL-0000297,O-202400098,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,2,349.65,0,0.00,"699,30",10
+OL-0000298,O-202400099,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,425.30,,,425.30,21
+OL-0000299,O-202400099,P1075,Cuadro Luna ★,Decoración,Cuadros,1,33.99,25,"8,50",25.49,10
+OL-0000300,O-202400100,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,459.35,30,137.81,321.54,21
+OL-0000301,O-202400101,P1085,Sofá Boreal Compact,Muebles,Sofás,1,1059.96,30,317.99,"741,97",21
+OL-0000302,O-202400101,P1033,Cojine Sol ★,Decoración,Cojines,1,€240.33,0,0.00,240.33,21
+OL-0000303,O-202400101,P1090,Armario Sol XL,Muebles,Armarios,2,1112.26,5,€111.23,2113.29,21
+OL-0000304,O-202400101,P1066,Jarrón Brisa 💠,Iluminación,Lámparas pie,1,"87,02",,,87.02,10
+OL-0000305,O-202400102,P1010,Cama Sol Compact,Muebles,Camas,2,838.38,,,1676.76,21
+OL-0000306,O-202400102,P1055,Cuadro Luna ★,Decoración,Cuadros,2,127.94,30,76.76,179.12,21
+OL-0000307,O-202400102,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,1,19.92,30,5.98,13.94,21
+OL-0000308,O-202400102,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,,5,"23,55",,21
+OL-0000309,O-202400103,P103Z,Producto desconocido,,,2,1008.88,,,2017.76,21
+OL-0000310,O-202400103,p1087,Jarrone Eco ★,Decoración,Jarrones,1,180.99,20,36.20,"144,79",21
+OL-0000311,O-202400104,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,1,67.66,,,67.66,21
+OL-0000312,O-202400105,P1097,Sofá Eco 120cm,Muebles,Sofás,1,731.86,30,219.56,512.30,21
+OL-0000313,O-202400106,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,3,302.20,25,226.65,"692,13",10
+OL-0000314,O-202400106,p1005,Producto desconocido,,,2,207.38,30,124.43,290.33,21
+OL-0000315,O-202400106,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,0,€101.91,,,0,21
+OL-0000316,O-202400106,P1042,Espejo Minimal ★,Decoración,Espejos,1,78.83,30,"23,65","55,18",10
+OL-0000317,O-202400106,p1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,"276,22",,,€276.22,10
+OL-0000318,O-202400107,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,1,"213,07",10,21.31,191.76,21
+OL-0000319,O-202400107,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,1,,5,6.23,118.31,21
+OL-0000320,O-202400108,P1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,3,22.76,,,"68,28",21
+OL-0000321,O-202400108,P1024,Cojine Vintage ★,Decoración,Cojines,1,"167,89",30,50.37,117.52,10
+OL-0000322,O-202400108,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,3,"355,37",20,213.22,852.89,21
+OL-0000323,O-202400108,P1000,Sofá Aurora 160cm,Muebles,Sofás,1,206.39,5,€10.32,196,21
+OL-0000324,O-202400109,P1059,Armario Minimal 120cm,Muebles,Armarios,3,,,,2235.84,21
+OL-0000325,O-202400109,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,198.40,10,"19,84",178.56,21
+OL-0000326,O-202400109,P1022,Armario Aurora 120cm,Muebles,Armarios,2,860.87,30,516.52,1205.22,21
+OL-0000327,O-202400109,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,1,311.45,25,77.86,233.59,10
+OL-0000328,O-202400109,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,1,92.44,25,23.11,69.33,21
+OL-0000329,O-202400110,P1011,Vela Eco ★,Decoración,Velas,0,96.23,15,0.00,0.00,21
+OL-0000330,O-202400110,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,280.99,10,28.10,252.89,21
+OL-0000331,O-202400111,P1082,Vela Vintage ★,Decoración,Velas,1,213.67,10,21.37,192.30,10
+OL-0000332,O-202400111,P1053,"Aplique Nórdico ""Star""",Iluminación,,1,210.07,,,210.07,10
+OL-0000333,O-202400112,P1063,Armario Brisa 160cm,Muebles,Armarios,1,426.52,10,"42,65",383.87,21
+OL-0000334,O-202400113,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,2,361.04,,,722.08,21
+OL-0000335,O-202400114, P1034,Jarrone Atlas ★,Decoración,Jarrones,3,293.76,25,220.32,660.96,21
+OL-0000336,O-202400115,P1099,Figura Eco ★,Decoración,Figuras,1,183.90,,,183.90,10
+OL-0000337,O-202400115,P1096,Figura Vintage ★,Decoración,Figuras,2,,,,"281,04",21
+OL-0000338,O-202400115,P1088,Espejo Élite ★,Decoración,Espejos,1,142.67,,,142.67,10
+OL-0000339,O-202400115,P1043,Cama Sol 3 plazas,Muebles,Camas,2,876.13,15,262.84,1489.42,21
+OL-0000340,O-202400116,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,2,81.98,0,0.00,163.96,10
+OL-0000341,O-202400116,p1005,Producto desconocido,,,1,763.61,-5,-38.18,802,21
+OL-0000342,O-202400116,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,"81,61",25,20.40,61.21,21
+OL-0000343,O-202400117,P9999,,N/A,,1,919.28,,,919.28,21
+OL-0000344,O-202400117,P1029,Figura Luna ★,Decoración,Figuras,0,51.67,20,0.00,"0,00",21
+OL-0000345,O-202400117,P1041,Vela Luna ★,Decoración,Velas,1,119.83,0,0.00,119.83,10
+OL-0000346,O-202400118,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,"105,36",5,5.27,"100,09",21
+OL-0000347,O-202400118,P1000,Sofá Aurora 160cm,Muebles,Sofás,1,221.28,30,"66,38",154.90,21
+OL-0000348,O-202400119,P1083,"Aplique Aurora ""Star""",Iluminación,,1,409.37,,,409.37,21
+OL-0000349,O-202400119,P1008,"Bombilla Nórdico ""Star""",Iluminación,,1,29.61,10,2.96,€26.65,10
+OL-0000350,O-202400119,P1082,Vela Vintage ★,Decoración,Velas,1,210.65,15,31.60,179.05,21
+OL-0000351,O-202400120,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,2,85.82,5,9,163.06,10
+OL-0000352,O-202400120,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,30.24,0,0.00,30.24,10
+OL-0000353,O-202400120,P1090,Armario Sol XL,Muebles,Armarios,1,1131.09,30,339.33,791.76,21
+OL-0000354,O-202400121,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,2,48.39,,,96.78,10
+OL-0000355,O-202400122,P1091,"Bombilla Eco ""Star""",Iluminación,,1,397.17,20,79.43,317.74,10
+OL-0000356,O-202400122,P1085,Sofá Boreal Compact,Muebles,Sofás,1,,20,€211.31,845.23,21
+OL-0000357,O-202400123,P1024,Cojine Vintage ★,Decoración,Cojines,4,"169,55",,,678.20,10
+OL-0000358,O-202400123,P1063,Armario Brisa 160cm,Muebles,Armarios,3,424.23,30,381.81,"890,88",21
+OL-0000359,O-202400123,P1010,Cama Sol Compact,Muebles,Camas,0,901,,,"0,00",21
+OL-0000360,O-202400123,P1029,Figura Luna ★,Decoración,Figuras,2,48.49,,,96.98,10
+OL-0000361,O-202400124,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,1,€365.73,,,"365,73",10
+OL-0000362,O-202400124,P9999,Producto desconocido,,,3,716.05,-5,-107.41,2255.56,21
+OL-0000363,O-202400124,P1000,Sofá Aurora 160cm,Muebles,Sofás,1,204.88,,,"204,88",21
+OL-0000364,O-202400124,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,3,85,0,0.00,256.26,21
+OL-0000365,O-202400124,P1097,Sofá Eco 120cm,Muebles,Sofás,1,"760,63",5,"38,03",722.60,21
+OL-0000366,O-202400125,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,2,"130,65",,,261,10
+OL-0000367,O-202400125,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,1,200.22,5,10.01,190.21,10
+OL-0000368,O-202400125,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,1,125.18,,,125.18,21
+OL-0000369,O-202400125, P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,202.38,10,"20,24",182.14,21
+OL-0000370,O-202400126,p1069,Sofá Zen 120cm,Muebles,Sofás,1,473.35,30,142.00,€331.35,21
+OL-0000371,O-202400127,SKU-1019,Vela Aurora ★,Decoración,Velas,1,46.01,30,13.80,"32,21",10
+OL-0000372,O-202400128,P1064,Estantería Minimal 120cm,Muebles,Estanterías,2,467.45,0,0.00,934.90,21
+OL-0000373,O-202400129,P1080,Espejo Boreal ★,Decoración,Espejos,1,206.51,0,0.00,206.51,21
+OL-0000374,O-202400129,P1083,"Aplique Aurora ""Star""",Iluminación,,1,372.58,15,55.89,317,21
+OL-0000375,O-202400130,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,2,"194,38",,,388.76,10
+OL-0000376,O-202400130,P1031,Cama Nórdico 3 plazas,Muebles,Camas,0,1150.94,20,0.00,0.00,21
+OL-0000377,O-202400130,P1042,Espejo Minimal ★,Decoración,Espejos,1,73.77,20,14.75,59.02,21
+OL-0000378,O-202400131,p1005,,N/A,,1,695.95,,,695.95,21
+OL-0000379,O-202400131,P1023,"Aplique Élite ""Star""",Iluminación,Apliques,1,138,110,151.53,-13.78,10
+OL-0000380,O-202400131,,Producto desconocido,N/A,,1,"696,47",15,"104,47",592.00,21
+OL-0000381,O-202400132,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,1,293.98,30,88.19,"205,79",10
+OL-0000382,O-202400132,P1096,Figura Vintage ★,Decoración,Figuras,1,"141,31",10,14,127.18,10
+OL-0000383,O-202400132,P1054,Figura Minimal ★,Decoración,Figuras,1,,10,"10,25","92,29",10
+OL-0000384,O-202400132,P1040,Manta Boreal 140x200,Textil hogar,Mantas,1,"31,74",25,7.93,23.81,21
+OL-0000385,O-202400132,P1054,Figura Minimal ★,Decoración,,1,103.45,,,103.45,21
+OL-0000386,O-202400132,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,51.76,10,5.18,46.58,21
+OL-0000387,O-202400133,P1017,"Lámparas techo Zen ""Star""",Iluminación,Lámparas techo,1,61.15,5,3.06,€58.09,21
+OL-0000388,O-202400133,P1030,Sofá Vintage XL,Muebles,Sofás,1,934.06,,,934.06,21
+OL-0000389,O-202400134,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,1,225.41,25,56.35,€169.06,21
+OL-0000390,O-202400134,P1056,Cortina Luna Set 2 uds,Textil hogar,,1,"197,65",,,197.65,21
+OL-0000391,O-202400134,SKU-1019,Vela Aurora ★,Decoración,Velas,1,"48,07",,,"48,07",21
+OL-0000392,O-202400134,P1030,Sofá Vintage XL,Muebles,Sofás,1,1009.18,30,302.75,"706,43",21
+OL-0000393,O-202400135,P1055,Cuadro Luna ★,Decoración,Cuadros,1,"129,46",,,129.46,10
+OL-0000394,O-202400135,P1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,3,"22,29",20,13.37,53.50,21
+OL-0000395,O-202400135,P1090,Armario Sol XL,Muebles,Armarios,2,1093.42,,,2186.84,21
+OL-0000396,O-202400135,P1055,Cuadro Luna ★,Decoración,Cuadros,2,114.59,20,€45.84,183.34,10
+OL-0000397,O-202400135, P1043,Cama Sol 3 plazas,Muebles,Camas,1,€912.95,,,912.95,21
+OL-0000398,O-202400136,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,391.24,5,19.56,371.68,10
+OL-0000399,O-202400136,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,1,348.32,,,348.32,10
+OL-0000400,O-202400136,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,2,€219.58,5,21.96,"417,20",10
+OL-0000401,O-202400137,P1053,"Aplique Nórdico ""Star""",Iluminación,,2,221,110,486.02,€-44.18,10
+OL-0000402,O-202400137,P1006,Cortina Élite 200x300,Textil hogar,Cortinas,1,€106.65,0,€0.00,106.65,21
+OL-0000403,O-202400137,P1075,Cuadro Luna ★,Decoración,Cuadros,1,€31.39,15,"4,71","26,68",10
+OL-0000404,O-202400137,P1024,Cojine Vintage ★,Decoración,Cojines,2,176.62,30,106,247.27,10
+OL-0000405,O-202400138,P1085,Sofá Boreal Compact,Muebles,Sofás,1,,,,1176.87,21
+OL-0000406,O-202400138,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,1,,25,85.75,,10
+OL-0000407,O-202400138,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,2,€65.43,,,130.86,21
+OL-0000408,O-202400139,,Producto desconocido,,,2,912.23,10,182.45,1642.01,21
+OL-0000409,O-202400139,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,1,350.92,5,"17,55","333,37",10
+OL-0000410,O-202400140,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,1,197.33,25,49.33,"148,00",21
+OL-0000411,O-202400140, P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,1,226.67,0,0.00,€226.67,21
+OL-0000412,O-202400140,P1048,Mesa Minimal 160cm,Muebles,Mesas,1,487.88,,,487.88,21
+OL-0000413,O-202400140,SKU-1019,Vela Aurora ★,Decoración,Velas,1,48.34,30,€14.50,33.84,10
+OL-0000414,O-202400140,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,2,202.16,20,"80,86",€323.46,21
+OL-0000415,O-202400141,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,1,100.31,5,5.02,95.29,21
+OL-0000416,O-202400141,P1002,Sábana Brisa 90x200,Textil hogar,Sábanas,1,176.01,,,176.01,21
+OL-0000417,O-202400142,P1069,Sofá Zen 120cm,Muebles,Sofás,1,€533.58,15,80.04,"456,58",21
+OL-0000418,O-202400142,P1099,Figura Eco ★,Decoración,Figuras,1,"185,88",,,185.88,21
+OL-0000419,O-202400142,P1065,Sofá Atlas 3 plazas,Muebles,Sofás,2,"1036,08",30,€621.65,1450.51,21
+OL-0000420,O-202400142,P1043,Cama Sol 3 plazas,Muebles,Camas,2,"868,01",20,347.20,1388.82,21
+OL-0000421,O-202400143,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,€58.17,,,58,21
+OL-0000422,O-202400143,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,1,197.91,30,59,138.54,21
+OL-0000423,O-202400144,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,173.41,30,52.02,121,21
+OL-0000424,O-202400144,P1027,Sábana Nórdico 140x200,Textil hogar,Sábanas,1,100.64,,,100.64,21
+OL-0000425,O-202400145,P1090,Armario Sol XL,Muebles,Armarios,1,1203.62,,,€1203.62,21
+OL-0000426,O-202400145,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,1,51.38,,,51.38,10
+OL-0000427,O-202400145,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,3,181.18,5,€27.18,516.36,21
+OL-0000428,O-202400145,P1097,Sofá Eco 120cm,Muebles,Sofás,1,"785,96",15,€117.89,"668,07",21
+OL-0000429,O-202400146,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,2,383.16,,,766.32,21
+OL-0000430,O-202400147,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,"78,73",5,3.94,€74.79,21
+OL-0000431,O-202400147,p1005,Producto desconocido,N/A,,1,670.09,15,100.51,569.58,21
+OL-0000432,O-202400148,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,1075.58,,,1075.58,21
+OL-0000433,O-202400148,P1096,Figura Vintage ★,Decoración,Figuras,1,133.80,25,33.45,100.35,10
+OL-0000434,O-202400149,P1042,Espejo Minimal ★,Decoración,Espejos,3,72.81,,,218.43,10
+OL-0000435,O-202400150,P1029,Figura Luna ★,Decoración,Figuras,1,50.67,5,2.53,48.14,10
+OL-0000436,O-202400150, p1088,Espejo Élite ★,Decoración,Espejos,1,134.76,25,33.69,101.07,21
+OL-0000437,O-202400151,P1010,Cama Sol Compact,Muebles,Camas,1,826.47,,,826.47,21
+OL-0000438,O-202400151,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,309.66,,,309.66,21
+OL-0000439,O-202400151,P1023,"Aplique Élite ""Star""",Iluminación,Apliques,1,135.01,,,135.01,21
+OL-0000440,O-202400152,P1004,Cama Sol 120cm,decoración,,1,1164.75,5,58.24,1106.51,21
+OL-0000441,O-202400153,P1075,Cuadro Luna ★,Decoración,Cuadros,1,32.64,0,0.00,32.64,21
+OL-0000442,O-202400153,P1023,"Aplique Élite ""Star""",Iluminación,Apliques,1,"135,02",,,135.02,10
+OL-0000443,O-202400153,P1000,Sofá Aurora 160cm,Muebles,Sofás,1,"226,77",,,226.77,21
+OL-0000444,O-202400153,P1081,"Bombilla Élite ""Star""",Iluminación,,1,365.84,15,54.88,"310,96",10
+OL-0000445,O-202400154,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,1156.69,5,58,1098.86,21
+OL-0000446,O-202400154,P1055,Cuadro Luna ★,Decoración,Cuadros,1,119.77,,,"119,77",10
+OL-0000447,O-202400154,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,22.95,,,€22.95,10
+OL-0000448,O-202400154,P1052,Cama Vintage 3 plazas,Muebles,Camas,1,695.31,,,695.31,21
+OL-0000449,O-202400154,P1065,Sofá Atlas 3 plazas,Muebles,Sofás,1,999.64,25,249.91,749.73,21
+OL-0000450,O-202400155,p1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,357.24,30,107.17,"250,07",21
+OL-0000451,O-202400155,P108Z,,N/A,,1,214.01,20,42.80,€171.21,21
+OL-0000452,O-202400155,P1085,Sofá Boreal Compact,Muebles,Sofás,2,1134.45,25,567.23,1701.67,21
+OL-0000453,O-202400155,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,1,,30,86.33,201.45,10
+OL-0000454,O-202400155,P1026,Cuadro Vintage ★,Decoración,Cuadros,2,87.09,0,0.00,174.18,21
+OL-0000455,O-202400156,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,26.07,,,"26,07",21
+OL-0000456,O-202400156,P1004,Cama Sol 120cm,decoración,Camas,1,1162.33,20,232.47,929.86,21
+OL-0000457,O-202400157,P1007,Figura Boreal ★,Decoración,Figuras,1,225.27,0,0.00,225.27,21
+OL-0000458,O-202400157,P1012,Sábana Sol 140x200,Textil hogar,Sábanas,2,"7,86",20,3.14,12.58,21
+OL-0000459,O-202400158,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,3,191.89,30,€172.70,402.97,21
+OL-0000460,O-202400159,P1014,Cuadro Zen ★,Decoración,,2,63.32,0,0.00,€126.64,10
+OL-0000461,O-202400160,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,1,"28,00",0,0.00,"35,66",10
+OL-0000462,O-202400160,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,€154.67,25,38.67,116.00,21
+OL-0000463,O-202400160,P1018,Cojine Minimal ★,Decoración,Cojines,1,181.77,10,18.18,163.59,10
+OL-0000464,O-202400160,P1048,Mesa Minimal 160cm,Muebles,,1,453.51,,,461.27,21
+OL-0000465,O-202400160,P1012,Sábana Sol 140x200,Textil hogar,Sábanas,1,7.22,,,7.22,21
+OL-0000466,O-202400161,P1041,Vela Luna ★,Decoración,Velas,1,€113.71,30,34.11,"79,60",21
+OL-0000467,O-202400161,P1003,Espejo Atlas ★,Decoración,,1,244.17,,,"244,17",10
+OL-0000468,O-202400161,p1005,,,,1,361.19,,,361.19,21
+OL-0000469,O-202400162,P1012,Sábana Sol 140x200,Textil hogar,Sábanas,1,7.82,5,0.39,7.43,21
+OL-0000470,O-202400162,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,2,207.39,5,€20.74,394.04,21
+OL-0000471,O-202400163,p1073,Espejo Minimal ★,Decoración,Espejos,1,113.26,30,33.98,79.28,10
+OL-0000472,O-202400163,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,19.97,15,3.00,16.97,21
+OL-0000473,O-202400164,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,1,"70,70",5,3.54,67.16,21
+OL-0000474,O-202400164,P1063,Armario Brisa 160cm,Muebles,Armarios,2,405.72,10,"81,14",730.30,21
+OL-0000475,O-202400164,P1043,Cama Sol 3 plazas,Muebles,Camas,1,894.42,0,0.00,894.42,21
+OL-0000476,O-202400164,P1097,Sofá Eco 120cm,Muebles,Sofás,1,799.06,,,799.06,21
+OL-0000477,O-202400165,P1055,Cuadro Luna ★,Decoración,Cuadros,1,€117.67,5,5.88,111.79,21
+OL-0000478,O-202400165,P1022,Armario Aurora 120cm,Muebles,Armarios,1,867.37,,,867.37,21
+OL-0000479,O-202400165,,,,,1,691.40,20,138.28,553.12,21
+OL-0000480,O-202400165,P1055,Cuadro Luna ★,Decoración,Cuadros,2,121,10,"24,27",218.43,21
+OL-0000481,O-202400165,P1099,Figura Eco ★,Decoración,Figuras,1,"183,70",30,"55,11",128.59,10
+OL-0000482,O-202400166,P1078,Estantería Atlas 160cm,Muebles,Estanterías,1,702.38,,,702.38,21
+OL-0000483,O-202400166,p1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,273.17,,,273.17,10
+OL-0000484,O-202400166,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,191.51,30,57.45,134.06,21
+OL-0000485,O-202400166,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,"26,75",,,26.75,21
+OL-0000486,O-202400166,P1055,Cuadro Luna ★,Decoración,Cuadros,1,121.10,,,121.10,21
+OL-0000487,O-202400167,P1026,Cuadro Vintage ★,Decoración,Cuadros,1,€83.14,25,€20.79,62.35,10
+OL-0000488,O-202400167,P1023,"Aplique Élite ""Star""",Iluminación,Apliques,1,145.66,,,146,10
+OL-0000489,O-202400167,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,2,€200.83,15,€60.25,341.41,21
+OL-0000490,O-202400167,P1053,"Aplique Nórdico ""Star""",Iluminación,,2,229.09,,,458.18,21
+OL-0000491,O-202400168, P1084,Espejo Eco ★,Decoración,Espejos,1,47.91,,,47.91,10
+OL-0000492,O-202400168,P1014,Cuadro Zen ★,Decoración,Cuadros,1,"67,57",15,10.14,€57.43,21
+OL-0000493,O-202400168,P1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,2,,25,46.83,€140.47,21
+OL-0000494,O-202400169,P1017,"Lámparas techo Zen ""Star""",Iluminación,Lámparas techo,1,66.56,10,7,"59,90",21
+OL-0000495,O-202400169,P1073,Espejo Minimal ★,Decoración,Espejos,1,111.66,,,111.66,10
+OL-0000496,O-202400169,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,1,200.99,10,20.10,180.89,21
+OL-0000497,O-202400170,P1000,Sofá Aurora 160cm,Muebles,Sofás,1,223.61,,,224,21
+OL-0000498,O-202400171,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,27.00,25,6.75,20.25,21
+OL-0000499,O-202400171,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,162,0,0.00,162.03,21
+OL-0000500,O-202400171,P1084,Espejo Eco ★,Decoración,Espejos,1,41.86,10,4.19,38,10
+OL-0000501,O-202400171,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,154.95,0,0.00,154.95,21
+OL-0000502,O-202400171,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,1,"216,13",,,216.13,21
+OL-0000503,O-202400172,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,1,26.75,,,37.52,10
+OL-0000504,O-202400172,P1082,Vela Vintage ★,Decoración,Velas,1,"211,11",10,€21.11,190.00,21
+OL-0000505,O-202400172,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,,15,8.43,€47.76,21
+OL-0000506,O-202400173,P1017,"Lámparas techo Zen ""Star""",Iluminación,Lámparas techo,1,65.83,0,0.00,65.83,10
+OL-0000507,O-202400173,P1006,Cortina Élite 200x300,Textil hogar,Cortinas,2,114.56,,,229.12,21
+OL-0000508,O-202400173,P1055,Cuadro Luna ★,Decoración,Cuadros,2,124.88,5,12.49,237.27,10
+OL-0000509,O-202400173,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,2,510.21,0,0.00,1020.42,21
+OL-0000510,O-202400173,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,1184.30,25,296.07,"888,23",21
+OL-0000511,O-202400173,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,1,134.64,,,134.64,21
+OL-0000512,O-202400174,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,58.45,10,6,52.60,21
+OL-0000513,O-202400174,P1084,Espejo Eco ★,Decoración,Espejos,2,"47,04",5,4.70,89.38,21
+OL-0000514,O-202400174,P1006,Cortina Élite 200x300,Textil hogar,Cortinas,1,"114,70",30,€34.41,80.29,21
+OL-0000515,O-202400175,P1030,Sofá Vintage XL,Muebles,Sofás,1,1049.75,,,1049.75,21
+OL-0000516,O-202400176, P1066,Jarrón Brisa 💠,Iluminación,Lámparas pie,3,83.76,,,251.28,21
+OL-0000517,O-202400176,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,2,295,20,117.86,"471,46",10
+OL-0000518,O-202400176,P1097,Sofá Eco 120cm,Muebles,Sofás,2,,,,1584.48,21
+OL-0000519,O-202400176,SKU-9999,,,,1,635.51,20,127,508.41,21
+OL-0000520,O-202400177,P1003,Espejo Atlas ★,Decoración,Espejos,2,258.06,5,25.81,490,10
+OL-0000521,O-202400177,P1050,Cama Brisa Compact,Muebles,Camas,1,183.75,20,36.75,147.00,21
+OL-0000522,O-202400177,P104Z,,N/A,,1,710.69,5,35.53,675.16,21
+OL-0000523,O-202400177,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,1,"212,33",0,0.00,€212.33,10
+OL-0000524,O-202400177,P1024,Cojine Vintage ★,Decoración,Cojines,1,174.96,20,34.99,"139,97",10
+OL-0000525,O-202400177,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,2,216.96,15,65.09,368.83,21
+OL-0000526,O-202400178,p1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,€390.08,25,97.52,293,21
+OL-0000527,O-202400178,P1002,Sábana Brisa 90x200,Textil hogar,Sábanas,1,"155,72",5,7.79,147.93,21
+OL-0000528,O-202400179,,Producto desconocido,,,1,983.03,25,245.76,737.27,21
+OL-0000529,O-202400180,P1026,Cuadro Vintage ★,Decoración,Cuadros,3,83.05,20,49.83,199.32,10
+OL-0000530,O-202400180,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,3,126.51,15,56.93,"322,60",10
+OL-0000531,O-202400180,P1000,Sofá Aurora 160cm,Muebles,Sofás,1,,25,56.64,169.93,21
+OL-0000532,O-202400180,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,2,50.82,20,20.33,"81,31",21
+OL-0000533,O-202400180,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,3,135.73,25,101.80,305.39,10
+OL-0000534,O-202400180,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,274.94,5,13.75,261.19,21
+OL-0000535,O-202400181,P1079,Cuadro Boreal ★,Decoración,Cuadros,1,146.81,,,146.81,10
+OL-0000536,O-202400181,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,1,179.33,25,44.83,134.50,21
+OL-0000537,O-202400182,P1080,Espejo Boreal ★,Decoración,Espejos,1,207.06,25,51.77,155.29,21
+OL-0000538,O-202400182,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,2,208.96,25,"104,48","313,44",21
+OL-0000539,O-202400182,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,80.10,20,16.02,"64,08",21
+OL-0000540,O-202400183,P1007,Figura Boreal ★,Decoración,Figuras,1,248,,,"247,62",21
+OL-0000541,O-202400183,P1099,Figura Eco ★,Decoración,Figuras,3,€184.53,,,553.59,21
+OL-0000542,O-202400183,P1030,Sofá Vintage XL,Muebles,Sofás,1,1005.55,25,251.39,"754,16",21
+OL-0000543,O-202400183,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,21.97,20,4.39,17.58,21
+OL-0000544,O-202400184,p10X1,,N/A,,3,240.58,15,"108,26","613,48",21
+OL-0000545,O-202400184,P1070,"Aplique Boreal ""Star""",Iluminación,,1,312.25,0,0.00,312.25,21
+OL-0000546,O-202400184,P1032,Figura Minimal ★,Decoración,Lamparas mesa,2,125.18,20,50.07,€200.29,21
+OL-0000547,O-202400184,P1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,1,23.71,15,"3,56",20.15,21
+OL-0000548,O-202400184,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,405.94,,,405.94,21
+OL-0000549,O-202400185,P1070,"Aplique Boreal ""Star""",Iluminación,,1,279.95,,,279.95,21
+OL-0000550,O-202400185,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,"1096,26",0,0,1096.26,21
+OL-0000551,O-202400185,P1055,Cuadro Luna ★,Decoración,Cuadros,2,"123,49",5,"12,35",234.63,10
+OL-0000552,O-202400185,P1033,Cojine Sol ★,Decoración,Cojines,1,225.53,15,"33,83",191.70,10
+OL-0000553,O-202400186,P1030,Sofá Vintage XL,Muebles,Sofás,1,"980,32",0,0.00,980.32,21
+OL-0000554,O-202400187,p1005,Producto desconocido,N/A,,2,82,15,24.73,"140,13",21
+OL-0000555,O-202400188,P1012,Sábana Sol 140x200,Textil hogar,Sábanas,1,7.78,,,7.78,21
+OL-0000556,O-202400188,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,1,222.88,10,22.29,200.59,21
+OL-0000557,O-202400188,P1023,"Aplique Élite ""Star""",Iluminación,Apliques,3,131.45,,,394.35,21
+OL-0000558,O-202400188,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,1,122.24,,,"122,24",10
+OL-0000559,O-202400189,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,"25,42",20,5.08,20,21
+OL-0000560,O-202400189,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,,15,4.56,25.84,10
+OL-0000561,O-202400190,P1096,Figura Vintage ★,Decoración,Figuras,1,131.91,5,6.60,125.31,21
+OL-0000562,O-202400190, P1026,Cuadro Vintage ★,Decoración,Cuadros,1,"87,15",5,4.36,82.79,10
+OL-0000563,O-202400190,p1005,,,,1,€590.38,25,147.59,€442.79,21
+OL-0000564,O-202400191,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,1,€207.50,10,20.75,"186,75",21
+OL-0000565,O-202400191,P1034,Jarrone Atlas ★,Decoración,Jarrones,2,297.19,5,29.72,564.66,10
+OL-0000566,O-202400191,P1098,Espejo Boreal ★,Decoración,Espejos,1,,,,195.32,21
+OL-0000567,O-202400191,P1084,Espejo Eco ★,Decoración,Espejos,1,€41.38,,,41.38,10
+OL-0000568,O-202400192,P1011,Vela Eco ★,Decoración,Velas,1,96,15,"14,44",81.83,21
+OL-0000569,O-202400192,P1082,Vela Vintage ★,Decoración,Velas,1,231.65,,,"231,65",21
+OL-0000570,O-202400192,P1083,"Aplique Aurora ""Star""",Iluminación,,1,363.24,,,"363,24",10
+OL-0000571,O-202400192,P1011,Vela Eco ★,Decoración,Velas,1,83.41,,,83.41,21
+OL-0000572,O-202400192,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,4,394.14,0,0.00,1576.56,10
+OL-0000573,O-202400192,P1022,Armario Aurora 120cm,Muebles,Armarios,1,861.21,5,43.06,818.15,21
+OL-0000574,O-202400193,P1069,Sofá Zen 120cm,Muebles,Sofás,1,494.17,25,123.54,370.63,21
+OL-0000575,O-202400193,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,"22,91",,,22.91,10
+OL-0000576,O-202400193,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,3,€127.41,,,"382,23",10
+OL-0000577,O-202400194,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,193.51,10,19.35,174.16,21
+OL-0000578,O-202400194,P1004,Cama Sol 120cm,decoración,Camas,1,,,,1177.43,21
+OL-0000579,O-202400194,P1078,Estantería Atlas 160cm,Muebles,Estanterías,1,634.16,,,634.16,21
+OL-0000580,O-202400194,P1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,2,364.39,25,182.19,546.59,21
+OL-0000581,O-202400195,P1033,Cojine Sol ★,Decoración,Cojines,1,,15,36.57,€207.25,21
+OL-0000582,O-202400195,P1052,Cama Vintage 3 plazas,Muebles,Camas,3,705.40,,,2116.20,21
+OL-0000583,O-202400195,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,82,110,89.69,€-8.15,10
+OL-0000584,O-202400196,P1082,Vela Vintage ★,Decoración,Velas,2,"213,52",5,21.35,405.69,10
+OL-0000585,O-202400197, P1078,Estantería Atlas 160cm,Muebles,Estanterías,1,723.24,,,723.24,21
+OL-0000586,O-202400198,,,,,1,606.52,,,606.52,21
+OL-0000587,O-202400198,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,189.88,,,189.88,21
+OL-0000588,O-202400199,P1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,3,€97.59,30,"87,83",204.94,10
+OL-0000589,O-202400199,P1024,Cojine Vintage ★,Decoración,Cojines,1,172,15,25.79,146.12,10
+OL-0000590,O-202400200,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,1,"203,50",0,"0,00",203.50,21
+OL-0000591,O-202400200,P1064,Estantería Minimal 120cm,Muebles,Estanterías,2,€425.07,,,850.14,21
+OL-0000592,O-202400200,P1087,Jarrone Eco ★,Decoración,Jarrones,1,202.57,,,202.57,10
+OL-0000593,O-202400200,P1097,Sofá Eco 120cm,Muebles,Sofás,2,703.47,,,€1406.94,21
+OL-0000594,O-202400201,P1054,Figura Minimal ★,Decoración,Figuras,2,110.99,,,"221,98",21
+OL-0000595,O-202400201,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,€512.02,,,510.63,21
+OL-0000596,O-202400202,P1087,Jarrone Eco ★,Decoración,Jarrones,1,179.91,15,26.99,152.92,21
+OL-0000597,O-202400203,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,443.34,0,0.00,443.34,21
+OL-0000598,O-202400203,P1010,Cama Sol Compact,Muebles,Camas,1,929.46,0,0.00,€929.46,21
+OL-0000599,O-202400204,P1034,Jarrone Atlas ★,Decoración,Jarrones,2,293.59,20,€117.44,469.74,21
+OL-0000600,O-202400204,P1090,Armario Sol XL,Muebles,Armarios,1,1147.04,,,1147.04,21
+OL-0000601,O-202400205,P9999,Producto desconocido,,,2,780.37,5,"78,04",1482.70,21
+OL-0000602,O-202400206,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,115.51,,,115.51,21
+OL-0000603,O-202400206,P1092,Armario Sol Compact,Muebles,Armarios,1,503.99,5,25.20,478.79,21
+OL-0000604,O-202400207,P1078,Estantería Atlas 160cm,Muebles,Estanterías,1,679.90,,,679.90,21
+OL-0000605,O-202400207,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,1,206.03,15,30.90,175.13,21
+OL-0000606,O-202400207,P1048,Mesa Minimal 160cm,Muebles,Mesas,1,481.99,,,"481,99",21
+OL-0000607,O-202400208,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,2,305.98,,,611.96,21
+OL-0000608,O-202400209,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,1,196,25,49.06,147.19,10
+OL-0000609,O-202400209,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,1,"273,98",25,68.50,205,21
+OL-0000610,O-202400209,,,,,1,,10,93.83,844.51,21
+OL-0000611,O-202400210,P9999,Producto desconocido,,,2,"667,92",25,333.96,€1001.88,21
+OL-0000612,O-202400210,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,208.24,30,€62.47,145.77,21
+OL-0000613,O-202400210,P1011,Vela Eco ★,Decoración,Velas,2,94.83,30,56.90,"132,76",10
+OL-0000614,O-202400211,P1032,Figura Minimal ★,Decoración,Lamparas mesa,2,129.04,10,25.81,232.27,10
+OL-0000615,O-202400211,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,1,140.06,5,7.00,133.06,10
+OL-0000616,O-202400211,P1098,Espejo Boreal ★,Decoración,Espejos,1,220.21,,,220.21,21
+OL-0000617,O-202400211,P1027,Sábana Nórdico 140x200,Textil hogar,Sábanas,1,€104.92,,,104.92,21
+OL-0000618,O-202400212,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,1,"64,78",5,3.24,€61.54,21
+OL-0000619,O-202400212,P1079,Cuadro Boreal ★,Decoración,Cuadros,1,158.61,,,158.61,21
+OL-0000620,O-202400213,P1054,Figura Minimal ★,Decoración,Figuras,1,"111,95",0,€0.00,111.95,21
+OL-0000621,O-202400213,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,2,294.15,15,"88,24",€500.06,21
+OL-0000622,O-202400213,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,1,307.14,,,307.14,10
+OL-0000623,O-202400214,P1042,Espejo Minimal ★,Decoración,Espejos,1,78.12,10,€7.81,€70.31,21
+OL-0000624,O-202400214,P1034,Jarrone Atlas ★,Decoración,Jarrones,1,280.77,25,"70,19",210.58,10
+OL-0000625,O-202400214,P1087,Jarrone Eco ★,Decoración,Jarrones,2,183.99,30,110.39,257.59,10
+OL-0000626,O-202400215,P1011,Vela Eco ★,Decoración,Velas,1,"92,20",25,"23,05",69.15,21
+OL-0000627,O-202400215,P1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,102.38,,,102.38,10
+OL-0000628,O-202400215,P1097,Sofá Eco 120cm,Muebles,Sofás,2,743.03,30,445.82,1040.24,21
+OL-0000629,O-202400215,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,2,€396.18,,,792.36,21
+OL-0000630,O-202400216,SKU-9999,,,,1,1192.48,10,119.25,€1073.23,21
+OL-0000631,O-202400216,P1084,Espejo Eco ★,Decoración,Espejos,1,43.47,5,2.17,"41,30",10
+OL-0000632,O-202400217,P1040,Manta Boreal 140x200,Textil hogar,Mantas,1,31.02,,,31.02,21
+OL-0000633,O-202400217,P1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,3,23.92,5,3.59,"68,17",21
+OL-0000634,O-202400217,P1075,Cuadro Luna ★,Decoración,Cuadros,2,31.79,,,63.58,21
+OL-0000635,O-202400218,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,23.89,10,2.39,"21,50",21
+OL-0000636,O-202400218,P1082,Vela Vintage ★,Decoración,Velas,1,217.59,25,54.40,163.19,10
+OL-0000637,O-202400219,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,171.92,0,0.00,171.92,21
+OL-0000638,O-202400220,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,1,296.49,10,29.65,266.84,10
+OL-0000639,O-202400220,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,3,"28,73",,,86.19,21
+OL-0000640,O-202400221,P1022,Armario Aurora 120cm,Muebles,Armarios,3,845.47,,,2536.41,21
+OL-0000641,O-202400221,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,2,285.23,15,86,484.89,10
+OL-0000642,O-202400222,P1050,Cama Brisa Compact,Muebles,Camas,1,182.24,10,"18,22",164.02,21
+OL-0000643,O-202400222,P1097,Sofá Eco 120cm,Muebles,Sofás,1,770.95,5,"38,55",732.40,21
+OL-0000644,O-202400222,P1099,Figura Eco ★,Decoración,Figuras,1,170,0,€0.00,170.03,21
+OL-0000645,O-202400222, P1026,Cuadro Vintage ★,Decoración,Cuadros,1,84.19,25,21.05,,21
+OL-0000646,O-202400222, P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,1,269.21,5,13.46,"255,75",10
+OL-0000647,O-202400222,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,1,70.49,0,0.00,70.49,21
+OL-0000648,O-202400223,P1032,Figura Minimal ★,Decoración,Lamparas mesa,3,115.65,30,104.09,243,10
+OL-0000649,O-202400223,P1050,Cama Brisa Compact,Muebles,Camas,1,199.07,,,"199,07",21
+OL-0000650,O-202400223,P1017,"Lámparas techo Zen ""Star""",Iluminación,Lámparas techo,2,63,0,0.00,126.96,10
+OL-0000651,O-202400223,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,364.51,,,364.51,21
+OL-0000652,O-202400224,P1097,Sofá Eco 120cm,Muebles,Sofás,1,764.91,,,"764,91",21
+OL-0000653,O-202400225,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,"189,93",25,"47,48",142,21
+OL-0000654,O-202400225,P1026,Cuadro Vintage ★,Decoración,Cuadros,1,84,,,84.05,10
+OL-0000655,O-202400226,P1029,Figura Luna ★,Decoración,,1,,30,€15.43,€36.00,10
+OL-0000656,O-202400226,p1099,Figura Eco ★,Decoración,Figuras,2,193.55,,,387.10,10
+OL-0000657,O-202400226,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,3,€212.95,,,638.85,21
+OL-0000658,O-202400227,P1044,"Bombilla Eco ""Star""",Iluminación,,1,52.90,10,5.29,,10
+OL-0000659,O-202400227, P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,55.22,30,16.57,38.65,10
+OL-0000660,O-202400227,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,2,201.42,15,"60,43","342,41",21
+OL-0000661,O-202400227,P1030,Sofá Vintage XL,Muebles,Sofás,1,"975,19",,,975.19,21
+OL-0000662,O-202400228,P1078,Estantería Atlas 160cm,Muebles,Estanterías,1,634.72,110,698.19,-63.47,21
+OL-0000663,O-202400228,P1041,Vela Luna ★,Decoración,Velas,1,109.65,,,"109,65",10
+OL-0000664,O-202400229,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,0,93.61,30,0.00,"-0,05",21
+OL-0000665,O-202400229,P1054,Figura Minimal ★,Decoración,Figuras,1,111.02,,,111.02,10
+OL-0000666,O-202400230,SKU-9999,Producto desconocido,N/A,,1,"614,45",,,614.45,21
+OL-0000667,O-202400230,P1022,Armario Aurora 120cm,Muebles,Armarios,3,745.97,5,111.90,2126.01,21
+OL-0000668,O-202400231,P1087,Jarrone Eco ★,Decoración,Jarrones,1,176.03,,,176.03,21
+OL-0000669,O-202400231,P1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,1,22.61,,,22.61,21
+OL-0000670,O-202400232,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,2,52.76,5,"5,28",100.24,10
+OL-0000671,O-202400232,SKU-1010,,,,1,840,0,0,840.12,21
+OL-0000672,O-202400232,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,286.61,25,€71.65,"214,96",10
+OL-0000673,O-202400232,P1075,Cuadro Luna ★,Decoración,Cuadros,3,30,5,€4.50,85.53,10
+OL-0000674,O-202400233,,Producto desconocido,,,2,655.58,15,196.67,1114.49,21
+OL-0000675,O-202400233,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,3,57.59,5,8.64,€164.13,21
+OL-0000676,O-202400233,P1048,Mesa Minimal 160cm,Muebles,Mesas,3,458.68,,,1376.04,21
+OL-0000677,O-202400233,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,2,49.84,0,0.00,99.68,10
+OL-0000678,O-202400233,SKU-9999,,,,1,655.11,,,655,21
+OL-0000679,O-202400234,P1090,Armario Sol XL,Muebles,Armarios,2,1261.14,20,€504.46,2017.82,21
+OL-0000680,O-202400234,P1042,Espejo Minimal ★,Decoración,Espejos,1,76.85,110,€84.53,€-7.68,10
+OL-0000681,O-202400235,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,1,290.18,5,14.51,275.67,10
+OL-0000682,O-202400235,P1082,Vela Vintage ★,Decoración,Velas,1,215.73,,,215.73,21
+OL-0000683,O-202400235,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,1,333.93,10,33,"300,54",10
+OL-0000684,O-202400235,P1088,Espejo Élite ★,Decoración,Espejos,1,138.11,,,"138,11",21
+OL-0000685,O-202400236,P1022,Armario Aurora 120cm,Muebles,Armarios,3,833.65,0,0.00,2500.95,21
+OL-0000686,O-202400236,P1003,Espejo Atlas ★,Decoración,Espejos,3,261.73,,,785.19,10
+OL-0000687,O-202400236,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,1,€21.24,-5,€-1.06,"22,30",21
+OL-0000688,O-202400237,P1093,Sofá Atlas XL,Muebles,Sofás,1,€436.00,15,65.40,370.60,21
+OL-0000689,O-202400237,SKU-9999,Producto desconocido,,,1,508.85,25,127.21,€381.64,21
+OL-0000690,O-202400237,P1055,Cuadro Luna ★,Decoración,Cuadros,1,121.51,25,30.38,€91.13,10
+OL-0000691,O-202400238,P9999,Producto desconocido,,,1,915.38,,,915.38,21
+OL-0000692,O-202400239,P1050,Cama Brisa Compact,Muebles,Camas,1,192,,,191.83,21
+OL-0000693,O-202400239,P1048,Mesa Minimal 160cm,Muebles,Mesas,1,424.60,5,21.23,403.37,21
+OL-0000694,O-202400239,SKU-1019,Vela Aurora ★,Decoración,Velas,1,"48,06",-5,-2.40,50.46,10
+OL-0000695,O-202400240,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,23.64,20,4.73,18.91,21
+OL-0000696,O-202400240,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,160.27,,,160.27,21
+OL-0000697,O-202400241,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,"50,20",,,50.20,21
+OL-0000698,O-202400241,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,1,196,0,0.00,,21
+OL-0000699,O-202400242,P1070,"Aplique Boreal ""Star""",Iluminación,,1,282.63,15,"42,39","240,24",21
+OL-0000700,O-202400242,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,52.92,15,"7,94",44.98,21
+OL-0000701,O-202400243,P1024,Cojine Vintage ★,Decoración,Cojines,2,174.31,0,0.00,348.62,10
+OL-0000702,O-202400244,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,1,325.30,,,325.30,21
+OL-0000703,O-202400244,P1023,"Aplique Élite ""Star""",Iluminación,Apliques,1,128.59,30,38.58,90.01,10
+OL-0000704,O-202400244,P1018,Cojine Minimal ★,Decoración,Cojines,1,€166.47,30,"49,94",116.53,21
+OL-0000705,O-202400244,SKU-1019,Vela Aurora ★,Decoración,Velas,1,48.33,,,48.33,21
+OL-0000706,O-202400245,P1078,Estantería Atlas 160cm,Muebles,Estanterías,3,,20,398.29,1593.14,21
+OL-0000707,O-202400245,P1096,Figura Vintage ★,Decoración,Figuras,3,130.58,-5,-19.59,411.33,21
+OL-0000708,O-202400245,P1073,Espejo Minimal ★,Decoración,Espejos,2,"117,13",5,11.71,222.55,10
+OL-0000709,O-202400245,SKU-9999,,,,1,788.50,15,118.27,670.23,21
+OL-0000710,O-202400245,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,3,300.93,0,0.00,902.79,21
+OL-0000711,O-202400246,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,52.55,10,€5.25,47.30,21
+OL-0000712,O-202400246,P1066,Jarrón Brisa 💠,Iluminación,Lámparas pie,2,"83,66",10,16.73,€150.59,21
+OL-0000713,O-202400246,p1059,Armario Minimal 120cm,Muebles,Armarios,1,723.47,,,€723.47,21
+OL-0000714,O-202400246,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,2,325.24,10,65.05,585.43,21
+OL-0000715,O-202400246,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,4,€21.68,30,€26.02,"60,70",21
+OL-0000716,O-202400247,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,1,103.20,25,25.80,77,21
+OL-0000717,O-202400247,P1034,Jarrone Atlas ★,Decoración,Jarrones,1,302.49,,,"302,49",10
+OL-0000718,O-202400247,P1033,Cojine Sol ★,Decoración,Cojines,3,249.51,,,748.53,21
+OL-0000719,O-202400248,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,295.84,10,29.58,266.26,21
+OL-0000720,O-202400249,P1080,Espejo Boreal ★,Decoración,Espejos,1,"201,98",30,61,141,10
+OL-0000721,O-202400249,P1083,"Aplique Aurora ""Star""",Iluminación,,3,358.81,,,1076.43,21
+OL-0000722,O-202400249,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,2,125.02,0,0.00,250.04,10
+OL-0000723,O-202400249,P1097,Sofá Eco 120cm,Muebles,Sofás,3,€714.40,,,2143.20,21
+OL-0000724,O-202400250,P1080,Espejo Boreal ★,Decoración,Espejos,3,"186,13",,,558.39,10
+OL-0000725,O-202400250,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,3,345.89,25,259.42,778.25,10
+OL-0000726,O-202400250,P1001,Cuadro Atlas ★,Decoración,Cuadros,2,"31,59",,,€63.18,21
+OL-0000727,O-202400251,P1030,Sofá Vintage XL,Muebles,Sofás,2,"941,64",20,376.66,1506.62,21
+OL-0000728,O-202400251,P1098,Espejo Boreal ★,Decoración,Espejos,1,220.50,0,0.00,"220,50",10
+OL-0000729,O-202400252,P1086,"Lámparas mesa Eco ""Star""",Iluminación,,2,186.76,20,"74,70",298.82,10
+OL-0000730,O-202400252,P1014,Cuadro Zen ★,Decoración,Cuadros,3,65.44,20,39,157.06,10
+OL-0000731,O-202400252,P1073,Espejo Minimal ★,Decoración,,3,112.78,5,16.92,321.42,10
+OL-0000732,O-202400253,P1027,Sábana Nórdico 140x200,Textil hogar,Sábanas,3,95.20,20,57.12,228.48,21
+OL-0000733,O-202400253,P1095,  Espejo Élite 80cm  ,Iluminación,Lámparas pie,1,"0,00",30,0.00,0.00,21
+OL-0000734,O-202400253,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,3,"357,89",15,161.05,912.62,21
+OL-0000735,O-202400253,P1097,Sofá Eco 120cm,Muebles,Sofás,1,730.01,,,730.01,21
+OL-0000736,O-202400254,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,€291.08,10,29.11,261.97,21
+OL-0000737,O-202400254,P1025,Figura Nórdico ★,Decoración,Figuras,1,92.56,30,€27.77,"64,79",10
+OL-0000738,O-202400254,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,52.33,,,52.33,21
+OL-0000739,O-202400255,p1070,"Aplique Boreal ""Star""",Iluminación,,1,"295,43",,,295.43,10
+OL-0000740,O-202400255,P105Y,Producto desconocido,N/A,,1,452.23,,,452.23,21
+OL-0000741,O-202400255,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,375.22,10,37.52,337.70,10
+OL-0000742,O-202400256,P1040,Manta Boreal 140x200,Textil hogar,Mantas,1,€29.31,15,4.40,25,21
+OL-0000743,O-202400256,p1064,Estantería Minimal 120cm,Muebles,Estanterías,1,460,5,22.98,,21
+OL-0000744,O-202400256,P1093,Sofá Atlas XL,Muebles,Sofás,1,426,20,"85,19",340.75,21
+OL-0000745,O-202400256,P1097,Sofá Eco 120cm,Muebles,Sofás,1,703.73,,,703.73,21
+OL-0000746,O-202400256,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,3,315.25,15,141.86,803.89,21
+OL-0000747,O-202400257,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,206.02,25,€51.51,"154,51",21
+OL-0000748,O-202400258,P1006,Cortina Élite 200x300,Textil hogar,Cortinas,1,€110.52,30,33.16,77.36,21
+OL-0000749,O-202400258,P1098,Espejo Boreal ★,Decoración,Espejos,3,,25,"168,45",505.09,10
+OL-0000750,O-202400258,P1087,Jarrone Eco ★,Decoración,Jarrones,2,186.72,30,112.03,261.41,10
+OL-0000751,O-202400258,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,3,"221,55",20,132.93,531.72,10
+OL-0000752,O-202400259,P1057,"Lámparas pie Luna ""Star""",Iluminación,,1,"121,40",10,12.14,109.26,21
+OL-0000753,O-202400259,P1012,Sábana Sol 140x200,Textil hogar,Sábanas,1,8.09,0,0.00,8.09,21
+OL-0000754,O-202400259,P1041,Vela Luna ★,Decoración,Velas,1,"118,81",,,119,10
+OL-0000755,O-202400259,P1030,Sofá Vintage XL,Muebles,Sofás,1,1003.71,5,50.19,953.52,21
+OL-0000756,O-202400259,P1090,Armario Sol XL,Muebles,Armarios,1,€1093.85,15,164.08,930,21
+OL-0000757,O-202400259,P1050,Cama Brisa Compact,Muebles,Camas,1,"189,75",25,47.44,142.31,21
+OL-0000758,O-202400260,P1069,Sofá Zen 120cm,Muebles,,1,524.69,0,0.00,524.69,21
+OL-0000759,O-202400260,P1042,Espejo Minimal ★,Decoración,Espejos,1,78.66,5,3.93,74.73,10
+OL-0000760,O-202400261,P1088,Espejo Élite ★,Decoración,Espejos,1,153.62,20,€30.72,122.90,21
+OL-0000761,O-202400261,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,3,210.32,0,0.00,630.96,21
+OL-0000762,O-202400262,P1093,Sofá Atlas XL,Muebles,Sofás,1,447.10,,,"447,10",21
+OL-0000763,O-202400262,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,185.17,15,27.78,157.39,21
+OL-0000764,O-202400262,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,3,218.33,,,655,21
+OL-0000765,O-202400262,P1053,"Aplique Nórdico ""Star""",Iluminación,,1,204.40,30,61.32,143.08,10
+OL-0000766,O-202400263,P1022,Armario Aurora 120cm,Muebles,Armarios,1,806.36,,,806.36,21
+OL-0000767,O-202400263,P1006,Cortina Élite 200x300,Textil hogar,Cortinas,3,104.31,15,46.94,265.99,21
+OL-0000768,O-202400264,P1096,Figura Vintage ★,Decoración,Figuras,1,141.58,10,14.16,127.42,10
+OL-0000769,O-202400264,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,1,196.05,30,58.81,137.24,21
+OL-0000770,O-202400265,P1010,Cama Sol Compact,Muebles,Camas,1,€812.78,,,812.78,21
+OL-0000771,O-202400265,P1059,Armario Minimal 120cm,Muebles,Armarios,1,€736.25,10,73.62,662.63,21
+OL-0000772,O-202400265,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,0,26.31,10,0.00,0.00,21
+OL-0000773,O-202400266,SKU-9999,Producto desconocido,,,1,770.53,20,€154.11,616.42,21
+OL-0000774,O-202400266,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,2,202.74,25,101.37,"304,11",21
+OL-0000775,O-202400266,P1099,Figura Eco ★,Decoración,Figuras,1,€191.26,,,,10
+OL-0000776,O-202400267,P1073,Espejo Minimal ★,Decoración,Espejos,1,116.27,20,23.25,93.02,10
+OL-0000777,O-202400267,P1050,Cama Brisa Compact,Muebles,Camas,1,195.03,15,29.25,165.78,21
+OL-0000778,O-202400267,P1026,Cuadro Vintage ★,Decoración,Cuadros,1,€79.36,25,20,59.52,10
+OL-0000779,O-202400267,P1065,Sofá Atlas 3 plazas,Muebles,Sofás,2,1036.51,0,0.00,"2073,02",21
+OL-0000780,O-202400268,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,31.39,,,31.39,10
+OL-0000781,O-202400268,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,1,293.92,,,293.92,21
+OL-0000782,O-202400269,P1032,Figura Minimal ★,Decoración,Lamparas mesa,2,120.66,30,€72.40,168.92,10
+OL-0000783,O-202400269,P1083,"Aplique Aurora ""Star""",Iluminación,,1,€373.52,15,€56.03,317.49,21
+OL-0000784,O-202400269,P1088,Espejo Élite ★,Decoración,Espejos,0,136.68,25,€0.00,,21
+OL-0000785,O-202400269,P1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,326.48,110,€359.13,"-32,65",10
+OL-0000786,O-202400270,P1078,Estantería Atlas 160cm,Muebles,Estanterías,1,,10,64.56,"581,00",21
+OL-0000787,O-202400270,P1096,Figura Vintage ★,Decoración,Figuras,1,149.36,30,44.81,104.55,21
+OL-0000788,O-202400270,P1097,Sofá Eco 120cm,Muebles,Sofás,1,791.08,15,€118.66,672.42,21
+OL-0000789,O-202400271,P1087,Jarrone Eco ★,Decoración,Jarrones,1,184.68,10,"18,47",166.21,21
+OL-0000790,O-202400271,P1088,Espejo Élite ★,Decoración,Espejos,1,"147,47",,,€147.47,21
+OL-0000791,O-202400271,P1002,Sábana Brisa 90x200,Textil hogar,Sábanas,1,175.85,,,"175,85",21
+OL-0000792,O-202400272,P1048,Mesa Minimal 160cm,Muebles,Mesas,1,"438,13",0,0.00,438.13,21
+OL-0000793,O-202400272,P1096,Figura Vintage ★,Decoración,Figuras,2,134.56,,,269.12,10
+OL-0000794,O-202400272,P1090,Armario Sol XL,Muebles,Armarios,3,"1236,66",10,"371,00",€3338.98,21
+OL-0000795,O-202400272,SKU-1019,Vela Aurora ★,Decoración,,3,44.48,15,20.02,,10
+OL-0000796,O-202400272,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,1,27,30,8.06,18.80,10
+OL-0000797,O-202400272,P1095,  Espejo Élite 80cm  ,Iluminación,Lámparas pie,1,0.00,20,0.00,0.00,10
+OL-0000798,O-202400273,P1075,Cuadro Luna ★,Decoración,Cuadros,1,32.11,0,0.00,32.11,21
+OL-0000799,O-202400273,,,N/A,,1,601.02,,,601.02,21
+OL-0000800,O-202400273,P1025,Figura Nórdico ★,Decoración,,1,87.31,110,€96.04,-8.73,10
+OL-0000801,O-202400273,P1043,Cama Sol 3 plazas,Muebles,Camas,1,€873.84,20,175,699.07,21
+OL-0000802,O-202400274,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,1,65.46,-5,-3.27,68.73,21
+OL-0000803,O-202400274,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,"507,94",15,76.19,431.75,21
+OL-0000804,O-202400274,P1093,Sofá Atlas XL,Muebles,Sofás,1,423.47,,,423,21
+OL-0000805,O-202400274,P1073,Espejo Minimal ★,Decoración,Espejos,2,€117.35,15,35.20,199.50,10
+OL-0000806,O-202400275,P1083,"Aplique Aurora ""Star""",Iluminación,,0,410.42,,,0,10
+OL-0000807,O-202400275,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,1,203.36,30,€61.01,142.35,21
+OL-0000808,O-202400275,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,2,"70,35",25,35.17,105.53,21
+OL-0000809,O-202400276,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,1,€200.67,,,200.67,10
+OL-0000810,O-202400276,P1098,Espejo Boreal ★,Decoración,Espejos,4,202.11,20,161.69,646.75,21
+OL-0000811,O-202400276,p1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,"101,69",10,10.17,91.52,21
+OL-0000812,O-202400276,P1090,Armario Sol XL,Muebles,Armarios,1,€1158.65,,,1158.65,21
+OL-0000813,O-202400276,P1040,Manta Boreal 140x200,Textil hogar,Mantas,1,31.39,30,9.42,21.97,21
+OL-0000814,O-202400277,P1050,Cama Brisa Compact,Muebles,Camas,2,184.78,0,€0.00,"369,56",21
+OL-0000815,O-202400278,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,1,130.15,15,€19.52,110.63,21
+OL-0000816,O-202400278,p1093,Sofá Atlas XL,Muebles,Sofás,1,€460.80,10,46.08,414.72,21
+OL-0000817,O-202400278,P1053,"Aplique Nórdico ""Star""",Iluminación,,3,218.51,5,32.78,622.75,21
+OL-0000818,O-202400279,P1088,Espejo Élite ★,Decoración,Espejos,1,144.10,110,158.51,"-14,41",10
+OL-0000819,O-202400279,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,-1,"221,25",30,"0,00",-221.25,21
+OL-0000820,O-202400280,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,1,46.04,15,6.91,39.13,10
+OL-0000821,O-202400280,P1050,Cama Brisa Compact,Muebles,Camas,1,"195,78",15,29.37,166.41,21
+OL-0000822,O-202400280,P1043,Cama Sol 3 plazas,Muebles,Camas,1,895.12,15,134.27,760.85,21
+OL-0000823,O-202400280,P1034,Jarrone Atlas ★,Decoración,Jarrones,1,301.61,20,"60,32","241,29",10
+OL-0000824,O-202400281,P1024,Cojine Vintage ★,Decoración,Cojines,1,"166,21",5,8.31,157.90,10
+OL-0000825,O-202400281,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,3,126.77,20,76.06,304.25,10
+OL-0000826,O-202400281,P1049,"Lámparas techo Boreal ""Star""",Iluminación,,1,377.97,,,377.97,10
+OL-0000827,O-202400282,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,366.70,,,"366,70",21
+OL-0000828,O-202400282,P1065,Sofá Atlas 3 plazas,Muebles,Sofás,1,980.39,0,0,980.39,21
+OL-0000829,O-202400283,P1034,Jarrone Atlas ★,Decoración,Jarrones,3,303.84,25,227.88,"683,64",21
+OL-0000830,O-202400283,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,1,"176,48",5,8.82,167.66,21
+OL-0000831,O-202400284,P1093,Sofá Atlas XL,Muebles,Sofás,1,464.28,,,464.28,21
+OL-0000832,O-202400284,P1051,Alfombra Aurora Set 2 uds,Textil hogar,,1,22.03,,,"22,03",21
+OL-0000833,O-202400284,P1085,Sofá Boreal Compact,Muebles,Sofás,1,1199.49,110,1319.44,-119.95,21
+OL-0000834,O-202400284,SKU-9999,,,,2,185.25,20,74.10,296.40,21
+OL-0000835,O-202400285,P1070,"Aplique Boreal ""Star""",Iluminación,,1,311,,,"311,33",10
+OL-0000836,O-202400285,P1075,Cuadro Luna ★,Decoración,Cuadros,1,32.49,,,"32,49",21
+OL-0000837,O-202400286,P1096,Figura Vintage ★,Decoración,Figuras,2,133.72,,,€267.44,10
+OL-0000838,O-202400286,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,,30,7.47,17.44,21
+OL-0000839,O-202400287,p1005,,,,1,1111,30,333.41,€777.96,21
+OL-0000840,O-202400287,P1078,Estantería Atlas 160cm,Muebles,Estanterías,4,711.91,,,2847.64,21
+OL-0000841,O-202400287,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,€303.18,30,90.95,€212.23,10
+OL-0000842,O-202400288,P1033,Cojine Sol ★,Decoración,Cojines,1,229.81,30,68.94,160.87,21
+OL-0000843,O-202400289,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,368.31,,,368.31,21
+OL-0000844,O-202400289,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,1,46.34,20,"9,27",37.07,10
+OL-0000845,O-202400289,P1014,Cuadro Zen ★,Decoración,Cuadros,1,66.09,25,16.52,"49,57",21
+OL-0000846,O-202400289,P1055,Cuadro Luna ★,Decoración,Cuadros,2,,20,52.27,209.07,21
+OL-0000847,O-202400290,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,1,"66,26",25,"16,57",49.69,21
+OL-0000848,O-202400290,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,2,349,,,698.58,10
+OL-0000849,O-202400290,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,21.84,,,21.84,21
+OL-0000850,O-202400290,P1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,1,"23,31",20,4.66,18.65,21
+OL-0000851,O-202400291,P1047,Sofá Atlas 3 plazas,Muebles,,1,464.21,,,464.21,21
+OL-0000852,O-202400291,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,2,347.17,10,69.43,624.91,21
+OL-0000853,O-202400292,P1070,"Aplique Boreal ""Star""",Iluminación,,3,310.77,10,93.23,"839,08",10
+OL-0000854,O-202400292,P1080,Espejo Boreal ★,Decoración,Espejos,4,182.63,0,0.00,€730.52,21
+OL-0000855,O-202400292,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,"195,66",5,€9.78,€185.88,21
+OL-0000856,O-202400293,p1073,Espejo Minimal ★,Decoración,Espejos,1,112.40,,,€112.40,10
+OL-0000857,O-202400293,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,173.04,5,8.65,164.39,21
+OL-0000858,O-202400293,P1033,Cojine Sol ★,Decoración,Cojines,2,227.81,30,136.69,318.93,21
+OL-0000859,O-202400293,P1053,"Aplique Nórdico ""Star""",Iluminación,,1,217.63,15,32.64,184.99,21
+OL-0000860,O-202400294,P1096,Figura Vintage ★,Decoración,Figuras,1,"139,25",25,34.81,104.44,21
+OL-0000861,O-202400294,P1069,Sofá Zen 120cm,Muebles,,1,528.94,,,528.94,21
+OL-0000862,O-202400294,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,1,"27,47",25,6.87,20.60,10
+OL-0000863,O-202400295,P1004,Cama Sol 120cm,decoración,Camas,1,1160.24,20,232.05,"928,19",21
+OL-0000864,O-202400295,P1018,Cojine Minimal ★,Decoración,Cojines,1,180.56,110,199,"-18,06",21
+OL-0000865,O-202400295,P1097,Sofá Eco 120cm,Muebles,Sofás,1,€780.70,25,195.18,,21
+OL-0000866,O-202400295,P1066,Jarrón Brisa 💠,Iluminación,Lámparas pie,2,77.88,-5,€-7.79,"163,55",10
+OL-0000867,O-202400296,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,1,21.67,0,0.00,21.67,21
+OL-0000868,O-202400296,P1025,Figura Nórdico ★,Decoración,Figuras,1,93.45,30,28.04,65.41,21
+OL-0000869,O-202400296,P1090,Armario Sol XL,Muebles,Armarios,2,1092.78,0,0.00,2185.56,21
+OL-0000870,O-202400297,P1088,Espejo Élite ★,Decoración,Espejos,1,"152,04",,,152.04,10
+OL-0000871,O-202400298,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,2,207.18,,,€414.36,21
+OL-0000872,O-202400298,P1079,Cuadro Boreal ★,Decoración,Cuadros,1,€166.90,5,8,158.55,10
+OL-0000873,O-202400299,P1024,Cojine Vintage ★,Decoración,Cojines,1,181.84,0,0.00,182,21
+OL-0000874,O-202400299,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,"372,70",15,55.90,"316,80",10
+OL-0000875,O-202400300,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,3,"223,10",25,"167,32",501.98,21
+OL-0000876,O-202400300,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,1,318.64,,,"318,64",10
+OL-0000877,O-202400301,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,2,€138.12,,,276.24,21
+OL-0000878,O-202400301,p10X1,,,,1,"151,26",110,€166.39,-15.13,21
+OL-0000879,O-202400302,P1003,Espejo Atlas ★,Decoración,Espejos,2,€272.48,,,"544,96",21
+OL-0000880,O-202400303,P1014,Cuadro Zen ★,Decoración,Cuadros,1,69.14,,,69.14,10
+OL-0000881,O-202400303,P1059,Armario Minimal 120cm,Muebles,Armarios,2,741.84,,,1483.68,21
+OL-0000882,O-202400303,P1025,Figura Nórdico ★,Decoración,Figuras,2,"82,81",10,16.56,149,10
+OL-0000883,O-202400304,P1043,Cama Sol 3 plazas,Muebles,Camas,1,818.14,15,122.72,695.42,21
+OL-0000884,O-202400304,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,"459,20",15,68.88,390.32,21
+OL-0000885,O-202400305,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,3,"199,94",30,179.95,419.87,21
+OL-0000886,O-202400305,P1059,Armario Minimal 120cm,Muebles,Armarios,1,780.49,,,780.49,21
+OL-0000887,O-202400305,p1059,Armario Minimal 120cm,Muebles,Armarios,1,722.14,10,72.21,649.93,21
+OL-0000888,O-202400305,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,2,55.00,20,€22.00,88,21
+OL-0000889,O-202400306,P1026,Cuadro Vintage ★,Decoración,Cuadros,1,€90.19,10,€9.02,81,21
+OL-0000890,O-202400306,P1039,Cuadro Nórdico ★,Decoración,Cuadros,0,"227,95",,,0,21
+OL-0000891,O-202400306,SKU-1019,Vela Aurora ★,Decoración,Velas,2,"49,52",,,99.04,21
+OL-0000892,O-202400307,P1027,Sábana Nórdico 140x200,Textil hogar,Sábanas,1,109.14,5,€5.46,103.68,21
+OL-0000893,O-202400307,P101Z,,,,1,862.19,,,862,21
+OL-0000894,O-202400307,p1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,75.05,25,18.76,56.29,10
+OL-0000895,O-202400308,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,1,€288.23,30,86.47,"201,76",10
+OL-0000896,O-202400309,P1054,Figura Minimal ★,Decoración,,1,"102,54",,,102.54,21
+OL-0000897,O-202400309,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,2,22.49,,,44.98,10
+OL-0000898,O-202400310,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,3,"27,39",0,€0.00,91.69,21
+OL-0000899,O-202400310,p1077,"Aplique Atlas ""Star""",Iluminación,Apliques,4,219.87,20,175.90,703.58,10
+OL-0000900,O-202400311,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,1,194.67,25,48.67,"146,00",10
+OL-0000901,O-202400311,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,"51,52",,,51.52,21
+OL-0000902,O-202400311,P1080,Espejo Boreal ★,Decoración,Espejos,0,192.25,25,"0,00",0.00,10
+OL-0000903,O-202400311,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,54.93,,,54.93,21
+OL-0000904,O-202400312,P1063,Armario Brisa 160cm,Muebles,Armarios,2,407.24,15,122,692.31,21
+OL-0000905,O-202400312,P1080,Espejo Boreal ★,Decoración,Espejos,2,203.66,0,"0,00",407.32,10
+OL-0000906,O-202400313,P1079,Cuadro Boreal ★,Decoración,Cuadros,1,165.92,,,"165,51",21
+OL-0000907,O-202400313,P1031,Cama Nórdico 3 plazas,Muebles,Camas,3,1156.35,15,€520.36,€2948.69,21
+OL-0000908,O-202400313,P1090,Armario Sol XL,Muebles,Armarios,1,1180.78,,,€1180.78,21
+OL-0000909,O-202400314,P1050,Cama Brisa Compact,Muebles,Camas,1,177,,,177.22,21
+OL-0000910,O-202400314,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,1,26.33,,,26.33,10
+OL-0000911,O-202400314,P1030,Sofá Vintage XL,Muebles,Sofás,1,€1013.00,15,151.95,861.05,21
+OL-0000912,O-202400315,P1052,Cama Vintage 3 plazas,Muebles,Camas,1,€710.05,0,0.00,710.05,21
+OL-0000913,O-202400315,P1012,Sábana Sol 140x200,Textil hogar,Sábanas,1,7.77,-5,-0.39,€8.16,21
+OL-0000914,O-202400315, P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,,0,0.00,459.40,21
+OL-0000915,O-202400315,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,22.59,5,1.13,21.46,10
+OL-0000916,O-202400316, P1065,Sofá Atlas 3 plazas,Muebles,Sofás,1,1107.42,,,1107.42,21
+OL-0000917,O-202400316,P1034,Jarrone Atlas ★,Decoración,Jarrones,2,€310.19,0,0.00,620.38,10
+OL-0000918,O-202400316,P1099,Figura Eco ★,Decoración,Figuras,1,€183.13,20,€36.63,146.50,10
+OL-0000919,O-202400316,P1033,Cojine Sol ★,Decoración,Cojines,1,231.44,,,€231.44,10
+OL-0000920,O-202400316,p1041,Vela Luna ★,Decoración,Velas,1,122.51,,,122.51,21
+OL-0000921,O-202400317,P1007,Figura Boreal ★,Decoración,Figuras,1,233.92,,,233.92,10
+OL-0000922,O-202400318,P1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,,,,360.94,10
+OL-0000923,O-202400318,P1082,Vela Vintage ★,Decoración,Velas,1,"218,44",0,0.00,218.44,10
+OL-0000924,O-202400318,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,1,363.75,25,90.94,272.81,10
+OL-0000925,O-202400319,P1003,Espejo Atlas ★,Decoración,Espejos,1,"270,16",,,€270.16,21
+OL-0000926,O-202400319,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,"20,40",25,"5,10",15.30,21
+OL-0000927,O-202400320,p1004,Cama Sol 120cm,decoración,Camas,1,€1111.69,25,277.92,833.77,21
+OL-0000928,O-202400320,P1043,Cama Sol 3 plazas,Muebles,Camas,1,901.71,,,"901,71",21
+OL-0000929,O-202400320,SKU-1019,Vela Aurora ★,Decoración,Velas,1,45.51,25,11.38,€34.13,10
+OL-0000930,O-202400320,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,€52.80,20,10.56,42.24,10
+OL-0000931,O-202400321, P1078,Estantería Atlas 160cm,Muebles,Estanterías,4,711.76,5,"142,35",€2704.69,21
+OL-0000932,O-202400321,P1058,Manta Nórdico 140x200,Textil hogar,Mantas,1,68,,,68,21
+OL-0000933,O-202400322,P1003,Espejo Atlas ★,Decoración,Espejos,1,242.67,,,242.67,21
+OL-0000934,O-202400322,,,,,0,282.69,5,0.00,,21
+OL-0000935,O-202400323,,Producto desconocido,N/A,,1,"845,48",,,845.13,21
+OL-0000936,O-202400323,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,1,"202,66",,,202.66,21
+OL-0000937,O-202400323,P1088,Espejo Élite ★,Decoración,Espejos,2,,,,288.60,10
+OL-0000938,O-202400324,P1042,Espejo Minimal ★,Decoración,Espejos,1,"76,73",,,76.73,10
+OL-0000939,O-202400324,P1066,Jarrón Brisa 💠,Iluminación,Lámparas pie,1,87.15,30,26.14,61.01,21
+OL-0000940,O-202400324,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,€193.25,,,193.25,21
+OL-0000941,O-202400325,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,1,€368.22,,,368.22,10
+OL-0000942,O-202400326,P1050,Cama Brisa Compact,Muebles,Camas,1,199.28,,,199.28,21
+OL-0000943,O-202400326,p1005,Producto desconocido,,,1,404.38,25,"101,09",303.29,21
+OL-0000944,O-202400327,P1030,Sofá Vintage XL,Muebles,Sofás,1,941.80,5,47,€894.71,21
+OL-0000945,O-202400327,P1075,Cuadro Luna ★,Decoración,Cuadros,1,29.59,,,"29,59",21
+OL-0000946,O-202400327,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,2,51.17,10,10.23,"92,11",21
+OL-0000947,O-202400327,P1064,Estantería Minimal 120cm,Muebles,Estanterías,0,€452.49,5,0.00,0.00,21
+OL-0000948,O-202400327,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,2,26.77,5,2.68,50.86,21
+OL-0000949,O-202400328,P1022,Armario Aurora 120cm,Muebles,Armarios,3,839.64,10,251.89,2267.03,21
+OL-0000950,O-202400328,P1007,Figura Boreal ★,Decoración,Figuras,0,,110,"0,00",0.00,21
+OL-0000951,O-202400328,P1049,"Lámparas techo Boreal ""Star""",Iluminación,,1,341.79,,,€341.79,10
+OL-0000952,O-202400328,P1053,"Aplique Nórdico ""Star""",Iluminación,,2,"227,96",5,22.80,433.12,10
+OL-0000953,O-202400329,P1018,Cojine Minimal ★,Decoración,Cojines,2,175.96,10,35.19,316.73,10
+OL-0000954,O-202400330,P1040,Manta Boreal 140x200,Textil hogar,Mantas,1,30.11,10,3.01,27.10,21
+OL-0000955,O-202400330,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,"32,61",25,"8,15",24.46,21
+OL-0000956,O-202400331,P1069,Sofá Zen 120cm,Muebles,Sofás,1,478,,,477.62,21
+OL-0000957,O-202400332,P1075,Cuadro Luna ★,Decoración,Cuadros,2,"32,28",,,64.56,21
+OL-0000958,O-202400332,P1080,Espejo Boreal ★,Decoración,Espejos,1,210.17,0,0.00,210,21
+OL-0000959,O-202400332,P1082,Vela Vintage ★,Decoración,Velas,3,"212,29",5,31.84,605.03,10
+OL-0000960,O-202400333,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,2,289.40,30,173.64,405.16,21
+OL-0000961,O-202400333,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,2,313.07,,,626.14,21
+OL-0000962,O-202400334,P1082,Vela Vintage ★,Decoración,Velas,3,213.75,20,128.25,513.00,21
+OL-0000963,O-202400334,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,83.08,,,83.08,10
+OL-0000964,O-202400334,P1092,Armario Sol Compact,Muebles,,1,540.30,20,108.06,,21
+OL-0000965,O-202400335,P1085,Sofá Boreal Compact,Muebles,Sofás,1,1127.29,0,0.00,1127.29,21
+OL-0000966,O-202400335,P1073,Espejo Minimal ★,Decoración,Espejos,1,112.97,5,5.65,107.32,10
+OL-0000967,O-202400335,P1065,Sofá Atlas 3 plazas,Muebles,Sofás,1,1047.37,5,52.37,995.00,21
+OL-0000968,O-202400335,P1075,Cuadro Luna ★,Decoración,Cuadros,1,€30.20,20,6.04,24.16,21
+OL-0000969,O-202400335,P1092,Armario Sol Compact,Muebles,Armarios,2,€539.66,,,1079.32,21
+OL-0000970,O-202400336,P1082,Vela Vintage ★,Decoración,Velas,1,"218,90",,,218.90,21
+OL-0000971,O-202400337,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,464.93,30,139.48,"325,45",21
+OL-0000972,O-202400337,P1074,Sábana Vintage Pack 4,Textil hogar,,2,91.17,25,45.59,136.75,21
+OL-0000973,O-202400337,P1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,2,354,5,35.44,673.30,10
+OL-0000974,O-202400338,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,1,19.75,30,"5,92",€13.83,21
+OL-0000975,O-202400338, P1053,"Aplique Nórdico ""Star""",Iluminación,,1,"230,91",25,57.73,173.18,10
+OL-0000976,O-202400338,P1035,Manta Brisa Set 2 uds,Textil hogar,,3,204.79,,,"614,37",21
+OL-0000977,O-202400339,P1073,Espejo Minimal ★,Decoración,Espejos,1,115.77,,,115.77,21
+OL-0000978,O-202400339,P1032,Figura Minimal ★,Decoración,Lamparas mesa,2,,10,24.78,223.04,21
+OL-0000979,O-202400340,P1097,Sofá Eco 120cm,Muebles,Sofás,1,755.00,25,188.75,566.25,21
+OL-0000980,O-202400341,P1083,"Aplique Aurora ""Star""",Iluminación,,3,354.48,30,319.03,"744,41",10
+OL-0000981,O-202400341,sku-1019,Vela Aurora ★,Decoración,Velas,1,,20,8.64,34.55,10
+OL-0000982,O-202400341,P1069,Sofá Zen 120cm,Muebles,Sofás,1,,,,500.44,21
+OL-0000983,O-202400341,P1040,Manta Boreal 140x200,Textil hogar,Mantas,1,27.75,5,1,"26,36",21
+OL-0000984,O-202400342,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,360.25,30,108.08,"252,17",10
+OL-0000985,O-202400342,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,1,€220.67,,,220.67,21
+OL-0000986,O-202400342,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,2,"50,84",10,10.17,91.51,21
+OL-0000987,O-202400342,p1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,2,20.05,,,40.10,21
+OL-0000988,O-202400343,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,1,51.07,,,51.07,21
+OL-0000989,O-202400343,P1085,Sofá Boreal Compact,Muebles,Sofás,1,1196.71,,,€1196.71,21
+OL-0000990,O-202400343,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,463.44,5,€23.17,440.27,21
+OL-0000991,O-202400344,p1047,Sofá Atlas 3 plazas,Muebles,Sofás,3,503.72,,,1511.16,21
+OL-0000992,O-202400345,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,"31,98",5,"1,60",30.38,21
+OL-0000993,O-202400345,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,€55.69,20,€11.14,44.55,21
+OL-0000994,O-202400346,p1077,"Aplique Atlas ""Star""",Iluminación,,2,"217,99",5,21.80,"414,18",21
+OL-0000995,O-202400346,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,1,195.72,20,39.14,156.58,10
+OL-0000996,O-202400346,P9999,,,,2,,,,1774.20,21
+OL-0000997,O-202400347,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,1,"52,71",,,€52.71,21
+OL-0000998,O-202400347,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,3,511.11,0,0.00,1533.33,21
+OL-0000999,O-202400347,P1080,Espejo Boreal ★,Decoración,Espejos,1,182.25,110,200.48,-18.23,21
+OL-0001000,O-202400347,p1005,,,,1,,,,"386,49",21
+OL-0001001,O-202400347,P1029,Figura Luna ★,Decoración,Figuras,2,50.72,,,€101.44,10
+OL-0001002,O-202400347,P1058,Manta Nórdico 140x200,Textil hogar,Mantas,1,62.74,30,18.82,43.92,21
+OL-0001003,O-202400348,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,430.20,30,129.06,301.14,21
+OL-0001004,O-202400348,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,2,94,10,18.83,€169.49,21
+OL-0001005,O-202400348,P1017,"Lámparas techo Zen ""Star""",Iluminación,Lámparas techo,2,€64.29,,,128.58,21
+OL-0001006,O-202400349,P1059,Armario Minimal 120cm,Muebles,Armarios,1,766.29,25,€191.57,"574,72",21
+OL-0001007,O-202400349,P1066,Jarrón Brisa 💠,Iluminación,Lámparas pie,1,,5,4.47,85.01,21
+OL-0001008,O-202400349, P1017,"Lámparas techo Zen ""Star""",Iluminación,Lámparas techo,1,69.49,,,69.49,21
+OL-0001009,O-202400349,P1002,Sábana Brisa 90x200,Textil hogar,Sábanas,1,,15,26.46,"149,94",21
+OL-0001010,O-202400350,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,3,52.24,30,47.02,109.70,21
+OL-0001011,O-202400350,P1054,Figura Minimal ★,Decoración,Figuras,1,112,5,"5,62","106,86",10
+OL-0001012,O-202400350,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,"421,65",0,0.00,421.65,21
+OL-0001013,O-202400351,P1033,Cojine Sol ★,Decoración,Cojines,2,234.84,30,140.90,328.78,21
+OL-0001014,O-202400351,P1087,Jarrone Eco ★,Decoración,Jarrones,2,177.64,25,88.82,266.46,21
+OL-0001015,O-202400351,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,32.60,25,8,€24.45,21
+OL-0001016,O-202400352,P1025,Figura Nórdico ★,Decoración,Figuras,1,94.10,30,"28,23",65.87,10
+OL-0001017,O-202400352,P1026,Cuadro Vintage ★,Decoración,Cuadros,2,87.46,0,0,174.92,21
+OL-0001018,O-202400352,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,2,54.18,25,27.09,81.27,10
+OL-0001019,O-202400352,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,2,101.20,,,202.40,21
+OL-0001020,O-202400352,P1033,Cojine Sol ★,Decoración,Cojines,1,"235,55",20,47.11,188.44,10
+OL-0001021,O-202400352,P1075,Cuadro Luna ★,Decoración,Cuadros,4,33.34,0,0.00,"133,36",10
+OL-0001022,O-202400353,p1005,Producto desconocido,N/A,,2,"713,32",20,"285,33",1141.31,21
+OL-0001023,O-202400353,P1050,Cama Brisa Compact,Muebles,Camas,1,191.40,5,9.57,€181.83,21
+OL-0001024,O-202400353,P1087,Jarrone Eco ★,Decoración,Jarrones,2,194.65,30,116.79,€272.51,21
+OL-0001025,O-202400353,P1092,Armario Sol Compact,Muebles,Armarios,1,560.22,5,28,532.21,21
+OL-0001026,O-202400353,P1016,"Aplique Élite ""Star""",Iluminación,,1,283.18,25,70.80,212.38,21
+OL-0001027,O-202400354,,,,,2,192.86,25,"96,43",289.29,21
+OL-0001028,O-202400354,P1053,"Aplique Nórdico ""Star""",Iluminación,,1,234.90,25,59,"176,17",10
+OL-0001029,O-202400354,P1010,Cama Sol Compact,Muebles,Camas,-1,€834.76,25,0.00,-834.76,21
+OL-0001030,O-202400355,P1043,Cama Sol 3 plazas,Muebles,Camas,1,"830,43",20,166,664.34,21
+OL-0001031,O-202400356,P1029,Figura Luna ★,Decoración,Figuras,3,48.41,110,159.75,-15,10
+OL-0001032,O-202400356,p1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,96.16,25,"24,04",€72.12,10
+OL-0001033,O-202400356,P1082,Vela Vintage ★,Decoración,Velas,2,234.71,,,469.42,21
+OL-0001034,O-202400356,P1070,"Aplique Boreal ""Star""",Iluminación,,0,297.82,30,0.00,0.00,10
+OL-0001035,O-202400357,P1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,102.42,10,10.24,€92.18,10
+OL-0001036,O-202400357,P1022,Armario Aurora 120cm,Muebles,Armarios,1,749.82,,,749.82,21
+OL-0001037,O-202400357,P1018,Cojine Minimal ★,Decoración,Cojines,1,184.40,,,"184,40",21
+OL-0001038,O-202400358,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,1,140.39,10,"14,04",126,10
+OL-0001039,O-202400358,P1054,Figura Minimal ★,Decoración,Figuras,1,"113,83",15,17.07,96.76,10
+OL-0001040,O-202400358,P1066,Jarrón Brisa 💠,Iluminación,Lámparas pie,1,80.47,0,0.00,80.47,10
+OL-0001041,O-202400358,P1055,Cuadro Luna ★,Decoración,,1,130.09,-5,-6.50,136.59,10
+OL-0001042,O-202400359,SKU-1010,,,,1,416.93,5,20.85,"396,08",21
+OL-0001043,O-202400359,P1042,Espejo Minimal ★,Decoración,Espejos,1,69.83,,,"69,83",21
+OL-0001044,O-202400360,P1093,Sofá Atlas XL,Muebles,Sofás,2,€458.39,,,916.78,21
+OL-0001045,O-202400360,P1030,Sofá Vintage XL,Muebles,Sofás,4,1045.33,10,418.13,3763.19,21
+OL-0001046,O-202400361,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,435.56,0,0.00,435.56,21
+OL-0001047,O-202400361,P1063,Armario Brisa 160cm,Muebles,Armarios,1,397.16,,,"397,16",21
+OL-0001048,O-202400361,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,2,357.25,0,0.00,714.50,10
+OL-0001049,O-202400361,,Producto desconocido,,,1,996.92,15,"149,54",847.38,21
+OL-0001050,O-202400361,P1051,Alfombra Aurora Set 2 uds,Textil hogar,,1,23.53,30,7.06,16.47,21
+OL-0001051,O-202400361,P1045,Sofá Aurora 120cm,Muebles,Sofás,2,161.85,-5,-16.18,339.88,21
+OL-0001052,O-202400362,P1018,Cojine Minimal ★,Decoración,Cojines,1,176.22,,,176.22,10
+OL-0001053,O-202400362,P1007,Figura Boreal ★,Decoración,Figuras,1,226.74,,,226.74,21
+OL-0001054,O-202400362,P1010,Cama Sol Compact,Muebles,Camas,2,880.34,20,352.14,1408.54,21
+OL-0001055,O-202400362,P1077,"Aplique Atlas ""Star""",Iluminación,,1,203.23,20,40.65,"162,58",10
+OL-0001056,O-202400363,P1055,Cuadro Luna ★,Decoración,Cuadros,4,118.79,,,475.16,10
+OL-0001057,O-202400363,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,1,"225,55",,,225.55,21
+OL-0001058,O-202400363,P1017,"Lámparas techo Zen ""Star""",Iluminación,Lámparas techo,2,65,,,€129.24,10
+OL-0001059,O-202400363,P1007,Figura Boreal ★,Decoración,Figuras,1,"218,15",25,54.54,163.61,21
+OL-0001060,O-202400363,P1093,Sofá Atlas XL,Muebles,Sofás,1,414,10,41.44,"373,00",21
+OL-0001061,O-202400364,P1093,Sofá Atlas XL,Muebles,Sofás,1,407.91,10,€40.79,367.12,21
+OL-0001062,O-202400364,P1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,€359.92,30,107.98,251.94,10
+OL-0001063,O-202400364,P1000,Sofá Aurora 160cm,Muebles,Sofás,1,€222.08,25,55.52,€166.56,21
+OL-0001064,O-202400365,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,162.54,0,0.00,162.54,21
+OL-0001065,O-202400365,P1098,Espejo Boreal ★,Decoración,Espejos,1,226.30,25,56.58,"169,72",21
+OL-0001066,O-202400366,P1069,Sofá Zen 120cm,Muebles,Sofás,1,485.03,,,€485.03,21
+OL-0001067,O-202400366,P1014,Cuadro Zen ★,Decoración,Cuadros,1,69.00,10,7,"62,10",21
+OL-0001068,O-202400367,P1083,"Aplique Aurora ""Star""",Iluminación,,0,"377,32",,,0.00,10
+OL-0001069,O-202400368,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,2,116.74,,,233.48,21
+OL-0001070,O-202400369,P1069,Sofá Zen 120cm,Muebles,Sofás,1,487.31,20,97.46,389.85,21
+OL-0001071,O-202400369,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,54.84,15,8.23,46.61,21
+OL-0001072,O-202400369,P1083,"Aplique Aurora ""Star""",Iluminación,,1,357.92,15,54,304.23,21
+OL-0001073,O-202400369,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,1,"308,53",,,"308,53",21
+OL-0001074,O-202400370,P1040,Manta Boreal 140x200,Textil hogar,Mantas,1,27.51,5,1.38,26.13,21
+OL-0001075,O-202400370,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,280.35,30,84.11,196.24,21
+OL-0001076,O-202400370,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,2,€337.15,25,168.57,€505.73,21
+OL-0001077,O-202400370,P1082,Vela Vintage ★,Decoración,Velas,1,214,,,214.10,21
+OL-0001078,O-202400371,P1050,Cama Brisa Compact,Muebles,Camas,1,€199.27,5,9.96,€189.31,21
+OL-0001079,O-202400371,P1042,Espejo Minimal ★,Decoración,Espejos,1,79.32,30,23.80,"55,52",10
+OL-0001080,O-202400371,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,1,210.13,25,52.53,157.60,10
+OL-0001081,O-202400371,P1011,Vela Eco ★,Decoración,Velas,2,94,,,187.62,10
+OL-0001082,O-202400371,P1087,Jarrone Eco ★,Decoración,Jarrones,1,192,30,57.49,134.15,21
+OL-0001083,O-202400372,p1069,Sofá Zen 120cm,Muebles,Sofás,2,481,,,962,21
+OL-0001084,O-202400372,P1099,Figura Eco ★,Decoración,Figuras,3,187.49,0,0.00,562.47,10
+OL-0001085,O-202400372,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,1,179.93,15,€26.99,152.94,21
+OL-0001086,O-202400373,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,184,30,55.18,128.77,21
+OL-0001087,O-202400373,,Producto desconocido,,,1,554,10,55.42,498.77,21
+OL-0001088,O-202400373,P1001,Cuadro Atlas ★,Decoración,Cuadros,3,31.42,,,94.26,21
+OL-0001089,O-202400373,P1014,Cuadro Zen ★,Decoración,Cuadros,1,64.84,5,3.24,61.60,21
+OL-0001090,O-202400373,P1014,Cuadro Zen ★,Decoración,,1,64.32,,,64.32,10
+OL-0001091,O-202400374,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,0,283.21,,,0.00,10
+OL-0001092,O-202400374,P1043,Cama Sol 3 plazas,Muebles,Camas,1,863.39,0,0.00,863.39,21
+OL-0001093,O-202400375,P1052,Cama Vintage 3 plazas,Muebles,Camas,1,682.30,,,,21
+OL-0001094,O-202400375,P1043,Cama Sol 3 plazas,Muebles,Camas,1,841.64,20,168.33,"673,31",21
+OL-0001095,O-202400375,p1016,"Aplique Élite ""Star""",Iluminación,Apliques,2,311.09,,,622.18,10
+OL-0001096,O-202400376,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,2,50.62,20,20.25,80.99,21
+OL-0001097,O-202400377,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,106.42,25,€26.61,80,21
+OL-0001098,O-202400377,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,1,225.82,10,22.58,"203,24",21
+OL-0001099,O-202400377,P1042,Espejo Minimal ★,Decoración,Espejos,2,,0,0.00,,21
+OL-0001100,O-202400377,P1041,Vela Luna ★,Decoración,Velas,1,112.07,20,22.41,89.66,21
+OL-0001101,O-202400377,P1024,Cojine Vintage ★,Decoración,Cojines,2,"190,12",30,"114,07",266.17,10
+OL-0001102,O-202400377,P1036,Cortina Aurora 90x200,Textil hogar,,1,26.62,25,6.66,"19,96",21
+OL-0001103,O-202400378,P1042,Espejo Minimal ★,Decoración,Espejos,2,76.77,0,€0.00,153.54,21
+OL-0001104,O-202400378,P1032,Figura Minimal ★,Decoración,Lamparas mesa,1,127.52,5,6.38,121.14,21
+OL-0001105,O-202400378,P1039,Cuadro Nórdico ★,Decoración,Cuadros,3,244.96,20,146.98,587.90,10
+OL-0001106,O-202400379,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,2,22.81,15,6.84,38.78,10
+OL-0001107,O-202400379,P1026,Cuadro Vintage ★,Decoración,Cuadros,1,85.51,5,€4.28,81.23,21
+OL-0001108,O-202400379,P1035,Manta Brisa Set 2 uds,Textil hogar,,3,222.90,10,66.87,601.83,21
+OL-0001109,O-202400380,P1030,Sofá Vintage XL,Muebles,Sofás,1,"1026,62",,,1026.62,21
+OL-0001110,O-202400380,P1048,Mesa Minimal 160cm,Muebles,Mesas,1,,30,145.25,338.93,21
+OL-0001111,O-202400380,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,1,20.61,5,1,€19.58,21
+OL-0001112,O-202400380,P1079,Cuadro Boreal ★,Decoración,Cuadros,3,165.53,15,74.49,"422,10",10
+OL-0001113,O-202400381,P1079,Cuadro Boreal ★,Decoración,Cuadros,3,144.88,0,"0,00",434.64,21
+OL-0001114,O-202400381,P1054,Figura Minimal ★,Decoración,Figuras,1,€111.31,,,111.31,10
+OL-0001115,O-202400381,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,1,304.72,,,304.72,21
+OL-0001116,O-202400382, P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,1,47.95,,,"47,95",10
+OL-0001117,O-202400382,P1079,Cuadro Boreal ★,Decoración,Cuadros,1,151.21,5,7.56,143.65,10
+OL-0001118,O-202400382,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,281.26,5,"14,06",267.20,10
+OL-0001119,O-202400382,P1053,"Aplique Nórdico ""Star""",Iluminación,,2,233.17,25,116.58,€349.76,10
+OL-0001120,O-202400382,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,2,51.40,,,102.80,10
+OL-0001121,O-202400382,P1079,Cuadro Boreal ★,Decoración,Cuadros,2,"144,85",20,57.94,231.76,21
+OL-0001122,O-202400383,P1053,"Aplique Nórdico ""Star""",Iluminación,,2,227.99,20,91.20,364.78,21
+OL-0001123,O-202400383,P1002,Sábana Brisa 90x200,Textil hogar,,1,162.61,20,€32.52,130.09,21
+OL-0001124,O-202400383,P1024,Cojine Vintage ★,Decoración,Cojines,1,167.64,,,"167,64",10
+OL-0001125,O-202400384,P1083,"Aplique Aurora ""Star""",Iluminación,,2,€391.28,,,782.56,21
+OL-0001126,O-202400384,P1062,Sábana Brisa Pack 4,Textil hogar,,1,206.49,15,30.97,175.52,21
+OL-0001127,O-202400384,P1042,Espejo Minimal ★,Decoración,Espejos,1,70.06,5,"3,50",66.56,21
+OL-0001128,O-202400385,P1010,Cama Sol Compact,Muebles,Camas,4,913.51,0,0.00,3654.04,21
+OL-0001129,O-202400385,P1080,Espejo Boreal ★,Decoración,Espejos,1,210.20,,,,21
+OL-0001130,O-202400385,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,1,,25,25.66,"76,96",21
+OL-0001131,O-202400386,P1014,Cuadro Zen ★,Decoración,Cuadros,1,62.97,,,"62,97",10
+OL-0001132,O-202400386,P1090,Armario Sol XL,Muebles,Armarios,2,,,,2331.14,21
+OL-0001133,O-202400386,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,1,282.99,15,42.45,240.54,21
+OL-0001134,O-202400386,P1096,Figura Vintage ★,Decoración,Figuras,2,150.08,,,300.16,10
+OL-0001135,O-202400387,P1054,Figura Minimal ★,Decoración,Figuras,1,"108,79",25,27.20,81.59,10
+OL-0001136,O-202400387,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,2,402.55,0,0.00,805.10,10
+OL-0001137,O-202400387,P1088,Espejo Élite ★,Decoración,Espejos,1,145.53,0,0.00,"145,53",10
+OL-0001138,O-202400387,P1014,Cuadro Zen ★,Decoración,Cuadros,1,64.79,0,€0.00,64.79,10
+OL-0001139,O-202400388,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,2,284.01,30,€170.41,397.61,21
+OL-0001140,O-202400388,P1006,Cortina Élite 200x300,Textil hogar,Cortinas,1,115.51,,,115.51,21
+OL-0001141,O-202400388,P1014,Cuadro Zen ★,Decoración,Cuadros,1,"66,49",25,16.62,49.87,21
+OL-0001142,O-202400388,P1024,Cojine Vintage ★,Decoración,Cojines,1,185.44,20,37,148.35,21
+OL-0001143,O-202400389,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,"57,45",,,"57,45",21
+OL-0001144,O-202400389, P1088,Espejo Élite ★,Decoración,Espejos,-1,151.61,,,-151.61,10
+OL-0001145,O-202400389,P1085,Sofá Boreal Compact,Muebles,Sofás,1,1111.14,30,"333,34",777.80,21
+OL-0001146,O-202400389,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,403.37,25,101,302.53,21
+OL-0001147,O-202400389,P1027,Sábana Nórdico 140x200,Textil hogar,Sábanas,1,105.11,25,26.28,78.83,21
+OL-0001148,O-202400389,P1093,Sofá Atlas XL,Muebles,Sofás,1,451.53,,,451.53,21
+OL-0001149,O-202400390,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,-1,"208,04",15,0.00,-208.04,21
+OL-0001150,O-202400390,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,€49.13,10,5,44.22,10
+OL-0001151,O-202400391,P1099,Figura Eco ★,Decoración,Figuras,2,189.41,,,€378.82,10
+OL-0001152,O-202400391,P1004,Cama Sol 120cm,decoración,Camas,1,1094,5,"54,70","1039,37",21
+OL-0001153,O-202400391,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,€28.97,,,28.97,21
+OL-0001154,O-202400392,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,1,€72.02,15,10.80,61,21
+OL-0001155,O-202400392,P1032,Figura Minimal ★,Decoración,Lamparas mesa,-1,"122,15",,,"-122,15",10
+OL-0001156,O-202400393,P1033,Cojine Sol ★,Decoración,Cojines,1,243,,,243.07,21
+OL-0001157,O-202400393,P1064,Estantería Minimal 120cm,Muebles,Estanterías,2,442.27,30,265.36,619.18,21
+OL-0001158,O-202400393,P1006,Cortina Élite 200x300,Textil hogar,Cortinas,2,109.63,,,219.26,21
+OL-0001159,O-202400394,P1040,Manta Boreal 140x200,Textil hogar,Mantas,2,28.59,20,11.44,46,21
+OL-0001160,O-202400394,P1073,Espejo Minimal ★,Decoración,Espejos,1,105.25,,,105.25,21
+OL-0001161,O-202400394, P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,"20,84",20,4.17,"16,67",10
+OL-0001162,O-202400394,P1043,Cama Sol 3 plazas,Muebles,Camas,1,852.32,,,"852,32",21
+OL-0001163,O-202400395,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,€51.05,5,"2,55",48.50,21
+OL-0001164,O-202400395,P1096,Figura Vintage ★,Decoración,Figuras,2,132.10,5,13.21,250.99,10
+OL-0001165,O-202400395,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,2,22.07,,,44,21
+OL-0001166,O-202400395,P1096,Figura Vintage ★,Decoración,Figuras,2,141.88,30,85.13,198.63,10
+OL-0001167,O-202400396,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,3,24.74,30,€22.27,51.95,21
+OL-0001168,O-202400396,P1041,Vela Luna ★,Decoración,Velas,2,123.56,0,0.00,247.12,21
+OL-0001169,O-202400396,P1040,Manta Boreal 140x200,Textil hogar,Mantas,1,29.36,-5,-1.47,30.83,21
+OL-0001170,O-202400397,P1007,Figura Boreal ★,Decoración,Figuras,1,244.92,,,"244,92",10
+OL-0001171,O-202400397,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,2,138.73,15,41.62,"235,84",21
+OL-0001172,O-202400398,P1085,Sofá Boreal Compact,Muebles,Sofás,2,1092.88,110,2404.34,-218.58,21
+OL-0001173,O-202400398,P1083,"Aplique Aurora ""Star""",Iluminación,,2,359.74,,,719.48,21
+OL-0001174,O-202400398,P1017,"Lámparas techo Zen ""Star""",Iluminación,Lámparas techo,2,62.22,30,"37,33",87.11,21
+OL-0001175,O-202400398,P1030,Sofá Vintage XL,Muebles,Sofás,1,1050.94,5,53,998.39,21
+OL-0001176,O-202400398,P1048,Mesa Minimal 160cm,Muebles,Mesas,2,428.69,25,214.34,643.04,21
+OL-0001177,O-202400399,SKU-9999,,,,1,603.91,30,181.17,422.74,21
+OL-0001178,O-202400399,P1050,Cama Brisa Compact,Muebles,Camas,1,185.01,-5,-9.25,€194.26,21
+OL-0001179,O-202400400,P1085,Sofá Boreal Compact,Muebles,Sofás,1,,25,284.96,854.90,21
+OL-0001180,O-202400400,P1055,Cuadro Luna ★,Decoración,Cuadros,1,,25,29.39,€88.18,10
+OL-0001181,O-202400400,p1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,389.69,,,389.69,21
+OL-0001182,O-202400401,P1042,Espejo Minimal ★,Decoración,Espejos,1,71.02,0,0,71.02,21
+OL-0001183,O-202400401,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,1,21.29,10,€2.13,19.16,21
+OL-0001184,O-202400401,P1078,Estantería Atlas 160cm,Muebles,Estanterías,1,710.69,,,710.69,21
+OL-0001185,O-202400402,P1032,Figura Minimal ★,Decoración,Lamparas mesa,1,"126,24",5,6.31,119.93,21
+OL-0001186,O-202400402,P1006,Cortina Élite 200x300,Textil hogar,Cortinas,1,,30,€33.30,77.70,21
+OL-0001187,O-202400402,P1029,Figura Luna ★,Decoración,Figuras,2,48.76,25,24.38,"73,14",21
+OL-0001188,O-202400403,P1029,Figura Luna ★,Decoración,Figuras,1,"53,46",15,8.02,45.44,10
+OL-0001189,O-202400404,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,1,,25,"16,64",49.92,21
+OL-0001190,O-202400404,P1063,Armario Brisa 160cm,Muebles,Armarios,1,420.42,0,0.00,420.42,21
+OL-0001191,O-202400404,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,"201,26",10,20.13,181.13,21
+OL-0001192,O-202400404, P1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,1,24.18,,,24.18,21
+OL-0001193,O-202400404,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,159.42,10,16,143.48,21
+OL-0001194,O-202400405,P1055,Cuadro Luna ★,Decoración,Cuadros,1,115.82,0,0.00,"115,82",10
+OL-0001195,O-202400405,P1065,Sofá Atlas 3 plazas,Muebles,Sofás,1,1076.04,25,269.01,807.03,21
+OL-0001196,O-202400406,P1030,Sofá Vintage XL,Muebles,Sofás,1,€1022.82,10,102.28,920.54,21
+OL-0001197,O-202400407,P9999,Producto desconocido,,,1,995.50,15,149.32,846.18,21
+OL-0001198,O-202400407,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,54.55,,,55,21
+OL-0001199,O-202400407,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,2,54.03,0,0.00,€108.06,21
+OL-0001200,O-202400408,P1039,Cuadro Nórdico ★,Decoración,Cuadros,1,238.72,0,0.00,"238,72",21
+OL-0001201,O-202400408,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,82.90,25,"20,73",62.17,10
+OL-0001202,O-202400408,P1042,Espejo Minimal ★,Decoración,Espejos,2,"79,88",20,31.95,128,10
+OL-0001203,O-202400409,P1012,Sábana Sol 140x200,Textil hogar,Sábanas,1,7.51,5,0,,21
+OL-0001204,O-202400409,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,1,,,,217.26,10
+OL-0001205,O-202400409,SKU-1019,Vela Aurora ★,Decoración,Velas,2,€48.69,30,29.21,,10
+OL-0001206,O-202400409,P1085,Sofá Boreal Compact,Muebles,Sofás,1,1083.41,,,1083.41,21
+OL-0001207,O-202400410,P1041,Vela Luna ★,Decoración,Velas,2,109.13,5,10.91,207.35,10
+OL-0001208,O-202400410,P1018,Cojine Minimal ★,Decoración,Cojines,1,"180,32",,,180.32,10
+OL-0001209,O-202400410,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,109.44,,,"109,44",21
+OL-0001210,O-202400411,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,1,€20.46,10,2.05,18.41,21
+OL-0001211,O-202400412,P1055,Cuadro Luna ★,Decoración,Cuadros,3,,0,0.00,373.62,21
+OL-0001212,O-202400412,P1007,Figura Boreal ★,Decoración,Figuras,1,€217.97,25,54,163,10
+OL-0001213,O-202400412,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,1,300.71,20,"60,14",240.57,10
+OL-0001214,O-202400413,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,485.12,10,48.51,€436.61,21
+OL-0001215,O-202400413,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,297.28,110,327.01,€-29.73,21
+OL-0001216,O-202400413,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,3,309,15,138.87,786.90,21
+OL-0001217,O-202400414, P1042,Espejo Minimal ★,Decoración,Espejos,1,€71.76,30,"21,53",50.23,10
+OL-0001218,O-202400414,P1018,Cojine Minimal ★,Decoración,Cojines,1,175.04,,,175.04,10
+OL-0001219,O-202400414,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,1,222.38,,,222.38,21
+OL-0001220,O-202400414,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,28.52,,,28.52,21
+OL-0001221,O-202400415,P1094,"Bombilla Zen ""Star""",Iluminación,,1,302.79,30,90.84,211.95,21
+OL-0001222,O-202400415,P1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,108.36,15,"16,25","92,11",10
+OL-0001223,O-202400415,P1050,Cama Brisa Compact,Muebles,Camas,2,€195.59,25,97.80,"293,38",21
+OL-0001224,O-202400416,P1033,Cojine Sol ★,Decoración,Cojines,3,249.29,15,112.18,635.69,10
+OL-0001225,O-202400416,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,428.57,,,"428,57",21
+OL-0001226,O-202400416,P1018,Cojine Minimal ★,Decoración,Cojines,3,185.98,5,27.90,"530,04",10
+OL-0001227,O-202400417,P1088,Espejo Élite ★,Decoración,Espejos,1,140.82,10,€14.08,126.74,21
+OL-0001228,O-202400418,P1078,Estantería Atlas 160cm,Muebles,Estanterías,1,646.78,25,161.69,485.09,21
+OL-0001229,O-202400418,P1026,Cuadro Vintage ★,Decoración,Cuadros,2,"88,96",,,"177,92",21
+OL-0001230,O-202400418,P1010,Cama Sol Compact,Muebles,Camas,1,913.80,,,913.80,21
+OL-0001231,O-202400418,P1089,"Bombilla Vintage ""Star""",Iluminación,,2,€106.35,25,53.17,€159.53,10
+OL-0001232,O-202400419,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,189.69,20,37.94,"151,75",21
+OL-0001233,O-202400419,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,€51.40,20,10.28,41.12,21
+OL-0001234,O-202400419,P1058,Manta Nórdico 140x200,Textil hogar,Mantas,1,63.33,0,"0,00",63.33,21
+OL-0001235,O-202400419,P1050,Cama Brisa Compact,Muebles,Camas,1,"172,05",,,172.05,21
+OL-0001236,O-202400420,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,1,205,20,41.06,164.23,21
+OL-0001237,O-202400420,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,376.48,,,"376,48",21
+OL-0001238,O-202400420,P1041,Vela Luna ★,Decoración,Velas,1,,,,109.94,21
+OL-0001239,O-202400420,P1027,Sábana Nórdico 140x200,Textil hogar,Sábanas,1,99.48,,,€99.48,21
+OL-0001240,O-202400420,P1080,Espejo Boreal ★,Decoración,Espejos,1,205.85,10,20.59,185.26,10
+OL-0001241,O-202400421,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,2,311.64,-5,-31.16,"654,44",21
+OL-0001242,O-202400422,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,193.55,,,€193.55,21
+OL-0001243,O-202400422,SKU-1019,Vela Aurora ★,Decoración,Velas,1,44.56,15,€6.68,37.88,21
+OL-0001244,O-202400422,P1042,Espejo Minimal ★,Decoración,Espejos,1,€76.31,10,7.63,€81.93,10
+OL-0001245,O-202400422,P1073,Espejo Minimal ★,Decoración,Espejos,1,113.47,25,28.37,"85,10",21
+OL-0001246,O-202400422,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,1,373.25,30,"111,97",261.28,10
+OL-0001247,O-202400423,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,29.53,30,€8.86,€20.67,21
+OL-0001248,O-202400424,P1078,Estantería Atlas 160cm,Muebles,Estanterías,1,"692,17",15,103.83,588.34,21
+OL-0001249,O-202400424,P1043,Cama Sol 3 plazas,Muebles,Camas,1,802.87,,,802.87,21
+OL-0001250,O-202400424,P9999,Producto desconocido,N/A,,1,452.91,,,452.91,21
+OL-0001251,O-202400425,,Producto desconocido,N/A,,2,633.02,0,0.00,1266.04,21
+OL-0001252,O-202400425,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,3,214.85,0,0,644.55,10
+OL-0001253,O-202400426,P1033,Cojine Sol ★,Decoración,Cojines,1,"234,56",25,58.64,175.92,21
+OL-0001254,O-202400426,P1052,Cama Vintage 3 plazas,Muebles,Camas,1,€646.88,,,646.88,21
+OL-0001255,O-202400426,P1085,Sofá Boreal Compact,Muebles,Sofás,2,1068.49,,,2136.98,21
+OL-0001256,O-202400427,P1052,Cama Vintage 3 plazas,Muebles,,1,673.91,,,673.91,21
+OL-0001257,O-202400427,P1048,Mesa Minimal 160cm,Muebles,Mesas,1,444.43,,,"444,43",21
+OL-0001258,O-202400427,p1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,1,"319,69",15,48,271.74,10
+OL-0001259,O-202400428,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,"362,49",5,€18.12,€344.37,10
+OL-0001260,O-202400429,P1014,Cuadro Zen ★,Decoración,Cuadros,1,68.70,10,6.87,61.83,10
+OL-0001261,O-202400429,P1003,Espejo Atlas ★,Decoración,Espejos,1,"276,11",5,13.81,262.30,21
+OL-0001262,O-202400429,P1096,Figura Vintage ★,Decoración,Figuras,1,€141.85,15,€21.28,120.57,10
+OL-0001263,O-202400430,P1080,Espejo Boreal ★,Decoración,Espejos,1,183.88,30,55.16,128.72,21
+OL-0001264,O-202400430,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,1,198.97,20,"39,79",159.18,21
+OL-0001265,O-202400430,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,3,221.56,15,99.70,564.98,21
+OL-0001266,O-202400430,P1052,Cama Vintage 3 plazas,Muebles,Camas,2,"656,53",,,1313.06,21
+OL-0001267,O-202400430,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,51.52,25,12.88,38.64,21
+OL-0001268,O-202400431,P1070,"Aplique Boreal ""Star""",Iluminación,,1,"278,59",,,"278,59",10
+OL-0001269,O-202400431,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,1,193.87,10,€19.39,174.48,21
+OL-0001270,O-202400432,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,1,201.88,5,10.09,191.79,21
+OL-0001271,O-202400432,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,2,93.68,20,37.47,149.89,21
+OL-0001272,O-202400432,P1040,Manta Boreal 140x200,Textil hogar,Mantas,2,"30,34",20,12,48.54,21
+OL-0001273,O-202400433,p1005,,N/A,,1,€677.03,,,677.03,21
+OL-0001274,O-202400433,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,23.51,,,23.51,21
+OL-0001275,O-202400433,P1064,Estantería Minimal 120cm,Muebles,Estanterías,2,413.55,15,€124.06,€703.04,21
+OL-0001276,O-202400433,P1031,Cama Nórdico 3 plazas,Muebles,Camas,-1,1152.33,,,-1152,21
+OL-0001277,O-202400434,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,1,47.83,5,2.39,"45,44",21
+OL-0001278,O-202400435,P9999,Producto desconocido,,,1,904.53,15,135.68,768.85,21
+OL-0001279,O-202400435,P1055,Cuadro Luna ★,Decoración,Cuadros,1,112.94,,,112.94,10
+OL-0001280,O-202400435,P1073,Espejo Minimal ★,Decoración,Espejos,1,€108.79,25,27.20,"81,59",10
+OL-0001281,O-202400436,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,49.21,5,2.46,"46,75",10
+OL-0001282,O-202400436,P1078,Estantería Atlas 160cm,Muebles,Estanterías,1,709,5,€35.43,673.22,21
+OL-0001283,O-202400437,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,2,265.90,20,106.36,425.44,21
+OL-0001284,O-202400438,p10X1,Producto desconocido,,,2,352.98,,,705.96,21
+OL-0001285,O-202400438,P1029,Figura Luna ★,Decoración,Figuras,1,50.44,30,"15,13",€35.31,10
+OL-0001286,O-202400439,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,1,136.61,10,€13.66,122.95,21
+OL-0001287,O-202400439,P1032,Figura Minimal ★,Decoración,Lamparas mesa,1,"114,83",10,"11,48",103.35,10
+OL-0001288,O-202400439,P1011,Vela Eco ★,Decoración,Velas,2,"89,72",20,"35,89",143.55,10
+OL-0001289,O-202400439,P1041,Vela Luna ★,Decoración,Velas,1,117.57,,,€117.57,21
+OL-0001290,O-202400440,SKU-1019,Vela Aurora ★,Decoración,Velas,1,"43,97",20,8.79,35.18,10
+OL-0001291,O-202400440,P1080,Espejo Boreal ★,Decoración,Espejos,0,201.29,10,0.00,0.00,10
+OL-0001292,O-202400441,P1088,Espejo Élite ★,Decoración,Espejos,1,€136.01,15,20.40,115.61,10
+OL-0001293,O-202400441,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,432.64,,,432.64,21
+OL-0001294,O-202400441,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,193.10,30,57.93,€135.17,21
+OL-0001295,O-202400442,P1097,Sofá Eco 120cm,Muebles,Sofás,1,704.10,0,0.00,€704.10,21
+OL-0001296,O-202400442,P1085,Sofá Boreal Compact,Muebles,Sofás,1,1030.07,5,51.50,€978.57,21
+OL-0001297,O-202400443,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,1,329.33,,,€329.33,10
+OL-0001298,O-202400443,P1053,"Aplique Nórdico ""Star""",Iluminación,,1,217.90,,,217.90,10
+OL-0001299,O-202400443,P1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,"98,72",,,98.72,10
+OL-0001300,O-202400443,P1017,"Lámparas techo Zen ""Star""",Iluminación,Lámparas techo,1,61.66,,,62,10
+OL-0001301,O-202400443,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,3,€117.65,10,35.30,317.65,21
+OL-0001302,O-202400443,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,2,301.86,20,120.74,482.98,21
+OL-0001303,O-202400444,P1029,Figura Luna ★,Decoración,Figuras,3,47.96,25,€35.97,107.91,21
+OL-0001304,O-202400444,,,N/A,,1,459.31,15,"68,90","390,41",21
+OL-0001305,O-202400445,P1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,1,23.47,10,€2.35,21.12,21
+OL-0001306,O-202400445,P1004,Cama Sol 120cm,decoración,Camas,1,1031.96,10,"103,20",928.76,21
+OL-0001307,O-202400445,P1053,"Aplique Nórdico ""Star""",Iluminación,,1,,,,210.74,10
+OL-0001308,O-202400445,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,1,19.96,0,0.00,19.96,21
+OL-0001309,O-202400445,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,"49,88",0,0.00,49.88,10
+OL-0001310,O-202400446,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,€160.00,0,0.00,160.00,21
+OL-0001311,O-202400446,P1012,Sábana Sol 140x200,Textil hogar,Sábanas,2,7.30,,,14.60,21
+OL-0001312,O-202400446,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,3,€394.93,0,€0.00,€1184.79,21
+OL-0001313,O-202400447,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,1147,10,114.66,1032,21
+OL-0001314,O-202400448,P1026,Cuadro Vintage ★,Decoración,Cuadros,1,89.69,15,13.45,€76.24,21
+OL-0001315,O-202400448,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,3,€79.64,0,0.00,238.92,21
+OL-0001316,O-202400449,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,1034.06,30,310.22,€723.84,21
+OL-0001317,O-202400449,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,2,205.58,,,,21
+OL-0001318,O-202400449,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,52.76,15,€7.91,44.85,10
+OL-0001319,O-202400449,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,2,"211,15",0,0.00,422.30,21
+OL-0001320,O-202400450,P1034,Jarrone Atlas ★,Decoración,Jarrones,1,270.27,,,€270.27,10
+OL-0001321,O-202400450,P1080,Espejo Boreal ★,Decoración,,3,196.59,30,"176,93","412,84",21
+OL-0001322,O-202400450,P1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,3,97.21,5,"14,58",277.05,10
+OL-0001323,O-202400451,P1064,Estantería Minimal 120cm,Muebles,Estanterías,3,449.83,,,1349.49,21
+OL-0001324,O-202400451,P1079,Cuadro Boreal ★,Decoración,Cuadros,1,156.90,30,47.07,109.83,10
+OL-0001325,O-202400451,P1050,Cama Brisa Compact,Muebles,Camas,1,179.83,25,"44,96",€134.87,21
+OL-0001326,O-202400451,P1048,Mesa Minimal 160cm,Muebles,Mesas,1,492.34,,,"492,34",21
+OL-0001327,O-202400452,,Producto desconocido,N/A,,1,267.72,15,€40.16,"227,56",21
+OL-0001328,O-202400452,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,84.68,25,€21.17,63.51,21
+OL-0001329,O-202400452, P1039,Cuadro Nórdico ★,Decoración,,1,222.61,20,€44.52,178.09,10
+OL-0001330,O-202400452,P1042,Espejo Minimal ★,Decoración,Espejos,1,73.63,,,74,21
+OL-0001331,O-202400453,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,2,48.83,0,0.00,97.66,21
+OL-0001332,O-202400453,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,497.30,,,497.30,21
+OL-0001333,O-202400454,P1004,Cama Sol 120cm,decoración,,1,1028.80,,,"1028,80",21
+OL-0001334,O-202400455,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,3,103.09,30,92.78,216.49,21
+OL-0001335,O-202400455,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,1,28,30,8.53,19.91,21
+OL-0001336,O-202400456,P1026,Cuadro Vintage ★,Decoración,Cuadros,1,82.11,15,12.32,69.79,21
+OL-0001337,O-202400456,P1070,"Aplique Boreal ""Star""",Iluminación,,2,306.44,10,61.29,"551,59",21
+OL-0001338,O-202400456,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,4,€298.12,,,1192.48,21
+OL-0001339,O-202400456,P1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,1,"23,64",110,"26,00",-2.36,21
+OL-0001340,O-202400456,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,200.43,0,€0.00,€200.43,21
+OL-0001341,O-202400457,P1018,Cojine Minimal ★,Decoración,Cojines,2,"172,93",15,€51.88,"293,98",21
+OL-0001342,O-202400457,P1042,Espejo Minimal ★,Decoración,Espejos,2,69.75,5,6.98,132.52,21
+OL-0001343,O-202400457,P1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,107,30,32.01,74.69,21
+OL-0001344,O-202400458,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,,,,46.18,21
+OL-0001345,O-202400458,P1014,Cuadro Zen ★,Decoración,Cuadros,2,71.66,5,7.17,136.15,21
+OL-0001346,O-202400458,P1073,Espejo Minimal ★,Decoración,Espejos,2,"103,18",0,0.00,206.36,10
+OL-0001347,O-202400458,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,52.32,5,3,49.70,21
+OL-0001348,O-202400458,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,1,276.49,,,276.49,21
+OL-0001349,O-202400459,P1009,Cortina Vintage Pack 4,Textil hogar,,1,22.37,,,"22,37",21
+OL-0001350,O-202400459,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,"107,56",10,10.76,96.80,21
+OL-0001351,O-202400459,P1032,Figura Minimal ★,Decoración,Lamparas mesa,1,127.49,,,127.49,10
+OL-0001352,O-202400459,P1090,Armario Sol XL,Muebles,Armarios,2,€1135.42,110,€2497.92,-227.08,21
+OL-0001353,O-202400460,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,1,"98,55",5,€4.93,93.62,21
+OL-0001354,O-202400460,P1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,2,344.39,30,206.63,482.15,10
+OL-0001355,O-202400460,P1010,Cama Sol Compact,Muebles,Camas,2,"890,51",5,89.05,1691.97,21
+OL-0001356,O-202400461,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,1,135.89,,,135.89,10
+OL-0001357,O-202400461,P1014,Cuadro Zen ★,Decoración,Cuadros,1,72.12,,,72,10
+OL-0001358,O-202400461,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,"477,78",10,47.78,430.00,21
+OL-0001359,O-202400461, P1034,Jarrone Atlas ★,Decoración,Jarrones,3,"308,22",,,924.66,21
+OL-0001360,O-202400462,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,1,199.93,25,49.98,149.95,21
+OL-0001361,O-202400462,P1059,Armario Minimal 120cm,Muebles,Armarios,1,"781,99",,,781.99,21
+OL-0001362,O-202400462,P1063,Armario Brisa 160cm,Muebles,Armarios,1,€408.81,,,408.81,21
+OL-0001363,O-202400463,P1043,Cama Sol 3 plazas,Muebles,Camas,1,853.18,20,170.64,682.54,21
+OL-0001364,O-202400463,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,3,279.95,,,839.85,10
+OL-0001365,O-202400463,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,2,87.17,20,34.87,139.47,21
+OL-0001366,O-202400464,P1024,Cojine Vintage ★,Decoración,Cojines,3,175.89,15,79.15,448.52,21
+OL-0001367,O-202400464,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,2,"193,62",25,"96,81",290.43,10
+OL-0001368,O-202400464,P1010,Cama Sol Compact,Muebles,Camas,2,857.09,15,257.13,1457.05,21
+OL-0001369,O-202400465,P1059,Armario Minimal 120cm,Muebles,Armarios,2,771.67,,,1543.34,21
+OL-0001370,O-202400465,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,194.13,,,194.13,21
+OL-0001371,O-202400465,P1095,  Espejo Élite 80cm  ,Iluminación,Lámparas pie,1,0.00,,,0.00,21
+OL-0001372,O-202400465,P1023,"Aplique Élite ""Star""",Iluminación,Apliques,1,132.60,0,€0.00,132.60,10
+OL-0001373,O-202400466,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,1,219.55,25,54.89,164.66,21
+OL-0001374,O-202400466,p1029,Figura Luna ★,Decoración,Figuras,2,€48.56,30,29.14,67.98,10
+OL-0001375,O-202400467,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,1,21.78,0,0.00,21.78,21
+OL-0001376,O-202400467,P1083,"Aplique Aurora ""Star""",Iluminación,,3,370,0,0.00,1111.23,21
+OL-0001377,O-202400467,P1008,"Bombilla Nórdico ""Star""",Iluminación,,1,€28.56,5,"1,43",27.13,10
+OL-0001378,O-202400468,P1053,"Aplique Nórdico ""Star""",Iluminación,,3,220.00,10,€66.00,€594.00,10
+OL-0001379,O-202400468,P1097,Sofá Eco 120cm,Muebles,Sofás,2,704.34,20,€281.74,1126.94,21
+OL-0001380,O-202400468,P1042,Espejo Minimal ★,Decoración,Espejos,1,,,,80.56,21
+OL-0001381,O-202400468,P1098,Espejo Boreal ★,Decoración,Espejos,2,"222,61",30,133.57,311.65,10
+OL-0001382,O-202400469,,,,,1,132.93,,,132.93,21
+OL-0001383,O-202400469,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,1,68.92,0,0.00,68.92,21
+OL-0001384,O-202400469,P1010,Cama Sol Compact,Muebles,Camas,1,813.21,,,813.21,21
+OL-0001385,O-202400470,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,205,30,61.45,143.40,21
+OL-0001386,O-202400471,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,1,"129,24",,,129.24,10
+OL-0001387,O-202400471,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,2,25.61,25,12.80,38.42,21
+OL-0001388,O-202400472,P1069,Sofá Zen 120cm,Muebles,Sofás,2,€521.08,,,1042.16,21
+OL-0001389,O-202400472,P1079,Cuadro Boreal ★,Decoración,Cuadros,1,147.03,30,€44.11,102.92,21
+OL-0001390,O-202400472,P1048,Mesa Minimal 160cm,Muebles,Mesas,1,441.60,20,88.32,353.28,21
+OL-0001391,O-202400473,P1083,"Aplique Aurora ""Star""",Iluminación,,1,371.04,0,0.00,371.04,21
+OL-0001392,O-202400473,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,1,218.89,,,219,10
+OL-0001393,O-202400473,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,1131.57,,,1131.57,21
+OL-0001394,O-202400474,P1058,Manta Nórdico 140x200,Textil hogar,Mantas,0,67.17,,,€0.00,21
+OL-0001395,O-202400474, P1069,Sofá Zen 120cm,Muebles,Sofás,1,483.12,0,0,483.12,21
+OL-0001396,O-202400475,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,499,30,149.82,"349,59",21
+OL-0001397,O-202400476,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,402.41,,,402,10
+OL-0001398,O-202400476,P1027,Sábana Nórdico 140x200,Textil hogar,Sábanas,1,102.33,,,"102,33",21
+OL-0001399,O-202400476,P1026,Cuadro Vintage ★,Decoración,Cuadros,1,79.15,30,23.75,55.40,10
+OL-0001400,O-202400476,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,1,205.79,,,206,10
+OL-0001401,O-202400476,P1097,Sofá Eco 120cm,Muebles,Sofás,1,"772,58",-5,-38.63,811.21,21
+OL-0001402,O-202400476,p1025,Figura Nórdico ★,Decoración,Figuras,2,"89,61",25,44.80,134.42,10
+OL-0001403,O-202400477,P1099,Figura Eco ★,Decoración,,1,179.25,,,179.25,10
+OL-0001404,O-202400477,p1064,Estantería Minimal 120cm,Muebles,Estanterías,4,"437,98",,,1751.92,21
+OL-0001405,O-202400477,P1059,Armario Minimal 120cm,Muebles,Armarios,1,699.54,25,174.88,"524,66",21
+OL-0001406,O-202400478,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,454.70,,,454.70,21
+OL-0001407,O-202400478,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,114.32,,,114.32,21
+OL-0001408,O-202400479,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,-1,85.42,,,,10
+OL-0001409,O-202400479,P1024,Cojine Vintage ★,Decoración,Cojines,1,182.77,5,9.14,174,10
+OL-0001410,O-202400479,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,388.38,25,€97.09,€291.29,21
+OL-0001411,O-202400480,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,1,302.69,25,75.67,227.02,21
+OL-0001412,O-202400481,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,1,€377.55,20,75.51,"302,04",10
+OL-0001413,O-202400481,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,29.01,10,2.90,26.11,10
+OL-0001414,O-202400481,P1043,Cama Sol 3 plazas,Muebles,Camas,1,863.62,0,0.00,864,21
+OL-0001415,O-202400482,P1099,Figura Eco ★,Decoración,Figuras,1,184.90,5,9.25,"175,65",21
+OL-0001416,O-202400482,P1054,Figura Minimal ★,Decoración,Figuras,1,102.83,15,€15.42,87.41,10
+OL-0001417,O-202400483,P1052,Cama Vintage 3 plazas,Muebles,Camas,1,646.20,30,193.86,"452,34",21
+OL-0001418,O-202400483,p1010,Cama Sol Compact,Muebles,Camas,1,€854.23,-5,-42.71,€896.94,21
+OL-0001419,O-202400483,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,€22.52,25,5.63,€16.89,10
+OL-0001420,O-202400483,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,2,"317,14",20,126.86,€507.42,10
+OL-0001421,O-202400484,P1004,Cama Sol 120cm,decoración,Camas,1,1062.42,20,212.48,849.94,21
+OL-0001422,O-202400484,P1024,Cojine Vintage ★,Decoración,Cojines,1,169.62,20,"33,92","135,70",10
+OL-0001423,O-202400484,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,3,130.29,30,"117,26","273,61",21
+OL-0001424,O-202400484,SKU-9999,,,,1,"599,95",30,179.99,"419,96",21
+OL-0001425,O-202400484,P1063,Armario Brisa 160cm,Muebles,Armarios,2,451.40,25,€225.70,677.10,21
+OL-0001426,O-202400485,P1084,Espejo Eco ★,Decoración,Espejos,2,47.13,20,18.85,75.41,21
+OL-0001427,O-202400485,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,305.65,,,305.65,21
+OL-0001428,O-202400485,P1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,354.86,,,354.86,21
+OL-0001429,O-202400486,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,1,21.34,,,"21,34",21
+OL-0001430,O-202400487,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,"112,36",10,11.24,101.12,21
+OL-0001431,O-202400487,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,€528.35,5,€26.42,€501.93,21
+OL-0001432,O-202400487,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,1,129.58,30,38.87,90.71,21
+OL-0001433,O-202400488,P1079,Cuadro Boreal ★,Decoración,Cuadros,2,150.59,0,0.00,301.18,21
+OL-0001434,O-202400488, P1018,Cojine Minimal ★,Decoración,Cojines,1,,10,18,"159,17",10
+OL-0001435,O-202400488,P1024,Cojine Vintage ★,Decoración,Cojines,1,183.62,30,55.09,€128.53,10
+OL-0001436,O-202400489,P1018,Cojine Minimal ★,Decoración,Cojines,1,179.15,,,€179.15,21
+OL-0001437,O-202400489,P1041,Vela Luna ★,Decoración,Velas,1,121.46,5,6.07,115.39,21
+OL-0001438,O-202400489,P1063,Armario Brisa 160cm,Muebles,Armarios,1,"429,81",0,0.00,429.81,21
+OL-0001439,O-202400489,P1056,Cortina Luna Set 2 uds,Textil hogar,,2,216.64,,,433.28,21
+OL-0001440,O-202400490,P1083,"Aplique Aurora ""Star""",Iluminación,,1,€409.09,,,"409,09",10
+OL-0001441,O-202400490,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,2,222.59,,,445,21
+OL-0001442,O-202400490,P1047,Sofá Atlas 3 plazas,Muebles,,1,485.96,0,0.00,485.96,21
+OL-0001443,O-202400490,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,521.11,25,130.28,390.83,21
+OL-0001444,O-202400490,P1055,Cuadro Luna ★,Decoración,Cuadros,2,123.59,30,€74.15,173.03,21
+OL-0001445,O-202400490,,,N/A,,1,€396.15,,,"396,15",21
+OL-0001446,O-202400491,P1007,Figura Boreal ★,Decoración,Figuras,1,248.39,0,0.00,248.39,10
+OL-0001447,O-202400491,P1073,Espejo Minimal ★,Decoración,Espejos,1,119.90,0,0.00,119.90,21
+OL-0001448,O-202400491,P1065,Sofá Atlas 3 plazas,Muebles,Sofás,2,1117,20,"446,73",1786.91,21
+OL-0001449,O-202400492,P1022,Armario Aurora 120cm,Muebles,Armarios,1,862,15,129.34,732.92,21
+OL-0001450,O-202400492,P1097,Sofá Eco 120cm,Muebles,Sofás,1,729.49,25,€182.37,547.12,21
+OL-0001451,O-202400492,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,2,213.91,10,€42.78,"385,04",10
+OL-0001452,O-202400492,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,2,50.87,,,101.74,10
+OL-0001453,O-202400493,P1033,Cojine Sol ★,Decoración,Cojines,2,244.02,,,€488.04,21
+OL-0001454,O-202400493,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,2,€224.44,30,134.66,314.22,21
+OL-0001455,O-202400493,P1087,Jarrone Eco ★,Decoración,Jarrones,0,189.77,25,0.00,0.00,10
+OL-0001456,O-202400493,P1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,0,99.16,,,0.00,21
+OL-0001457,O-202400494,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,366.51,5,€18.33,348.18,10
+OL-0001458,O-202400494,P1079,Cuadro Boreal ★,Decoración,Cuadros,1,"156,11",30,"46,83",109.28,10
+OL-0001459,O-202400494,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,,0,,10,0.00,0.00,10
+OL-0001460,O-202400495,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,1064.51,5,53.23,1011,21
+OL-0001461,O-202400495,P1072,"Aplique Aurora ""Star""",Iluminación,,2,209.77,5,20.98,"398,56",21
+OL-0001462,O-202400495,P1066,Jarrón Brisa 💠,Iluminación,Lámparas pie,1,79.41,,,€79.41,10
+OL-0001463,O-202400495,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,366.85,25,91.71,275.14,10
+OL-0001464,O-202400495,P1010,Cama Sol Compact,Muebles,Camas,1,"925,54",,,925.54,21
+OL-0001465,O-202400495,P1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,101.83,0,€0.00,"101,83",21
+OL-0001466,O-202400496,P1083,"Aplique Aurora ""Star""",Iluminación,,1,394.67,5,19.73,"374,94",10
+OL-0001467,O-202400496,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,2,287.06,5,28.71,545.41,10
+OL-0001468,O-202400496,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,1,213.17,20,43,170.54,10
+OL-0001469,O-202400497,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,2,186.53,15,55.96,317.10,21
+OL-0001470,O-202400497,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,22.53,110,24.78,-2.25,21
+OL-0001471,O-202400497,p1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,1,23.51,30,7.05,"16,46",21
+OL-0001472,O-202400497,P1090,Armario Sol XL,Muebles,Armarios,1,1258.01,,,1258.01,21
+OL-0001473,O-202400497,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,3,51.19,30,46.07,107.50,21
+OL-0001474,O-202400497,SKU-9999,,,,1,"436,67",5,21.83,414.84,21
+OL-0001475,O-202400498,P1063,Armario Brisa 160cm,Muebles,Armarios,1,400.93,0,0.00,400.93,21
+OL-0001476,O-202400499,P1001,Cuadro Atlas ★,Decoración,Cuadros,3,31.32,,,93.96,21
+OL-0001477,O-202400499,P1004,Cama Sol 120cm,decoración,Camas,1,"1071,68",30,321.50,750.18,21
+OL-0001478,O-202400500,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,181.00,,,181.00,21
+OL-0001479,O-202400500,SKU-9999,,,,1,343.63,0,0.00,343.63,21
+OL-0001480,O-202400501,P1050,Cama Brisa Compact,Muebles,Camas,2,179.99,10,36.00,323.98,21
+OL-0001481,O-202400501,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,3,337.01,20,202.21,"808,82",10
+OL-0001482,O-202400501,P1039,Cuadro Nórdico ★,Decoración,Cuadros,-1,213.97,30,"0,00",,10
+OL-0001483,O-202400502,P1082,Vela Vintage ★,Decoración,Velas,1,"212,61",10,"21,26",€191.35,21
+OL-0001484,O-202400502,P1004,Cama Sol 120cm,decoración,Camas,3,1172.17,10,351.65,3164.86,21
+OL-0001485,O-202400503,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,"25,99",,,25.99,21
+OL-0001486,O-202400503,P101X,Producto desconocido,,,1,€825.35,5,€41.27,"784,08",21
+OL-0001487,O-202400504,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,1,26,0,0.00,26.48,10
+OL-0001488,O-202400505,P1017,"Lámparas techo Zen ""Star""",Iluminación,Lámparas techo,1,65.01,10,6.50,58.51,21
+OL-0001489,O-202400505,P1014,Cuadro Zen ★,Decoración,Cuadros,1,,,,71.57,21
+OL-0001490,O-202400505,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,1,"26,01",,,26.01,10
+OL-0001491,O-202400505,P1003,Espejo Atlas ★,Decoración,Espejos,2,264.64,0,"0,00","529,28",10
+OL-0001492,O-202400506,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,155.88,,,"155,88",21
+OL-0001493,O-202400506,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,0,100.34,5,0.00,0.00,21
+OL-0001494,O-202400506,P1069,Sofá Zen 120cm,Muebles,Sofás,1,514,,,514.33,21
+OL-0001495,O-202400506,p1024,Cojine Vintage ★,Decoración,Cojines,1,"166,76",20,33.35,133.41,21
+OL-0001496,O-202400507, p1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,1,303.71,30,91,212.60,21
+OL-0001497,O-202400508,P1058,Manta Nórdico 140x200,Textil hogar,Mantas,1,64.38,,,64.38,21
+OL-0001498,O-202400508,P1029,Figura Luna ★,Decoración,Figuras,1,48.39,,,,10
+OL-0001499,O-202400509,P103Y,Producto desconocido,,,1,"948,22",20,189.64,758.58,21
+OL-0001500,O-202400509,P1011,Vela Eco ★,Decoración,Velas,1,94,25,23.43,70.27,10
+OL-0001501,O-202400509,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,48.78,,,48.78,10
+OL-0001502,O-202400510,P1093,Sofá Atlas XL,Muebles,Sofás,2,462.98,5,46.30,879.66,21
+OL-0001503,O-202400510,p1002,Sábana Brisa 90x200,Textil hogar,Sábanas,1,€155.42,10,15.54,€139.88,21
+OL-0001504,O-202400510,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,1,176.63,15,26.49,150.14,10
+OL-0001505,O-202400510,p10X1,,N/A,,1,"217,73",15,32.66,185.07,21
+OL-0001506,O-202400510,P1000,Sofá Aurora 160cm,Muebles,Sofás,2,213.17,10,"42,63",383.71,21
+OL-0001507,O-202400510,P1093,Sofá Atlas XL,Muebles,Sofás,1,411.26,10,41.13,370.13,21
+OL-0001508,O-202400511,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,203.66,0,€0.00,203.66,21
+OL-0001509,O-202400511,p1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,1,21.31,,,21.31,21
+OL-0001510,O-202400512,P1095,  Espejo Élite 80cm  ,Iluminación,Lámparas pie,2,"0,00",10,0.00,0.00,21
+OL-0001511,O-202400512,SKU-9999,,,,1,776.62,,,776.62,21
+OL-0001512,O-202400512,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,1,177.22,,,177,21
+OL-0001513,O-202400512,P1070,"Aplique Boreal ""Star""",Iluminación,,1,302.03,,,"302,03",10
+OL-0001514,O-202400513,P1083,"Aplique Aurora ""Star""",Iluminación,,2,€379.26,,,758.52,10
+OL-0001515,O-202400514,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,1083.49,15,162.52,920.97,21
+OL-0001516,O-202400514,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,2,21.34,5,2.13,41,21
+OL-0001517,O-202400514,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,1,375,20,75.01,"300,02",10
+OL-0001518,O-202400515,p1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,"49,26",5,2.46,46.80,21
+OL-0001519,O-202400515,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,0,305.53,5,"0,00",0.00,10
+OL-0001520,O-202400516,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,1,"26,77",0,"0,00",26.77,10
+OL-0001521,O-202400516,P1040,Manta Boreal 140x200,Textil hogar,Mantas,1,,,,29.32,21
+OL-0001522,O-202400517,P1043,Cama Sol 3 plazas,Muebles,Camas,1,"874,53",15,€131.18,743.35,21
+OL-0001523,O-202400517,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,2,"123,77",,,€247.54,10
+OL-0001524,O-202400517,P1055,Cuadro Luna ★,Decoración,Cuadros,1,124.96,30,37.49,87.47,21
+OL-0001525,O-202400518,P1033,Cojine Sol ★,Decoración,Cojines,2,237.90,5,23.79,452.01,10
+OL-0001526,O-202400518,SKU-9999,,,,4,"525,79",0,0.00,2103.16,21
+OL-0001527,O-202400518,P1082,Vela Vintage ★,Decoración,Velas,1,229,30,69,160.36,10
+OL-0001528,O-202400519,P1082,Vela Vintage ★,Decoración,Velas,3,222.90,15,"100,31",568.39,10
+OL-0001529,O-202400519,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,110.14,20,22.03,88,21
+OL-0001530,O-202400520,P1064,Estantería Minimal 120cm,Muebles,Estanterías,0,"418,25",110,0.00,0.00,21
+OL-0001531,O-202400520,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,51.04,15,7.66,43.38,21
+OL-0001532,O-202400521,P1070,"Aplique Boreal ""Star""",Iluminación,,1,297.08,20,59.42,237.66,21
+OL-0001533,O-202400521,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,2,€50.31,30,"30,19",70,10
+OL-0001534,O-202400522,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,1,€184.51,25,"46,13",138.38,10
+OL-0001535,O-202400522,p1030,Sofá Vintage XL,Muebles,Sofás,2,991.75,20,396.70,"1586,80",21
+OL-0001536,O-202400523,P1034,Jarrone Atlas ★,Decoración,Jarrones,2,271.86,,,543.72,21
+OL-0001537,O-202400523,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,2,115.71,10,€23.14,208.28,21
+OL-0001538,O-202400523,P1024,Cojine Vintage ★,Decoración,Cojines,1,168.68,15,25.30,143.38,21
+OL-0001539,O-202400523,P1057,"Lámparas pie Luna ""Star""",Iluminación,,2,124.74,30,74.84,174.64,10
+OL-0001540,O-202400524,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,€392.76,0,0.00,392.76,21
+OL-0001541,O-202400524,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,"478,72",,,"478,72",21
+OL-0001542,O-202400524,P1055,Cuadro Luna ★,Decoración,Cuadros,1,115.38,,,115.38,10
+OL-0001543,O-202400525,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,2,,20,155.12,"620,50",10
+OL-0001544,O-202400525,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,"1148,58",25,287.14,861.44,21
+OL-0001545,O-202400525,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,355.68,,,355.68,21
+OL-0001546,O-202400525,P1034,Jarrone Atlas ★,Decoración,Jarrones,2,€271.68,10,"54,34",489.02,21
+OL-0001547,O-202400525,P9999,Producto desconocido,,,1,"208,64",30,62.59,146.05,21
+OL-0001548,O-202400525,P1042,Espejo Minimal ★,Decoración,Espejos,1,78.95,,,78.95,21
+OL-0001549,O-202400526,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,1,€229.18,10,€22.92,206.26,21
+OL-0001550,O-202400526,P1043,Cama Sol 3 plazas,Muebles,Camas,2,"873,03",20,349.21,1396.85,21
+OL-0001551,O-202400527,P1088,Espejo Élite ★,Decoración,Espejos,2,147.67,15,44.30,250.22,10
+OL-0001552,O-202400527,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,1,,30,27.26,€63.62,21
+OL-0001553,O-202400527,P1033,Cojine Sol ★,Decoración,Cojines,4,244.50,30,€293.40,684.60,21
+OL-0001554,O-202400527,P1096,Figura Vintage ★,Decoración,Figuras,3,138.94,,,417,10
+OL-0001555,O-202400528,P1003,Espejo Atlas ★,Decoración,Espejos,1,266.23,5,13.31,€252.92,10
+OL-0001556,O-202400528,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,4,67.08,,,268.32,21
+OL-0001557,O-202400528,P1084,Espejo Eco ★,Decoración,Espejos,1,46,,,46.23,21
+OL-0001558,O-202400529,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,1,51.47,25,12.87,€38.60,21
+OL-0001559,O-202400529,P1098,Espejo Boreal ★,Decoración,Espejos,2,209.81,20,"83,92","335,70",10
+OL-0001560,O-202400529,P9999,Producto desconocido,,,1,"939,01",,,939.01,21
+OL-0001561,O-202400529,P1027,Sábana Nórdico 140x200,Textil hogar,Sábanas,1,100.79,0,0.00,100.79,21
+OL-0001562,O-202400530,P1037,"Bombilla Boreal ""Star""",Iluminación,,1,52.01,25,"13,00","39,01",21
+OL-0001563,O-202400530,SKU-9999,Producto desconocido,,,3,€326.13,,,978.39,21
+OL-0001564,O-202400530,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,2,520.45,15,156.14,884.76,21
+OL-0001565,O-202400530,P1084,Espejo Eco ★,Decoración,Espejos,3,43.45,,,130.35,10
+OL-0001566,O-202400531,P1055,Cuadro Luna ★,Decoración,Cuadros,2,,,,257.00,10
+OL-0001567,O-202400531,P1048,Mesa Minimal 160cm,Muebles,Mesas,1,470,0,0.00,470.07,21
+OL-0001568,O-202400531,P1003,Espejo Atlas ★,Decoración,Espejos,1,265.36,,,,10
+OL-0001569,O-202400531,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,1,68.40,,,"68,40",21
+OL-0001570,O-202400532,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,467.94,,,467.94,21
+OL-0001571,O-202400533,p1024,Cojine Vintage ★,Decoración,Cojines,1,172.54,30,€51.76,120.78,10
+OL-0001572,O-202400533,P1096,Figura Vintage ★,Decoración,Figuras,1,139.59,0,0.00,139.59,21
+OL-0001573,O-202400533,P1050,Cama Brisa Compact,Muebles,Camas,1,188.29,15,28.24,160.05,21
+OL-0001574,O-202400533,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,2,203.95,,,407.90,21
+OL-0001575,O-202400534,P1032,Figura Minimal ★,Decoración,Lamparas mesa,1,118.84,20,23.77,95.07,10
+OL-0001576,O-202400534,P1084,Espejo Eco ★,Decoración,Espejos,1,43,10,4.34,39.06,10
+OL-0001577,O-202400534,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,€22.36,20,4.47,€17.89,10
+OL-0001578,O-202400535,P1069,Sofá Zen 120cm,Muebles,Sofás,1,478.68,30,143.60,"335,08",21
+OL-0001579,O-202400535,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,46.82,30,€14.05,32.77,21
+OL-0001580,O-202400536,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,3,54.41,30,48.97,114.26,21
+OL-0001581,O-202400536,p1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,2,328.67,0,0.00,657.34,10
+OL-0001582,O-202400536,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,1045.28,5,52,993.02,21
+OL-0001583,O-202400537,p1069,Sofá Zen 120cm,Muebles,Sofás,2,"489,61",5,48.96,930,21
+OL-0001584,O-202400537,P1080,Espejo Boreal ★,Decoración,Espejos,4,198.37,,,793.48,10
+OL-0001585,O-202400537,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,1,29.47,,,29.47,21
+OL-0001586,O-202400537,P1042,Espejo Minimal ★,Decoración,Espejos,1,76.22,,,76.22,21
+OL-0001587,O-202400538,P1030,Sofá Vintage XL,Muebles,Sofás,1,1012.11,25,253.03,759.08,21
+OL-0001588,O-202400539,p10X1,,,,1,325.86,,,"325,86",21
+OL-0001589,O-202400539,P1084,Espejo Eco ★,Decoración,Espejos,1,45.89,30,13.77,"32,12",21
+OL-0001590,O-202400539,P1066,Jarrón Brisa 💠,Iluminación,,1,79,30,23.77,"55,47",21
+OL-0001591,O-202400540,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,1,140.96,,,140.96,10
+OL-0001592,O-202400541,P1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,106.21,,,106.21,21
+OL-0001593,O-202400542,P1079,Cuadro Boreal ★,Decoración,Cuadros,-1,151.65,0,0.00,€-151.65,10
+OL-0001594,O-202400542,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,207.84,25,51.96,155.88,21
+OL-0001595,O-202400542,P1004,Cama Sol 120cm,decoración,Camas,1,1032.41,10,"103,24",929.17,21
+OL-0001596,O-202400543,P1058,Manta Nórdico 140x200,Textil hogar,Mantas,2,67.26,,,134.52,21
+OL-0001597,O-202400543,p10X1,,N/A,,1,590.84,,,590.84,21
+OL-0001598,O-202400544,P1033,Cojine Sol ★,Decoración,Cojines,1,244.73,,,244.73,10
+OL-0001599,O-202400545,P1097,Sofá Eco 120cm,Muebles,Sofás,1,703.77,0,0.00,€703.77,21
+OL-0001600,O-202400545,P1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,355.77,15,53.37,302.40,10
+OL-0001601,O-202400546,P1048,Mesa Minimal 160cm,Muebles,Mesas,0,433,10,0.00,"0,00",21
+OL-0001602,O-202400546,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,1,372.15,,,372.15,21
+OL-0001603,O-202400546,P1079,Cuadro Boreal ★,Decoración,Cuadros,2,144.27,,,289,10
+OL-0001604,O-202400547,P1080,Espejo Boreal ★,Decoración,Espejos,3,211.29,20,126.77,"507,10",21
+OL-0001605,O-202400547,P1026,Cuadro Vintage ★,Decoración,Cuadros,1,87.68,110,96,-8.77,21
+OL-0001606,O-202400547,P1063,Armario Brisa 160cm,Muebles,Armarios,1,403.59,30,121.08,"282,51",21
+OL-0001607,O-202400547,P1081,"Bombilla Élite ""Star""",Iluminación,,1,382.98,5,19.15,363.83,10
+OL-0001608,O-202400548,P1092,Armario Sol Compact,Muebles,Armarios,2,577.97,5,57.80,"1098,14",21
+OL-0001609,O-202400548,P9999,,,,1,"323,30",,,€323.30,21
+OL-0001610,O-202400548,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,57.02,30,17.11,39.91,21
+OL-0001611,O-202400548,P1017,"Lámparas techo Zen ""Star""",Iluminación,Lámparas techo,1,63.55,25,15.89,48,21
+OL-0001612,O-202400548,P1033,Cojine Sol ★,Decoración,Cojines,2,€222.85,,,"445,70",21
+OL-0001613,O-202400549,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,0,"293,76",,,0.00,10
+OL-0001614,O-202400549,P1097,Sofá Eco 120cm,Muebles,Sofás,1,759.84,,,759.84,21
+OL-0001615,O-202400549,P1088,Espejo Élite ★,Decoración,,1,134.89,,,"134,89",10
+OL-0001616,O-202400550,P1006,Cortina Élite 200x300,Textil hogar,Cortinas,1,108.69,-5,-5.43,114.12,21
+OL-0001617,O-202400550,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,1,279.72,20,55.94,223.78,10
+OL-0001618,O-202400550,P1029,Figura Luna ★,Decoración,Figuras,1,"54,70",10,5.47,49.23,10
+OL-0001619,O-202400551,SKU-9999,,N/A,,1,"47,66",5,2.38,€45.28,21
+OL-0001620,O-202400551,P1053,"Aplique Nórdico ""Star""",Iluminación,,3,"214,87",20,128.92,€515.69,10
+OL-0001621,O-202400551,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,1,26.82,30,8.05,€18.77,21
+OL-0001622,O-202400552,P1003,Espejo Atlas ★,Decoración,Espejos,1,265.70,,,265.70,10
+OL-0001623,O-202400553,P1066,Jarrón Brisa 💠,Iluminación,Lámparas pie,1,81.48,5,4.07,77.41,21
+OL-0001624,O-202400553,P1093,Sofá Atlas XL,Muebles,Sofás,1,428.91,25,107.23,321.68,21
+OL-0001625,O-202400553,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,1,316.18,,,316.18,10
+OL-0001626,O-202400554,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,20.13,25,5.03,€15.10,21
+OL-0001627,O-202400554,p1084,Espejo Eco ★,Decoración,Espejos,2,€45.74,25,22.87,68.61,10
+OL-0001628,O-202400554,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,1,"22,62",110,24.88,-2.26,21
+OL-0001629,O-202400554,P1097,Sofá Eco 120cm,Muebles,,1,€707.90,0,"0,00",€707.90,21
+OL-0001630,O-202400555,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,2,20.67,,,41.34,21
+OL-0001631,O-202400555,SKU-9999,,,,2,517.46,15,155.24,879.68,21
+OL-0001632,O-202400556,P1084,Espejo Eco ★,Decoración,Espejos,1,42.08,-5,-2.10,44.18,10
+OL-0001633,O-202400556,P1003,Espejo Atlas ★,Decoración,Espejos,2,245.12,0,0.00,€490.24,21
+OL-0001634,O-202400556,,,,,1,"1020,46",0,0.00,1020.46,21
+OL-0001635,O-202400556,p1053,"Aplique Nórdico ""Star""",Iluminación,,3,221.71,0,0.00,665.13,21
+OL-0001636,O-202400556,P1099,Figura Eco ★,Decoración,Figuras,1,178.34,,,178.34,10
+OL-0001637,O-202400556,p1041,Vela Luna ★,Decoración,Velas,1,110.97,,,110.97,21
+OL-0001638,O-202400557,P1048,Mesa Minimal 160cm,Muebles,Mesas,2,"472,80",20,189.12,756.48,21
+OL-0001639,O-202400557,P1074,Sábana Vintage Pack 4,Textil hogar,Sábanas,1,103.00,,,103.00,21
+OL-0001640,O-202400558,P1090,Armario Sol XL,Muebles,Armarios,1,1181.56,,,€1181.56,21
+OL-0001641,O-202400558,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,€21.57,,,€21.57,21
+OL-0001642,O-202400558,SKU-9999,Producto desconocido,N/A,,1,233.29,15,34.99,198.30,21
+OL-0001643,O-202400558,P1032,Figura Minimal ★,Decoración,Lamparas mesa,2,127.85,30,76.71,178.99,10
+OL-0001644,O-202400559, P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,1,349.40,5,€17.47,331.93,10
+OL-0001645,O-202400559,P1005,,,,1,€821.00,15,123.15,"697,85",21
+OL-0001646,O-202400560,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,51.00,25,12.75,"38,25",21
+OL-0001647,O-202400560,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,2,323.58,10,64.72,582.44,21
+OL-0001648,O-202400561,p1047,Sofá Atlas 3 plazas,Muebles,Sofás,1,€487.68,30,146.30,€341.38,21
+OL-0001649,O-202400561,P1001,Cuadro Atlas ★,Decoración,Cuadros,1,28.91,15,4.34,24.57,21
+OL-0001650,O-202400561,P1025,Figura Nórdico ★,Decoración,Figuras,2,93.15,0,0.00,186.30,21
+OL-0001651,O-202400561,P1054,Figura Minimal ★,Decoración,Figuras,1,104.46,10,€10.45,94,10
+OL-0001652,O-202400562,P1007,Figura Boreal ★,Decoración,Figuras,2,217.90,25,108.95,326.85,10
+OL-0001653,O-202400562,P1003,Espejo Atlas ★,Decoración,Espejos,2,254.30,0,0.00,508.60,10
+OL-0001654,O-202400562,P1051,Alfombra Aurora Set 2 uds,Textil hogar,Alfombras,1,€24.14,15,3.62,"20,52",21
+OL-0001655,O-202400562,P1023,"Aplique Élite ""Star""",Iluminación,Apliques,2,130,10,25.96,233.66,21
+OL-0001656,O-202400563,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,2,"130,78",15,39.23,222.33,10
+OL-0001657,O-202400563,P1082,Vela Vintage ★,Decoración,Velas,2,232.21,15,"69,66",394.76,21
+OL-0001658,O-202400563,P1075,Cuadro Luna ★,Decoración,Cuadros,3,32.94,,,98.82,10
+OL-0001659,O-202400563,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,1,208.54,5,"10,43",198.11,21
+OL-0001660,O-202400564,P1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,97,15,15,82.53,21
+OL-0001661,O-202400564,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,€26.61,,,€26.61,21
+OL-0001662,O-202400565,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,1,211,10,€21.12,190.10,21
+OL-0001663,O-202400565,P1022,Armario Aurora 120cm,Muebles,Armarios,4,"807,99",15,484.79,2747.17,21
+OL-0001664,O-202400565,P1039,Cuadro Nórdico ★,Decoración,,1,"236,46",,,236.46,21
+OL-0001665,O-202400565,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,2,,10,"71,81",646.33,21
+OL-0001666,O-202400565,SKU-1019,Vela Aurora ★,Decoración,Velas,2,48.57,25,24.29,72.85,10
+OL-0001667,O-202400565,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,55.82,,,55.82,21
+OL-0001668,O-202400566,P1025,Figura Nórdico ★,Decoración,Figuras,3,88.11,20,€52.87,211.46,10
+OL-0001669,O-202400567,P1014,Cuadro Zen ★,Decoración,Cuadros,0,€63.78,,,0.00,10
+OL-0001670,O-202400567,P1058,Manta Nórdico 140x200,Textil hogar,Mantas,1,64.38,20,12.88,51.50,21
+OL-0001671,O-202400568,P1006,Cortina Élite 200x300,Textil hogar,Cortinas,1,,,,"107,79",21
+OL-0001672,O-202400568,P1083,"Aplique Aurora ""Star""",Iluminación,,2,368.24,25,184.12,552.36,21
+OL-0001673,O-202400568,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,377.29,,,377.29,10
+OL-0001674,O-202400568,P1000,Sofá Aurora 160cm,Muebles,Sofás,1,231.68,0,0.00,231.68,21
+OL-0001675,O-202400568,P1059,Armario Minimal 120cm,Muebles,Armarios,1,€726.70,30,"218,01","508,69",21
+OL-0001676,O-202400569,P1063,Armario Brisa 160cm,Muebles,Armarios,1,444.93,15,66.74,378.19,21
+OL-0001677,O-202400570,P1073,Espejo Minimal ★,Decoración,Espejos,2,105.47,20,€42.19,168.75,10
+OL-0001678,O-202400570,P105Y,,,,1,511.23,10,51,460.11,21
+OL-0001679,O-202400570,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,,,,49.16,21
+OL-0001680,O-202400570,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,2,€206.71,-5,-20.67,434.09,21
+OL-0001681,O-202400570,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,52.50,-5,"-2,62",€55.12,21
+OL-0001682,O-202400570,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,2,214.31,15,€64.29,364.33,21
+OL-0001683,O-202400571,P1024,Cojine Vintage ★,Decoración,Cojines,1,177.33,15,26.60,151,21
+OL-0001684,O-202400571,P1024,Cojine Vintage ★,Decoración,Cojines,2,175.68,,,,21
+OL-0001685,O-202400571,P1022,Armario Aurora 120cm,Muebles,Armarios,1,€819.68,5,40.98,778.70,21
+OL-0001686,O-202400572,SKU-1019,Vela Aurora ★,Decoración,Velas,1,49.44,0,0.00,49.44,10
+OL-0001687,O-202400572,P1096,Figura Vintage ★,Decoración,Figuras,1,151.37,30,45.41,105.96,21
+OL-0001688,O-202400573,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,1,220.37,10,22.04,198.33,21
+OL-0001689,O-202400574,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,2,,15,86.20,488.50,21
+OL-0001690,O-202400575,P1073,Espejo Minimal ★,Decoración,Espejos,2,"118,17",30,70.90,165.44,10
+OL-0001691,O-202400575,P1026,Cuadro Vintage ★,Decoración,Cuadros,2,80.79,30,48.47,113.11,21
+OL-0001692,O-202400575,P1098,Espejo Boreal ★,Decoración,Espejos,1,219.16,25,54.79,€164.37,10
+OL-0001693,O-202400575,P1042,Espejo Minimal ★,Decoración,Espejos,1,,,,"72,75",10
+OL-0001694,O-202400575,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,0,194,30,0.00,0.00,10
+OL-0001695,O-202400576,P1048,Mesa Minimal 160cm,Muebles,Mesas,1,"423,18",,,423.18,21
+OL-0001696,O-202400576,P1065,Sofá Atlas 3 plazas,Muebles,Sofás,2,1052.04,0,0.00,2104.08,21
+OL-0001697,O-202400576,P1007,Figura Boreal ★,Decoración,Figuras,3,244.06,25,183.05,549.13,10
+OL-0001698,O-202400577,P1000,Sofá Aurora 160cm,Muebles,Sofás,2,225.46,,,450.92,21
+OL-0001699,O-202400577,P1041,Vela Luna ★,Decoración,Velas,1,113.64,,,"113,64",21
+OL-0001700,O-202400577,P1024,Cojine Vintage ★,Decoración,Cojines,1,168.34,,,"168,34",10
+OL-0001701,O-202400578,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,1,181.49,25,45,136.12,21
+OL-0001702,O-202400578,P1048,Mesa Minimal 160cm,Muebles,Mesas,4,460.77,5,92.15,1750.93,21
+OL-0001703,O-202400579,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,"202,79",,,202.79,21
+OL-0001704,O-202400580,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,1,28.87,15,4.33,25,10
+OL-0001705,O-202400580,P1073,Espejo Minimal ★,Decoración,Espejos,2,113.27,,,226.54,10
+OL-0001706,O-202400580,P1018,Cojine Minimal ★,Decoración,Cojines,3,165.68,,,497.04,21
+OL-0001707,O-202400581,P1039,Cuadro Nórdico ★,Decoración,Cuadros,1,226.24,,,226.24,21
+OL-0001708,O-202400581,P1014,Cuadro Zen ★,Decoración,,1,68.74,30,"20,62",48.12,10
+OL-0001709,O-202400582,P1084,Espejo Eco ★,Decoración,Espejos,1,45.36,,,45.36,10
+OL-0001710,O-202400582,P1001,Cuadro Atlas ★,Decoración,Cuadros,2,€30.59,5,3.06,€58.12,10
+OL-0001711,O-202400582,P1099,Figura Eco ★,Decoración,Figuras,1,"179,71",,,179.71,21
+OL-0001712,O-202400582,P1026,Cuadro Vintage ★,Decoración,Cuadros,1,€79.06,,,79.06,10
+OL-0001713,O-202400583,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,1,204.52,,,204.52,10
+OL-0001714,O-202400584,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,2,314.91,,,"629,82",10
+OL-0001715,O-202400584,P1002,Sábana Brisa 90x200,Textil hogar,Sábanas,1,165.68,10,16.57,149.11,21
+OL-0001716,O-202400585,,Producto desconocido,,,1,"622,57",,,622.57,21
+OL-0001717,O-202400585,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,50.84,5,"2,54",48.30,21
+OL-0001718,O-202400586,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,26.09,25,6.52,19.57,21
+OL-0001719,O-202400586,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,400.12,15,60.02,340.10,10
+OL-0001720,O-202400586,P1006,Cortina Élite 200x300,Textil hogar,Cortinas,1,€110.16,20,"22,03",€88.13,21
+OL-0001721,O-202400586,P1039,Cuadro Nórdico ★,Decoración,Cuadros,2,213.46,20,"85,38",341.54,21
+OL-0001722,O-202400586,P1053,"Aplique Nórdico ""Star""",Iluminación,,3,,0,0.00,"636,18",21
+OL-0001723,O-202400587,P1054,Figura Minimal ★,Decoración,Figuras,2,111.77,20,€44.71,178.83,21
+OL-0001724,O-202400587,P1004,Cama Sol 120cm,decoración,Camas,1,1069,,,"1069,25",21
+OL-0001725,O-202400587,P1048,Mesa Minimal 160cm,Muebles,Mesas,2,438.68,,,877.36,21
+OL-0001726,O-202400587,P1087,Jarrone Eco ★,Decoración,Jarrones,1,201.12,,,201.12,10
+OL-0001727,O-202400588,P1050,Cama Brisa Compact,Muebles,Camas,1,185.97,,,185.97,21
+OL-0001728,O-202400588,p10X1,,N/A,,1,54.56,0,0.00,54.56,21
+OL-0001729,O-202400588,P1014,Cuadro Zen ★,Decoración,Cuadros,1,€65.31,5,3.27,62.04,10
+OL-0001730,O-202400589,P1095,  Espejo Élite 80cm  ,Iluminación,Lámparas pie,1,"0,00",,,0.00,21
+OL-0001731,O-202400589,P1021,"Bombilla Brisa ""Star""",Iluminación,,3,311.01,,,"933,03",10
+OL-0001732,O-202400589,P1001,Cuadro Atlas ★,Decoración,Cuadros,2,32.79,15,"9,84",55.74,21
+OL-0001733,O-202400590,P1014,Cuadro Zen ★,Decoración,Cuadros,1,66.29,5,3.31,"62,98",21
+OL-0001734,O-202400590,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,188.58,,,189,21
+OL-0001735,O-202400590,P1027,Sábana Nórdico 140x200,Textil hogar,Sábanas,1,101.55,25,25.39,76.16,21
+OL-0001736,O-202400591,P1002,Sábana Brisa 90x200,Textil hogar,Sábanas,1,€164.56,20,32.91,"131,65",21
+OL-0001737,O-202400591,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,1,"72,72",20,14.54,58.18,21
+OL-0001738,O-202400591,P1033,Cojine Sol ★,Decoración,Cojines,2,230.39,20,92.16,368.62,21
+OL-0001739,O-202400592,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,3,53.00,30,47.70,"111,30",21
+OL-0001740,O-202400592,P1091,"Bombilla Eco ""Star""",Iluminación,,1,€358.03,30,107.41,"250,62",10
+OL-0001741,O-202400592,P1040,Manta Boreal 140x200,Textil hogar,Mantas,1,32,10,"3,17",28.57,21
+OL-0001742,O-202400593,P1022,Armario Aurora 120cm,Muebles,Armarios,1,797.72,,,797.72,21
+OL-0001743,O-202400593,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,,20,38.89,155.57,21
+OL-0001744,O-202400594,P1052,Cama Vintage 3 plazas,Muebles,Camas,1,€637.23,25,159.31,477.92,21
+OL-0001745,O-202400595,P1052,Cama Vintage 3 plazas,Muebles,Camas,2,690.70,30,414.42,966.98,21
+OL-0001746,O-202400595,SKU-1019,Vela Aurora ★,Decoración,Velas,1,48,,,48.35,21
+OL-0001747,O-202400595,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,187.80,0,0.00,187.80,21
+OL-0001748,O-202400595,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,1,264.95,25,66.24,198.71,21
+OL-0001749,O-202400595,P9999,Producto desconocido,,,3,€491.31,10,147.39,€1326.54,21
+OL-0001750,O-202400596,P1052,Cama Vintage 3 plazas,Muebles,Camas,1,690.44,25,172.61,517.83,21
+OL-0001751,O-202400597,P1053,"Aplique Nórdico ""Star""",Iluminación,,1,"218,47",10,21.85,€196.62,21
+OL-0001752,O-202400597,P1055,Cuadro Luna ★,Decoración,Cuadros,1,"120,17",10,"12,02",108.15,10
+OL-0001753,O-202400597, P1089,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,94.68,30,28.40,66.28,10
+OL-0001754,O-202400597,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,1,"132,27",,,€132.27,10
+OL-0001755,O-202400598,p1033,Cojine Sol ★,Decoración,Cojines,1,253.64,10,"25,36",228.28,10
+OL-0001756,O-202400598,P1059,Armario Minimal 120cm,Muebles,Armarios,1,694.16,10,69.42,"624,74",21
+OL-0001757,O-202400599,P1042,Espejo Minimal ★,Decoración,Espejos,2,76.62,,,153.24,10
+OL-0001758,O-202400599,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,1,214.19,5,10.71,203,10
+OL-0001759,O-202400599,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,2,21.52,5,2.15,"40,89",21
+OL-0001760,O-202400600,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,2,"193,70",25,96.85,290.55,21
+OL-0001761,O-202400600,P1090,Armario Sol XL,Muebles,Armarios,1,,30,327.96,765.24,21
+OL-0001762,O-202400600,P1099,Figura Eco ★,Decoración,Figuras,1,167,15,"25,03","141,82",10
+OL-0001763,O-202400601,P1041,Vela Luna ★,Decoración,Velas,1,,30,37.88,"88,40",10
+OL-0001764,O-202400601,P1034,Jarrone Atlas ★,Decoración,Jarrones,1,292.06,,,292.06,21
+OL-0001765,O-202400601,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,2,229,5,22.94,435.94,21
+OL-0001766,O-202400601,P1040,Manta Boreal 140x200,Textil hogar,Mantas,1,31.79,,,€31.79,21
+OL-0001767,O-202400601,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,374.73,25,93.68,€281.05,21
+OL-0001768,O-202400601,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,2,€83.39,30,50.03,"116,75",21
+OL-0001769,O-202400602,P1068,"Lámparas mesa Minimal ""Star""",Iluminación,Lámparas mesa,1,52.64,15,"7,90",44.74,21
+OL-0001770,O-202400602,P1069,Sofá Zen 120cm,Muebles,Sofás,4,481.23,,,1924.92,21
+OL-0001771,O-202400603,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,1,"196,81",,,196.81,21
+OL-0001772,O-202400603,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,357.56,,,357.56,21
+OL-0001773,O-202400604,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,1,187.31,,,187.31,21
+OL-0001774,O-202400604,P1071,"Bombilla Aurora ""Star""",Iluminación,Bombillas,1,125.52,25,"31,38",94.14,10
+OL-0001775,O-202400604,P1034,Jarrone Atlas ★,Decoración,Jarrones,2,309.17,,,618.34,10
+OL-0001776,O-202400604,P1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,3,"358,72",15,161.42,914.74,21
+OL-0001777,O-202400604,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,3,"121,08",,,363.24,21
+OL-0001778,O-202400604,P1054,Figura Minimal ★,Decoración,,1,101.74,,,101.74,10
+OL-0001779,O-202400605,,,,,1,"710,94",,,710.94,21
+OL-0001780,O-202400605,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,3,135.35,15,€60.91,,10
+OL-0001781,O-202400606,P1000,Sofá Aurora 160cm,Muebles,,2,224.09,10,44.82,403.36,21
+OL-0001782,O-202400606,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,426.65,,,426.65,21
+OL-0001783,O-202400607,P1090,Armario Sol XL,Muebles,Armarios,1,1225.45,30,367.63,857.82,21
+OL-0001784,O-202400607,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,2,€74.37,,,149,21
+OL-0001785,O-202400607,P1060,Cortina Luna 200x300,Textil hogar,Cortinas,1,€56.52,5,2.83,53.69,21
+OL-0001786,O-202400607,P1077,"Aplique Atlas ""Star""",Iluminación,Apliques,1,218.69,,,218.69,10
+OL-0001787,O-202400608,P1078,Estantería Atlas 160cm,Muebles,Estanterías,1,692.38,0,0.00,692.38,21
+OL-0001788,O-202400609, P1006,Cortina Élite 200x300,Textil hogar,Cortinas,1,116.12,15,17.42,98.70,21
+OL-0001789,O-202400609,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,2,€173.37,10,34.67,312.07,21
+OL-0001790,O-202400610,P1022,Armario Aurora 120cm,Muebles,Armarios,1,,10,€75.09,676,21
+OL-0001791,O-202400611,P1048,Mesa Minimal 160cm,Muebles,Mesas,2,441.58,10,88.32,794.84,21
+OL-0001792,O-202400612,P1046,"Aplique Atlas ""Star""",Iluminación,Apliques,2,307.88,20,123.15,492.61,10
+OL-0001793,O-202400612,P1002,Sábana Brisa 90x200,Textil hogar,Sábanas,1,161.25,5,"8,06",€153.19,21
+OL-0001794,O-202400612,P1099,Figura Eco ★,Decoración,Figuras,1,184.61,15,27.69,156.92,10
+OL-0001795,O-202400612,P1000,Sofá Aurora 160cm,Muebles,Sofás,1,203.79,30,61.14,142.65,21
+OL-0001796,O-202400613,p1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,2,216.41,25,108.20,324.62,21
+OL-0001797,O-202400613,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,1,289.81,,,"289,81",10
+OL-0001798,O-202400613,P1097,Sofá Eco 120cm,Muebles,Sofás,1,693.44,,,693.44,21
+OL-0001799,O-202400613,P1083,"Aplique Aurora ""Star""",Iluminación,,2,370.35,5,37.04,"703,66",21
+OL-0001800,O-202400614,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,50.95,25,12.74,38.21,10
+OL-0001801,O-202400614,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,1,"305,41",25,76.35,"229,06",21
+OL-0001802,O-202400615,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,403.05,,,403.05,10
+OL-0001803,O-202400615,P1092,Armario Sol Compact,Muebles,Armarios,1,574.37,15,86.16,488,21
+OL-0001804,O-202400615,P1000,Sofá Aurora 160cm,Muebles,Sofás,1,222.89,10,€22.29,"200,60",21
+OL-0001805,O-202400616,P1050,Cama Brisa Compact,Muebles,Camas,1,"178,41",20,"35,68",€142.73,21
+OL-0001806,O-202400617,P1033,Cojine Sol ★,Decoración,Cojines,1,,110,284,-25.80,21
+OL-0001807,O-202400618,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,1,197.54,,,197.54,21
+OL-0001808,O-202400618,P1030,Sofá Vintage XL,Muebles,Sofás,1,945.18,,,€945.18,21
+OL-0001809,O-202400618,P1069,Sofá Zen 120cm,Muebles,Sofás,3,"517,53",,,1552.59,21
+OL-0001810,O-202400618,P1066,Jarrón Brisa 💠,Iluminación,Lámparas pie,1,80.47,15,12.07,68.40,21
+OL-0001811,O-202400618,P1095,  Espejo Élite 80cm  ,Iluminación,Lámparas pie,1,€0.00,,,0.00,21
+OL-0001812,O-202400619,P1099,Figura Eco ★,Decoración,Figuras,2,168.55,,,337.10,10
+OL-0001813,O-202400619,P1032,Figura Minimal ★,Decoración,Lamparas mesa,1,113,,,112.94,21
+OL-0001814,O-202400620,P1072,"Aplique Aurora ""Star""",Iluminación,Apliques,1,212.96,0,€0.00,212.96,21
+OL-0001815,O-202400620,p10X1,,,,1,1140.94,,,1140.94,21
+OL-0001816,O-202400620,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,"271,57",15,41,€230.83,21
+OL-0001817,O-202400620,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,1,130.02,,,130.02,21
+OL-0001818,O-202400620,P106Z,,,,1,832.17,,,832.17,21
+OL-0001819,O-202400621,P1092,Armario Sol Compact,Muebles,Armarios,1,"570,17",,,570.17,21
+OL-0001820,O-202400621,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,2,,,,1028.54,21
+OL-0001821,O-202400621,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,1,367.00,10,36.70,,21
+OL-0001822,O-202400621,P1054,Figura Minimal ★,Decoración,Figuras,1,102.88,30,€30.86,72.02,10
+OL-0001823,O-202400621,P1013,"Lámparas techo Brisa ""Star""",Iluminación,Lámparas techo,1,299.33,,,299.33,21
+OL-0001824,O-202400622,P1094,"Bombilla Zen ""Star""",Iluminación,Bombillas,1,297.60,30,89.28,"208,32",21
+OL-0001825,O-202400622,P1081,"Bombilla Élite ""Star""",Iluminación,Bombillas,1,"361,53",10,36.15,325.38,10
+OL-0001826,O-202400622,P1041,Vela Luna ★,Decoración,Velas,3,"121,32",,,"363,96",21
+OL-0001827,O-202400622,P1042,Espejo Minimal ★,Decoración,Espejos,1,€76.36,0,"0,00",€76.36,10
+OL-0001828,O-202400622,P1082,Vela Vintage ★,Decoración,Velas,1,237.00,,,€237.00,21
+OL-0001829,O-202400623,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,,,,183.08,21
+OL-0001830,O-202400623,P1090,Armario Sol XL,Muebles,Armarios,1,"1183,33",20,€236.67,"946,66",21
+OL-0001831,O-202400623,P1011,Vela Eco ★,Decoración,,2,"91,89",10,18.38,165.40,21
+OL-0001832,O-202400624,P1053,"Aplique Nórdico ""Star""",Iluminación,,1,205.56,15,30.83,"174,73",10
+OL-0001833,O-202400624,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,2,"287,74",10,57.55,517.93,21
+OL-0001834,O-202400624,P1014,Cuadro Zen ★,Decoración,Cuadros,2,63.08,,,€126.16,10
+OL-0001835,O-202400625, P1092,Armario Sol Compact,Muebles,Armarios,1,"569,69",0,0.00,569.69,21
+OL-0001836,O-202400625,P1095,  Espejo Élite 80cm  ,Iluminación,Lámparas pie,1,0.00,15,€0.00,0.00,21
+OL-0001837,O-202400625,P1038,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,"22,25",,,22.25,21
+OL-0001838,O-202400625,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,53.49,5,2.67,50.82,10
+OL-0001839,O-202400626,P1087,Jarrone Eco ★,Decoración,Jarrones,1,"192,10",0,0.00,192.10,21
+OL-0001840,O-202400626,p1070,"Aplique Boreal ""Star""",Iluminación,,1,296.33,20,59.27,€237.06,21
+OL-0001841,O-202400626,p10X1,Producto desconocido,N/A,,1,1066.63,,,1067,21
+OL-0001842,O-202400627,P1064,Estantería Minimal 120cm,Muebles,Estanterías,3,419.14,,,1257.42,21
+OL-0001843,O-202400627,P1059,Armario Minimal 120cm,Muebles,,2,797.69,25,"398,85",1196.53,21
+OL-0001844,O-202400627,P1043,Cama Sol 3 plazas,Muebles,Camas,1,796.99,15,€119.55,€677.44,21
+OL-0001845,O-202400627,P1027,Sábana Nórdico 140x200,Textil hogar,Sábanas,2,€100.08,110,220.18,-20.02,21
+OL-0001846,O-202400627,P1028,Sábana Zen 90x200,Textil hogar,Sábanas,1,68.16,,,68,21
+OL-0001847,O-202400627,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,169.52,0,0.00,€169.52,21
+OL-0001848,O-202400628,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,1,"223,08",30,66.92,156.16,21
+OL-0001849,O-202400628,P1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,48.08,5,2.40,45.68,21
+OL-0001850,O-202400628,P1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,1,,20,42.35,€169.38,21
+OL-0001851,O-202400628,P1023,"Aplique Élite ""Star""",Iluminación,Apliques,2,135.89,,,€271.78,21
+OL-0001852,O-202400628,P1092,Armario Sol Compact,Muebles,Armarios,1,"543,81",,,543.81,21
+OL-0001853,O-202400628,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,104.23,,,"104,23",21
+OL-0001854,O-202400629,P1081,"Bombilla Élite ""Star""",Iluminación,,1,392.73,20,78.55,"314,18",21
+OL-0001855,O-202400629,P1022,Armario Aurora 120cm,Muebles,Armarios,1,745.97,,,745.97,21
+OL-0001856,O-202400630,P1047,Sofá Atlas 3 plazas,Muebles,Sofás,2,520,10,"103,91","935,19",21
+OL-0001857,O-202400630,P1015,"Bombilla Vintage ""Star""",Iluminación,Bombillas,1,81.84,10,8.18,73.66,21
+OL-0001858,O-202400630,P1041,Vela Luna ★,Decoración,Velas,1,110.28,10,11.03,€99.25,10
+OL-0001859,O-202400631,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,2,215.92,20,86.37,"345,47",21
+OL-0001860,O-202400631,P1040,Manta Boreal 140x200,Textil hogar,Mantas,2,30.90,30,"18,54",43.26,21
+OL-0001861,O-202400632,P1050,Cama Brisa Compact,Muebles,Camas,1,177,,,"177,47",21
+OL-0001862,O-202400632,P1016,"Aplique Élite ""Star""",Iluminación,Apliques,2,314.77,5,31.48,598.06,10
+OL-0001863,O-202400632,P1025,Figura Nórdico ★,Decoración,Figuras,1,€87.00,10,8.70,78,10
+OL-0001864,O-202400633,P1086,"Lámparas mesa Eco ""Star""",Iluminación,Lámparas mesa,2,181.35,30,108.81,€253.89,21
+OL-0001865,O-202400633,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,"1087,96",,,€1087.96,21
+OL-0001866,O-202400633,P1049,"Lámparas techo Boreal ""Star""",Iluminación,Lámparas techo,1,383.82,20,77,"307,06",10
+OL-0001867,O-202400633,P1090,Armario Sol XL,Muebles,Armarios,1,1166.18,30,349.85,"816,33",21
+OL-0001868,O-202400633,P1065,Sofá Atlas 3 plazas,Muebles,Sofás,1,1088.70,5,"54,44",1034.26,21
+OL-0001869,O-202400634,P1061,Sábana Minimal 200x300,Textil hogar,Sábanas,0,"194,81",15,0.00,0.00,21
+OL-0001870,O-202400634,P1052,Cama Vintage 3 plazas,Muebles,Camas,1,684.21,110,752.63,"-68,42",21
+OL-0001871,O-202400634,P1058,Manta Nórdico 140x200,Textil hogar,Mantas,1,,,,62.97,21
+OL-0001872,O-202400635,P1011,Vela Eco ★,Decoración,Velas,1,84.83,0,0.00,"84,83",21
+OL-0001873,O-202400635,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,1,293.75,,,294,10
+OL-0001874,O-202400635,P1090,Armario Sol XL,Muebles,Armarios,1,1264.87,,,1264.87,21
+OL-0001875,O-202400635,P1099,Figura Eco ★,Decoración,Figuras,1,176.65,25,44.16,132.49,10
+OL-0001876,O-202400635,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,201.76,,,201.76,21
+OL-0001877,O-202400636,P1092,Armario Sol Compact,Muebles,,1,578.52,,,€578.52,21
+OL-0001878,O-202400636,P1087,Jarrone Eco ★,Decoración,Jarrones,2,190,15,56.94,"322,68",21
+OL-0001879,O-202400637,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,1,200.02,,,200,21
+OL-0001880,O-202400637,P1036,Cortina Aurora 90x200,Textil hogar,Cortinas,1,€26.60,25,6.65,19.95,21
+OL-0001881,O-202400637,P1045,Sofá Aurora 120cm,Muebles,Sofás,1,€178.55,,,€178.55,21
+OL-0001882,O-202400637,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,€393.03,5,19.65,373,10
+OL-0001883,O-202400638,P1023,"Aplique Élite ""Star""",Iluminación,,1,,0,0.00,"147,39",21
+OL-0001884,O-202400638,P1043,Cama Sol 3 plazas,Muebles,Camas,1,"866,28",30,€259.88,,21
+OL-0001885,O-202400638,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,2,373.34,30,€224.00,522.68,10
+OL-0001886,O-202400639,P1096,Figura Vintage ★,Decoración,Figuras,1,€144.82,5,"7,24","137,58",10
+OL-0001887,O-202400639,P1022,Armario Aurora 120cm,Muebles,Armarios,1,"750,86",,,750.86,21
+OL-0001888,O-202400639,P1062,Sábana Brisa Pack 4,Textil hogar,Sábanas,1,"207,43",30,"62,23",€145.20,21
+OL-0001889,O-202400639,P1084,Espejo Eco ★,Decoración,Espejos,1,41.83,,,"41,83",21
+OL-0001890,O-202400640,P1002,Sábana Brisa 90x200,Textil hogar,Sábanas,1,153.79,110,169.17,-15.38,21
+OL-0001891,O-202400640,P1011,Vela Eco ★,Decoración,Velas,4,89.31,5,17.86,339.38,21
+OL-0001892,O-202400640,P101Z,,,,3,664.67,25,498.50,"1495,51",21
+OL-0001893,O-202400640,P1054,Figura Minimal ★,Decoración,Figuras,1,114.76,0,"0,00",114.76,10
+OL-0001894,O-202400641,p10X1,,,,1,794.70,25,198.68,596.02,21
+OL-0001895,O-202400641,P1070,"Aplique Boreal ""Star""",Iluminación,,1,€321.10,,,321.10,10
+OL-0001896,O-202400642,P1033,Cojine Sol ★,Decoración,Cojines,1,227.68,,,227.68,10
+OL-0001897,O-202400642,P1035,Manta Brisa Set 2 uds,Textil hogar,Mantas,3,221.50,15,99.68,564.82,21
+OL-0001898,O-202400642,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,"450,74",,,450.74,21
+OL-0001899,O-202400642,P1084,Espejo Eco ★,Decoración,Espejos,1,44.62,,,44.62,21
+OL-0001900,O-202400643,P1057,"Lámparas pie Luna ""Star""",Iluminación,Lámparas pie,1,123.57,10,12.36,111.21,10
+OL-0001901,O-202400643,P1017,"Lámparas techo Zen ""Star""",Iluminación,,1,63.85,110,70.24,"-6,39",21
+OL-0001902,O-202400644,P1084,Espejo Eco ★,Decoración,,1,47.89,,,"47,89",21
+OL-0001903,O-202400644,P1083,"Aplique Aurora ""Star""",Iluminación,,1,,25,91.72,275.18,21
+OL-0001904,O-202400644,SKU-1019,Vela Aurora ★,Decoración,Velas,1,44.84,20,8.97,35.87,21
+OL-0001905,O-202400644,P1021,"Bombilla Brisa ""Star""",Iluminación,Bombillas,1,310.41,,,310.41,10
+OL-0001906,O-202400645,P1091,"Bombilla Eco ""Star""",Iluminación,Bombillas,0,,25,0.00,"0,00",10
+OL-0001907,O-202400645,P1008,"Bombilla Nórdico ""Star""",Iluminación,Bombillas,1,,5,"1,42",27.05,10
+OL-0001908,O-202400645,P1063,Armario Brisa 160cm,Muebles,Armarios,1,€418.00,,,418.00,21
+OL-0001909,O-202400645,P1017,"Lámparas techo Zen ""Star""",Iluminación,Lámparas techo,1,69.63,30,€20.89,48.74,21
+OL-0001910,O-202400645,P1070,"Aplique Boreal ""Star""",Iluminación,,1,"283,55",,,283.55,21
+OL-0001911,O-202400646,P1044,"Bombilla Eco ""Star""",Iluminación,Bombillas,1,50,15,8,42.77,10
+OL-0001912,O-202400646,P1079,Cuadro Boreal ★,Decoración,Cuadros,1,148.16,,,148.16,10
+OL-0001913,O-202400646,P1055,Cuadro Luna ★,Decoración,Cuadros,1,114.24,,,114.24,21
+OL-0001914,O-202400647,P1003,Espejo Atlas ★,Decoración,Espejos,1,243.64,30,73.09,170.55,21
+OL-0001915,O-202400647,P1070,"Aplique Boreal ""Star""",Iluminación,,1,"302,19",0,0.00,302.19,10
+OL-0001916,O-202400647,P1070,"Aplique Boreal ""Star""",Iluminación,,1,"319,73",10,31.97,287.76,10
+OL-0001917,O-202400647,P1067,"Lámparas pie Boreal ""Star""",Iluminación,Lámparas pie,1,322.66,0,0.00,,21
+OL-0001918,O-202400648,P1099,Figura Eco ★,Decoración,Figuras,3,176.73,,,530.19,10
+OL-0001919,O-202400648,P1054,Figura Minimal ★,Decoración,Figuras,1,"103,20",20,20.64,82.56,21
+OL-0001920,O-202400648,P1088,Espejo Élite ★,Decoración,Espejos,2,€135.42,15,40.63,230.21,21
+OL-0001921,O-202400648,P1080,Espejo Boreal ★,Decoración,Espejos,1,187.75,20,38,€150.20,21
+OL-0001922,O-202400649,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,2,105,,,209.06,21
+OL-0001923,O-202400649,P1097,Sofá Eco 120cm,Muebles,Sofás,3,733.27,25,"549,95","1649,86",21
+OL-0001924,O-202400649,P1011,Vela Eco ★,Decoración,Velas,1,"89,60",25,22.40,67.20,21
+OL-0001925,O-202400649,P1066,Jarrón Brisa 💠,Iluminación,Lámparas pie,1,89.26,15,13.39,75.87,10
+OL-0001926,O-202400650,P1018,Cojine Minimal ★,Decoración,Cojines,1,170.27,,,"170,27",10
+OL-0001927,O-202400650,P1084,Espejo Eco ★,Decoración,Espejos,2,46.88,15,14.06,"79,70",21
+OL-0001928,O-202400650,P1070,"Aplique Boreal ""Star""",Iluminación,,2,285.93,10,"57,19",514.67,10
+OL-0001929,O-202400650,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,414.15,30,124.24,289.91,21
+OL-0001549,O-202400526,P1076,Cortina Eco 200x300,Textil hogar,Cortinas,1,€229.18,10,€22.92,206.26,21
+OL-0000867,O-202400296,P1009,Cortina Vintage Pack 4,Textil hogar,Cortinas,1,21.67,0,0.00,21.67,21
+OL-0000935,O-202400323,,Producto desconocido,N/A,,1,"845,48",,,845.13,21
+OL-0000257,O-202400086,P1020,Alfombra Zen 200x300,Textil hogar,Alfombras,1,,25,28.32,84.96,21
+OL-0001155,O-202400392,P1032,Figura Minimal ★,Decoración,Lamparas mesa,-1,"122,15",,,"-122,15",10
+OL-0001140,O-202400388,P1006,Cortina Élite 200x300,Textil hogar,Cortinas,1,115.51,,,115.51,21
+OL-0001075,O-202400370,p1016,"Aplique Élite ""Star""",Iluminación,Apliques,1,280.35,30,84.11,196.24,21
+OL-0001782,O-202400606,p1064,Estantería Minimal 120cm,Muebles,Estanterías,1,426.65,,,426.65,21
+OL-0001102,O-202400377,p1036,Cortina Aurora 90x200,Textil hogar,,1,26.62,25,6.66,"19,96",21
+OL-0000034,O-202400013,p1097,Sofá Eco 120cm,Muebles,Sofás,1,730,15,€109.43,620.10,21
+OL-0001796,O-202400613,p1056,Cortina Luna Set 2 uds,Textil hogar,Cortinas,2,216.41,25,108.20,324.62,21
+OL-0000263,O-202400088,p1037,"Bombilla Boreal ""Star""",Iluminación,Bombillas,1,46.62,20,9.32,37,10
+OL-0000001,,P1031,Cama Nórdico 3 plazas,Muebles,Camas,1,1147,10,114.66,1032,21
+OL-0001683,,P1024,Cojine Vintage ★,Decoración,Cojines,1,177.33,15,26.60,151,21
+OL-0000952,,P1053,"Aplique Nórdico ""Star""",Iluminación,,2,"227,96",5,22.80,433.12,10
+OL-0001782,O-202499999,P1064,Estantería Minimal 120cm,Muebles,Estanterías,1,426.65,,,426.65,21
+OL-0000863,O-XYZ,P1004,Cama Sol 120cm,decoración,Camas,1,1160.24,20,232.05,"928,19",21
+OL-0001677,O-XYZ,P1073,Espejo Minimal ★,Decoración,Espejos,2,105.47,20,€42.19,168.75,10
+OL-0000141,O-XYZ,P1042,Espejo Minimal ★,Decoración,Espejos,2,74.35,,,€158.99,21
+OL-0001307,O-XYZ,P1053,"Aplique Nórdico ""Star""",Iluminación,,1,,,,210.74,10
