@@ -1,0 +1,29 @@
+# FraSoHome · acto 3 · qué parte de Ossie entiende Fabric
+# Se sube DESPUÉS del acto 1 y se borra en el reset. Esperado al publicar (según la referencia de Learn, 2026-11):
+#   - el dialecto ANSI_SQL de "Ventas brutas dos dialectos" se ignora con aviso (se publica la versión DAX)
+#   - "Ventas brutas solo SQL" se omite: no tiene dialecto DAX
+#   - ai_context se descarta con aviso
+version: 0.2.0.dev0
+name: frasohome_ventas
+metrics:
+  - name: Ventas brutas dos dialectos
+    description: Misma definición que Ventas brutas, en dos dialectos.
+    ai_context:
+      synonyms:
+        - facturación bruta
+        - venta bruta
+    expression:
+      dialects:
+        - dialect: DAX
+          expression: |-
+            CALCULATE(SUM('movimientos'[importe_abs]), 'movimientos'[tipo_movimiento] = "VENTA")
+        - dialect: ANSI_SQL
+          expression: |-
+            SUM(CASE WHEN movimientos.tipo_movimiento = 'VENTA' THEN movimientos.importe_abs ELSE 0 END)
+  - name: Ventas brutas solo SQL
+    description: Sin DAX. Fabric la omite al publicar.
+    expression:
+      dialects:
+        - dialect: ANSI_SQL
+          expression: |-
+            SUM(CASE WHEN movimientos.tipo_movimiento = 'VENTA' THEN movimientos.importe_abs ELSE 0 END)

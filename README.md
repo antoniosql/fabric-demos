@@ -23,6 +23,7 @@ los mismos datos de FraSoHome, vistos desde ángulos distintos de la plataforma.
 | [**FraSoHome RAG Demo**](frasohome-fabric-rag-demo/) | Aplicación RAG empresarial completa: SQL Database en Fabric, backend serverless y frontend web, para resolver una devolución compleja. | SQL Database in Fabric · User Data Functions · Fabric App (React) |
 | [**Fabric Product Intelligence**](fabric-product-intelligence/) | Dos sesiones end-to-end: gobierno del dato (calidad, linaje, SQL Database) e IA aplicada (features, scoring de clientes, ontología, Data Agent). | CLI Python · Notebooks · SQL Database in Fabric · Fabric App (Rayfin/React) · Data Agent |
 | [**Fabric Medallion Scaffold**](fabric-medallion-scaffold/) | Diseña sin caos: monta el esqueleto de dominio, workspaces por capa y capacidad, y ejecuta un medallión metadata-driven (Bronze/Silver/Gold) sobre los datos retail de FraSoHome. | Dominios/Workspaces · Notebooks PySpark · REST API · runner local (pandas) |
+| [**Fabric Semantic Views**](fabric-semantic-views/) | Las métricas oficiales de FraSoHome («ventas netas») definidas una vez en YAML de Apache Ossie dentro del lakehouse, publicadas como modelo Direct Lake y consultadas con un Data Agent. | Vistas semánticas (preview) · Apache Ossie · DAX · Data Agent |
 
 ---
 
@@ -51,6 +52,19 @@ del "segundo cerebro" de agente (`.agent/reference/`).
 - **Runner local en pandas** que reproduce el flujo sin tenant — ideal para presentar en vivo.
 
 → [Ver guía de despliegue](fabric-medallion-scaffold/README.md)
+
+### [`fabric-semantic-views/`](fabric-semantic-views/) — Vistas semánticas y Apache Ossie
+
+Demo de la sesión de MIDP sobre **vistas semánticas** (preview): las métricas de FraSoHome se escriben en
+YAML con formato **Apache Ossie** en `Context/Semantic Views/` del lakehouse y Fabric las compila a un modelo
+Direct Lake de solo lectura.
+
+- Tres cifras legítimas de «ventas netas» sobre los mismos datos, y una sola definición oficial.
+- Once métricas en DAX, con inteligencia de tiempo, consultadas desde un Data Agent.
+- Un tercer acto que enseña qué parte de Ossie ignora Fabric hoy (`ANSI_SQL`, `ai_context`).
+- Parte del lakehouse de `tenerife-summer-sessions-2026` (repositorio `materiales-sesiones`).
+
+→ [Ver guía de la demo](fabric-semantic-views/README.md)
 
 ### [`fabric-data-agent/`](fabric-data-agent/) — Data Agent
 
@@ -105,6 +119,7 @@ fabric-demos/
 ├── fabric-medallion-scaffold/    # Infra Python (REST API) + notebooks PySpark + runner local + datos
 ├── frasohome-fabric-rag-demo/    # App React + SQL + User Data Functions + venv + requirements.txt
 ├── fabric-product-intelligence/  # CLI Python + notebooks + SQL + Fabric App + datos + venv propia
+├── fabric-semantic-views/        # YAML de la vista semántica (Ossie) + scripts de preparación y reset
 ├── data-sources.json             # De dónde sale cada CSV de las demos (frasohome-demos)
 ├── scripts/                      # Sincronización de datos y comprobaciones de CI
 └── .github/workflows/            # CI de todas las demos y despliegue de la UDF de la demo RAG

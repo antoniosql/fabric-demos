@@ -1,0 +1,81 @@
+# FraSoHome · vista semántica de ventas · métricas oficiales (DAX)
+version: 0.2.0.dev0
+name: frasohome_ventas
+metrics:
+  - name: Ventas brutas
+    description: Importe de las líneas de venta, sin restar devoluciones.
+    expression:
+      dialects:
+        - dialect: DAX
+          expression: |-
+            CALCULATE(SUM('movimientos'[importe_abs]), 'movimientos'[tipo_movimiento] = "VENTA")
+  - name: Importe devoluciones
+    description: Importe de las líneas de devolución, en positivo.
+    expression:
+      dialects:
+        - dialect: DAX
+          expression: |-
+            CALCULATE(SUM('movimientos'[importe_abs]), 'movimientos'[tipo_movimiento] = "DEVOLUCION")
+  - name: Ventas netas
+    description: Cifra oficial de FraSoHome. Ventas brutas menos devoluciones. No es la suma del importe con signo.
+    expression:
+      dialects:
+        - dialect: DAX
+          expression: |-
+            [Ventas brutas] - [Importe devoluciones]
+  - name: Tasa devolucion
+    description: Devoluciones sobre ventas brutas.
+    expression:
+      dialects:
+        - dialect: DAX
+          expression: |-
+            DIVIDE([Importe devoluciones], [Ventas brutas])
+  - name: Margen bruto
+    description: Margen de las líneas de venta.
+    expression:
+      dialects:
+        - dialect: DAX
+          expression: |-
+            CALCULATE(SUM('movimientos'[margen_bruto]), 'movimientos'[tipo_movimiento] = "VENTA")
+  - name: Margen pct
+    description: Margen bruto sobre ventas brutas.
+    expression:
+      dialects:
+        - dialect: DAX
+          expression: |-
+            DIVIDE([Margen bruto], [Ventas brutas])
+  - name: Pedidos
+    description: Documentos de venta distintos (tickets y pedidos online).
+    expression:
+      dialects:
+        - dialect: DAX
+          expression: |-
+            CALCULATE(DISTINCTCOUNT('movimientos'[doc_id]), 'movimientos'[tipo_movimiento] = "VENTA")
+  - name: Ticket medio
+    description: Ventas brutas por pedido.
+    expression:
+      dialects:
+        - dialect: DAX
+          expression: |-
+            DIVIDE([Ventas brutas], [Pedidos])
+  - name: Ventas netas año anterior
+    description: Ventas netas del mismo periodo del año anterior.
+    expression:
+      dialects:
+        - dialect: DAX
+          expression: |-
+            CALCULATE([Ventas netas], SAMEPERIODLASTYEAR('fecha'[fecha]))
+  - name: Crecimiento interanual
+    description: Variación de las ventas netas frente al mismo periodo del año anterior.
+    expression:
+      dialects:
+        - dialect: DAX
+          expression: |-
+            DIVIDE([Ventas netas] - [Ventas netas año anterior], [Ventas netas año anterior])
+  - name: Clientes en riesgo
+    description: Clientes con riesgo de fuga según el scoring.
+    expression:
+      dialects:
+        - dialect: DAX
+          expression: |-
+            CALCULATE(DISTINCTCOUNT('cliente_score'[customer_id]), 'cliente_score'[riesgo_fuga] = TRUE())

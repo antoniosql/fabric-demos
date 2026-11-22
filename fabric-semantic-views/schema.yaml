@@ -1,0 +1,60 @@
+# FraSoHome · vista semántica de ventas · estructura (tablas y relaciones)
+# Formato: Apache Ossie, borrador 0.2.0.dev0 (el único que acepta Fabric en la preview, 2026-11)
+version: 0.2.0.dev0
+name: frasohome_ventas
+description: Definiciones oficiales de ventas de FraSoHome para informes y agentes.
+datasets:
+  - name: movimientos
+    source: dbo.gold_fact_movimientos
+    description: Una fila por línea de venta o devolución, en tienda (POS) y online.
+  - name: fecha
+    source: dbo.gold_dim_fecha
+    description: Calendario diario de 2024 a 2026.
+  - name: clientes
+    source: dbo.silver_crm
+    description: Una fila por cliente del programa de fidelización.
+  - name: productos
+    source: dbo.silver_productos
+    description: Una fila por producto del catálogo.
+  - name: tiendas
+    source: dbo.silver_tiendas
+    description: Una fila por tienda física.
+  - name: cliente_score
+    source: dbo.gold_cliente_score
+    description: Puntuación de riesgo de fuga por cliente (0-100).
+relationships:
+  - name: movimientos_a_fecha
+    from: movimientos
+    to: fecha
+    from_columns:
+      - fecha
+    to_columns:
+      - fecha
+  - name: movimientos_a_clientes
+    from: movimientos
+    to: clientes
+    from_columns:
+      - customer_id
+    to_columns:
+      - customer_id
+  - name: movimientos_a_productos
+    from: movimientos
+    to: productos
+    from_columns:
+      - product_id
+    to_columns:
+      - product_id
+  - name: movimientos_a_tiendas
+    from: movimientos
+    to: tiendas
+    from_columns:
+      - store_id
+    to_columns:
+      - store_id
+  - name: cliente_score_a_clientes
+    from: cliente_score
+    to: clientes
+    from_columns:
+      - customer_id
+    to_columns:
+      - customer_id
